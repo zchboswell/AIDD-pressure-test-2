@@ -1,0 +1,17 @@
+{
+  "total_usd": 17800.0,
+  "remaining_budget_usd": 200.0,
+  "handling_usd": 1850.0,
+  "assays_usd": 15950.0,
+  "unique_compounds": 8,
+  "advancement_count": 6,
+  "diagnostic_count": 2,
+  "unique_vials": 8,
+  "experiment_combinations": 25,
+  "charged_menu_experiments": 26,
+  "latest_completion_day": 7,
+  "all_material_feasible": true,
+  "schedule_assumption": "Arrival day0 is start; IDENTITY first adds1day; other experiments including independently prepared ENGAGE replicates run in parallel. No adaptive second wave or extra synthesis.",
+  "identity_failure_action": "Cancel CED03 biological work or quarantine uninterpretable results; do not replace from conflicting vial. Quoted total is conservative planned maximum.",
+  "gates": "Team working next-cycle criterion: identity-qualified TE<150nM, matched biochemical CDK1-B/CDK2-E1 IC50 ratio>=10, microsome>20min, adequate soluble exposure. Tenfold is a project decision rule, not supplied/clinical threshold or cellular safety claim."
+}

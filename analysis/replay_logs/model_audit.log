@@ -1,0 +1,50 @@
+{
+  "original_vendor_exit_code": 0,
+  "original_vendor_stdout": "{\"r2\": 0.9601857410109537, \"mae\": 0.06689892885731302, \"rows\": 262, \"split\": \"random_rows\"}",
+  "curated_rows": 122,
+  "unique_chemicals": 117,
+  "scaffold_collision_groups": 26,
+  "folds": 5,
+  "fold_test_rows": [
+    66,
+    22,
+    12,
+    11,
+    11
+  ],
+  "metrics_chemical_weighted": {
+    "mean": {
+      "mae": 0.5659090935416675,
+      "rmse": 0.6544889033613961,
+      "r2": -0.44606941517749177
+    },
+    "nearest_neighbor": {
+      "mae": 0.509454567568376,
+      "rmse": 0.696341694971976,
+      "r2": -0.6369272031238193
+    },
+    "rf_descriptors": {
+      "mae": 0.5390382641160216,
+      "rmse": 0.6889948112546552,
+      "r2": -0.6025680057321885
+    },
+    "rf_retrospective_index": {
+      "mae": 0.04220350432761699,
+      "rmse": 0.06823852583802396,
+      "r2": 0.9842803150484185
+    }
+  },
+  "descriptor_recomputation_max_absolute_difference": {
+    "MW": 0.0,
+    "logP": 0.0,
+    "heavy_atoms": 0.0
+  },
+  "retrospective_index_correlation_with_curated_target": 0.9996091154632218,
+  "max_repeat_spread_log": 1.538273073,
+  "null_control_status": "Omitted: distinct-source repeated activities disagree and row-specific cyclin context unresolved; no unique experimental unit for the originally proposed shuffle. No null-test claim.",
+  "uncertainty": "No calibrated intervals; fold spread is diagnostic not experimental precision.",
+  "deployment_decision": "Reject original vendor model for prospective prioritization. Retrospective feature unavailable at decision time and target is historical biochemical export, not current cellular endpoint. Descriptor and nearest-neighbor models are audit controls only.",
+  "evaluation_scope": "Author-visible exploratory scaffold-group evaluation; no tuning, no external data, no hidden/temporal validation claim."
+}
+
+--- STDERR ---

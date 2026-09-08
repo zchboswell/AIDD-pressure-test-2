@@ -1,5 +1,6 @@
 """Root-authored analytic references independent of candidate implementation."""
-import hashlib,json,math,pathlib
+import hashlib,json,math,pathlib,argparse
+a=argparse.ArgumentParser();a.add_argument("--out",type=pathlib.Path,default=pathlib.Path(__file__).resolve().parents[1]);out=a.parse_args().out
 from assay_math import normalize
 # Exact molarity powers and independent base-10 reference ln(2)/ln(10).
 cases=[('M power',('1e-8','M','=','Kd'),10.,8.,'='),('mM power',('1e-5','mM','>','IC50'),10.,8.,'<'),('micro bound',('0.1','μM','≤','Ki'),100.,7.,'>='),('nano bound',('1000','nM','>=','Kd'),1000.,6.,'<='),('nonpower',('200','nM','<','IC50'),200.,7.-math.log(2)/math.log(10),'>')]
@@ -10,5 +11,5 @@ for value,unit,relation,endpoint in [('inf','nM','=','IC50'),('NaN','nM','=','Ki
  r=normalize(value,unit,relation,endpoint);checks.append({'name':str((value,unit,relation,endpoint)),'observed':r,'pass':r['status']=='invalid'})
 p=pathlib.Path(__file__).with_name('assay_math.py')
 result={'candidate_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'oracle':'independent root-authored analytic molarity powers, separately expressed log identity and explicit contract rejection cases; non-blind review','checks':checks,'all_pass':all(c['pass'] for c in checks)}
-path=pathlib.Path(__file__).parent/'checks/assay_independent_oracle.json';path.parent.mkdir(exist_ok=True);path.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps({'all_pass':result['all_pass'],'cases':len(checks),'path':str(path)}))
+path=out/'analysis/checks/assay_independent_oracle.json';path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps({'all_pass':result['all_pass'],'cases':len(checks),'path':str(path)}))
 assert result['all_pass']

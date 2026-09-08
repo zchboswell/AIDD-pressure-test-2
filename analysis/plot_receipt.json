@@ -1,0 +1,15 @@
+{
+  "source_tables": [
+    "analysis/cycle_accounting.csv",
+    "analysis/model_oof.csv",
+    "analysis/model_summary.json",
+    "analysis/curation_summary.json",
+    "analysis/inventory_identity.csv"
+  ],
+  "figures": [
+    "delivery/figures/decision_comparison.png",
+    "delivery/figures/model_diagnostic.png",
+    "delivery/figures/selected_chemical_structures.png"
+  ],
+  "chemical_drawing_policy": "Full inventory isomeric graph, as supplied; no tautomer/protonation changes. CED23 stock tautomer differs from deposited ligand; no implied pose."
+}

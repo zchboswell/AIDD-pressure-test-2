@@ -1,0 +1,26 @@
+compound_id,experiment_id,replicates,purpose
+CED-02,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-02,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-02,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio."
+CED-03,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label. Start only after VIAL-03 passes IDENTITY.
+CED-03,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window. Start only after VIAL-03 passes IDENTITY.
+CED-03,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio. Start only after VIAL-03 passes IDENTITY."
+CED-08,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-08,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-08,ENGAGE,2,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio. Two separately prepared concentration-response experiments in parallel; discordance remains unresolved rather than averaged into a pass."
+CED-13,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-13,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-13,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio."
+CED-17,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-17,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-17,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio."
+CED-22,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-22,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-22,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio."
+CED-23,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-23,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-23,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio."
+CED-21,CDK2-E1,1,Define CDK2/cyclinE1 biochemical potency at1mM ATP; do not substitute historical multi-kinase label.
+CED-21,CDK1-B,1,Pair with CDK2-E1 at1mM ATP to measure assay-specific biochemical CDK1/CDK2 window.
+CED-21,ENGAGE,1,"Measure or confirm cellular CDK2 engagement; use alongside matched biochemistry, not a cross-assay selectivity ratio."
+CED-03,IDENTITY,1,Confirm VIAL-03 identity and purity against its intended graph before biology; keep VIAL-CONFLICT quarantined. Does not repair attribution of historic measurements.

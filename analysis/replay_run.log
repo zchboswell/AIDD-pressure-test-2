@@ -1,0 +1,13 @@
+{"name": "curate", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.288, "log": "analysis/replay_logs/curate.log"}
+{"name": "model_audit", "exit_code": 0, "expected_exit_code": 0, "seconds": 1.983, "log": "analysis/replay_logs/model_audit.log"}
+{"name": "legacy_split_audit", "exit_code": 0, "expected_exit_code": 0, "seconds": 1.058, "log": "analysis/replay_logs/legacy_split_audit.log"}
+{"name": "select_cycle", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.129, "log": "analysis/replay_logs/select_cycle.log"}
+{"name": "structure_audit", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.826, "log": "analysis/replay_logs/structure_audit.log"}
+{"name": "structural_inventory_identity", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.084, "log": "analysis/replay_logs/structural_inventory_identity.log"}
+{"name": "helper_baseline", "exit_code": 1, "expected_exit_code": 1, "seconds": 0.024, "log": "analysis/replay_logs/helper_baseline.log"}
+{"name": "helper_candidate", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.024, "log": "analysis/replay_logs/helper_candidate.log"}
+{"name": "helper_independent", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.023, "log": "analysis/replay_logs/helper_independent.log"}
+{"name": "patch_reconstruction", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.002, "log": "analysis/replay_logs/patch_reconstruction.log"}
+{"name": "decision_figures", "exit_code": 0, "expected_exit_code": 0, "seconds": 1.015, "log": "analysis/replay_logs/decision_figures.log"}
+{"name": "molecular_figures", "exit_code": 0, "expected_exit_code": 0, "seconds": 11.718, "log": "analysis/replay_logs/molecular_figures.log"}
+{"name": "validation", "exit_code": 0, "expected_exit_code": 0, "seconds": 0.037, "log": "analysis/replay_logs/validation.log"}

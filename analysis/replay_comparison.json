@@ -1,0 +1,97 @@
+{
+  "replay_root": "/tmp/cedar2-replay-final-20260908",
+  "all_identical": true,
+  "checks": [
+    {
+      "path": "delivery/curation.csv",
+      "source_sha256": "0b6d7ede89db0a2209747aecf8d36872ec11e551460660e510eb4164e1b55860",
+      "replay_sha256": "0b6d7ede89db0a2209747aecf8d36872ec11e551460660e510eb4164e1b55860",
+      "identical": true
+    },
+    {
+      "path": "delivery/predictions.csv",
+      "source_sha256": "1ade5b846d1d48d3c4bf56b4dd35e2304fb557e6ac6fc9e61cd57cfd3f86091c",
+      "replay_sha256": "1ade5b846d1d48d3c4bf56b4dd35e2304fb557e6ac6fc9e61cd57cfd3f86091c",
+      "identical": true
+    },
+    {
+      "path": "delivery/selection.csv",
+      "source_sha256": "c533909a052bc9646587df27d86c50574a3c4e6d20f46d290e5cdc0f140ed3e5",
+      "replay_sha256": "c533909a052bc9646587df27d86c50574a3c4e6d20f46d290e5cdc0f140ed3e5",
+      "identical": true
+    },
+    {
+      "path": "delivery/experiments.csv",
+      "source_sha256": "6eee6416dd23036339b405c4df7c65dfadb23511aa108d3d73424ce7d6febef7",
+      "replay_sha256": "6eee6416dd23036339b405c4df7c65dfadb23511aa108d3d73424ce7d6febef7",
+      "identical": true
+    },
+    {
+      "path": "delivery/structure_checks.json",
+      "source_sha256": "4bfa57911c8b54ad72ee74c2cda4a2892df61ab723df6ec2a14a9290e6e852ff",
+      "replay_sha256": "4bfa57911c8b54ad72ee74c2cda4a2892df61ab723df6ec2a14a9290e6e852ff",
+      "identical": true
+    },
+    {
+      "path": "analysis/curation_details.csv",
+      "source_sha256": "cbea29e15794ec3714e256b5d19ee10a421df15d8fcf65d3dba7661ed0be0c91",
+      "replay_sha256": "cbea29e15794ec3714e256b5d19ee10a421df15d8fcf65d3dba7661ed0be0c91",
+      "identical": true
+    },
+    {
+      "path": "analysis/model_oof.csv",
+      "source_sha256": "1757a449d8d321eceeaa7fc3241a1e4e2d6776ca6a34ac5330e0f3f067db748c",
+      "replay_sha256": "1757a449d8d321eceeaa7fc3241a1e4e2d6776ca6a34ac5330e0f3f067db748c",
+      "identical": true
+    },
+    {
+      "path": "analysis/model_partitions.csv",
+      "source_sha256": "4618f2803d021c23087fe5631f4c061952369af2302b29815fbeb347352c514e",
+      "replay_sha256": "4618f2803d021c23087fe5631f4c061952369af2302b29815fbeb347352c514e",
+      "identical": true
+    },
+    {
+      "path": "analysis/model_fold_metrics.csv",
+      "source_sha256": "c9a278bea5d98b21d0c7fb2cd8dc755a1f6e256f991f5699b7b5b0d59236addd",
+      "replay_sha256": "c9a278bea5d98b21d0c7fb2cd8dc755a1f6e256f991f5699b7b5b0d59236addd",
+      "identical": true
+    },
+    {
+      "path": "analysis/model_summary.json",
+      "source_sha256": "363c583db63324308bcb8693fe01a08b58f8872773304acf5a5b4607d1303502",
+      "replay_sha256": "363c583db63324308bcb8693fe01a08b58f8872773304acf5a5b4607d1303502",
+      "identical": true
+    },
+    {
+      "path": "analysis/cycle_accounting.csv",
+      "source_sha256": "2f93d46f90fbdcd3b0d46b26990df01d5dda1e11b6099227874d8e68325f648e",
+      "replay_sha256": "2f93d46f90fbdcd3b0d46b26990df01d5dda1e11b6099227874d8e68325f648e",
+      "identical": true
+    },
+    {
+      "path": "analysis/cycle_summary.json",
+      "source_sha256": "41e8fa9a181b37d1f863f445e07ad0df817f9a116afcac7f67c7e770a36589b3",
+      "replay_sha256": "41e8fa9a181b37d1f863f445e07ad0df817f9a116afcac7f67c7e770a36589b3",
+      "identical": true
+    },
+    {
+      "path": "analysis/structure_evidence.json",
+      "source_sha256": "576219d9a14a6e22af29230aaa15ed69573f777f3e5e949d602b1f4b13dc0470",
+      "replay_sha256": "576219d9a14a6e22af29230aaa15ed69573f777f3e5e949d602b1f4b13dc0470",
+      "identical": true
+    },
+    {
+      "path": "analysis/structure_inventory_identity.json",
+      "source_sha256": "73fc11e702531a260d04b771a477b9ff25698095489ea07c308e2c4f53f4282c",
+      "replay_sha256": "73fc11e702531a260d04b771a477b9ff25698095489ea07c308e2c4f53f4282c",
+      "identical": true
+    },
+    {
+      "path": "analysis/legacy_split_overlap.json",
+      "source_sha256": "3ebaca0183aed5e70f219b9817e257ee7b0e543fc0f19b39c6ee3a0e3d7fb384",
+      "replay_sha256": "3ebaca0183aed5e70f219b9817e257ee7b0e543fc0f19b39c6ee3a0e3d7fb384",
+      "identical": true
+    }
+  ],
+  "scope": "Exact file equality of listed deterministic scientific tables/JSON; no claim of byte-identical environments or native capture."
+}

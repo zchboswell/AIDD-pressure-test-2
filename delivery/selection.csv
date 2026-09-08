@@ -1,0 +1,29 @@
+request_id,compound_id,status,reason
+STOCK-01,CED-01,reserve,Reserve: TE65 nM coexists with CDK1 90 nM and half-life14min; CED21 represents this unfavorable profile.
+STOCK-02,CED-02,advance,"Advance conditionally: TE130 nM, solubility18uM, half-life22min; determine matched biochemical CDK1 window; stability threshold proximity remains uncertain."
+STOCK-03,CED-03,advance,Advance conditionally from VIAL-03 only: favorable solubility35uM/half-life38min; TE and CDK1 missing. IDENTITY must precede biology because STOCK-28 conflicts; it cannot reassign historical data.
+STOCK-04,CED-04,reserve,Reserve for a later cycle: arrival10business days exceeds deadline; TE850nM also weak.
+STOCK-05,CED-05,reserve,Reserve: purity72percent requires IDENTITY before any new biology; TE35nM does not offset CDK1 45nM/half-life8min. No assays allocated; purity remains unresolved.
+STOCK-06,CED-06,reserve,"Reserve: low solubility3uM, half-life14min and CDK1 90nM; CED21 diagnostic covers unfavorable profile."
+STOCK-07,CED-07,reserve,Reserve: same TE130/CDK1 400/half-life22 as selected02/17/22 but poorer8uM solubility; prioritize more tractable peers.
+STOCK-08,CED-08,advance,"Advance exploratory: CDK1 1800nM, half-life38min, solubility18uM; cellular engagement missing. Two independently prepared ENGAGE runs resolve a consequential unknown."
+STOCK-09,CED-09,reserve,Reserve: TE850nM misses preference despite good55min stability; missingCDK1 alone does not justify slot over selected missing-TE candidates.
+STOCK-10,CED-10,reserve,Reserve: TE35nM with CDK1 45nM and half-life8min; unfavorable comparator already represented.
+STOCK-11,CED-11,reserve,Reserve: TE missing but half-life14min/CDK1 90nM less promising than CED08; do not infer activity from missingness.
+STOCK-12,CED-12,reserve,"Reserve for later cycle: arrival10business days exceeds deadline, and solubility3uM is poor."
+STOCK-13,CED-13,advance,Advance as explicit tradeoff experiment: TE320nM is weaker than preference; CDK1 1800nM/half-life38min merit matched-panel test. No potency pass unless new data meet gate; solubility8uM remains concern.
+STOCK-14,CED-14,reserve,Reserve: TE850nM with missingCDK1; prioritize smaller cellular gap in13 rather than stable-but-weak candidate.
+STOCK-15,CED-15,reserve,Reserve: TE35nM with CDK1 45nM/half-life8min; favorable potency alone is insufficient.
+STOCK-16,CED-16,reserve,Reserve: missingTE but half-life14min/CDK1 90nM; lower information value than08.
+STOCK-17,CED-17,advance,"Advance conditionally: TE130nM, solubility120uM, half-life22min; matched-panel comparator to02/22; repeatability remains unresolved."
+STOCK-18,CED-18,reserve,Reserve: sameTE320/CDK11800/half-life38 as13 but solubility3uM vs8uM; prioritize13.
+STOCK-19,CED-19,reserve,Reserve: CDK16000nM/half-life55min but TE850nM;13 tests a smaller cellular potency compromise.
+STOCK-20,CED-20,reserve,Reserve: TE35nM with CDK145nM/half-life8min; unfavorable profile already represented.
+STOCK-21,CED-21,diagnostic,Diagnostic unfavorable-profile comparator: TE65nM with CDK190nM/half-life14min. New matched panel can confirm or overturn presumed poor window; not a proven nonselective standard.
+STOCK-22,CED-22,advance,"Advance conditionally: TE130nM, solubility70uM, half-life22min; define matched window; borderline stability is not certified."
+STOCK-23,CED-23,diagnostic,"Diagnostic alternative scaffold: TE/CDK1 missing with solubility120uM/half-life38min. Deposited ligand shares tautomer-normalized parent, not identical supplied state; structure is no activity prediction."
+STOCK-24,CED-24,reserve,Reserve: unmeasured alternate scaffold but solubility3uM vs120uM in23; no proven shared pose or cellular activity.
+STOCK-25,CED-01,duplicate,same physical vial as STOCK-01; no extra stock
+STOCK-26,CED-02,duplicate,same physical vial as STOCK-02; no extra stock
+STOCK-27,CED-INVALID,quarantined,invalid SMILES
+STOCK-28,CED-03,quarantined,graph conflicts with earlier compound_id representation

@@ -1,0 +1,10 @@
+{
+  "reference_isomeric_smiles": "c1ccc(Nc2nc(OCC3CCCCC3)c3[nH]cnc3n2)cc1",
+  "CED23_isomeric_smiles": "c1ccc(Nc2nc(OCC3CCCCC3)c3nc[nH]c3n2)cc1",
+  "exact_graph_state_matches": false,
+  "canonical_tautomer_matches": true,
+  "interpretation": "CED23 shares a tautomer-normalized chemical parent with deposited ligand but is not the identical supplied atom-specific tautomer. Tautomer equivalence is a grouping diagnostic only, not proof of measured state or same pose. No inventory state or coordinate was altered."
+}
+
+--- STDERR ---
+[15:32:34] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.

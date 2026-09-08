@@ -1,0 +1,27 @@
+{
+  "rows": 262,
+  "train_rows": 196,
+  "test_rows": 66,
+  "overlapping_source_activity_ids": [
+    "28327046"
+  ],
+  "overlapping_chemical_graphs": 9,
+  "test_rows_with_training_chemical": [
+    "ACT-0003",
+    "ACT-0112",
+    "ACT-0004",
+    "ACT-0244",
+    "ACT-0089",
+    "ACT-0008",
+    "ACT-0009",
+    "ACT-0091",
+    "ACT-9002"
+  ],
+  "mixed_assay_counts": {
+    "CHEMBL5736732": 128,
+    "CHEMBL661125": 94,
+    "CHEMBL3705366": 36,
+    "SIM-QC-CHECK": 4
+  },
+  "interpretation": "Actual supplied vendor random-row split. Overlap is not prospective chemical-group validation; feature provenance and endpoint mismatch independently block deployment."
+}

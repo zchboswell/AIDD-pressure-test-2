@@ -1,0 +1,6483 @@
+{
+  "all_pass": true,
+  "check_count": 1606,
+  "independent_normalized_rows": 262,
+  "total_cost_usd": "17800",
+  "compound_accounting": [
+    {
+      "compound_id": "CED-02",
+      "cost_usd": "2100",
+      "mass_mg": "0.35",
+      "completion_day": 7
+    },
+    {
+      "compound_id": "CED-03",
+      "cost_usd": "2350",
+      "mass_mg": "0.40",
+      "completion_day": 6
+    },
+    {
+      "compound_id": "CED-08",
+      "cost_usd": "2950",
+      "mass_mg": "0.50",
+      "completion_day": 7
+    },
+    {
+      "compound_id": "CED-13",
+      "cost_usd": "2050",
+      "mass_mg": "0.35",
+      "completion_day": 6
+    },
+    {
+      "compound_id": "CED-17",
+      "cost_usd": "2050",
+      "mass_mg": "0.35",
+      "completion_day": 7
+    },
+    {
+      "compound_id": "CED-21",
+      "cost_usd": "2050",
+      "mass_mg": "0.35",
+      "completion_day": 5
+    },
+    {
+      "compound_id": "CED-22",
+      "cost_usd": "2100",
+      "mass_mg": "0.35",
+      "completion_day": 6
+    },
+    {
+      "compound_id": "CED-23",
+      "cost_usd": "2150",
+      "mass_mg": "0.35",
+      "completion_day": 7
+    }
+  ],
+  "scope": "Schema, independent Decimal normalization/accounting, frozen source hashes, numeric frame reference and artifact existence; not prospective biological validation.",
+  "checks": [
+    {
+      "check": "immutable input hashes",
+      "pass": true
+    },
+    {
+      "check": "activity rows exactly once",
+      "pass": true
+    },
+    {
+      "check": "stock request accounting exactly once",
+      "pass": true
+    },
+    {
+      "check": "curation tokens",
+      "pass": true
+    },
+    {
+      "check": "prediction tokens",
+      "pass": true
+    },
+    {
+      "check": "selection tokens",
+      "pass": true
+    },
+    {
+      "check": "ACT-0001 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0001 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0001 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0001 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0001 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0001 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0002 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0002 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0002 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0002 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0002 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0002 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0003 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0003 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0003 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0003 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0003 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0003 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0004 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0004 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0004 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0004 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0004 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0004 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0005 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0005 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0005 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0005 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0005 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0005 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0006 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0006 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0006 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0006 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0006 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0006 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0007 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0007 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0007 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0007 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0007 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0007 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0008 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0008 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0008 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0008 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0008 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0008 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0009 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0009 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0009 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0009 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0009 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0009 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0010 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0010 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0010 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0010 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0010 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0010 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0011 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0011 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0011 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0011 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0011 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0011 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0012 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0012 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0012 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0012 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0012 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0012 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0013 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0013 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0013 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0013 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0013 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0013 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0014 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0014 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0014 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0014 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0014 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0014 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0015 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0015 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0015 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0015 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0015 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0015 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0016 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0016 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0016 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0016 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0016 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0016 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0017 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0017 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0017 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0017 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0017 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0017 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0018 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0018 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0018 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0018 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0018 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0018 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0019 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0019 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0019 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0019 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0019 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0019 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0020 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0020 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0020 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0020 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0020 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0020 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0021 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0021 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0021 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0021 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0021 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0021 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0022 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0022 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0022 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0022 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0022 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0022 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0023 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0023 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0023 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0023 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0023 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0023 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0024 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0024 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0024 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0024 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0024 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0024 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0025 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0025 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0025 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0025 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0025 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0025 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0026 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0026 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0026 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0026 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0026 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0026 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0027 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0027 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0027 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0027 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0027 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0027 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0028 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0028 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0028 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0028 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0028 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0028 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0029 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0029 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0029 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0029 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0029 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0029 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0030 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0030 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0030 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0030 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0030 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0030 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0031 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0031 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0031 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0031 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0031 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0032 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0032 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0032 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0032 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0032 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0032 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0033 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0033 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0033 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0033 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0033 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0033 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0034 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0034 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0034 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0034 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0034 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0034 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0035 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0035 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0035 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0035 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0035 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0035 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0036 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0036 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0036 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0036 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0036 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0036 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0037 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0037 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0037 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0037 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0037 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0037 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0038 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0038 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0038 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0038 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0038 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0038 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0039 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0039 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0039 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0039 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0039 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0039 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0040 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0040 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0040 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0040 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0040 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0040 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0041 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0041 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0041 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0041 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0041 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0041 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0042 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0042 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0042 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0042 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0042 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0042 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0043 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0043 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0043 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0043 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0043 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0043 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0044 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0044 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0044 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0044 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0044 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0044 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0045 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0045 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0045 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0045 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0045 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0045 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0046 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0046 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0046 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0046 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0046 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0046 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0047 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0047 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0047 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0047 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0047 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0047 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0048 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0048 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0048 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0048 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0048 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0049 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0049 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0049 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0049 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0049 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0050 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0050 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0050 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0050 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0050 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0050 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0051 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0051 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0051 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0051 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0051 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0051 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0052 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0052 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0052 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0052 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0052 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0052 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0053 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0053 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0053 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0053 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0053 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0053 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0054 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0054 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0054 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0054 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0054 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0054 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0055 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0055 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0055 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0055 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0055 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0055 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0056 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0056 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0056 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0056 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0056 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0056 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0057 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0057 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0057 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0057 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0057 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0057 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0058 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0058 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0058 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0058 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0058 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0058 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0059 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0059 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0059 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0059 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0059 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0059 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0060 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0060 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0060 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0060 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0060 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0060 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0061 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0061 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0061 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0061 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0061 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0061 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0062 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0062 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0062 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0062 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0062 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0062 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0063 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0063 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0063 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0063 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0063 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0063 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0064 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0064 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0064 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0064 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0064 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0064 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0065 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0065 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0065 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0065 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0065 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0065 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0066 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0066 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0066 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0066 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0066 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0066 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0067 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0067 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0067 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0067 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0067 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0067 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0068 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0068 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0068 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0068 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0068 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0068 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0069 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0069 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0069 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0069 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0069 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0069 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0070 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0070 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0070 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0070 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0070 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0070 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0071 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0071 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0071 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0071 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0071 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0071 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0072 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0072 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0072 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0072 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0072 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0072 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0073 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0073 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0073 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0073 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0073 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0073 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0074 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0074 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0074 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0074 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0074 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0074 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0075 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0075 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0075 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0075 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0075 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0075 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0076 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0076 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0076 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0076 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0076 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0076 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0077 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0077 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0077 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0077 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0077 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0077 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0078 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0078 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0078 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0078 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0078 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0078 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0079 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0079 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0079 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0079 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0079 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0079 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0080 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0080 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0080 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0080 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0080 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0080 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0081 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0081 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0081 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0081 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0081 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0081 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0082 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0082 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0082 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0082 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0082 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0082 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0083 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0083 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0083 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0083 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0083 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0083 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0084 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0084 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0084 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0084 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0084 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0084 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0085 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0085 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0085 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0085 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0085 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0085 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0086 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0086 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0086 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0086 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0086 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0086 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0087 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0087 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0087 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0087 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0087 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0087 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0088 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0088 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0088 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0088 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0088 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0088 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0089 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0089 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0089 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0089 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0089 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0089 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0090 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0090 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0090 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0090 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0090 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0090 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0091 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0091 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0091 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0091 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0091 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0091 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0092 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0092 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0092 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0092 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0092 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0092 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0093 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0093 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0093 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0093 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0093 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0093 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0094 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0094 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0094 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0094 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0094 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0094 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0095 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0095 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0095 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0095 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0095 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0095 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0096 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0096 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0096 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0096 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0096 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0097 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0097 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0097 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0097 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0097 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0097 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0098 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0098 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0098 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0098 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0098 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0098 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0099 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0099 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0099 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0099 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0099 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0099 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0100 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0100 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0100 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0100 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0100 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0100 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0101 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0101 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0101 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0101 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0101 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0101 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0102 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0102 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0102 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0102 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0102 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0102 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0103 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0103 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0103 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0103 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0103 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0103 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0104 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0104 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0104 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0104 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0104 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0104 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0105 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0105 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0105 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0105 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0105 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0105 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0106 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0106 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0106 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0106 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0106 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0106 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0107 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0107 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0107 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0107 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0107 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0107 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0108 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0108 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0108 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0108 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0108 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0108 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0109 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0109 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0109 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0109 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0109 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0109 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0110 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0110 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0110 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0110 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0110 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0110 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0111 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0111 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0111 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0111 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0111 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0111 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0112 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0112 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0112 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0112 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0112 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0112 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0113 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0113 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0113 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0113 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0113 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0113 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0114 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0114 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0114 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0114 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0114 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0114 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0115 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0115 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0115 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0115 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0115 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0115 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0116 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0116 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0116 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0116 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0116 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0116 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0117 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0117 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0117 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0117 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0117 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0117 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0118 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0118 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0118 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0118 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0118 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0118 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0119 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0119 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0119 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0119 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0119 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0119 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0120 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0120 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0120 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0120 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0120 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0120 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0121 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0121 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0121 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0121 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0121 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0121 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0122 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0122 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0122 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0122 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0122 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0122 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0123 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0123 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0123 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0123 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0123 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0123 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0124 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0124 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0124 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0124 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0124 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0124 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0125 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0125 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0125 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0125 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0125 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0125 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0126 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0126 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0126 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0126 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0126 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0126 eligibility scope",
+      "pass": true
+    },
+    {
+      "check": "ACT-0127 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0127 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0127 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0127 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0127 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0128 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0128 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0128 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0128 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0128 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0129 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0129 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0129 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0129 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0129 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0130 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0130 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0130 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0130 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0130 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0131 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0131 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0131 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0131 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0131 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0132 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0132 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0132 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0132 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0132 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0133 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0133 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0133 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0133 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0133 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0134 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0134 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0134 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0134 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0134 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0135 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0135 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0135 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0135 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0135 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0136 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0136 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0136 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0136 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0136 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0137 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0137 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0137 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0137 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0137 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0138 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0138 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0138 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0138 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0138 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0139 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0139 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0139 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0139 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0139 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0140 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0140 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0140 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0140 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0140 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0141 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0141 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0141 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0141 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0141 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0142 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0142 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0142 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0142 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0142 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0143 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0143 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0143 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0143 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0143 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0144 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0144 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0144 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0144 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0144 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0145 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0145 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0145 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0145 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0145 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0146 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0146 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0146 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0146 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0146 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0147 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0147 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0147 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0147 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0147 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0148 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0148 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0148 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0148 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0148 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0149 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0149 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0149 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0149 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0149 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0150 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0150 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0150 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0150 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0150 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0151 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0151 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0151 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0151 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0151 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0152 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0152 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0152 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0152 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0152 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0153 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0153 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0153 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0153 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0153 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0154 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0154 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0154 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0154 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0154 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0155 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0155 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0155 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0155 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0155 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0156 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0156 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0156 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0156 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0156 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0157 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0157 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0157 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0157 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0157 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0158 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0158 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0158 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0158 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0158 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0159 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0159 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0159 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0159 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0159 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0160 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0160 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0160 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0160 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0160 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0161 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0161 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0161 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0161 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0161 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0162 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0162 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0162 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0162 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0162 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0163 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0163 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0163 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0163 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0163 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0164 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0164 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0164 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0164 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0164 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0165 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0165 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0165 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0165 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0165 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0166 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0166 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0166 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0166 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0166 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0167 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0167 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0167 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0167 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0167 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0168 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0168 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0168 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0168 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0168 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0169 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0169 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0169 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0169 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0169 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0170 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0170 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0170 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0170 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0170 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0171 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0171 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0171 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0171 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0171 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0172 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0172 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0172 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0172 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0172 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0173 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0173 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0173 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0173 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0173 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0174 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0174 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0174 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0174 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0174 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0175 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0175 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0175 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0175 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0175 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0176 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0176 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0176 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0176 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0176 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0177 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0177 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0177 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0177 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0177 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0178 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0178 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0178 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0178 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0178 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0179 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0179 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0179 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0179 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0179 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0180 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0180 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0180 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0180 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0180 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0181 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0181 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0181 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0181 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0181 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0182 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0182 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0182 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0182 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0182 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0183 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0183 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0183 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0183 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0183 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0184 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0184 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0184 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0184 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0184 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0185 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0185 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0185 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0185 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0185 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0186 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0186 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0186 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0186 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0186 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0187 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0187 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0187 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0187 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0187 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0188 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0188 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0188 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0188 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0188 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0189 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0189 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0189 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0189 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0189 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0190 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0190 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0190 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0190 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0190 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0191 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0191 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0191 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0191 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0191 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0192 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0192 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0192 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0192 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0192 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0193 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0193 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0193 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0193 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0193 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0194 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0194 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0194 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0194 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0194 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0195 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0195 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0195 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0195 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0195 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0196 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0196 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0196 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0196 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0196 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0197 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0197 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0197 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0197 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0197 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0198 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0198 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0198 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0198 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0198 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0199 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0199 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0199 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0199 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0199 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0200 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0200 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0200 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0200 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0200 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0201 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0201 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0201 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0201 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0201 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0202 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0202 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0202 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0202 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0202 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0203 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0203 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0203 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0203 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0203 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0204 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0204 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0204 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0204 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0204 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0205 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0205 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0205 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0205 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0205 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0206 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0206 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0206 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0206 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0206 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0207 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0207 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0207 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0207 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0207 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0208 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0208 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0208 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0208 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0208 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0209 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0209 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0209 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0209 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0209 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0210 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0210 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0210 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0210 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0210 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0211 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0211 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0211 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0211 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0211 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0212 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0212 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0212 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0212 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0212 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0213 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0213 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0213 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0213 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0213 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0214 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0214 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0214 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0214 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0214 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0215 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0215 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0215 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0215 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0215 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0216 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0216 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0216 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0216 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0216 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0217 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0217 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0217 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0217 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0217 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0218 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0218 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0218 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0218 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0218 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0219 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0219 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0219 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0219 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0219 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0220 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0220 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0220 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0220 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0220 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0221 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0221 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0221 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0221 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0221 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0222 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0222 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0222 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0222 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0222 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0223 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0223 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0223 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0223 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0223 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0224 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0224 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0224 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0224 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0224 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0225 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0225 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0225 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0225 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0225 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0226 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0226 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0226 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0226 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0226 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0227 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0227 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0227 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0227 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0227 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0228 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0228 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0228 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0228 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0228 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0229 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0229 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0229 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0229 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0229 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0230 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0230 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0230 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0230 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0230 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0231 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0231 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0231 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0231 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0231 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0232 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0232 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0232 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0232 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0232 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0233 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0233 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0233 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0233 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0233 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0234 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0234 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0234 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0234 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0234 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0235 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0235 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0235 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0235 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0235 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0236 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0236 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0236 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0236 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0236 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0237 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0237 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0237 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0237 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0237 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0238 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0238 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0238 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0238 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0238 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0239 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0239 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0239 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0239 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0239 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0240 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0240 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0240 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0240 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0240 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0241 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0241 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0241 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0241 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0241 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0242 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0242 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0242 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0242 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0242 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0243 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0243 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0243 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0243 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0243 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0244 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0244 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0244 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0244 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0244 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0245 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0245 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0245 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0245 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0245 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0246 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0246 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0246 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0246 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0246 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0247 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0247 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0247 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0247 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0247 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0248 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0248 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0248 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0248 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0248 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0249 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0249 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0249 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0249 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0249 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0250 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0250 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0250 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0250 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0250 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0251 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0251 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0251 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0251 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0251 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0252 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0252 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0252 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0252 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0252 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0253 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0253 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0253 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0253 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0253 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0254 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0254 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0254 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0254 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0254 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0255 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0255 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0255 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0255 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0255 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-0256 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-0256 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-0256 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-0256 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-0256 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-9001 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-9001 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-9001 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-9001 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-9001 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-9002 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-9002 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-9002 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-9002 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-9002 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-9003 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-9003 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-9003 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-9003 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-9003 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-9004 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-9004 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-9004 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-9004 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-9004 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-9008 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-9008 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-9008 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-9008 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-9008 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "ACT-9009 finite value_nm",
+      "pass": true
+    },
+    {
+      "check": "ACT-9009 finite p_activity",
+      "pass": true
+    },
+    {
+      "check": "ACT-9009 independent Decimal molarity/log oracle",
+      "pass": true
+    },
+    {
+      "check": "ACT-9009 reversed relation",
+      "pass": true
+    },
+    {
+      "check": "ACT-9009 endpoint intact",
+      "pass": true
+    },
+    {
+      "check": "STOCK-01 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-01 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-01 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-01 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-02 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-02 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-02 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-02 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-03 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-04 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-04 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-04 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-04 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-05 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-05 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-05 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-05 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-06 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-06 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-06 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-06 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-07 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-07 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-07 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-07 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-08 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-09 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-09 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-09 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-09 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-10 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-10 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-10 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-10 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-11 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-12 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-12 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-12 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-12 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-13 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-13 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-13 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-13 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-14 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-14 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-14 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-14 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-15 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-15 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-15 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-15 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-16 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-17 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-17 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-17 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-17 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-18 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-18 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-18 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-18 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-19 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-19 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-19 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-19 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-20 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-20 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-20 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-20 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-21 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-21 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-21 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-21 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-22 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-22 estimate or bound exists",
+      "pass": true
+    },
+    {
+      "check": "STOCK-22 observed scalar source",
+      "pass": true
+    },
+    {
+      "check": "STOCK-22 finite prediction p_activity",
+      "pass": true
+    },
+    {
+      "check": "STOCK-23 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-24 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-25 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-26 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-27 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "STOCK-28 prediction endpoint attribution",
+      "pass": true
+    },
+    {
+      "check": "roles at most6plus2",
+      "pass": true
+    },
+    {
+      "check": "unique compounds and physical vials <=8",
+      "pass": true
+    },
+    {
+      "check": "every experiment refers to selected compound",
+      "pass": true
+    },
+    {
+      "check": "one row per compound experiment",
+      "pass": true
+    },
+    {
+      "check": "CED-02 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-02 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-02 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-02 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-03 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-03 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-03 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-03 valid IDENTITY",
+      "pass": true
+    },
+    {
+      "check": "CED-03 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-08 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-08 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-08 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-08 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-13 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-13 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-13 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-13 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-17 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-17 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-17 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-17 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-21 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-21 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-21 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-21 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-22 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-22 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-22 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-22 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "CED-23 valid CDK2-E1",
+      "pass": true
+    },
+    {
+      "check": "CED-23 valid CDK1-B",
+      "pass": true
+    },
+    {
+      "check": "CED-23 valid ENGAGE",
+      "pass": true
+    },
+    {
+      "check": "CED-23 mass/deadline/purity",
+      "pass": true
+    },
+    {
+      "check": "budget <=18000",
+      "pass": true
+    },
+    {
+      "check": "saved cost agrees independent Decimal sum",
+      "pass": true
+    },
+    {
+      "check": "structure fields finite and original frame",
+      "pass": true
+    },
+    {
+      "check": "structure evidence exists",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/report.md",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/selection.csv",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/experiments.csv",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/curation.csv",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/predictions.csv",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/structure_checks.json",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/REPRODUCE.md",
+      "pass": true
+    },
+    {
+      "check": "required artifact delivery/NEXT_BATCH.md",
+      "pass": true
+    },
+    {
+      "check": "figure decision_comparison.png",
+      "pass": true
+    },
+    {
+      "check": "figure model_diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "figure structure_comparison.png",
+      "pass": true
+    },
+    {
+      "check": "report link ../inputs/project/PROVENANCE.md",
+      "pass": true
+    },
+    {
+      "check": "report link figures/decision_comparison.png",
+      "pass": true
+    },
+    {
+      "check": "report link experiments.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/cycle_accounting.csv",
+      "pass": true
+    },
+    {
+      "check": "report link selection.csv",
+      "pass": true
+    },
+    {
+      "check": "report link figures/selected_chemical_structures.png",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/legacy_split_overlap.json",
+      "pass": true
+    },
+    {
+      "check": "report link figures/model_diagnostic.png",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/model_partitions.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/model_summary.json",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/MODEL_PLAN.md",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/curation_details.csv",
+      "pass": true
+    },
+    {
+      "check": "report link predictions.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/inventory_historical_context.csv",
+      "pass": true
+    },
+    {
+      "check": "report link figures/structure_comparison.png",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/structure_notes.md",
+      "pass": true
+    },
+    {
+      "check": "report link structure_checks.json",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/assay_math.py",
+      "pass": true
+    },
+    {
+      "check": "report link REPRODUCE.md",
+      "pass": true
+    },
+    {
+      "check": "report link NEXT_BATCH.md",
+      "pass": true
+    },
+    {
+      "check": "report link report.md",
+      "pass": true
+    },
+    {
+      "check": "report link experiments.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/cycle_accounting.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/inventory_identity.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/assay_math.py",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/checks/assay_independent_oracle.json",
+      "pass": true
+    },
+    {
+      "check": "report link curation.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/source_reconciliation.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/MODEL_PLAN.md",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/model_summary.json",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/structure_evidence.json",
+      "pass": true
+    },
+    {
+      "check": "report link selection.csv",
+      "pass": true
+    },
+    {
+      "check": "report link ../analysis/decision_review.md",
+      "pass": true
+    },
+    {
+      "check": "report link REPRODUCE.md",
+      "pass": true
+    }
+  ]
+}
