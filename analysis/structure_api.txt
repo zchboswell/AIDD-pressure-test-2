@@ -1,0 +1,37 @@
+RDKit 2026.03.6
+
+CalcRMS( (Mol)prbMol, (Mol)refMol [, (int)prbId=-1 [, (int)refId=-1 [, (object)map=None [, (int)maxMatches=1000000 [, (bool)symmetrizeConjugatedTerminalGroups=True [, (object)weights=[]]]]]]]) -> float :
+    Returns the RMS between two molecules, taking symmetry into account.
+           In contrast to getBestRMS, the RMS is computed 'in place', i.e.
+           probe molecules are not aligned to the reference ahead of the
+           RMS calculation. This is useful, for example, to compute
+           the RMSD between docking poses and the co-crystallized ligand.
+          
+           Note:
+           This function will attempt to match all permutations of matching atom
+           orders in both molecules, for some molecules it will lead to
+           'combinatorial explosion' especially if hydrogens are present.
+          
+           ARGUMENTS
+            - prbMol:      the molecule to be aligned to the reference
+            - refMol:      the reference molecule
+            - prbCId:      (optional) probe conformation to use
+            - refCId:      (optional) reference conformation to use
+            - map:         (optional) a list of lists of (probeAtomId, refAtomId)
+                           tuples with the atom-atom mappings of the two
+                           molecules. If not provided, these will be generated
+                           using a substructure search.
+            - maxMatches:  (optional) if map isn't specified, this will be
+                           the max number of matches found in a SubstructMatch()
+            - symmetrizeConjugatedTerminalGroups:  (optional) if set, conjugated
+                           terminal functional groups (like nitro or carboxylate)
+                           will be considered symmetrically
+            - weights:     (optional) weights for mapping
+           
+          RETURNS
+          The best RMSD found
+        
+    
+
+    C++ signature :
+        double CalcRMS(RDKit::ROMol {lvalue},RDKit::ROMol {lvalue} [,int=-1 [,int=-1 [,boost::python::api::object=None [,int=1000000 [,bool=True [,boost::python::api::object=[]]]]]]])

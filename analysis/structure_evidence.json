@@ -1,0 +1,700 @@
+{
+  "runtime": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Aug 21 2026, 22:48:28) [GCC 14.4.0]",
+    "rdkit_version": "2026.03.6",
+    "rdkit_path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/rdkit/__init__.py"
+  },
+  "sources": {
+    "inputs/structures/1h1q_2a6_A.sdf": "5898f67000e8991a03e2578185d3707cd23f82b74aedd5644ce747470c5738cd",
+    "inputs/structures/vendor_reference_export.sdf": "119438d8804950ead9d7d941c4167c4b2fd8515388fcc7851d2eef9981588b86",
+    "inputs/structures/vendor_pose_priority.sdf": "7f5acd8a00276c548357f9fb22b001c9dbf5e1d5aaf3bcc5a44dff0ce5d61159",
+    "inputs/structures/1h1q.pdb": "21dc4df2252e8ffbd572e906d05603fb50a2ccd338c366123984d1c099e66586",
+    "inputs/structures/1h1q.cif": "e87e241ddfadb78bf56c1ebf884dfe70dca41a120ddadf3106a801e4ec2292ba",
+    "inputs/structures/1h1q_entry.json": "08f9726819afb0cc9a51886ed534bb323195f846cccaaef82a06f4be0a284823"
+  },
+  "export_checks": {
+    "reference_export": {
+      "rmsd_A": 0.0,
+      "map": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "map_count": 4,
+      "max_mapped_displacement_A": 0.0,
+      "independent_raw_scalar_rmsd_A": 0.0
+    },
+    "priority_export": {
+      "rmsd_A": 8.774964387392123,
+      "map": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "map_count": 4,
+      "max_mapped_displacement_A": 8.774964387392123,
+      "independent_raw_scalar_rmsd_A": 8.774964387392123
+    }
+  },
+  "controls": {
+    "unchanged": 0.0,
+    "renumbered": 0.0,
+    "ligand_only_5A_shift": 5.0,
+    "common_rigid_transform_priority": 8.774964387392123,
+    "changed_formal_charge": {
+      "status": "expected rejection",
+      "reason": "no state-preserving bijection"
+    },
+    "missing_atom": {
+      "status": "expected rejection",
+      "reason": "incomplete graph"
+    },
+    "changed_stereo": {
+      "status": "expected rejection"
+    }
+  },
+  "reference_pdb_atom_mapping": [
+    {
+      "sdf_index": 0,
+      "serial": 8947,
+      "name": "C2",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        7.821,
+        43.702,
+        49.399
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.89,
+      "element": "C"
+    },
+    {
+      "sdf_index": 1,
+      "serial": 8948,
+      "name": "C8",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        10.739,
+        46.155,
+        51.647
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.14,
+      "element": "C"
+    },
+    {
+      "sdf_index": 2,
+      "serial": 8949,
+      "name": "C10",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        5.116,
+        45.274,
+        51.617
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.39,
+      "element": "C"
+    },
+    {
+      "sdf_index": 3,
+      "serial": 8950,
+      "name": "C11",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        4.107,
+        45.724,
+        52.703
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.77,
+      "element": "C"
+    },
+    {
+      "sdf_index": 4,
+      "serial": 8951,
+      "name": "C12",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        2.766,
+        45.986,
+        51.986
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.13,
+      "element": "C"
+    },
+    {
+      "sdf_index": 5,
+      "serial": 8952,
+      "name": "C13",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        1.562,
+        46.086,
+        52.939
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.4,
+      "element": "C"
+    },
+    {
+      "sdf_index": 6,
+      "serial": 8953,
+      "name": "C14",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        1.448,
+        44.969,
+        53.987
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.37,
+      "element": "C"
+    },
+    {
+      "sdf_index": 7,
+      "serial": 8954,
+      "name": "C15",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        2.787,
+        44.74,
+        54.725
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.07,
+      "element": "C"
+    },
+    {
+      "sdf_index": 8,
+      "serial": 8955,
+      "name": "C16",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        4.009,
+        44.609,
+        53.792
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.78,
+      "element": "C"
+    },
+    {
+      "sdf_index": 9,
+      "serial": 8956,
+      "name": "C19",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        4.667,
+        40.917,
+        47.403
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.22,
+      "element": "C"
+    },
+    {
+      "sdf_index": 10,
+      "serial": 8957,
+      "name": "C20",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        4.059,
+        40.648,
+        48.633
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.6,
+      "element": "C"
+    },
+    {
+      "sdf_index": 11,
+      "serial": 8958,
+      "name": "C21",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        4.645,
+        41.093,
+        49.815
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.87,
+      "element": "C"
+    },
+    {
+      "sdf_index": 12,
+      "serial": 8959,
+      "name": "C22",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        5.852,
+        41.789,
+        49.808
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.69,
+      "element": "C"
+    },
+    {
+      "sdf_index": 13,
+      "serial": 8960,
+      "name": "N1",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        6.87,
+        44.489,
+        50.181
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.13,
+      "element": "N"
+    },
+    {
+      "sdf_index": 14,
+      "serial": 8961,
+      "name": "C6",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        7.237,
+        45.385,
+        51.037
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.33,
+      "element": "C"
+    },
+    {
+      "sdf_index": 15,
+      "serial": 8962,
+      "name": "O6",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        6.32,
+        46.074,
+        51.736
+      ],
+      "occupancy": 1.0,
+      "bfactor": 54.44,
+      "element": "O"
+    },
+    {
+      "sdf_index": 16,
+      "serial": 8963,
+      "name": "C5",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        8.659,
+        45.625,
+        51.199
+      ],
+      "occupancy": 1.0,
+      "bfactor": 53.99,
+      "element": "C"
+    },
+    {
+      "sdf_index": 17,
+      "serial": 8964,
+      "name": "N7",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        9.549,
+        46.452,
+        51.963
+      ],
+      "occupancy": 1.0,
+      "bfactor": 53.78,
+      "element": "N"
+    },
+    {
+      "sdf_index": 18,
+      "serial": 8965,
+      "name": "N9",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        10.773,
+        45.213,
+        50.736
+      ],
+      "occupancy": 1.0,
+      "bfactor": 53.65,
+      "element": "N"
+    },
+    {
+      "sdf_index": 19,
+      "serial": 8966,
+      "name": "C4",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        9.534,
+        44.912,
+        50.478
+      ],
+      "occupancy": 1.0,
+      "bfactor": 53.71,
+      "element": "C"
+    },
+    {
+      "sdf_index": 20,
+      "serial": 8967,
+      "name": "N3",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        9.061,
+        43.92,
+        49.571
+      ],
+      "occupancy": 1.0,
+      "bfactor": 53.66,
+      "element": "N"
+    },
+    {
+      "sdf_index": 21,
+      "serial": 8968,
+      "name": "N2",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        7.6,
+        42.762,
+        48.532
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.48,
+      "element": "N"
+    },
+    {
+      "sdf_index": 22,
+      "serial": 8969,
+      "name": "C17",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        6.445,
+        42.061,
+        48.581
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.53,
+      "element": "C"
+    },
+    {
+      "sdf_index": 23,
+      "serial": 8970,
+      "name": "C18",
+      "alt": "",
+      "res": "2A6",
+      "chain": "A",
+      "resi": "1298",
+      "xyz": [
+        5.855,
+        41.632,
+        47.396
+      ],
+      "occupancy": 1.0,
+      "bfactor": 55.17,
+      "element": "C"
+    }
+  ],
+  "priority_translation_mean_A": [
+    8.0,
+    -3.0,
+    2.0
+  ],
+  "priority_translation_residual_max_A": 1.7763568394002505e-15,
+  "priority_mapped_bond_length_difference_max_A": 1.7763568394002505e-15,
+  "priority_ligand_fitted_shape_rmsd_A_SECONDARY": 0.0,
+  "minimum_ligand_protein_heavy_atom_distance_A": {
+    "deposited": 2.5719045472178776,
+    "priority": 0.6851510782301912
+  },
+  "closest_protein_pairs": {
+    "deposited": {
+      "ligand_index": 18,
+      "partner": "A:GLU81:O",
+      "distance_A": 2.5719045472178776
+    },
+    "priority": {
+      "ligand_index": 7,
+      "partner": "A:GLU81:OE2",
+      "distance_A": 0.6851510782301912
+    }
+  },
+  "ligand_occupancy_range": [
+    1.0,
+    1.0
+  ],
+  "ligand_bfactor_range_A2": [
+    53.65,
+    55.87
+  ],
+  "ligand_altlocs": [
+    ""
+  ],
+  "entry_title": "Structure of human Thr160-phospho CDK2/cyclin A complexed with the inhibitor NU6094",
+  "revision": {
+    "deposit_date": "2002-07-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2002-09-19T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2024-10-16T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "reference_pdb_match": "24 unique element-matched identical coordinates in deposited chain A 2A6",
+  "assessment_scope": "No docking, coordinate repair, full plausibility grading or electron-density validation; original frame audited.",
+  "contacts_path": "analysis/structure_contacts.csv"
+}

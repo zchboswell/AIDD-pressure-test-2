@@ -1,0 +1,123 @@
+{
+  "candidate_sha256": "7b60a73af904b265beaad53ec7ef03450847deff9a95ccfa7bfb6d72ccaaf941",
+  "oracle": "independent root-authored analytic molarity powers, separately expressed log identity and explicit contract rejection cases; non-blind review",
+  "checks": [
+    {
+      "name": "M power",
+      "observed": {
+        "status": "ok",
+        "endpoint": "Kd",
+        "value_nm": 10.0,
+        "relation_nm": "=",
+        "p_activity": 8.0,
+        "p_relation": "="
+      },
+      "pass": true
+    },
+    {
+      "name": "mM power",
+      "observed": {
+        "status": "ok",
+        "endpoint": "IC50",
+        "value_nm": 10.0,
+        "relation_nm": ">",
+        "p_activity": 8.0,
+        "p_relation": "<"
+      },
+      "pass": true
+    },
+    {
+      "name": "micro bound",
+      "observed": {
+        "status": "ok",
+        "endpoint": "Ki",
+        "value_nm": 100.0,
+        "relation_nm": "<=",
+        "p_activity": 7.0,
+        "p_relation": ">="
+      },
+      "pass": true
+    },
+    {
+      "name": "nano bound",
+      "observed": {
+        "status": "ok",
+        "endpoint": "Kd",
+        "value_nm": 1000.0,
+        "relation_nm": ">=",
+        "p_activity": 6.0,
+        "p_relation": "<="
+      },
+      "pass": true
+    },
+    {
+      "name": "nonpower",
+      "observed": {
+        "status": "ok",
+        "endpoint": "IC50",
+        "value_nm": 200.0,
+        "relation_nm": "<",
+        "p_activity": 6.698970004336019,
+        "p_relation": ">"
+      },
+      "pass": true
+    },
+    {
+      "name": "('inf', 'nM', '=', 'IC50')",
+      "observed": {
+        "status": "invalid",
+        "reason": "concentration must be positive and finite"
+      },
+      "pass": true
+    },
+    {
+      "name": "('NaN', 'nM', '=', 'Ki')",
+      "observed": {
+        "status": "invalid",
+        "reason": "concentration must be positive and finite"
+      },
+      "pass": true
+    },
+    {
+      "name": "('0', 'M', '=', 'Kd')",
+      "observed": {
+        "status": "invalid",
+        "reason": "concentration must be positive and finite"
+      },
+      "pass": true
+    },
+    {
+      "name": "('-1', 'uM', '=', 'IC50')",
+      "observed": {
+        "status": "invalid",
+        "reason": "concentration must be positive and finite"
+      },
+      "pass": true
+    },
+    {
+      "name": "('1', 'ng/mL', '=', 'IC50')",
+      "observed": {
+        "status": "invalid",
+        "reason": "unsupported concentration unit"
+      },
+      "pass": true
+    },
+    {
+      "name": "('1', 'nM', '!=', 'IC50')",
+      "observed": {
+        "status": "invalid",
+        "reason": "unsupported concentration relation"
+      },
+      "pass": true
+    },
+    {
+      "name": "('1', 'nM', '=', 'EC50')",
+      "observed": {
+        "status": "invalid",
+        "reason": "unsupported endpoint"
+      },
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

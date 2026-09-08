@@ -1,0 +1,18 @@
+# Actual method and guidance use
+
+Assigned arm: AIDD-equipped; retained expertise pin bd6f7987ad2820fbc2b78a0195ef88341793b2f8, archive hash in ARM.md. Four scientific skills were offered in session; all four were consulted after GO. Preflight offered complete skill-name inventory is in PREFLIGHT.json. No substantive guidance content was opened before GO. No AIDD source or expertise is included in this repository.
+
+| Guidance consulted | Consequential action and retained evidence |
+|---|---|
+| `.aidd/expertise/docs/GETTING_STARTED.md` | Chose expertise-only native execution. Did not install core/configure hooks or claim capture. |
+| `.agents/skills/potency-modeling/SKILL.md` | Declared cellular endpoint separately from historical biochemical export; source reconciliation, exact/censored separation, chemical/scaffold groups, feature provenance, common-fold mean/similarity controls, explicit abstention. `analysis/MODEL_PLAN.md`, curation and model scripts/results. |
+| potency-modeling `references/assay-curation.md` | Reversed concentration bounds, preserve source activity IDs, endpoint/assay segregation, no automatic removal of potential_duplicate flags. `analysis/source_reconciliation.csv`, `delivery/curation.csv`. |
+| `.agents/skills/scientific-software/SKILL.md`, `references/scientific-invariants.md`, `.aidd/expertise/knowledge/methods/scientific-software.json` | Compatible bounded helper repair; immutable base;39 baseline/candidate author tests,12 separately authored analytic oracle cases, patch reconstruction. `analysis/assay_repair_notes.md` and `analysis/checks/`. |
+| `.agents/skills/structural-analysis/SKILL.md`, `references/pose-evidence.md` | Qualify reference frame/chemical mapping, in-place RMSD before any fit, atom-state rejection controls, local geometry limits. `analysis/structure_evidence.json` and `delivery/structure_checks.json`. |
+| `.agents/skills/method-capability-review/SKILL.md` | Resolve historical claim that reordered exports need commercial software/fitting by installed RDKit API documentation plus bounded functional controls. `analysis/structure_api.txt`, `analysis/structure_notes.md`. No scientific web access. |
+| `.aidd/expertise/doctrine/scientific.md` | Current decision determines compound roles; matched biochemical assays, missing-TE replication, identity gate, alternate-scaffold and unfavorable-profile diagnostics, explicit reversal criteria. `analysis/decision_review.md` and final report/experiment manifest. |
+| `.aidd/expertise/workflows/visualization/README.md` | Direct one-thread PyMOL static views, preserve coordinates and waters, inspect rendered result; retain renderer/receipt. `analysis/structure_render.py` and molecular figures. |
+
+Tools exercised: common cedar-python launcher, RDKit2026.03.6, NumPy2.5.2, SciPy1.18.0, scikit-learn1.9.0, pandas3.0.5, matplotlib3.11.1, PyMOL3.2.0a. Import/version preflight in PREFLIGHT.json; exact paths from supplied administrative ENVIRONMENT.json and structural receipt. Runtime dependencies remain fixed. Git/gh used only for this assigned private repository. Three bounded native subagents performed structural audit, helper repair and independent decision accounting; root curated/evaluated/integrated, authored separate numerical oracle and verified outputs. All delegates shared source, resource and information boundaries.
+
+Scientific scripts and output receipts document actual evidence; source format/import/command failures are retained in PROGRESS.md and corresponding notes. Execution completion, supported scientific scope, and missing capture are separate. No scientific internet, other repository/task inspection, commercial tools, GPU, docking, learned cellular predictor, or calibrated confidence interval is claimed.

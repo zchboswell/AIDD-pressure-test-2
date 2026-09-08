@@ -9,8 +9,9 @@ local-evidence/
 .native/
 .cache/
 # Local operating guidance and model execution records
+.codex/
+# Kept local after automatic approval review excluded administrative guidance/inventory
 AGENTS.md
 admin/ARM.md
 admin/RESOURCES.md
-.codex/
 admin/ENVIRONMENT.json

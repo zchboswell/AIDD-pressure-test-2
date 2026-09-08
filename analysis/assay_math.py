@@ -1,0 +1,44 @@
+"""Bounded repair of inputs/legacy/assay_math.py (simulated legacy source).
+
+Convert positive finite concentration thresholds to nM and -log10(C / 1 M).
+IC50, Ki and Kd identify different endpoints and are preserved. A logarithmic
+threshold is not an exact observation unless its relation is '='. Supported
+unit/relation spellings are intentionally explicit. Nonrepresentable nM results
+are rejected; no clipping or invented lower concentration limit is applied.
+"""
+import math
+
+
+def normalize(value, unit, relation='=', endpoint='IC50'):
+    """Return the legacy success dictionary, or invalid with a reason.
+
+    Numeric strings are accepted; booleans, missing/nonpositive/nonfinite values,
+    unknown metadata and overflow/underflow of the nM result are rejected.
+    Unicode comparison aliases are canonicalized to ASCII.
+    """
+    factors = {'nM': 1.0, 'uM': 1000.0, 'µM': 1000.0,
+               'μM': 1000.0, 'mM': 1e6, 'M': 1e9}
+    relations = {'=': '=', '<': '<', '<=': '<=', '>': '>',
+                 '>=': '>=', '≤': '<=', '≥': '>='}
+    inverse = {'=': '=', '<': '>', '<=': '>=', '>': '<', '>=': '<='}
+    if not isinstance(unit, str) or unit not in factors:
+        return {'status': 'invalid', 'reason': 'unsupported concentration unit'}
+    if not isinstance(relation, str) or relation not in relations:
+        return {'status': 'invalid', 'reason': 'unsupported concentration relation'}
+    if not isinstance(endpoint, str) or endpoint not in ('IC50', 'Ki', 'Kd'):
+        return {'status': 'invalid', 'reason': 'unsupported endpoint'}
+    if isinstance(value, bool):
+        return {'status': 'invalid', 'reason': 'boolean is not a concentration'}
+    try:
+        concentration = float(value)
+    except (ValueError, TypeError, OverflowError):
+        return {'status': 'invalid', 'reason': 'concentration is not numeric'}
+    if not math.isfinite(concentration) or concentration <= 0:
+        return {'status': 'invalid', 'reason': 'concentration must be positive and finite'}
+    nm = concentration * factors[unit]
+    if not math.isfinite(nm) or nm <= 0:
+        return {'status': 'invalid', 'reason': 'nM result is not positive and finite'}
+    rel = relations[relation]
+    return {'status': 'ok', 'endpoint': endpoint, 'value_nm': nm,
+            'relation_nm': rel, 'p_activity': 9.0 - math.log10(nm),
+            'p_relation': inverse[rel]}

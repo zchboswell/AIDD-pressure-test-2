@@ -1,0 +1,24 @@
+{
+  "source_accession": "1H1Q",
+  "ligand_identity_chain": {
+    "component": "2A6",
+    "name": "NU6094, 2-anilino-6-cyclohexylmethoxypurine",
+    "author_chain": "A",
+    "label_asym_id": "E",
+    "author_residue": "1298",
+    "biological_assembly": "1; chains A/B; identity operator",
+    "molecular_graph_smiles": "c1ccc(Nc2nc(OCC3CCCCC3)c3[nH]cnc3n2)cc1"
+  },
+  "atom_mapping_method": "Complete state-preserving heavy-atom graph isomorphisms, symmetry-aware minimum; no alignment; 24 heavy atoms; RDKit CalcRMS with explicit validated maps, independent raw-coordinate scalar sums. PDB correspondence independently element/coordinate checked.",
+  "reference_export_fixed_frame_rmsd_A": 0.0,
+  "priority_export_fixed_frame_rmsd_A": 8.774964387392123,
+  "priority_usable_for_contacts": false,
+  "priority_interpretation": "Whole ligand translated relative to unchanged receptor; supplied export cannot support deposited binding-site contacts. Fitting would erase the defect.",
+  "evidence_paths": [
+    "analysis/structure_evidence.json",
+    "analysis/structure_contacts.csv",
+    "analysis/structure_audit.py",
+    "analysis/structure_plan.md",
+    "analysis/structure_notes.md"
+  ]
+}

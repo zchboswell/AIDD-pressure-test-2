@@ -1,0 +1,74 @@
+repeated chemistry [
+  [
+    {
+      "row_id": "ACT-0037",
+      "chemical_id": "CHEMBL5832698",
+      "p_activity": "6.252588192",
+      "source_activity_id": "28327406"
+    },
+    {
+      "row_id": "ACT-0089",
+      "chemical_id": "CHEMBL5832698",
+      "p_activity": "6.352617030",
+      "source_activity_id": "28327937"
+    }
+  ],
+  [
+    {
+      "row_id": "ACT-0076",
+      "chemical_id": "CHEMBL6031262",
+      "p_activity": "7.823908741",
+      "source_activity_id": "28327802"
+    },
+    {
+      "row_id": "ACT-0112",
+      "chemical_id": "CHEMBL6031262",
+      "p_activity": "7.395773947",
+      "source_activity_id": "28328180"
+    }
+  ],
+  [
+    {
+      "row_id": "ACT-0077",
+      "chemical_id": "CHEMBL5755607",
+      "p_activity": "6.173925197",
+      "source_activity_id": "28327811"
+    },
+    {
+      "row_id": "ACT-0091",
+      "chemical_id": "CHEMBL5755607",
+      "p_activity": "7.712198270",
+      "source_activity_id": "28327973"
+    }
+  ],
+  [
+    {
+      "row_id": "ACT-0079",
+      "chemical_id": "CHEMBL6013826",
+      "p_activity": "7.623423043",
+      "source_activity_id": "28327838"
+    },
+    {
+      "row_id": "ACT-0081",
+      "chemical_id": "CHEMBL6013826",
+      "p_activity": "7.079354999",
+      "source_activity_id": "28327856"
+    }
+  ],
+  [
+    {
+      "row_id": "ACT-0083",
+      "chemical_id": "CHEMBL5950534",
+      "p_activity": "7.512861625",
+      "source_activity_id": "28327883"
+    },
+    {
+      "row_id": "ACT-0085",
+      "chemical_id": "CHEMBL5950534",
+      "p_activity": "7.950781977",
+      "source_activity_id": "28327901"
+    }
+  ]
+]
+scaffolds 26
+group_sizes [66, 22, 5, 4, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]

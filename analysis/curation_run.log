@@ -1,0 +1,28 @@
+[15:17:44] SMILES Parse Error: unclosed ring for input: 'C1CC'
+[15:17:44] SMILES Parse Error: unclosed ring for input: 'C1CC'
+{
+  "activity_rows": 266,
+  "statuses": {
+    "eligible": 122,
+    "context_only": 138,
+    "duplicate": 2,
+    "quarantined": 4
+  },
+  "eligible_unique_chemical_groups": 117,
+  "source_comparisons": 258,
+  "source_mismatches": [],
+  "inventory_statuses": {
+    "valid": 24,
+    "duplicate": 2,
+    "quarantined": 2
+  },
+  "prediction_statuses": {
+    "observed": 18,
+    "abstained": 6,
+    "duplicate": 2,
+    "quarantined": 2
+  },
+  "manifest_verified": true,
+  "normalization": "preserve full canonical isomeric graph; no salt/tautomer/stereo/isotope stripping",
+  "model_endpoint": "historical CHEMBL5736732 exact IC50 export; cyclin/ATP per-row unresolved; not current cellular assay"
+}

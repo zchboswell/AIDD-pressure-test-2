@@ -1,0 +1,433 @@
+{
+  "results": {
+    "reference_export": {
+      "rmsd_A": 0.0,
+      "map": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "map_count": 4,
+      "max_mapped_displacement_A": 0.0,
+      "independent_raw_scalar_rmsd_A": 0.0
+    },
+    "priority_export": {
+      "rmsd_A": 8.774964387392123,
+      "map": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "map_count": 4,
+      "max_mapped_displacement_A": 8.774964387392123,
+      "independent_raw_scalar_rmsd_A": 8.774964387392123
+    }
+  },
+  "controls": {
+    "unchanged": 0.0,
+    "renumbered": 0.0,
+    "ligand_only_5A_shift": 5.0,
+    "common_rigid_transform_priority": 8.774964387392123,
+    "changed_formal_charge": {
+      "status": "expected rejection",
+      "reason": "no state-preserving bijection"
+    },
+    "missing_atom": {
+      "status": "expected rejection",
+      "reason": "incomplete graph"
+    },
+    "changed_stereo": {
+      "status": "expected rejection"
+    }
+  },
+  "minimums": {
+    "deposited": 2.5719045472178776,
+    "priority": 0.6851510782301912
+  },
+  "fit_secondary": 0.0,
+  "translation": [
+    8.0,
+    -3.0,
+    2.0
+  ],
+  "contacts": [
+    {
+      "pose": "deposited",
+      "ligand_index": 17,
+      "ligand_atom": "N7",
+      "partner": "A:HOH2117:O",
+      "distance_A": 2.887242802398166,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "deposited",
+      "ligand_index": 18,
+      "ligand_atom": "N9",
+      "partner": "A:GLU81:O",
+      "distance_A": 2.5719045472178776,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "deposited",
+      "ligand_index": 20,
+      "ligand_atom": "N3",
+      "partner": "A:LEU83:N",
+      "distance_A": 3.0461442841730255,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "deposited",
+      "ligand_index": 21,
+      "ligand_atom": "N2",
+      "partner": "A:LEU83:O",
+      "distance_A": 2.586907226786458,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 2,
+      "ligand_atom": "export_2",
+      "partner": "A:GLU81:OE1",
+      "distance_A": 2.999828328421477,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 2,
+      "ligand_atom": "export_2",
+      "partner": "A:ASN136:ND2",
+      "distance_A": 3.4525406587033847,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 3,
+      "ligand_atom": "export_3",
+      "partner": "A:GLU81:OE1",
+      "distance_A": 1.7020887168417493,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 3,
+      "ligand_atom": "export_3",
+      "partner": "A:GLU81:OE2",
+      "distance_A": 2.1730349744079116,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 3,
+      "ligand_atom": "export_3",
+      "partner": "A:LYS142:NZ",
+      "distance_A": 2.034370664357902,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 5,
+      "ligand_atom": "export_5",
+      "partner": "A:GLU81:OE1",
+      "distance_A": 2.6677957193158544,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 5,
+      "ligand_atom": "export_5",
+      "partner": "A:GLU81:OE2",
+      "distance_A": 2.4217202563467146,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 5,
+      "ligand_atom": "export_5",
+      "partner": "A:LYS142:NZ",
+      "distance_A": 2.3845808856065256,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 5,
+      "ligand_atom": "export_5",
+      "partner": "A:HOH2048:O",
+      "distance_A": 1.950668347003154,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 6,
+      "ligand_atom": "export_6",
+      "partner": "A:ILE63:O",
+      "distance_A": 2.6801779791648155,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 6,
+      "ligand_atom": "export_6",
+      "partner": "A:LYS65:N",
+      "distance_A": 2.565519635473484,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 6,
+      "ligand_atom": "export_6",
+      "partner": "A:GLU81:OE2",
+      "distance_A": 1.9332772693020517,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 6,
+      "ligand_atom": "export_6",
+      "partner": "A:LYS142:NZ",
+      "distance_A": 3.281088843661503,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 6,
+      "ligand_atom": "export_6",
+      "partner": "A:HOH2048:O",
+      "distance_A": 1.6696098346619794,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 8,
+      "ligand_atom": "export_8",
+      "partner": "A:VAL64:N",
+      "distance_A": 3.073531193920117,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 8,
+      "ligand_atom": "export_8",
+      "partner": "A:LYS65:N",
+      "distance_A": 3.240945695317959,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 8,
+      "ligand_atom": "export_8",
+      "partner": "A:GLU81:OE2",
+      "distance_A": 2.421391955053948,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 10,
+      "ligand_atom": "export_10",
+      "partner": "A:GLU81:OE1",
+      "distance_A": 2.939150217324729,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 10,
+      "ligand_atom": "export_10",
+      "partner": "A:GLU81:OE2",
+      "distance_A": 2.024862711395517,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    },
+    {
+      "pose": "priority",
+      "ligand_index": 10,
+      "ligand_atom": "export_10",
+      "partner": "A:LYS142:NZ",
+      "distance_A": 3.275747548270471,
+      "interpretation": "polar proximity only; no H-bond energetic claim"
+    }
+  ]
+}

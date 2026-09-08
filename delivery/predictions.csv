@@ -1,0 +1,29 @@
+request_id,status,endpoint,assay_id,p_activity,lower,upper,reason
+STOCK-01,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.187086643,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-02,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.886056648,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-03,abstained,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,SIM-TE-01 unmeasured; no validated cellular model or transferable biochemical calibration. Measure ENGAGE if selected.
+STOCK-04,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.070581074,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-05,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.455931956,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-06,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.187086643,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-07,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.886056648,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-08,abstained,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,SIM-TE-01 unmeasured; no validated cellular model or transferable biochemical calibration. Measure ENGAGE if selected.
+STOCK-09,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.070581074,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-10,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.455931956,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-11,abstained,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,SIM-TE-01 unmeasured; no validated cellular model or transferable biochemical calibration. Measure ENGAGE if selected.
+STOCK-12,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.886056648,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-13,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.494850022,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-14,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.070581074,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-15,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.455931956,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-16,abstained,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,SIM-TE-01 unmeasured; no validated cellular model or transferable biochemical calibration. Measure ENGAGE if selected.
+STOCK-17,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.886056648,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-18,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.494850022,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-19,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.070581074,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-20,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.455931956,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-21,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,7.187086643,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-22,observed,cellular_CDK2_target_engagement_IC50,SIM-TE-01,6.886056648,,,Supplied simulated SIM-TE-01 measurement; no replicate uncertainty supplied. Not a published observation or model prediction.
+STOCK-23,abstained,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,SIM-TE-01 unmeasured; no validated cellular model or transferable biochemical calibration. Measure ENGAGE if selected.
+STOCK-24,abstained,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,SIM-TE-01 unmeasured; no validated cellular model or transferable biochemical calibration. Measure ENGAGE if selected.
+STOCK-25,duplicate,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,same physical vial as STOCK-01; no extra stock
+STOCK-26,duplicate,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,same physical vial as STOCK-02; no extra stock
+STOCK-27,quarantined,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,invalid SMILES
+STOCK-28,quarantined,cellular_CDK2_target_engagement_IC50,SIM-TE-01,,,,graph conflicts with earlier compound_id representation

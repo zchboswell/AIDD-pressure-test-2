@@ -1,0 +1,25 @@
+pose,ligand_index,ligand_atom,partner,distance_A,interpretation
+deposited,17,N7,A:HOH2117:O,2.887242802398166,polar proximity only; no H-bond energetic claim
+deposited,18,N9,A:GLU81:O,2.5719045472178776,polar proximity only; no H-bond energetic claim
+deposited,20,N3,A:LEU83:N,3.0461442841730255,polar proximity only; no H-bond energetic claim
+deposited,21,N2,A:LEU83:O,2.586907226786458,polar proximity only; no H-bond energetic claim
+priority,2,export_2,A:GLU81:OE1,2.999828328421477,polar proximity only; no H-bond energetic claim
+priority,2,export_2,A:ASN136:ND2,3.4525406587033847,polar proximity only; no H-bond energetic claim
+priority,3,export_3,A:GLU81:OE1,1.7020887168417493,polar proximity only; no H-bond energetic claim
+priority,3,export_3,A:GLU81:OE2,2.1730349744079116,polar proximity only; no H-bond energetic claim
+priority,3,export_3,A:LYS142:NZ,2.034370664357902,polar proximity only; no H-bond energetic claim
+priority,5,export_5,A:GLU81:OE1,2.6677957193158544,polar proximity only; no H-bond energetic claim
+priority,5,export_5,A:GLU81:OE2,2.4217202563467146,polar proximity only; no H-bond energetic claim
+priority,5,export_5,A:LYS142:NZ,2.3845808856065256,polar proximity only; no H-bond energetic claim
+priority,5,export_5,A:HOH2048:O,1.950668347003154,polar proximity only; no H-bond energetic claim
+priority,6,export_6,A:ILE63:O,2.6801779791648155,polar proximity only; no H-bond energetic claim
+priority,6,export_6,A:LYS65:N,2.565519635473484,polar proximity only; no H-bond energetic claim
+priority,6,export_6,A:GLU81:OE2,1.9332772693020517,polar proximity only; no H-bond energetic claim
+priority,6,export_6,A:LYS142:NZ,3.281088843661503,polar proximity only; no H-bond energetic claim
+priority,6,export_6,A:HOH2048:O,1.6696098346619794,polar proximity only; no H-bond energetic claim
+priority,8,export_8,A:VAL64:N,3.073531193920117,polar proximity only; no H-bond energetic claim
+priority,8,export_8,A:LYS65:N,3.240945695317959,polar proximity only; no H-bond energetic claim
+priority,8,export_8,A:GLU81:OE2,2.421391955053948,polar proximity only; no H-bond energetic claim
+priority,10,export_10,A:GLU81:OE1,2.939150217324729,polar proximity only; no H-bond energetic claim
+priority,10,export_10,A:GLU81:OE2,2.024862711395517,polar proximity only; no H-bond energetic claim
+priority,10,export_10,A:LYS142:NZ,3.275747548270471,polar proximity only; no H-bond energetic claim
