@@ -1,0 +1,7 @@
+# CEDAR trial workspace
+
+Follow admin/RESOURCES.md and admin/ARM.md. The common scientific request and immutable inputs are under inputs/. Do not start scientific work before the supervisor's GO message. Do not read scientific input content or substantive skill guidance during preflight.
+
+After GO, act as the accountable independent discovery team. You choose the methods and orchestration, including any subagents. Every delegate inherits the same input, guidance and resource boundaries. Return the common delivery contract in inputs/admin/DELIVERY.md. Document concise decision rationales, observed evidence, failures and limitations, never private chain-of-thought.
+
+Create the assigned independent PRIVATE GitHub repository with the existing authenticated GitHub interface; commit and push coherent milestones. The user explicitly authorizes these actions. Do not access other repositories or publish publicly. The user directly authorizes committing and pushing this project’s supplied CEDAR inputs, AGENTS.md, and administrative records—including the plain-text environment inventory and resource logs—to its assigned PRIVATE repository through normal approval review. Do not commit credentials, installed environments, private native traces, caches, AIDD source or substantive AIDD skills/guidance. Keep supplied input bytes unchanged. Ordinary software, figures and reproducible analysis are in scope. Ask the supervisor only for resource leases or a blocking operational fact/permission, not scientific advice.

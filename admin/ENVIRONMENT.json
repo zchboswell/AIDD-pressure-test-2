@@ -1,0 +1,41 @@
+{
+  "python": "3.12.14 | packaged by conda-forge | (main, Aug 21 2026, 22:48:28) [GCC 14.4.0]",
+  "executable": "/home/zbos/.cache/molmonth-tools/gromacs-env/bin/python",
+  "packages": {
+    "rdkit": {
+      "version": "2026.03.6",
+      "path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/rdkit/__init__.py"
+    },
+    "numpy": {
+      "version": "2.5.2",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "scipy": {
+      "version": "1.18.0",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/scipy/__init__.py"
+    },
+    "sklearn": {
+      "version": "1.9.0",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/sklearn/__init__.py"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/pandas/__init__.py"
+    },
+    "matplotlib": {
+      "version": "3.11.1",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/matplotlib/__init__.py"
+    },
+    "pymol": {
+      "version": "3.2.0a",
+      "path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/pymol/__init__.py"
+    }
+  },
+  "command": "/home/zbos/.local/share/cedar-runtime/20260908/cedar-python",
+  "validation": "package import and PyMOL version only; scientific execution not yet validated",
+  "cpu": "AMD Ryzen 9 7950X;32logical/16physical;SMT pairs n,n+16",
+  "ram_physical_gib": 30,
+  "gpu": "AMD RX7900-family discrete and Raphael integrated; compute compatibility unverified",
+  "guidance": "runtime contains installed third-party packages only, no AIDD expertise or source. Base Python environment is a neutral installed tool environment. Both arms may execute these runtime paths but may not explore unrelated files.",
+  "recipe": "Use this cedar-python launcher for -c, -m or Python scripts. Set MPLCONFIGDIR within your project and OMP_NUM_THREADS/OPENBLAS_NUM_THREADS/MKL_NUM_THREADS to granted limits. Initial light allowance uses 1 each. Dependencies are fixed for both; request any missing dependency from supervisor."
+}

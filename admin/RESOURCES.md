@@ -1,0 +1,23 @@
+# CEDAR owner-approved conduct — r003
+
+Both orchestrators use GPT-6 Astra at Medium effort in separate fresh native Codex app sessions. Each chooses its scientific methods, task organization and subagents. Subagents are optional and unrestricted by this protocol; their work and local compute count toward their orchestrator's allocation. Do not consult or communicate with another trial worker or inspect other tasks. The supervisor coordinates operations only.
+
+The scientific budget is 120 minutes of active elapsed work after the supervisor's common GO message. Record actual start, finish, milestones and any supervisor-confirmed blocked intervals. Resource queue waiting that prevents all useful work is excluded; time spent on other useful work while awaiting compute counts normally. Preflight is setup, not scientific work. There is one scientific phase, no answer feedback, and no later revision round. At the deadline freeze the current delivery honestly, including incomplete work.
+
+The observed shared host is an AMD Ryzen 9 7950X, 16 physical / 32 logical CPUs, approximately 30 GiB physical RAM, and an AMD discrete GPU plus integrated graphics. GPU compute compatibility is unverified. Model inference is remote and separate from local compute. The supervisor checks live availability and reserves headroom for the host. The common environment inventory is in admin/ENVIRONMENT.json; both workers receive the same runtime access and version evidence.
+
+## Resource requests
+
+Light file inspection, editing, Git and brief environment probes may proceed using at most one CPU thread and 1 GiB RAM per arm in aggregate. Before any scientific batch computation, model fitting, rendering, parallel worker process, or a job expected to exceed 30 seconds or these limits, request a lease. Request CPU logical-core count, RAM GiB, GPU type/count/VRAM or none, expected duration, earliest start and whether the job can be paused. Give an operational purpose, not your scientific findings. Optional subagents may reason/read concurrently, but every local calculation they run shares your lease.
+
+Write requests/status updates to admin/RESOURCE_REQUESTS.jsonl and notify the supervisor task 01a079e2-d27a-7c60-9a23-798637200601 using send_message_to_thread if available. Include your project name and request ID. If that tool is unavailable, state RESOURCE REQUEST prominently in commentary and the log. Continue useful lightweight work while waiting. Do not start unapproved compute. Supervisor messages and admin/RESOURCE_GRANTS.jsonl are the allocation authority. A grant names limits, CPU affinity when applicable and expiry; apply taskset and thread-count limits to all child jobs. Release unused resources promptly, report jobs stopped, and request extension before expiry. Never self-increase a lease.
+
+Spare resources may be granted to one requester when the other does not need them. Concurrent competing requests are divided evenly or queued for comparable access, considering actual demand, memory pressure and estimated duration. GPUs are leased exclusively or in validated equal shares. There is no advantage for reserving idle capacity. Resource demand, grants, use and blocked waiting are reported separately from scientific scores. No paid compute or paid services are authorized.
+
+## Information and tool boundaries
+
+Use only inputs/ for program-specific scientific data. Do not retrieve candidate activities externally or inspect prior trials, evaluator files, source acquisition directories, sibling projects, other threads or other GitHub repositories. Do not ask another agent to retrieve them. General preinstalled tools and their documentation are permitted. Scientific internet access is closed for both arms; ordinary package setup may be requested from the supervisor for equal availability. Authenticated native model access and creation/push of your assigned private GitHub repository are authorized separately. No publication, unapproved data export, commercial license acceptance or changing permissions outside your project.
+
+Read admin/ARM.md for your assigned guidance access. The shared host is not claimed to be a hostile-user security boundary: these information restrictions apply to every tool and delegate even where a path or connector is technically reachable. Report accidental exposure immediately without using it. Do not probe forbidden paths to test access. Use normal native trust and approval mechanisms; do not bypass rejected operations.
+
+The supervisor may resolve setup problems but will not suggest analyses or preferred answers. A factual input/contract correction affecting both arms is sent identically to both. Document decisions and observed evidence rather than private chain-of-thought.

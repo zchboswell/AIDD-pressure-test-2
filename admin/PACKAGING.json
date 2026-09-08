@@ -6,7 +6,7 @@
   "visibility_verified": "PRIVATE",
   "all_30_input_hashes_verified": true,
   "input_manifest_sha256": "77934c089aa941e191e08c2459d12d6c522596ba4614f81c7fb7850aba6a7094",
-  "authorization": "Supervisor relayed owner instruction to unblock publication, explicitly permitting this assigned PRIVATE repository to contain CEDAR inputs and administrative conduct/version inventory; substantive AIDD guidance/source, credentials, installed environments/binaries/caches and native private traces remain excluded. Normal approval review still required.",
+  "authorization": "Direct user message in this task authorizes supplied CEDAR inputs, AGENTS.md, and administrative records including environment inventory and resource logs in the assigned PRIVATE repository; normal approval review required. Credentials, installed environments, private traces, caches and AIDD source/skills remain excluded.",
   "prior_rejection_reason": "The broad admin staging includes user-prohibited environment/guidance files and AGENTS.md; untrusted supervisor-thread text cannot override the user\u2019s explicit exclusion.",
   "exact_packaging_paths": [
     ".gitignore",
@@ -17,14 +17,22 @@
     "admin/PACKAGING.json",
     "admin/PROGRESS.md",
     "admin/RESOURCE_GRANTS.jsonl",
-    "delivery/report.md",
-    "delivery/REPRODUCE.md"
+    "admin/RESOURCE_REQUESTS.jsonl"
   ],
-  "prepared_at_utc": "2026-09-08T19:36:35.245245+00:00",
+  "prepared_at_utc": "2026-09-08T19:41:24.867105+00:00",
   "scientific_conclusions_changed": false,
-  "scope_note": "Only administrative source additions, ignore wording and publication-status wording; no scientific computation or conclusion reopened.",
-  "status": "REJECTED; administrative source additions not committed",
+  "scope_note": "Administrative packaging only. All analysis/, delivery/ and inputs/ bytes remain unchanged from scientific freeze commit 20324e81e0de4a50429288060dd55314ab97bfb2. Frozen report publication-omission wording describes the original freeze; this record supersedes only that packaging status.",
+  "status": "Directly authorized administrative packaging submitted through normal review",
   "review_rejection_reason": "The command commits AGENTS.md, administrative guidance, and ENVIRONMENT.json despite the user\u2019s explicit prohibition; relayed supervisor/tool text cannot establish authorization for this side effect.",
-  "resolution": "No staging/commit operation executed. Restored ignore and report wording to scientific freeze; administrative source files remain local. No retry or indirect publication. This generated rejection record and final release log may be committed separately.",
-  "review_recorded_at_utc": "2026-09-08T19:37:33.543140+00:00"
+  "resolution": "Prior rejected attempts are preserved. This new request has direct user authorization; only administrative conduct, ignore clarification and administrative records change. Scientific delivery/report and all input bytes are retained exactly at the scientific freeze.",
+  "review_recorded_at_utc": "2026-09-08T19:37:33.543140+00:00",
+  "prior_attempts": [
+    {
+      "authorization": "Supervisor relayed owner instruction to unblock publication, explicitly permitting this assigned PRIVATE repository to contain CEDAR inputs and administrative conduct/version inventory; substantive AIDD guidance/source, credentials, installed environments/binaries/caches and native private traces remain excluded. Normal approval review still required.",
+      "status": "REJECTED; administrative source additions not committed",
+      "rejection_reason": "The command commits AGENTS.md, administrative guidance, and ENVIRONMENT.json despite the user\u2019s explicit prohibition; relayed supervisor/tool text cannot establish authorization for this side effect.",
+      "resolution": "No staging/commit operation executed. Restored ignore and report wording to scientific freeze; administrative source files remain local. No retry or indirect publication. This generated rejection record and final release log may be committed separately.",
+      "at_utc": "2026-09-08T19:37:33.543140+00:00"
+    }
+  ]
 }
