@@ -1,0 +1,16 @@
+.aidd/
+.agents/skills/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+local-evidence/
+.native/
+.cache/
+# Local operating guidance and model execution records
+AGENTS.md
+admin/ARM.md
+admin/RESOURCES.md
+.codex/
+admin/ENVIRONMENT.json

@@ -1,0 +1,11 @@
+# Origin and evidence boundaries
+
+Public data were retrieved on 8 September 2026 from ChEMBL's official API, reporting ChEMBL_37. Primary assay CHEMBL5736732 and context assays CHEMBL661125 and CHEMBL3705366 retain their original activity/document identifiers and source metadata. The archive changes concentration formatting in some rows without changing the underlying quantity. `references/chembl_selected_records.json` retains the selected original source records. Rows marked simulated reingestion/reexport reproduce existing observations; they are not independent experiments. SIM-QC-CHECK records are fictional export examples. Operational dates in this package are not dates of the public experiments.
+
+The 1H1Q coordinates and entry metadata are real PDB data. The separate 2A6 chain-A SDF was obtained from RCSB ModelServer. Vendor-named SDFs are deliberately derived, simulated project exports; they are not deposited structures and require assessment. CED-23 and CED-24 use chemical graphs from OpenFF's protein-ligand benchmark at revision fd88824f9114244f95a14b485e6d6c96c1de716d (lig_1h1q and lig_1oiu). Their mapping does not establish that other inventory compounds share the deposited ligand's pose or binding mode.
+
+Inventory, availability, purity, costs, program readouts, project notes, vendor feature packaging, and the legacy scripts are newly authored simulation materials. The legacy helper and vendor script are unvalidated inputs; they are not attributed to ChEMBL, RCSB, OpenFF, or RDKit. No synthetic assay number may be reported as an observed result from those organizations.
+
+ChEMBL data terms: CC BY-SA 3.0, https://chembl.gitbook.io/chembl-interface-documentation/about . PDB archive data: CC0, https://www.rcsb.org/pages/policies . OpenFF benchmark data: CC BY 4.0; upstream LICENSE_DATA and citation details are included. These are source-specific terms, not a blanket license grant over the complete challenge or AIDD. Retain attribution and adaptation notices. Public redistribution needs owner review.
+
+Sources: https://www.ebi.ac.uk/chembl/api/data/ ; https://www.rcsb.org/structure/1H1Q ; https://github.com/openforcefield/protein-ligand-benchmark . Original 1H1Q publication details are in `structures/1h1q_entry.json`.
