@@ -234,9 +234,15 @@
   },
   "private_repo_url": "https://github.com/zchboswell/AIDD-pressure-test-2",
   "private_visibility_verified": true,
-  "commit": null,
+  "commit": "608458d8d104aa39b8ad77943c0f007fe398c927",
   "operational_blocker": null,
   "scientific_work_started": false,
   "status": "PREFLIGHT READY",
-  "commit_note": "Setup milestone commit will be recorded in a following provenance commit."
+  "commit_note": "References the pushed setup milestone; this record is finalized in a subsequent provenance commit.",
+  "setup_push_verified": true,
+  "operational_events": [
+    "Sandbox network prevented initial GitHub authentication check; authenticated successfully with approved network access.",
+    "Automatic review rejected staging environment inventory; excluded admin/ENVIRONMENT.json and retried successfully.",
+    "Configured repository-local author identity using authenticated GitHub account noreply address."
+  ]
 }
