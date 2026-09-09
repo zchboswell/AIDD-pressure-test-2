@@ -1,0 +1,16 @@
+compound_id,partition,CDK1_pIC50_upper_bound,prediction_exact_only_model,bound_violation_log,interpretation
+HC-ec05550a33416d4af1b10b04,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-b0fdf8a04d482f4f42f4b3bd,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-40678296401d85a1b541c8cd,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-046be35402a0ebbfeae4a2a0,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-862148e6286362a6b2359a14,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-ebfb3b8b9aea5d5941934588,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-dd08ed6610f74ef444967503,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-f0fb35cb2dd27e28368bc0c6,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-eb8b9e03abf2ca9d02026aff,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-7e4a441cd02054699398e77a,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-73007618db6a4686b9849357,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-6ed48c1d15c50be7cd6cf34d,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-34f9af60e80c3405011799c6,train,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-4f389ca3ec30c24d33940bc9,development,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias
+HC-0e61d12135d0e4cf103c865a,development,5.0,5.691581171801665,0.6915811718016647,bound retained; exact-only model selection bias

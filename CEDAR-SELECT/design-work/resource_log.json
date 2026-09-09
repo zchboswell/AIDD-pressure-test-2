@@ -1,0 +1,16 @@
+{
+  "job": "identity/descriptors only",
+  "threads": 1,
+  "elapsed_seconds": 0.01926422119140625,
+  "maxrss_kib": 75404,
+  "finished": true,
+  "invalid_identity_rows": [
+    "CED-INVALID"
+  ],
+  "failed_attempts": [
+    "python unavailable in PATH",
+    "cedar-python does not support stdin hyphen; script execution used",
+    "helper inspect.py shadowed standard library; renamed",
+    "invalid inventory SMILES caused first identity pass failure; excluded explicitly"
+  ]
+}

@@ -1,0 +1,866 @@
+[
+  {
+    "compound_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+    "smiles": "COc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+    "partition": "train",
+    "leakage_group_id": "LG-b658ac4516b3024c17c40df2350c2abe2677beaf7f140ee925f50179ac3f6e7b",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 12,
+      "PubChem_SID": 507746162,
+      "PubChem_CID": 172269222,
+      "BindingDB_ID": "702213"
+    },
+    "source_panel_pointer": "/materials/11",
+    "canonical_isomeric_smiles": "COc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-45",
+        "compound_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.020",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".020",
+        "pIC50": 7.698970004336019,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 12,
+          "pdf_page": 195,
+          "panel_pointer": "/records/22"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-46",
+        "compound_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "2.24",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": "2.24",
+        "pIC50": 5.649751981665837,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 12,
+          "pdf_page": 195,
+          "panel_pointer": "/records/23"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 20.0,
+    "CDK1_nM": 2240.0,
+    "ratio_CDK1_over_CDK2": 112.0,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-531184aadd5ff6a7c11ef62f",
+        "leakage_group_id": "HG-67063e15c6f16af4fa8988ac",
+        "pIC50": 7.698970004336019,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-02a392cf44e5f57b4d30499e",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "COc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-531184aadd5ff6a7c11ef62f",
+        "leakage_group_id": "HG-67063e15c6f16af4fa8988ac",
+        "pIC50": 5.649751981665837,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-9b2c534ad5aac0ce434f3666",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "COc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-02a392cf44e5f57b4d30499e",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-9b2c534ad5aac0ce434f3666",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+    "smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+    "partition": "train",
+    "leakage_group_id": "LG-0fc1b922ff47f9dd8401569bb088ae90f3f2f6a9a7ffcc50e04e1db178c75202",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 23,
+      "PubChem_SID": 507746173,
+      "PubChem_CID": 172269291,
+      "BindingDB_ID": "702224"
+    },
+    "source_panel_pointer": "/materials/22",
+    "canonical_isomeric_smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-88",
+        "compound_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.015",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".015",
+        "pIC50": 7.823908740944319,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 23,
+          "pdf_page": 198,
+          "panel_pointer": "/records/44"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-89",
+        "compound_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "2.43",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": "2.43",
+        "pIC50": 5.614393726401688,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 23,
+          "pdf_page": 198,
+          "panel_pointer": "/records/45"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 15.0,
+    "CDK1_nM": 2430.0,
+    "ratio_CDK1_over_CDK2": 162.0,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-4f081b6936afd38a189ea800",
+        "leakage_group_id": "HG-32d15f895e8691a9b259c11e",
+        "pIC50": 7.823908740944319,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-b6402a0ac60f883b03c3c126",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-4f081b6936afd38a189ea800",
+        "leakage_group_id": "HG-32d15f895e8691a9b259c11e",
+        "pIC50": 5.614393726401688,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-ce79aa2e76376f9bec23f4b1",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-b6402a0ac60f883b03c3c126",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-ce79aa2e76376f9bec23f4b1",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+    "partition": "train",
+    "leakage_group_id": "LG-f1d60e02a9143ea3dcaaeb804a1e38f1f74da53e249600ef6e418c2621610ebe",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 39,
+      "PubChem_SID": 507746189,
+      "PubChem_CID": 172269353,
+      "BindingDB_ID": "702240"
+    },
+    "source_panel_pointer": "/materials/38",
+    "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-152",
+        "compound_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.007",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".007",
+        "pIC50": 8.154901959985743,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 39,
+          "pdf_page": 202,
+          "panel_pointer": "/records/76"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-153",
+        "compound_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "1.20",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": "1.20",
+        "pIC50": 5.920818753952375,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 39,
+          "pdf_page": 202,
+          "panel_pointer": "/records/77"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 7.0,
+    "CDK1_nM": 1200.0,
+    "ratio_CDK1_over_CDK2": 171.42857142857142,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-f62b975cee248388caed4d95",
+        "leakage_group_id": "HG-81bae5fb945da1c2f04c8ab0",
+        "pIC50": 8.154901959985743,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-8f1480790358da2c598387b2",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-f62b975cee248388caed4d95",
+        "leakage_group_id": "HG-81bae5fb945da1c2f04c8ab0",
+        "pIC50": 5.920818753952375,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-2aa715a034198601570553a6",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-8f1480790358da2c598387b2",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-2aa715a034198601570553a6",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2",
+    "partition": "train",
+    "leakage_group_id": "LG-ee287f9394b2f8a59f3255c59d53186980b432beb6bd26179b6cd8f2af979e5a",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 41,
+      "PubChem_SID": 507746191,
+      "PubChem_CID": 172269303,
+      "BindingDB_ID": "702242"
+    },
+    "source_panel_pointer": "/materials/40",
+    "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-160",
+        "compound_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.005",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".005",
+        "pIC50": 8.301029995663981,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 41,
+          "pdf_page": 202,
+          "panel_pointer": "/records/80"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-161",
+        "compound_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.73",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".73",
+        "pIC50": 6.136677139879544,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 41,
+          "pdf_page": 202,
+          "panel_pointer": "/records/81"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 5.0,
+    "CDK1_nM": 730.0,
+    "ratio_CDK1_over_CDK2": 146.0,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-5126418e5255ba63322fe094",
+        "leakage_group_id": "HG-d6b86d88259323a67c50ded6",
+        "pIC50": 8.301029995663981,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-e4bab2cbbd75faba012ac366",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-5126418e5255ba63322fe094",
+        "leakage_group_id": "HG-d6b86d88259323a67c50ded6",
+        "pIC50": 6.136677139879544,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-882bc295ea8818594e29fd4d",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-e4bab2cbbd75faba012ac366",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-882bc295ea8818594e29fd4d",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)F)ncc2C12CC2",
+    "partition": "train",
+    "leakage_group_id": "LG-a7e26298dd53e9676d0bf70fcb88402b746c292a79c44bdc07787db6897efd49",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 56,
+      "PubChem_SID": 507746206,
+      "PubChem_CID": 172477896,
+      "BindingDB_ID": "702257"
+    },
+    "source_panel_pointer": "/materials/55",
+    "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)F)ncc2C12CC2",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-219",
+        "compound_id": "CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.010",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".010",
+        "pIC50": 8,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 56,
+          "pdf_page": 206,
+          "panel_pointer": "/records/110"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-220",
+        "compound_id": "CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.80",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".80",
+        "pIC50": 6.096910013008056,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 56,
+          "pdf_page": 206,
+          "panel_pointer": "/records/111"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 10.0,
+    "CDK1_nM": 800.0,
+    "ratio_CDK1_over_CDK2": 80.0,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-f09d8bf1beda158f1bd5b8f5",
+        "leakage_group_id": "HG-a415f427028bb039f7ef2cd5",
+        "pIC50": 8.0,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-20c9ded2a3615b331a0ec048",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-f09d8bf1beda158f1bd5b8f5",
+        "leakage_group_id": "HG-a415f427028bb039f7ef2cd5",
+        "pIC50": 6.096910013008056,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-984eee2f1c0d34843affb010",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-20c9ded2a3615b331a0ec048",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-984eee2f1c0d34843affb010",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@H]3CC3(F)F)ncc2C12CC2",
+    "partition": "train",
+    "leakage_group_id": "LG-47b5301aa07d89f286f722c91bc132ff70c1000abac34ee46e15823e6d9917b1",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 69,
+      "PubChem_SID": 507746219,
+      "PubChem_CID": 172269423,
+      "BindingDB_ID": "702270"
+    },
+    "source_panel_pointer": "/materials/68",
+    "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@H]3CC3(F)F)ncc2C12CC2",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-271",
+        "compound_id": "CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.006",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".006",
+        "pIC50": 8.221848749616356,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 69,
+          "pdf_page": 209,
+          "panel_pointer": "/records/136"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-272",
+        "compound_id": "CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.80",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".80",
+        "pIC50": 6.096910013008056,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 69,
+          "pdf_page": 209,
+          "panel_pointer": "/records/137"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 6.0,
+    "CDK1_nM": 800.0,
+    "ratio_CDK1_over_CDK2": 133.33333333333334,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-a86718b706208a06340fb465",
+        "leakage_group_id": "HG-3fbac2cdf386aa6cb936785a",
+        "pIC50": 8.221848749616356,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-960ac30c9339c276c6928d1e",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@H]3CC3(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-a86718b706208a06340fb465",
+        "leakage_group_id": "HG-3fbac2cdf386aa6cb936785a",
+        "pIC50": 6.096910013008056,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-fe93d4b219f2321a523dba91",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@H]3CC3(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-960ac30c9339c276c6928d1e",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-fe93d4b219f2321a523dba91",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@@H]3CC3(F)F)ncc2C12CC2",
+    "partition": "train",
+    "leakage_group_id": "LG-47b5301aa07d89f286f722c91bc132ff70c1000abac34ee46e15823e6d9917b1",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 70,
+      "PubChem_SID": 507746220,
+      "PubChem_CID": 172269436,
+      "BindingDB_ID": "702271"
+    },
+    "source_panel_pointer": "/materials/69",
+    "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@@H]3CC3(F)F)ncc2C12CC2",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-275",
+        "compound_id": "CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.006",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".006",
+        "pIC50": 8.221848749616356,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 70,
+          "pdf_page": 209,
+          "panel_pointer": "/records/138"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-276",
+        "compound_id": "CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.82",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".82",
+        "pIC50": 6.086186147616283,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 70,
+          "pdf_page": 209,
+          "panel_pointer": "/records/139"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 6.0,
+    "CDK1_nM": 820.0,
+    "ratio_CDK1_over_CDK2": 136.66666666666666,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-b7914dc349fa7a633fc06fe6",
+        "leakage_group_id": "HG-3fbac2cdf386aa6cb936785a",
+        "pIC50": 8.221848749616356,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-15fec1dbdd8260bdd1cd633f",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@@H]3CC3(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-b7914dc349fa7a633fc06fe6",
+        "leakage_group_id": "HG-3fbac2cdf386aa6cb936785a",
+        "pIC50": 6.086186147616283,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-3f0b77231dd132d2205592ef",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O[C@@H]3CC3(F)F)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-15fec1dbdd8260bdd1cd633f",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-3f0b77231dd132d2205592ef",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  },
+  {
+    "compound_id": "CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O)ncc2C12CC2",
+    "partition": "train",
+    "leakage_group_id": "LG-8f6ceade5aa5e33987fa11ffbc11c3aa57fa3b1eb77438f4584553bb901d8c72",
+    "series_id": "SER-ef141f09be3f90d893b0f6d67375307bed133226683ea6113bb15a455127225c",
+    "source_material_status": "accepted original source material; source-assigned configuration",
+    "public_source_identifiers": {
+      "patent": "US20240360137A1",
+      "example": 77,
+      "PubChem_SID": 507746227,
+      "PubChem_CID": 172269425,
+      "BindingDB_ID": "702278"
+    },
+    "source_panel_pointer": "/materials/76",
+    "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O)ncc2C12CC2",
+    "observations": {
+      "CDK2": {
+        "observation_id": "AID2060539:v1:physical-303",
+        "compound_id": "CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab",
+        "target": "CDK2",
+        "context_id": "CTX-US20240360137A1-CDK2-E1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "0.121",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": ".121",
+        "pIC50": 6.91721462968355,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 77,
+          "pdf_page": 211,
+          "panel_pointer": "/records/152"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      },
+      "CDK1": {
+        "observation_id": "AID2060539:v1:physical-304",
+        "compound_id": "CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab",
+        "target": "CDK1",
+        "context_id": "CTX-US20240360137A1-CDK1-B1",
+        "study_id": "STUDY-US20240360137A1-biochemical-panel",
+        "paired_context_id": "PAIR-US20240360137A1-CDK2E1-CDK1B1",
+        "endpoint": "IC50",
+        "original_value": "5.82",
+        "original_unit": "uM",
+        "original_relation": "=",
+        "original_value_text": "5.82",
+        "pIC50": 5.235077015350112,
+        "p_relation": "=",
+        "record_kind": "public_measurement",
+        "source_location": {
+          "patent": "US20240360137A1",
+          "example": 77,
+          "pdf_page": 211,
+          "panel_pointer": "/records/153"
+        },
+        "qualifier_note": "Exact source-reported value; not an independently measured replicate or a model prediction."
+      }
+    },
+    "CDK2_nM": 121.0,
+    "CDK1_nM": 5820.0,
+    "ratio_CDK1_over_CDK2": 48.099173553719005,
+    "matched_context_rows": [
+      {
+        "assay_family_id": "CTX-CDK2",
+        "compound_id": "HC-66a1ca61302e3d64e8ec01b6",
+        "leakage_group_id": "HG-91ca5d2b11684e5cb8f57d10",
+        "pIC50": 6.91721462968355,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-1f1e4851c75c02276785c67b",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK2"
+      },
+      {
+        "assay_family_id": "CTX-CDK1",
+        "compound_id": "HC-66a1ca61302e3d64e8ec01b6",
+        "leakage_group_id": "HG-91ca5d2b11684e5cb8f57d10",
+        "pIC50": 5.235077015350112,
+        "partition": "train",
+        "relation": "=",
+        "row_id": "HR-4a8d232a356e8145beaab5b8",
+        "series_id": "HS-f5022d4f3db45055cf7cf61d",
+        "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3O)ncc2C12CC2",
+        "study_id": "STUDY-001",
+        "target": "CDK1"
+      }
+    ],
+    "overlap_label_checks": [
+      {
+        "row_id": "HR-1f1e4851c75c02276785c67b",
+        "target": "CDK2",
+        "absolute_pIC50_difference": 0.0
+      },
+      {
+        "row_id": "HR-4a8d232a356e8145beaab5b8",
+        "target": "CDK1",
+        "absolute_pIC50_difference": 0.0
+      }
+    ]
+  }
+]

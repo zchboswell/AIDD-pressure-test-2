@@ -1,0 +1,1701 @@
+     Full wwPDB X-ray Structure Validation Report ○
+                                                  i
+
+
+
+
+                             Mar 5, 2026 – 05:02 PM UTC
+
+    PDB ID : 5LQF / pdb_00005lqf
+        Title : CDK1/CyclinB1/CKS2 in complex with NU6102
+    Authors : Coxon, C.R.; Anscombe, E.; Harnor, S.J.; Martin, M.P.; Carbain, B.J.; Hard-
+                castle, I.R.; Harlow, L.K.; Korolchuk, S.; Matheson, C.J.; Noble, M.E.; Newell,
+                D.R.; Turner, D.M.; Sivaprakasam, M.; Wang, L.Z.; Wong, C.; Golding, B.T.;
+                Griffin, R.J.; Endicott, J.A.; Cano, C.
+Deposited on : 2016-08-17
+  Resolution : 2.06 Å(reported)
+
+
+ This is a Full wwPDB X-ray Structure Validation Report for a publicly released PDB entry.
+
+                 We welcome your comments at validation@mail.wwpdb.org
+                                 A user guide is available at
+            https://www.wwpdb.org/validation/2017/XrayValidationReportHelp
+               with specific help available everywhere you see the ○
+                                                                   i symbol.
+
+                       The types of validation reports are described at
+                   http://www.wwpdb.org/validation/2017/FAQs#types.
+Page 2                        Full wwPDB X-ray Structure Validation Report                                 5LQF
+
+
+
+
+ The following versions of software and data (see references ○)
+                                                             i were used in the production of this report:
+
+                        MolProbity      :   4-5-2 with Phenix2.0
+                              Mogul     :   2022.3.0, CSD as543be (2022)
+                   Xtriage (Phenix)     :   2.0
+                                EDS     :   3.0
+                      Buster-report     :   wwPDB partial adaption of 1.1.7 (2018)
+                Percentile statistics   :   20250101.v01 (using entries in the PDB archive January 1st 2025)
+                              CCP4      :   9.0.010 (Gargrove)
+                    Density-Fitness     :   1.0.12
+          Ideal geometry (proteins)     :   Engh & Huber (2001)
+      Ideal geometry (DNA, RNA)         :   Parkinson et al. (1996)
+ Validation Pipeline (wwPDB-VP)         :   2.49
+Page 3                    Full wwPDB X-ray Structure Validation Report                     5LQF
+
+
+1       Overall quality at a glance ○
+                                    i
+
+
+The following experimental techniques were used to determine the structure:
+X-RAY DIFFRACTION
+The reported resolution of this entry is 2.06 Å.
+Percentile scores (ranging between 0-100) for global validation metrics of the entry are shown in
+the following graphic. The table shows the number of entries on which the scores are based.
+
+
+
+
+                             Whole archive               Similar resolution
+          Metric
+                              (#Entries)           (#Entries, resolution range(Å))
+         Rf ree                 180053                     3774 (2.08-2.04)
+      Clashscore                190562                     3883 (2.08-2.04)
+ Ramachandran outliers          187476                     3860 (2.08-2.04)
+   Sidechain outliers           187428                     3860 (2.08-2.04)
+     RSRZ outliers              180081                     3775 (2.08-2.04)
+
+
+The table below summarises the geometric issues observed across the polymeric chains and their
+fit to the electron density. The red, orange, yellow and green segments of the lower bar indicate
+the fraction of residues that contain outliers for >=3, 2, 1 and 0 types of geometric quality
+criteria respectively. A grey segment represents the fraction of residues that are not modelled.
+The numeric value for each fraction is indicated below the corresponding segment, with a dot
+representing fractions <=5% The upper red bar (where present) indicates the fraction of residues
+that have poor fit to the electron density. The numeric value is given above the bar.
+
+ Mol     Chain     Length                            Quality of chain
+
+    1      A        302
+
+    1      D        302
+
+    2      B        273
+
+    2      E        273
+
+    3      C         84
+                                                                    Continued on next page...
+Page 4                  Full wwPDB X-ray Structure Validation Report   5LQF
+
+
+ Continued from previous page...
+ Mol Chain Length                               Quality of chain
+
+  3       F        84
+Page 5                      Full wwPDB X-ray Structure Validation Report                      5LQF
+
+
+2       Entry composition ○
+                          i
+
+
+There are 5 unique types of molecules in this entry. The entry contains 10580 atoms, of which 0
+are hydrogens and 0 are deuteriums.
+In the tables below, the ZeroOcc column contains the number of atoms modelled with zero occu-
+pancy, the AltConf column contains the number of residues with at least one atom in alternate
+conformation and the Trace column contains the number of residues modelled with at most 2
+atoms.
+    • Molecule 1 is a protein called Cyclin-dependent kinase 1.
+
+ Mol      Chain    Residues             Atoms                  ZeroOcc      AltConf     Trace
+                                 Total C    N        O    S
+    1       A         287                                             0         1         0
+                                 2319 1495 392      424   8
+                                 Total C    N        O    S
+    1       D         285                                             0         1         0
+                                 2304 1485 391      420   8
+
+
+        There are 10 discrepancies between the modelled and reference sequences:
+
+ Chain      Residue    Modelled      Actual    Comment          Reference
+  A           -4        GLY            -      expression tag   UNP P06493
+  A           -3        PRO            -      expression tag   UNP P06493
+  A           -2        LEU            -      expression tag   UNP P06493
+  A           -1        GLY            -      expression tag   UNP P06493
+  A            0        SER            -      expression tag   UNP P06493
+  D           -4        GLY            -      expression tag   UNP P06493
+  D           -3        PRO            -      expression tag   UNP P06493
+  D           -2        LEU            -      expression tag   UNP P06493
+  D           -1        GLY            -      expression tag   UNP P06493
+  D            0        SER            -      expression tag   UNP P06493
+
+
+    • Molecule 2 is a protein called G2/mitotic-specific cyclin-B1.
+
+ Mol      Chain    Residues             Atoms                     ZeroOcc     AltConf   Trace
+                                 Total C    N        O    S
+    2       B         264                                             0          1        0
+                                 2144 1382 360      386   16
+                                 Total C    N        O    S
+    2       E         264                                             0          1        0
+                                 2144 1382 360      386   16
+
+
+        There are 14 discrepancies between the modelled and reference sequences:
+
+ Chain      Residue    Modelled      Actual    Comment        Reference
+  B           161       GLY            -      expression tag UNP P14635
+  B           162       SER            -      expression tag UNP P14635
+                                                  Continued on next page...
+Page 6                    Full wwPDB X-ray Structure Validation Report                       5LQF
+
+
+ Continued from previous page...
+ Chain Residue Modelled Actual               Comment          Reference
+   B         163        HIS       -         expression tag   UNP P14635
+   B         164       MET        -         expression tag   UNP P14635
+   B         167       SER       CYS           conflict      UNP P14635
+   B         238       SER       CYS           conflict      UNP P14635
+   B         350       SER       CYS           conflict      UNP P14635
+   E         161       GLY        -         expression tag   UNP P14635
+   E         162       SER        -         expression tag   UNP P14635
+   E         163        HIS       -         expression tag   UNP P14635
+   E         164       MET        -         expression tag   UNP P14635
+   E         167       SER       CYS           conflict      UNP P14635
+   E         238       SER       CYS           conflict      UNP P14635
+   E         350       SER       CYS           conflict      UNP P14635
+
+
+   • Molecule 3 is a protein called Cyclin-dependent kinases regulatory subunit 2.
+
+ Mol     Chain   Residues                Atoms               ZeroOcc   AltConf       Trace
+                               Total    C   N   O S
+  3       C          74                                         0          1           0
+                                661    428 117 112 4
+                               Total    C   N   O S
+  3        F         74                                         0          1           0
+                                661    428 117 112 4
+
+
+      There are 10 discrepancies between the modelled and reference sequences:
+
+ Chain    Residue    Modelled      Actual    Comment          Reference
+  C         -4        GLY            -      expression tag   UNP P33552
+  C         -3        PRO            -      expression tag   UNP P33552
+  C         -2        LEU            -      expression tag   UNP P33552
+  C         -1        GLY            -      expression tag   UNP P33552
+  C          0        SER            -      expression tag   UNP P33552
+   F        -4        GLY            -      expression tag   UNP P33552
+   F        -3        PRO            -      expression tag   UNP P33552
+   F        -2        LEU            -      expression tag   UNP P33552
+   F        -1        GLY            -      expression tag   UNP P33552
+   F         0        SER            -      expression tag   UNP P33552
+
+
+   • Molecule 4 is O6-CYCLOHEXYLMETHOXY-2-(4’-SULPHAMOYLANILINO) PURINE
+     (CCD ID: 4SP) (formula: C18 H22 N6 O3 S).
+Page 7                   Full wwPDB X-ray Structure Validation Report      5LQF
+
+
+
+
+ Mol     Chain   Residues             Atoms            ZeroOcc   AltConf
+                              Total   C N     O    S
+  4       A          1                                    0         0
+                               28     18 6    3    1
+                              Total   C N     O    S
+  4       D          1                                    0         0
+                               28     18 6    3    1
+
+
+   • Molecule 5 is water.
+ Mol     Chain   Residues      Atoms       ZeroOcc     AltConf
+                              Total O
+  5       A         54                         0          0
+                               54   54
+                              Total O
+  5       B         72                         0          0
+                               72   72
+                              Total O
+  5       C         22                         0          0
+                               22   22
+                              Total O
+  5       D         53                         0          0
+                               53   53
+                              Total O
+  5       E         79                         0          0
+                               79   79
+                              Total O
+  5       F         11                         0          0
+                               11   11
+Page 8                                                                         Full wwPDB X-ray Structure Validation Report                                                                                                                                                                         5LQF
+
+
+3                    Residue-property plots ○
+                                            i
+
+
+These plots are drawn for all protein, RNA, DNA and oligosaccharide chains in the entry. The
+first graphic for a chain summarises the proportions of the various outlier classes displayed in the
+second graphic. The second graphic shows the sequence view annotated by issues in geometry and
+electron density. Residues are color-coded according to the number of geometric quality criteria
+for which they contain at least one outlier: green = 0, yellow = 1, orange = 2 and red = 3 or more.
+A red dot above a residue indicates a poor fit to the electron density (RSRZ > 2). Stretches of 2
+or more consecutive residues without any outlier are shown as a green connector. Residues present
+in the sample, but not in the model, are shown in grey.
+• Molecule 1: Cyclin-dependent kinase 1
+
+Chain A:
+                            •
+
+                                     •
+                                     •
+                                     •
+
+
+
+
+                                                                                 •
+
+
+
+
+                                                                                                                                                                                                     •
+
+
+
+
+                                                                                                                                                                                                                                                                                    M100
+                                                                                                                                                                                                                                                                                    D101
+
+                                                                                                                                                                                                                                                                                             Q111
+GLY
+PRO
+L-2
+
+
+
+                            I10
+                            G11
+                            E12
+                            G13
+                            T14
+                            Y15
+                            G16
+                            V17
+
+                                                                Q28
+                                                                V29
+                                                                V30
+
+                                                                                      L37
+
+                                                                                                   E41
+
+                                                                                                                V44
+
+                                                                                                                              T47
+
+                                                                                                                                      R50
+                                                                                                                                      E51
+
+                                                                                                                                                           E57
+
+                                                                                                                                                                        H60
+                                                                                                                                                                        P61
+                                                                                                                                                                        N62
+
+                                                                                                                                                                                       D68
+
+                                                                                                                                                                                                    M71
+                                                                                                                                                                                                    Q72
+                                                                                                                                                                                                    D73
+                                                                                                                                                                                                    S74
+                                                                                                                                                                                                    R75
+
+                                                                                                                                                                                                                          I79
+
+                                                                                                                                                                                                                                       L83
+                                                                                                                                                                                                                                       S84
+                                                                                                                                                                                                                                       M85
+
+                                                                                                                                                                                                                                                             Y90
+                                                                                                                                                                                                                                                             L91
+                                                                                                                                                                                                                                                             D92
+                                                                                                                                                                                                                                                             S93
+                                                                                                                                                                                                                                                             I94
+                     M1
+
+
+
+
+                                                                •
+
+
+
+                                                                                                    •
+       V124
+
+                     D128
+                     L129
+                     K130
+                     P131
+                     Q132
+                     N133
+                     L134
+
+                                           D137
+
+                                                  T141
+
+                                                                R158
+                                                                V159
+
+
+
+
+                                                                V165
+
+                                                                                                                       W168
+                                                                                                                       Y169
+                                                                                                                       R170
+
+                                                                                                                                             E173
+
+                                                                                                                                                           A179
+                                                                                                                                                           R180
+
+                                                                                                                                                                         T199
+                                                                                                                                                                         K200
+                                                                                                                                                                         K201
+
+                                                                                                                                                                                             H205
+
+                                                                                                                                                                                                    S208
+                                                                                                                                                                                                    E209
+
+                                                                                                                                                                                                                  N239
+                                                                                                                                                                                                                  T240
+                                                                                                                                                                                                                  F241
+
+                                                                                                                                                                                                                                       G247
+                                                                                                                                                                                                                                       S248
+                                                                                                                                                                                                                                       L249
+                                                                                                                                                                                                                                       A250
+                                                                                                                                                                                                                                       S251
+                                                                                                                                                                                                                                       H252
+                                                                                                                                                                                                                                       V253
+                                                                                                                                                                                                                                       K254
+
+                                                                                                                                                                                                                                                                                  K279
+                                                                                                                                                                                                                                                                                  M280
+
+                                                                                                                                                                                                                                                                                           D289
+                                                                TYR
+                                                                THR
+                                                                HIS
+                                                                GLU
+                                                                VAL
+
+
+
+
+                                                                                                                                                                                                                                                                                           LEU
+ASP
+ASN
+GLN
+ILE
+LYS
+LYS
+MET
+
+
+
+
+• Molecule 1: Cyclin-dependent kinase 1
+
+Chain D:
+         •
+
+
+
+                                     •
+                                     •
+
+                                                    •
+
+                                                                          •
+
+
+                                                                                                           •
+
+
+
+                                                                                                                                                      •
+
+
+
+
+                                                                                                                                                                                                                                M100
+                                                                                                                                                                                                                                D101
+
+                                                                                                                                                                                                                                                      Y108
+
+                                                                                                                                                                                                                                                                    Q111
+                                                                                                                                                                                                                                                                    I112
+
+                                                                                                                                                                                                                                                                           S121
+
+                                                                                                                                                                                                                                                                                    L125
+
+                                                                                                                                                                                                                                                                                           Q132
+                                                                                                                                                                                                                                                                                           N133
+GLY
+PRO
+L-2
+G-1
+
+
+
+                                   E12
+                                   G13
+                                   T14
+                                   Y15
+                                   G16
+                                   V17
+
+                                                         T25
+
+                                                                 Q28
+
+                                                                               R36
+                                                                               L37
+
+                                                                                                   E41
+
+                                                                                                                V44
+
+                                                                                                                              I52
+
+                                                                                                                                      K56
+                                                                                                                                      E57
+
+                                                                                                                                                           M71
+                                                                                                                                                           Q72
+
+                                                                                                                                                                         R75
+                                                                                                                                                                         L76
+                                                                                                                                                                         Y77
+
+                                                                                                                                                                                             D86
+                                                                                                                                                                                             L87
+                                                                                                                                                                                             K88
+
+                                                                                                                                                                                                           L91
+
+                                                                                                                                                                                                                   P96
+
+                                                                                                                                                                                                                                Y99
+S0
+M1
+
+
+
+
+                                                                                                                                                                                                                     •
+L134
+
+              D137
+
+                     T141
+
+                            D146
+
+                                   R158
+
+
+
+
+                                   T166
+                                   L167
+                                   W168
+
+                                                                                            E173
+
+                                                                                                         R180
+                                                                                                         Y181
+                                                                                                         S182
+                                                                                                         T183
+                                                                                                         P184
+
+                                                                                                                                             T199
+                                                                                                                                             K200
+
+                                                                                                                                                                 H205
+
+                                                                                                                                                                         E209
+
+                                                                                                                                                                                L220
+
+                                                                                                                                                                                             N239
+
+                                                                                                                                                                                                    G247
+                                                                                                                                                                                                    S248
+                                                                                                                                                                                                    L249
+
+                                                                                                                                                                                                                   K254
+                                                                                                                                                                                                                   N255
+                                                                                                                                                                                                                   L256
+
+                                                                                                                                                                                                                                        G260
+
+                                                                                                                                                                                                                                                      K279
+                                                                                                                                                                                                                                                      M280
+
+                                                                                                                                                                                                                                                                      D289
+                                   VAL
+                                   TYR
+                                   THR
+                                   HIS
+                                   GLU
+                                   VAL
+                                   VAL
+
+
+
+
+                                                                                                                                                                                                                                                                      LEU
+                                                                                                                                                                                                                                                                      ASP
+                                                                                                                                                                                                                                                                      ASN
+                                                                                                                                                                                                                                                                      GLN
+                                                                                                                                                                                                                                                                      ILE
+                                                                                                                                                                                                                                                                      LYS
+                                                                                                                                                                                                                                                                      LYS
+MET
+
+
+
+
+• Molecule 2: G2/mitotic-specific cyclin-B1
+
+Chain B:
+                                                                                                                                                                                               •
+S167
+
+                                   V171
+
+                                          R179
+                                          Q180
+                                          L181
+
+                                                         Q185
+
+                                                                 G194
+
+                                                                               V210
+
+                                                                                            M223
+                                                                                            Y224
+
+                                                                                                                D231
+
+                                                                                                                              M234
+
+                                                                                                                                      V239
+
+                                                                                                                                                    L244
+
+                                                                                                                                                                 I254
+                                                                                                                                                                 A255
+                                                                                                                                                                 S256
+                                                                                                                                                                 K257
+                                                                                                                                                                 Y258
+                                                                                                                                                                 E259
+                                                                                                                                                                 E260
+                                                                                                                                                                 M261
+                                                                                                                                                                 Y262
+
+                                                                                                                                                                                                           T278
+
+                                                                                                                                                                                                                   R283
+
+                                                                                                                                                                                                                                E286
+                                                                                                                                                                                                                                M287
+
+                                                                                                                                                                                                                                               R291
+
+                                                                                                                                                                                                                                                             N294
+
+                                                                                                                                                                                                                                                                      R299
+                                                                                                                                                                                                                                                                      P300
+                                                                                                                                                                                                                                                                      L301
+                                                                                                                                                                                                                                                                      P302
+                                                                                                                                                                                                                                                                      L303
+
+                                                                                                                                                                                                                                                                                           K311
+                                                                                                                                                                                                                                                                                           I312
+GLY
+SER
+HIS
+MET
+ASN
+LEU
+
+
+
+
+                                                                                                    •
+
+
+
+
+                                                                                                                                                                                                                                                                             •
+G313
+E314
+V315
+
+                     Q319
+
+                            M327
+
+                                   M331
+
+                                          F339
+                                          P340
+                                          P341
+                                          S342
+                                          Q343
+                                          I344
+
+                                                                        L351
+
+                                                                                      K354
+                                                                                      I355
+
+                                                                                                         N358
+
+                                                                                                                       W361
+
+                                                                                                                                     Y368
+                                                                                                                                     L369
+                                                                                                                                     S370
+
+                                                                                                                                                           L377
+                                                                                                                                                           P378
+                                                                                                                                                           V379
+                                                                                                                                                           M380
+
+                                                                                                                                                                                V387
+
+                                                                                                                                                                                             V390
+                                                                                                                                                                                             N391
+                                                                                                                                                                                             Q392
+
+                                                                                                                                                                                                           K396
+                                                                                                                                                                                                           H397
+                                                                                                                                                                                                           M398
+
+                                                                                                                                                                                                                                K401
+
+                                                                                                                                                                                                                                        I412
+
+                                                                                                                                                                                                                                                      L422
+                                                                                                                                                                                                                                                      V423
+                                                                                                                                                                                                                                                      Q424
+
+                                                                                                                                                                                                                                                                           K428
+                                                                                                                                                                                                                                                                           A429
+                                                                                                                                                                                                                                                                           V430
+                                                                                                                                                                                                                                                                           ALA
+                                                                                                                                                                                                                                                                           LYS
+                                                                                                                                                                                                                                                                           VAL
+
+
+
+
+• Molecule 2: G2/mitotic-specific cyclin-B1
+GLY                                                                                GLY                                                                                V430              GLY
+PRO                                                                                PRO                                                                                ALA    L293       SER
+LEU                                                                                LEU                                                                                LYS    N294       HIS
+GLY                                                                                GLY                                                                                VAL               MET
+SER                                                                                SER                                                                                       G298       ASN
+                                                                                                                                                                                                              Page 9
+
+
+
+
+M1    •                                                                            M1    •                                                                                   R299       LEU
+
+
+
+
+          Chain F:
+                                                                                                                                                                                                   Chain E:
+
+
+
+
+                                                                                             Chain C:
+A2    •                                                                            A2    •                                                                                   P300       S167
+H3    •                                                                            H3    •                                                                                   L301       S168   •
+K4    •                                                                            K4    •                                                                                   P302       E169
+Q5                                                                                                                                                                                      Y170
+I6    •                                                                            Y7                                                                                        S310       V171
+Y7                                                                                                                                                                           K311
+Y8                                                                                 R20                                                                                       I312       Y175
+                                                                                   H21                                                                                       G313   •
+E15                                                                                                                                                                          E314       L178
+                                                                                   E27                                                                                       V315       R179
+M23                                                                                                                                                                          D316       Q180
+                                                                                   T35                                                                                       V317       L181
+E27   •                                                                            H36                                                                                       E318       E182
+L28                                                                                L37
+S29                                                                                                                                                                          M327       Q185
+                                                                                   L46
+T35                                                                                                                                                                          M331       R188
+H36                                                                                L52   •                                                                                   L332
+L37                                                                                                                                                                                     Y191
+                                                                                   R71                                                                                       M336
+E40                                                                                P72                                                                                                  M201
+E41                                                                                L73                                                                                       Q343       R202
+E42                                                                                P74   •                                                                                   I344       A203
+W43                                                                                LYS                                                                                       A345       I204
+R44                                                                                ASP                                                                                       A346       L205
+R45                                                                                GLN                                                                                                  I206
+                                                                                   GLN                                                                                       L353       D207
+L52   •                                                                            LYS                                                                                       K354
+                                                                                                                                                                             I355       V210
+Y57
+M58                                                                                                                                                                          N358       Q213
+I59                                                                                                                                                                                     M214
+H60                                                                                                                                                                          V379       K215
+E61
+P62                                                                                                                                                                          N386       M223
+                                                                                                                                                                             V387       Y224
+F69                                                                                                                                                                          V388
+R70                                                                                                                                                                                     D231
+                     • Molecule 3: Cyclin-dependent kinases regulatory subunit 2
+                                                                                                        • Molecule 3: Cyclin-dependent kinases regulatory subunit 2
+
+
+
+
+R71                                                                                                                                                                          N391
+P72                                                                                                                                                                          Q392       M234
+L73                                                                                                                                                                                     Q235
+P74   •                                                                                                                                                                      K396       N236
+LYS                                                                                                                                                                          H397
+ASP                                                                                                                                                                                     V239
+GLN                                                                                                                                                                          K401       P240
+GLN                                                                                                                                                                                     K241
+LYS                                                                                                                                                                          S407
+                                                                                                                                                                                                              Full wwPDB X-ray Structure Validation Report
+
+
+
+
+                                                                                                                                                                                        K257
+                                                                                                                                                                             N419
+                                                                                                                                                                                        Y262   •
+                                                                                                                                                                             L422
+                                                                                                                                                                             V423       V272
+                                                                                                                                                                             Q424
+                                                                                                                                                                                        R283
+                                                                                                                                                                                                              5LQF
+Page 10                      Full wwPDB X-ray Structure Validation Report                                     5LQF
+
+
+4       Data and refinement statistics ○
+                                       i
+
+
+              Property                                            Value                                   Source
+             Space group                                            P1                                   Depositor
+            Cell constants                              65.04Å 67.75Å 85.06Å
+                                                                                                         Depositor
+            a, b, c, α, β, γ                           103.88◦ 90.89◦ 90.42◦
+                                                             65.70 – 2.06                               Depositor
+            Resolution (Å)
+                                                             65.70 – 2.06                                 EDS
+        % Data completeness                                 97.3 (65.70-2.06)                           Depositor
+        (in resolution range)                               97.3 (65.70-2.06)                             EDS
+                Rmerge                                              0.09                                Depositor
+                Rsym                                         (Not available)                            Depositor
+            < I/σ(I) > 1                                     1.78 (at 2.07Å)                             Xtriage
+        Refinement program                                 REFMAC 5.8.0155                              Depositor
+                                                             0.198 , 0.254                              Depositor
+                R, Rf ree
+                                                             0.203 , 0.255                                DCC
+           Rf ree test set                               4136 reflections (4.88%)                      wwPDB-VP
+      Wilson B-factor (Å2 )                                         36.6                                 Xtriage
+             Anisotropy                                            0.296                                 Xtriage
+ Bulk solvent ksol (e/Å3 ), Bsol (Å2 )                          0.32 , 42.6                               EDS
+       L-test for twinning2                          < |L| > = 0.49, < L2 > = 0.32                       Xtriage
+   Estimated twinning fraction                               0.022 for h,-k,-l                           Xtriage
+         Fo ,Fc correlation                                         0.96                                  EDS
+     Total number of atoms                                         10580                               wwPDB-VP
+    Average B, all atoms (Å2 )                                      47.0                               wwPDB-VP
+
+
+Xtriage’s analysis on translational NCS is as follows: The largest off-origin peak in the Patterson
+function is 4.20% of the height of the origin peak. No significant pseudotranslation is detected.
+
+
+
+
+    Intensities estimated from amplitudes.
+    1
+
+    Theoretical values of < |L| >, < L2 > for acentric reflections are 0.5, 0.333 respectively for untwinned datasets,
+    2
+
+and 0.375, 0.2 for perfectly twinned datasets.
+Page 11                   Full wwPDB X-ray Structure Validation Report                           5LQF
+
+
+5         Model quality ○
+                        i
+
+
+5.1       Standard geometry ○
+                            i
+
+Bond lengths and bond angles in the following residue types are not validated in this section:
+4SP
+The Z score for a bond length (or angle) is the number of standard deviations the observed value
+is removed from the expected value. A bond length (or angle) with |Z| > 5 is considered an
+outlier worth inspection. RMSZ is the root-mean-square of all Z scores of the bond lengths (or
+angles).
+
+                        Bond lengths                  Bond angles
+ Mol       Chain
+                   RMSZ       #|Z| >5           RMSZ        #|Z| >5
+     1      A       1.40   11/2371 (0.5%)        1.36   11/3204 (0.3%)
+     1      D       1.36   6/2359 (0.3%)         1.29    8/3186 (0.3%)
+     2      B       1.54   20/2189 (0.9%)        1.41   17/2960 (0.6%)
+     2      E       1.53   17/2189 (0.8%)        1.43   13/2960 (0.4%)
+     3      C       1.32    3/685 (0.4%)         1.27    4/926 (0.4%)
+     3      F       1.20    2/685 (0.3%)         1.16    2/926 (0.2%)
+    All     All     1.43  59/10478 (0.6%)        1.35   55/14162 (0.4%)
+
+
+Chiral center outliers are detected by calculating the chiral volume of a chiral center and verifying if
+the center is modelled as a planar moiety or with the opposite hand.A planarity outlier is detected
+by checking planarity of atoms in a peptide group, atoms in a mainchain group or atoms of a
+sidechain that are expected to be planar.
+
+ Mol       Chain   #Chirality outliers      #Planarity outliers
+  1         A              0                        1
+  1         D              0                        3
+  3          F             0                        1
+ All        All            0                        5
+
+
+All (59) bond length outliers are listed below:
+
+ Mol       Chain   Res   Type      Atoms        Z     Observed(Å) Ideal(Å)
+  2          E     316   ASP       CA-CB       8.16       1.67          1.53
+  2         B      390   VAL        C-O       -7.68       1.15          1.24
+  2          E     179   ARG       N-CA        7.57       1.55          1.46
+  1         A      101   ASP       CA-C        7.43       1.62          1.52
+  2         B      412    ILE       C-O       -7.38       1.15          1.24
+  2          E     318   GLU        C-O       -6.77       1.16          1.24
+  2         B      239   VAL        C-O       -6.74       1.16          1.24
+  2         B      344    ILE      N-CA       -6.71       1.39          1.46
+  2          E     388   VAL        C-O       -6.45       1.16          1.24
+                                                       Continued on next page...
+Page 12               Full wwPDB X-ray Structure Validation Report           5LQF
+
+
+ Continued from previous page...
+ Mol Chain Res Type Atoms                 Z     Observed(Å) Ideal(Å)
+  2       E     331 MET          C-O    -6.44       1.16          1.24
+  2       B     231 ASP          C-O     6.34       1.31          1.24
+  1      D      146 ASP          N-CA    6.28       1.54          1.46
+  1       A     128 ASP          C-O     6.24       1.29          1.24
+  1       A      30    VAL       C-O    -6.22       1.16          1.23
+  2       B     344    ILE       CA-C    6.19       1.60          1.52
+  1      D      134 LEU          N-CA   -6.18       1.38          1.46
+  3       C      7     TYR       N-CA    6.14       1.53          1.46
+  2       B     294 ASN          CA-C    6.14       1.60          1.53
+  1       A     179 ALA          C-O    -5.99       1.16          1.24
+  2       B     257    LYS       C-O    -5.99       1.16          1.24
+  2       E     182 GLU          C-O    -5.92       1.16          1.24
+  2       E     205 LEU          C-O    -5.92       1.17          1.24
+  1       A      62    ASN       N-CA    5.91       1.53          1.46
+  2       B     171 VAL          N-CA    5.85       1.53          1.46
+  2       B     391 ASN          C-O     5.82       1.31          1.24
+  3       F      57    TYR       CA-C    5.80       1.60          1.52
+  1      D       28    GLN       CA-C    5.77       1.60          1.52
+  2       B     259 GLU          CA-C    5.73       1.60          1.52
+  1       A     124 VAL          C-O    -5.70       1.17          1.24
+  2       B     396    LYS       CA-C    5.67       1.60          1.52
+  2       B     342 SER          C-O     5.62       1.31          1.24
+  1       A     131 PRO          C-O    -5.61       1.16          1.24
+  2       E     336 MET          CA-C    5.58       1.59          1.52
+  3       F      69    PHE       N-CA   -5.55       1.39          1.45
+  3       C      3     HIS       CA-C    5.52       1.61          1.53
+  1      D      121 SER          C-O     5.51       1.31          1.24
+  2       B     223 MET          C-O     5.50       1.30          1.24
+  1       A     209 GLU CD-OE1           5.48       1.35          1.25
+  2       E     310 SER          C-O    -5.47       1.17          1.24
+  2       B     387 VAL          N-CA   -5.46       1.40          1.46
+  1       A      94    ILE       N-CA   -5.41       1.42          1.46
+  1       A     134 LEU          C-O     5.41       1.30          1.24
+  2       E     257    LYS       C-O    -5.39       1.17          1.24
+  3       C      3     HIS       N-CA    5.38       1.52          1.45
+  1      D      181 TYR          CA-C   -5.38       1.46          1.52
+  2       E     354    LYS       CA-C   -5.34       1.46          1.52
+  2       B     179 ARG          N-CA    5.34       1.52          1.46
+  2       E     215    LYS       N-CA   -5.33       1.39          1.46
+  1       A      51    GLU       C-O    -5.33       1.17          1.24
+  1      D       96    PRO       C-O     5.31       1.30          1.23
+  2       E     171 VAL          N-CA    5.28       1.52          1.46
+                                                 Continued on next page...
+Page 13                  Full wwPDB X-ray Structure Validation Report                5LQF
+
+
+ Continued from previous page...
+ Mol Chain Res Type Atoms                     Z      Observed(Å)       Ideal(Å)
+  2       B     256 SER           C-O       -5.20        1.18            1.24
+  2       E     178 LEU           C-O       -5.18        1.18            1.24
+  2       B     314 GLU          N-CA        5.15        1.52            1.46
+  2       E     346 ALA          CA-C        5.12        1.59            1.52
+  2       E     386 ASN           C-O       -5.06        1.18            1.24
+  2       B     377 LEU          CA-C        5.05        1.58            1.52
+  2       E     223 MET          SD-CE      -5.04        1.67            1.79
+  2       B     303 LEU          CA-C       -5.03        1.46            1.52
+
+
+All (55) bond angle outliers are listed below:
+
+ Mol      Chain   Res   Type      Atoms            Z      Observed(o ) Ideal(o )
+  2        B      262   TYR       CA-C-N         -7.39       112.77       120.38
+  2        B      262   TYR       C-N-CA         -7.39       112.77       120.38
+  1        A      180   ARG       N-CA-C          7.25       120.49       109.62
+  1        A      247   GLY       N-CA-C         -7.22       92.35        113.30
+  2         E     355    ILE     CB-CA-C         -7.04       102.96       111.97
+  1        A      173   GLU      CB-CA-C         -7.01       99.87        110.88
+  2         E     257   LYS       N-CA-C         -7.01       103.40       112.23
+  1        D      75    ARG       N-CA-C          6.90       120.65       109.40
+  2         E     331   MET      CG-SD-CE        -6.87       85.80        100.90
+  1        D      137   ASP       N-CA-C         -6.82       100.13       109.95
+  1        D      88    LYS       N-CA-C          6.71       118.25       111.07
+  1        A      241   PHE       CA-C-N         -6.67       113.43       120.03
+  1        A      241   PHE       C-N-CA         -6.67       113.43       120.03
+  1        D      248   SER       N-CA-C         -6.63       100.64       110.46
+  2        B      370   SER       N-CA-C          6.43       120.39       111.90
+  2        B      398   MET      CG-SD-CE        -6.29       87.07        100.90
+  2        B      171   VAL      N-CA-CB          6.25       117.45       110.51
+  3        C      35    THR      N-CA-CB         -6.19       102.06       110.67
+  2        B      377   LEU       CA-C-N          6.14       125.62       119.24
+  2        B      377   LEU       C-N-CA          6.14       125.62       119.24
+  2         E     301   LEU       N-CA-C          6.13       123.35       109.81
+  2         E     315   VAL       N-CA-C          6.13       118.61       109.17
+  2        B      339   PHE       N-CA-C         -6.06       102.41       109.93
+  3        C      71    ARG       CA-C-N         -6.06       113.54       119.78
+  3        C      71    ARG       C-N-CA         -6.06       113.54       119.78
+  2        B      194   GLY       N-CA-C          6.03       123.60       114.61
+  1        A      28    GLN      CB-CA-C          5.97       119.63       109.72
+  2         E     203   ALA       N-CA-C          5.91       117.72       111.28
+  1        D      86    ASP       N-CA-C          5.87       119.20       110.52
+  2        B      339   PHE       CA-C-N         -5.85       115.39       119.66
+                                                         Continued on next page...
+Page 14                   Full wwPDB X-ray Structure Validation Report                  5LQF
+
+
+ Continued from previous page...
+ Mol Chain Res Type               Atoms          Z     Observed(o )   Ideal(o )
+  2       B     339 PHE          C-N-CA        -5.85     115.39        119.66
+  1      D       52    ILE       CB-CA-C       -5.81     104.41        112.02
+  1       A     179 ALA          N-CA-C        -5.78     105.33        112.90
+  1      D      209 GLU          N-CA-C         5.74     117.21        111.07
+  2       E     171 VAL          CB-CA-C       -5.70     104.44        112.14
+  2       E     327 MET CG-SD-CE               -5.61      88.57        100.90
+  2       E     407 SER          N-CA-C         5.54     118.84        111.75
+  2       B     301 LEU          N-CA-C         5.47     121.90        109.81
+  2       B     428    LYS       N-CA-C         5.46     119.03        112.38
+  2       E     353 LEU          CB-CA-C       -5.44     101.76        110.79
+  1      D      247 GLY          N-CA-C        -5.42      97.58        113.30
+  2       B     291 ARG CG-CD-NE               -5.42     100.08        112.00
+  2       E     332 LEU          CA-C-N        -5.41     115.43        123.11
+  2       E     332 LEU          C-N-CA        -5.41     115.43        123.11
+  2       E     313 GLY          N-CA-C        -5.30     105.16        111.36
+  2       B     340 PRO          N-CA-C         5.22     115.48        110.47
+  3       F      61    GLU       CA-C-N        -5.21     114.30        119.56
+  3       F      61    GLU       C-N-CA        -5.21     114.30        119.56
+  2       B     254    ILE       CB-CA-C       -5.16     105.36        111.97
+  1       A      17    VAL       CB-CA-C       -5.09     104.60        111.63
+  1       A      94    ILE       N-CA-C        -5.08     102.63        107.76
+  1       A      85    MET       N-CA-CB       -5.08     103.85        111.56
+  3       C      7     TYR CA-CB-CG            -5.06     104.78        113.90
+  2       B     210 VAL          N-CA-CB        5.06     117.42        110.54
+  1       A      50    ARG       N-CA-C         5.04     116.46        111.07
+
+
+There are no chirality outliers.
+All (5) planarity outliers are listed below:
+
+ Mol      Chain   Res    Type      Group
+  1        A      12     GLU       Peptide
+  1        D      12     GLU       Peptide
+  1        D      166    THR       Peptide
+  1        D      247    GLY       Peptide
+  3         F      5     GLN       Peptide
+
+
+5.2    Too-close contacts ○
+                          i
+
+In the following table, the Non-H and H(model) columns list the number of non-hydrogen atoms
+and hydrogen atoms in the chain respectively. The H(added) column lists the number of hydrogen
+atoms added and optimized by MolProbity. The Clashes column lists the number of clashes within
+Page 15                 Full wwPDB X-ray Structure Validation Report                      5LQF
+
+
+the asymmetric unit, whereas Symm-Clashes lists symmetry-related clashes.
+
+ Mol      Chain   Non-H    H(model)     H(added)     Clashes    Symm-Clashes
+  1        A       2319       0           2358         17            0
+  1        D       2304       0           2346         23            0
+  2        B       2144       0           2191         37            0
+  2         E      2144       0           2191         38            0
+  3        C       661        0            639          5            0
+  3         F      661        0            639          8            0
+  4        A        28        0            22           0            0
+  4        D        28        0            22           0            0
+  5        A        54        0             0           0            0
+  5        B        72        0             0           1            0
+  5        C        22        0             0           0            2
+  5        D        53        0             0           4            1
+  5         E       79        0             0           4            2
+  5         F       11        0             0           1            1
+ All       All    10580       0           10408        125           3
+
+
+The all-atom clashscore is defined as the number of clashes found per 1000 atoms (including
+hydrogen atoms). The all-atom clashscore for this structure is 6.
+All (125) close contacts within the same asymmetric unit are listed below, sorted by their clash
+magnitude.
+
+                                                Interatomic          Clash
+       Atom-1                 Atom-2
+                                                distance (Å)      overlap (Å)
+  2:B:302:PRO:HB3         2:B:327:MET:HE1            1.43             0.99
+    1:D:41:GLU:O          2:E:283:ARG:NH1            2.03             0.91
+  2:E:224:TYR:CE1         2:E:331:MET:HE3            2.09             0.88
+  2:B:224:TYR:CE1         2:B:331:MET:HE3            2.11             0.86
+  2:B:327:MET:HE3         2:B:344:ILE:HG22           1.59             0.84
+ 2:B:210:VAL:HG22         2:B:223:MET:HE3            1.61             0.83
+   1:D:1:MET:HE1          1:D:77:TYR:CD1             2.15             0.81
+   2:E:234:MET:CE          2:E:239:VAL:HB            2.14             0.78
+  2:B:234:MET:HE3          2:B:239:VAL:HB            1.67             0.77
+  2:E:327:MET:HE3         2:E:344:ILE:HG22           1.68             0.75
+ 3:C:27[B]:GLU:HG2         3:C:27[B]:GLU:O           1.85             0.75
+  2:B:224:TYR:CD1         2:B:331:MET:HE3            2.24             0.73
+   1:D:57:GLU:OE1           5:D:401:HOH:O            2.08             0.71
+   2:B:210:VAL:HA          2:B:223:MET:CE            2.20             0.71
+   2:B:210:VAL:HA         2:B:223:MET:HE1            1.71             0.71
+  2:E:234:MET:HE3          2:E:239:VAL:HB            1.74             0.69
+   2:B:234:MET:CE          2:B:239:VAL:HB            2.24             0.67
+  2:E:224:TYR:CD1          2:E:331:MET:CE            2.79             0.66
+                                                        Continued on next page...
+Page 16                Full wwPDB X-ray Structure Validation Report              5LQF
+
+
+ Continued from previous page...
+                                             Interatomic          Clash
+      Atom-1                 Atom-2
+                                             distance (Å)      overlap (Å)
+  1:A:44:VAL:HG22        1:A:71:MET:HE1           1.79             0.65
+  2:B:234:MET:HE3         2:B:239:VAL:CB          2.26             0.64
+  2:E:234:MET:HE3        2:E:239:VAL:CG2          2.27             0.64
+  2:B:343:GLN:HG2       2:B:379:VAL:HG21          1.80             0.64
+  2:B:327:MET:HE3        2:B:344:ILE:CG2          2.27             0.63
+  2:E:213:GLN:HB2       2:E:223:MET:HE2           1.80             0.63
+  1:D:44:VAL:HG22        1:D:71:MET:HE1           1.81             0.63
+ 2:B:392:GLN:HE22       2:B:424:GLN:HE22          1.46             0.62
+ 1:A:111:GLN:HE22        1:A:141:THR:HA           1.64             0.61
+  2:E:213:GLN:HB2        2:E:223:MET:CE           2.31             0.60
+ 2:E:392:GLN:HE22       2:E:424:GLN:HE22          1.48             0.60
+  2:E:224:TYR:CD1       2:E:331:MET:HE3           2.37             0.59
+  2:B:224:TYR:CD1        2:B:331:MET:CE           2.86             0.58
+  2:E:314:GLU:HG2         5:E:575:HOH:O           2.03             0.57
+  2:B:354:LYS:HE3       2:B:380:MET:HE1           1.86             0.56
+  2:B:302:PRO:HB3        2:B:327:MET:CE           2.26             0.56
+  2:E:234:MET:HE3         2:E:239:VAL:CB          2.35             0.56
+    3:C:36:HIS:HD2         3:C:37:LEU:O           1.88             0.56
+   3:F:40:GLU:HG3         3:F:43:TRP:CZ2          2.40             0.56
+  2:B:354:LYS:HD2       2:B:380:MET:HE1           1.87             0.56
+ 1:D:166:THR:HG22         5:D:404:HOH:O           2.05             0.56
+   2:E:210:VAL:HA       2:E:223:MET:HE3           1.87             0.55
+   1:D:1:MET:HE1         1:D:77:TYR:HD1           1.70             0.55
+ 1:D:220:LEU:HD21       1:D:249:LEU:HD11          1.89             0.55
+   2:E:327:MET:CE       2:E:344:ILE:HG22          2.37             0.55
+  1:A:62:ASN:HD21       1:A:111:GLN:HE21          1.55             0.54
+    2:E:310:SER:O          2:E:313:GLY:O          2.26             0.54
+  2:B:234:MET:HE1       2:B:244:LEU:HD13          1.88             0.54
+   1:A:90:TYR:HE2       1:A:100:MET:HE2           1.73             0.53
+    3:F:7:TYR:CD1        3:F:23:MET:HE2           2.43             0.53
+   3:F:41:GLU:OE1        3:F:45:ARG:NH1           2.37             0.53
+ 2:B:185:GLN:HE22         2:B:299:ARG:H           1.57             0.53
+   2:B:351:LEU:CA       2:B:380:MET:HE3           2.39             0.52
+ 1:D:111:GLN:HE22        1:D:141:THR:HA           1.74             0.52
+  1:D:168:TRP:CD1         1:D:205:HIS:HA          2.45             0.52
+ 1:D:256:LEU:HD22       1:D:260:GLY:HA3           1.91             0.52
+  3:C:35:THR:HG22         3:C:36:HIS:ND1          2.24             0.52
+  2:E:343:GLN:HG2       2:E:379:VAL:HG21          1.92             0.52
+   2:B:354:LYS:CE       2:B:380:MET:HE1           2.40             0.52
+   1:A:90:TYR:CE2       1:A:100:MET:HE2           2.45             0.52
+  2:B:287:MET:HE3       2:B:291:ARG:NH1           2.25             0.52
+                                                     Continued on next page...
+Page 17                Full wwPDB X-ray Structure Validation Report              5LQF
+
+
+ Continued from previous page...
+                                             Interatomic          Clash
+      Atom-1                 Atom-2
+                                             distance (Å)      overlap (Å)
+    2:B:257:LYS:NZ        2:B:286:GLU:OE2         2.35             0.51
+    5:D:401:HOH:O        2:E:299:ARG:NH2          2.44             0.51
+  2:B:355:ILE:HD11        2:B:423:VAL:CG2         2.40             0.51
+   2:B:351:LEU:HA        2:B:380:MET:HE3          1.93             0.50
+  2:B:312:ILE:HD13       2:B:368:TYR:HB3          1.94             0.49
+   1:A:1:MET:HE3          1:A:75:ARG:HB2          1.94             0.49
+   1:A:130:LYS:NZ      1:A:132[A]:GLN:HE21        2.11             0.49
+   2:B:397:HIS:HD2         5:B:561:HOH:O          1.95             0.49
+ 2:E:391:ASN:HD22         2:E:419:ASN:ND2         2.10             0.49
+   2:E:397:HIS:HD2         5:E:569:HOH:O          1.94             0.49
+     1:A:41:GLU:O        2:B:283:ARG:HD3          2.13             0.48
+    1:A:199:THR:O         1:A:200:LYS:HB2         2.13             0.48
+  1:D:91:LEU:HD21         1:D:100:MET:CE          2.44             0.48
+  1:A:168:TRP:CD1          1:A:205:HIS:HA         2.49             0.47
+  1:D:137:ASP:OD1           1:D:137:ASP:C         2.57             0.47
+    1:A:180:ARG:O        1:A:180:ARG:HG3          2.14             0.47
+ 2:B:315:VAL:HG11        2:B:319:GLN:HG2          1.96             0.47
+ 2:E:188:ARG:HH12         2:E:236:ASN:ND2         2.12             0.47
+  2:E:201:MET:HE1         2:E:241:LYS:HE3         1.96             0.47
+   3:F:43:TRP:NE1          5:F:101:HOH:O          2.47             0.47
+ 2:E:391:ASN:HD22        2:E:419:ASN:HD21         1.62             0.47
+   1:A:62:ASN:ND2        1:A:111:GLN:HE21         2.12             0.46
+  1:D:125:LEU:CD2         1:D:183:THR:HA          2.45             0.46
+   2:B:390:VAL:HB         2:B:401:LYS:HD2         1.97             0.46
+ 2:E:185:GLN:HE22          2:E:299:ARG:H          1.64             0.46
+ 2:E:175[B]:TYR:OH         5:E:501:HOH:O          2.21             0.46
+  2:E:234:MET:HE3        2:E:239:VAL:HG21         1.98             0.45
+   2:E:213:GLN:CB        2:E:223:MET:HE2          2.46             0.45
+    1:D:108:TYR:O        1:D:112:ILE:HG13         2.17             0.45
+   2:E:401:LYS:HE2         5:E:523:HOH:O          2.16             0.45
+ 1:D:125:LEU:HD21         1:D:183:THR:HA          1.99             0.44
+    1:D:199:THR:O         1:D:200:LYS:HB2         2.17             0.44
+  2:B:327:MET:HE2        2:B:327:MET:HB3          1.43             0.44
+    3:F:6:ILE:HG22         3:F:8:TYR:CE1          2.53             0.44
+  2:B:412:ILE:HD12         2:B:412:ILE:HA         1.90             0.43
+    1:D:183:THR:N         1:D:184:PRO:CD          2.81             0.43
+  1:A:47:THR:HG21        1:A:158:ARG:NH1          2.33             0.43
+   2:B:210:VAL:HA        2:B:223:MET:HE3          1.98             0.43
+  1:D:91:LEU:HD21        1:D:100:MET:HE3          2.00             0.43
+  1:D:91:LEU:HD23          1:D:91:LEU:HA          1.82             0.43
+    1:D:15:TYR:CZ        1:D:158:ARG:HD3          2.52             0.43
+                                                     Continued on next page...
+Page 18                  Full wwPDB X-ray Structure Validation Report                          5LQF
+
+
+ Continued from previous page...
+                                                   Interatomic            Clash
+        Atom-1                  Atom-2
+                                                   distance (Å)        overlap (Å)
+  2:E:302:PRO:HB3         2:E:327:MET:HE1               2.01               0.43
+   3:F:57:TYR:CE2          3:F:58:MET:HG2               2.54               0.43
+  2:B:312:ILE:HD13         2:B:368:TYR:CB               2.47               0.43
+   1:D:56:LYS:HE2           2:E:294:ASN:O               2.18               0.43
+ 2:B:234:MET:HE3           2:B:239:VAL:CG2              2.48               0.43
+ 2:E:188:ARG:HH12         2:E:236:ASN:HD21              1.67               0.43
+   3:F:60:HIS:CD2          3:F:62:PRO:HD2               2.53               0.43
+   1:D:99:TYR:OH            1:D:254:LYS:NZ              2.51               0.43
+   3:C:37:LEU:HA          3:C:37:LEU:HD23               1.79               0.42
+  1:A:83:LEU:HD23          1:A:137:ASP:HB3              2.02               0.42
+   2:B:354:LYS:CD         2:B:380:MET:HE1               2.49               0.42
+  3:C:20:ARG:HG3              3:C:21:HIS:N              2.34               0.42
+   3:F:36:HIS:HD2            3:F:37:LEU:O               2.02               0.42
+   1:A:68:ASP:HB3            1:A:79:ILE:HB              2.02               0.42
+  2:B:361:TRP:CH2         2:B:369:LEU:HD12              2.55               0.41
+  2:E:185:GLN:NE2          2:E:298:GLY:HA3              2.35               0.41
+    1:A:60:HIS:CG          1:A:61:PRO:HD2               2.55               0.41
+  2:E:207:ASP:HB2         2:E:332:LEU:HD21              2.03               0.41
+   2:E:213:GLN:CB          2:E:223:MET:CE               2.99               0.41
+  1:A:137:ASP:OD1            1:A:137:ASP:C              2.63               0.41
+  2:E:224:TYR:CD1         2:E:331:MET:HE2               2.55               0.40
+  1:D:101:ASP:OD1            1:D:101:ASP:C              2.65               0.40
+   5:D:401:HOH:O           2:E:299:ARG:NE               2.53               0.40
+    2:E:168:SER:O         2:E:171:VAL:HG23              2.22               0.40
+  2:E:191:TYR:OH           2:E:231:ASP:OD1              2.34               0.40
+
+
+All (3) symmetry-related close contacts are listed below. The label for Atom-2 includes the sym-
+metry operator and encoded unit-cell translations to be applied.
+
+                                                Interatomic            Clash
+      Atom-1                Atom-2
+                                                distance (Å)        overlap (Å)
+ 5:C:116:HOH:O      5:F:108:HOH:O[1_654]             1.63               0.57
+ 5:C:110:HOH:O      5:E:535:HOH:O[1_565]             2.01               0.19
+ 5:D:443:HOH:O      5:E:557:HOH:O[1_455]             2.07               0.13
+
+
+5.3     Torsion angles ○
+                       i
+
+5.3.1     Protein backbone ○
+                           i
+
+In the following table, the Percentiles column shows the percent Ramachandran outliers of the
+chain as a percentile score with respect to all X-ray entries followed by that with respect to entries
+Page 19                    Full wwPDB X-ray Structure Validation Report                        5LQF
+
+
+of similar resolution.
+The Analysed column shows the number of residues for which the backbone conformation was
+analysed, and the total number of residues.
+
+ Mol      Chain          Analysed      Favoured     Allowed      Outliers       Percentiles
+   1        A      284/302 (94%)       270 (95%)     13 (5%)      1 (0%)          30   23
+   1        D      282/302 (93%)       268 (95%)     14 (5%)         0           100   100
+   2        B      263/273 (96%)       254 (97%)      8 (3%)      1 (0%)          30   23
+   2        E      263/273 (96%)       255 (97%)      7 (3%)      1 (0%)          30   23
+   3        C        73/84 (87%)       67 (92%)       6 (8%)         0           100   100
+   3        F        73/84 (87%)       67 (92%)       5 (7%)      1 (1%)           9   3
+  All      All    1238/1318 (94%)     1181 (95%)     53 (4%)      4 (0%)          36   30
+
+
+All (4) Ramachandran outliers are listed below:
+
+ Mol      Chain   Res       Type
+  2         E     358       ASN
+  3         F     15        GLU
+  2        B      358       ASN
+  1        A      208       SER
+
+
+5.3.2     Protein sidechains ○
+                             i
+
+In the following table, the Percentiles column shows the percent sidechain outliers of the chain as a
+percentile score with respect to all X-ray entries followed by that with respect to entries of similar
+resolution.
+The Analysed column shows the number of residues for which the sidechain conformation was
+analysed, and the total number of residues.
+
+ Mol      Chain          Analysed     Rotameric      Outliers    Percentiles
+   1        A      257/270 (95%)       236 (92%)      21 (8%)       10     5
+   1        D      255/270 (94%)       233 (91%)      22 (9%)       10     4
+   2        B      236/242 (98%)       226 (96%)      10 (4%)       26     20
+   2        E      236/242 (98%)       223 (94%)      13 (6%)       19     12
+   3        C        72/79 (91%)        65 (90%)      7 (10%)        8     3
+   3        F        72/79 (91%)        62 (86%)     10 (14%)        3     1
+  All      All    1128/1182 (95%)     1045 (93%)      83 (7%)       13     6
+Page 20                 Full wwPDB X-ray Structure Validation Report   5LQF
+
+
+All (83) residues with a non-rotameric sidechain are listed below:
+
+ Mol    Chain    Res     Type
+  1       A        -2     LEU
+  1       A       10      ILE
+  1       A       14     THR
+  1       A       17      VAL
+  1       A       28      GLN
+  1       A       37      LEU
+  1       A       57      GLU
+  1       A       73      ASP
+  1       A       83      LEU
+  1       A       92      ASP
+  1       A     132[A] GLN
+  1       A     132[B] GLN
+  1       A       170    ARG
+  1       A       201     LYS
+  1       A       239     ASN
+  1       A       249     LEU
+  1       A       251     SER
+  1       A       253     VAL
+  1       A       254     LYS
+  1       A       279     LYS
+  1       A       280    MET
+  2       B       167     SER
+  2       B       171     VAL
+  2       B       181     LEU
+  2       B       261    MET
+  2       B       278    THR
+  2       B       311     LYS
+  2       B       341     PRO
+  2       B       370     SER
+  2       B       412     ILE
+  2       B       422     LEU
+  3       C       20     ARG
+  3       C      27[A]    GLU
+  3       C      27[B]    GLU
+  3       C       35     THR
+  3       C       46      LEU
+  3       C       52      LEU
+  3       C       73      LEU
+  1      D         -2     LEU
+  1      D         0      SER
+  1      D        12      GLU
+  1      D        14     THR
+       Continued on next page...
+Page 21                Full wwPDB X-ray Structure Validation Report                   5LQF
+
+
+ Continued from previous page...
+ Mol Chain       Res     Type
+  1      D        17      VAL
+  1      D        28      GLN
+  1      D        36     ARG
+  1      D        37      LEU
+  1      D        72      GLN
+  1      D        88      LYS
+  1      D       101      ASP
+  1      D       132      GLN
+  1      D       166     THR
+  1      D       173      GLU
+  1      D       180     ARG
+  1      D       239      ASN
+  1      D       248      SER
+  1      D       249      LEU
+  1      D       254      LYS
+  1      D       255      ASN
+  1      D       279      LYS
+  1      D       280     MET
+  2       E      167      SER
+  2       E      168      SER
+  2       E      169      GLU
+  2       E      181      LEU
+  2       E      272      VAL
+  2       E      293      LEU
+  2       E      294      ASN
+  2       E      311      LYS
+  2       E      314      GLU
+  2       E      344      ILE
+  2       E      396      LYS
+  2       E      407      SER
+  2       E      422      LEU
+  3       F       4       LYS
+  3       F       15      GLU
+  3       F     27[A]     GLU
+  3       F     27[B]     GLU
+  3       F       29      SER
+  3       F       35     THR
+  3       F       41      GLU
+  3       F       52      LEU
+  3       F       71     ARG
+  3       F       73      LEU
+
+
+Sometimes sidechains can be flipped to improve hydrogen bonding and reduce clashes. All (30)
+Page 22                  Full wwPDB X-ray Structure Validation Report   5LQF
+
+
+such sidechains are listed below:
+ Mol      Chain   Res     Type
+  1        A      111     GLN
+  1        A      114     GLN
+  1        A      255     ASN
+  2        B      185     GLN
+  2        B      236     ASN
+  2        B      237     ASN
+  2        B      275     ASN
+  2        B      386     ASN
+  2        B      392     GLN
+  2        B      397      HIS
+  2        B      419     ASN
+  3        C      36       HIS
+  3        C      49      GLN
+  3        C      60       HIS
+  1        D      98      GLN
+  1        D      111     GLN
+  1        D      114     GLN
+  1        D      132     GLN
+  2         E     185     GLN
+  2         E     211     GLN
+  2         E     236     ASN
+  2         E     237     ASN
+  2         E     275     ASN
+  2         E     294     ASN
+  2         E     304      HIS
+  2         E     391     ASN
+  2         E     392     GLN
+  2         E     397      HIS
+  3         F      3       HIS
+  3         F     16       HIS
+
+
+5.3.3     RNA ○
+              i
+
+There are no RNA molecules in this entry.
+
+
+5.4     Non-standard residues in protein, DNA, RNA chains ○
+                                                          i
+
+There are no non-standard protein/DNA/RNA residues in this entry.
+Page 23                   Full wwPDB X-ray Structure Validation Report                          5LQF
+
+
+5.5    Carbohydrates ○
+                     i
+
+There are no oligosaccharides in this entry.
+
+
+5.6    Ligand geometry ○
+                       i
+
+2 ligands are modelled in this entry.
+In the following table, the Counts columns list the number of bonds (or angles) for which Mogul
+statistics could be retrieved, the number of bonds (or angles) that are observed in the model and
+the number of bonds (or angles) that are defined in the Chemical Component Dictionary. The
+Link column lists molecule types, if any, to which the group is linked. The Z score for a bond
+length (or angle) is the number of standard deviations the observed value is removed from the
+expected value. A bond length (or angle) with |Z| > 2 is considered an outlier worth inspection.
+RMSZ is the root-mean-square of all Z scores of the bond lengths (or angles).
+
+                                                 Bond lengths                      Bond angles
+ Mol      Type    Chain    Res     Link
+                                          Counts RMSZ #|Z| > 2              Counts RMSZ #|Z| > 2
+   4      4SP       A      301       -    31,31,31  0.41      0             43,44,44  0.87   3 (6%)
+   4      4SP       D      301       -    31,31,31     0.35         0       43,44,44     0.84   3 (6%)
+
+
+In the following table, the Chirals column lists the number of chiral outliers, the number of chiral
+centers analysed, the number of these observed in the model and the number defined in the
+Chemical Component Dictionary. Similar counts are reported in the Torsion and Rings columns.
+’-’ means no outliers of that kind were identified.
+ Mol      Type    Chain    Res     Link   Chirals       Torsions         Rings
+  4        4SP     A       301       -      -          6/15/23/23       0/4/4/4
+   4      4SP       D      301       -          -      6/15/23/23       0/4/4/4
+
+
+There are no bond length outliers.
+All (6) bond angle outliers are listed below:
+
+ Mol      Chain   Res     Type       Atoms            Z     Observed(o )     Ideal(o )
+  4        A      301      4SP      C5-C6-N1        -2.82     119.72          123.49
+  4        D      301      4SP      C5-C6-N1        -2.50     120.15          123.49
+  4        D      301      4SP      C2-N1-C6        2.42      119.56          115.38
+  4        A      301      4SP      C2-N1-C6        2.33      119.39          115.38
+  4        A      301      4SP     O25-S23-O24      2.15      122.11          118.80
+  4        D      301      4SP      O6-C6-C5        2.06      119.45          116.73
+
+
+There are no chirality outliers.
+All (12) torsion outliers are listed below:
+Page 24                  Full wwPDB X-ray Structure Validation Report                         5LQF
+
+
+ Mol      Chain   Res   Type          Atoms
+  4        A      301    4SP      O6-C10-C11-C12
+  4        A      301    4SP      O6-C10-C11-C16
+  4        D      301    4SP      O6-C10-C11-C12
+  4        D      301    4SP      O6-C10-C11-C16
+  4        A      301    4SP      C21-C20-S23-O25
+  4        A      301    4SP      C19-C20-S23-O25
+  4        A      301    4SP      C21-C20-S23-N26
+  4        D      301    4SP      C21-C20-S23-O25
+  4        A      301    4SP      C19-C20-S23-N26
+  4        D      301    4SP      C19-C20-S23-O25
+  4        D      301    4SP      C21-C20-S23-N26
+  4        D      301    4SP      C19-C20-S23-N26
+
+
+There are no ring outliers.
+No monomer is involved in short contacts.
+The following is a two-dimensional graphical depiction of Mogul quality analysis of bond lengths,
+bond angles, torsion angles, and ring geometry for all instances of the Ligand of Interest. In
+addition, ligands with molecular weight > 250 and outliers as shown on the validation Tables will
+also be included. For torsion angles, if less then 5% of the Mogul distribution of torsion angles is
+within 10 degrees of the torsion angle in question, then that torsion angle is considered an outlier.
+Any bond that is central to one or more torsion angles identified as an outlier by Mogul will be
+highlighted in the graph. For rings, the root-mean-square deviation (RMSD) between the ring
+in question and similar rings identified by Mogul is calculated over all ring torsion angles. If the
+average RMSD is greater than 60 degrees and the minimal RMSD between the ring in question and
+any Mogul-identified rings is also greater than 60 degrees, then that ring is considered an outlier.
+The outliers are highlighted in purple. The color gray indicates Mogul did not find sufficient
+equivalents in the CSD to analyse the geometry.
+                                       Ligand 4SP A 301
+
+
+
+
+                   Bond lengths                                     Bond angles
+
+
+
+
+                     Torsions                                          Rings
+Page 25                  Full wwPDB X-ray Structure Validation Report       5LQF
+
+
+                                      Ligand 4SP D 301
+
+
+
+
+                  Bond lengths                                Bond angles
+
+
+
+
+                     Torsions                                    Rings
+
+
+5.7    Other polymers ○
+                      i
+
+There are no such residues in this entry.
+
+
+5.8    Polymer linkage issues ○
+                              i
+
+There are no chain breaks in this entry.
+Page 26                   Full wwPDB X-ray Structure Validation Report                      5LQF
+
+
+6         Fit of model and data ○
+                                i
+
+
+6.1       Protein, DNA and RNA chains ○
+                                      i
+
+In the following table, the column labelled ‘#RSRZ> 2’ contains the number (and percentage)
+of RSRZ outliers, followed by percent RSRZ outliers for the chain as percentile scores relative to
+all X-ray entries and entries of similar resolution. The OWAB column contains the minimum,
+median, 95th percentile and maximum values of the occupancy-weighted average B-factor per
+residue. The column labelled ‘Q< 0.9’ lists the number of (and percentage) of residues with an
+average occupancy less than 0.9.
+
+ Mol       Chain      Analysed       <RSRZ>          #RSRZ>2            OWAB(Å2 )         Q<0.9
+    1        A      287/302 (95%)          0.06   8 (2%) 55     56      18, 44, 64, 78    1 (0%)
+    1        D      285/302 (94%)          0.14   8 (2%) 55     56      23, 46, 70, 82    1 (0%)
+    2        B      264/273 (96%)       -0.06     3 (1%) 78     80      20, 41, 60, 71    1 (0%)
+    2        E      264/273 (96%)       -0.09     3 (1%) 78     80      19, 41, 63, 71    1 (0%)
+    3        C       74/84 (88%)           0.49   6 (8%) 18     18     36, 52, 82, 108    1 (1%)
+    3        F       74/84 (88%)           0.84   8 (10%) 11     11    41, 66, 106, 129   1 (1%)
+    All     All    1248/1318 (94%)         0.09   36 (2%) 53     55    18, 44, 70, 129    6 (0%)
+
+
+All (36) RSRZ outliers are listed below:
+
+ Mol       Chain Res Type RSRZ
+  3         C       2     ALA      5.1
+  3          F      1    MET       4.6
+  3          F      3     HIS      4.6
+  3         C       1    MET       4.3
+  3         C       3     HIS      4.2
+  1         A      159    VAL      3.9
+  3          F     74     PRO      3.6
+  1         D      14     THR      3.4
+  3          F     52     LEU      3.3
+  3          F      4     LYS      3.2
+  3         C      74     PRO      3.1
+  3          F    27[A] GLU        3.1
+  3          F      2     ALA      2.8
+  3         C       4     LYS      2.8
+  1         A      14     THR      2.6
+  1         D      25     THR      2.6
+  1         A      165    VAL      2.5
+  2         B      430    VAL      2.5
+  2         B      261   MET       2.4
+                Continued on next page...
+Page 27                  Full wwPDB X-ray Structure Validation Report                       5LQF
+
+
+ Continued from previous page...
+ Mol Chain Res Type RSRZ
+  2       E      313    GLY      2.3
+  1      D       255    ASN      2.3
+  1       A      73     ASP      2.3
+  1      D       71     MET      2.2
+  2       E      262    TYR      2.2
+  2       B      358    ASN      2.2
+  1      D       44     VAL      2.2
+  3       C      52     LEU      2.2
+  1      D        -2    LEU      2.1
+  1       A      15     TYR      2.1
+  1      D       15     TYR      2.1
+  1       A      10      ILE     2.1
+  3       F       6      ILE     2.1
+  1      D       36     ARG      2.0
+  2       E      168    SER      2.0
+  1       A      37     LEU      2.0
+  1       A      13     GLY      2.0
+
+
+6.2    Non-standard residues in protein, DNA, RNA chains ○
+                                                         i
+
+There are no non-standard protein/DNA/RNA residues in this entry.
+
+
+6.3    Carbohydrates ○
+                     i
+
+There are no oligosaccharides in this entry.
+
+
+6.4    Ligands ○
+               i
+
+In the following table, the Atoms column lists the number of modelled atoms in the group and the
+number defined in the chemical component dictionary. The B-factors column lists the minimum,
+median, 95th percentile and maximum values of B factors of atoms in the group. The column
+labelled ‘Q< 0.9’ lists the number of atoms with occupancy less than 0.9.
+
+ Mol      Type   Chain    Res    Atoms     RSCC     RSR    B-factors(Å2 )    Q<0.9
+  4        4SP    A       301    28/28      0.91    0.12    34,46,51,51        0
+  4        4SP    D       301    28/28      0.91    0.12    37,48,54,56        0
+
+The following is a graphical depiction of the model fit to experimental electron density of all
+instances of the Ligand of Interest. In addition, ligands with molecular weight > 250 and outliers
+as shown on the geometry validation Tables will also be included. Each fit is shown from different
+orientation to approximate a three-dimensional view.
+Page 28                 Full wwPDB X-ray Structure Validation Report   5LQF
+
+
+
+
+     Electron density around 4SP A 301:
+
+
+         2mFo -DFc (at 0.7 rmsd) in gray
+    mFo -DFc (at 3 rmsd) in purple (negative)
+               and green (positive)
+Page 29                   Full wwPDB X-ray Structure Validation Report   5LQF
+
+
+
+
+      Electron density around 4SP D 301:
+
+
+           2mFo -DFc (at 0.7 rmsd) in gray
+      mFo -DFc (at 3 rmsd) in purple (negative)
+                 and green (positive)
+
+
+
+
+6.5    Other polymers ○
+                      i
+
+There are no such residues in this entry.
+

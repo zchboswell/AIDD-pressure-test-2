@@ -1,0 +1,20 @@
+{
+  "start_utc_epoch": 1788994242.689874,
+  "wall_seconds": 0.22338693699566647,
+  "cpu_seconds": 0.287084,
+  "maxrss_KiB": 58980,
+  "rdkit": "2026.03.6",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "input_sha256": {
+    "inputs/public_assay_context.json": "a3e06bba514f2fcf4791a37d9ac8c2f21da0348a46f9f954bd5f82b8faaf723a",
+    "inputs/coverage/analogue_evidence.json": "76e9e6e25f0e2fb9899fc9bc4796a4c6bd03bf4139a95390c94acca67687854b",
+    "inputs/coverage/entity_bindings.json": "5e1ce50ce9a3b8478666b8e7777ece1cf693a0a533ce7e9b6ddb524f5deb0885",
+    "inputs/coverage/retrieval_archive.json": "bfb20c0dc1f6acbc73ef5846beafda7722a5d828dab86f38cb1417edd081beba",
+    "inputs/coverage/work_orders.json": "2f9fe081cd7db195dddf63d3537799de5ef66570b4d4318346041faf51476284"
+  },
+  "completed": true
+}

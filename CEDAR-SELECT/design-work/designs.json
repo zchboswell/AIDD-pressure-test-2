@@ -1,0 +1,96 @@
+[
+  {
+    "design_id": "SEL-D01",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)CO)ncc2C12CC2",
+    "canonical_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)CO)ncc2C12CC2",
+    "role": "unmeasured exploratory synthesis",
+    "supplied_matches": [],
+    "MW": 450.4460000000003,
+    "cLogP": 1.6314,
+    "TPSA": 136.49,
+    "HBD": 4,
+    "HBA": 8,
+    "stereocenters": [
+      [
+        3,
+        "R"
+      ],
+      [
+        7,
+        "R"
+      ]
+    ]
+  },
+  {
+    "design_id": "SEL-D02",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)(F)C)ncc2C12CC2",
+    "canonical_smiles": "CC(F)(F)COc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+    "role": "unmeasured exploratory synthesis",
+    "supplied_matches": [],
+    "MW": 434.4470000000003,
+    "cLogP": 2.6590000000000007,
+    "TPSA": 116.26,
+    "HBD": 3,
+    "HBA": 7,
+    "stereocenters": [
+      [
+        3,
+        "R"
+      ],
+      [
+        7,
+        "R"
+      ]
+    ]
+  },
+  {
+    "design_id": "SEL-C39",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+    "canonical_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+    "role": "historical Example39 diagnostic comparator",
+    "supplied_matches": [
+      "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+      "HC-f62b975cee248388caed4d95"
+    ],
+    "MW": 402.4300000000003,
+    "cLogP": 1.9733,
+    "TPSA": 116.26,
+    "HBD": 3,
+    "HBA": 7,
+    "stereocenters": [
+      [
+        3,
+        "R"
+      ],
+      [
+        7,
+        "R"
+      ]
+    ]
+  },
+  {
+    "design_id": "SEL-C41",
+    "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2",
+    "canonical_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2",
+    "role": "historical Example41 diagnostic comparator",
+    "supplied_matches": [
+      "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+      "HC-5126418e5255ba63322fe094"
+    ],
+    "MW": 420.42000000000024,
+    "cLogP": 2.2689000000000004,
+    "TPSA": 116.26,
+    "HBD": 3,
+    "HBA": 7,
+    "stereocenters": [
+      [
+        3,
+        "R"
+      ],
+      [
+        7,
+        "R"
+      ]
+    ]
+  }
+]

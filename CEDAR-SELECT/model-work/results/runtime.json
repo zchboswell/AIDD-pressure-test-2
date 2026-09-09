@@ -1,0 +1,10 @@
+{
+  "seconds": 0.10132479667663574,
+  "maxrss_KiB": 194528,
+  "python": "3.12.14 | packaged by conda-forge | (main, Aug 21 2026, 22:48:28) [GCC 14.4.0]",
+  "rdkit": "2026.03.6",
+  "numpy": "2.5.2",
+  "threads": 1,
+  "input_sha256": "a3e06bba514f2fcf4791a37d9ac8c2f21da0348a46f9f954bd5f82b8faaf723a",
+  "code_sha256": "581af09f086416b755ae2f064b3b8dfa9481143fb91ba53c42b626a978ca0d0b"
+}

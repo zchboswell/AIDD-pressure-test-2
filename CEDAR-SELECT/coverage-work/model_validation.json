@@ -1,0 +1,189 @@
+{
+  "status": "passed supplied-data checks with material reporting limitations",
+  "source_counts": {
+    "rows": 120,
+    "compounds": 60,
+    "exact": 105,
+    "bounds": 15,
+    "merged_groups": 56
+  },
+  "partition_and_folds": {
+    "CDK2": {
+      "train": 49,
+      "development": 11,
+      "fold_counts": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 9
+      }
+    },
+    "CDK1": {
+      "train": 36,
+      "development": 9,
+      "fold_counts": {
+        "0": 8,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7
+      }
+    },
+    "log_selectivity": {
+      "train": 36,
+      "development": 9,
+      "fold_counts": {
+        "0": 8,
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 7
+      }
+    }
+  },
+  "collision_pairs": [
+    {
+      "compounds": [
+        "HC-8fb3de04c246252dfcc5f855",
+        "HC-531184aadd5ff6a7c11ef62f"
+      ],
+      "reasons": [
+        "source_group"
+      ]
+    },
+    {
+      "compounds": [
+        "HC-f0fb35cb2dd27e28368bc0c6",
+        "HC-dd08ed6610f74ef444967503"
+      ],
+      "reasons": [
+        "source_group",
+        "nonstereo_graph"
+      ]
+    },
+    {
+      "compounds": [
+        "HC-b7914dc349fa7a633fc06fe6",
+        "HC-a86718b706208a06340fb465"
+      ],
+      "reasons": [
+        "source_group",
+        "nonstereo_graph"
+      ]
+    },
+    {
+      "compounds": [
+        "HC-744d18720e0816664a6f88cf",
+        "HC-0827e4e120875d7aa5194d6a"
+      ],
+      "reasons": [
+        "source_group",
+        "nonstereo_graph"
+      ]
+    }
+  ],
+  "recalculated_development_metrics": {
+    "CDK2": {
+      "mean": {
+        "n": 11,
+        "MAE": 0.2415508994790258,
+        "RMSE": 0.32755524320938967,
+        "bias_prediction_minus_observed": 0.10293199148940448,
+        "spearman": null
+      },
+      "3nn": {
+        "n": 11,
+        "MAE": 0.2993948424105589,
+        "RMSE": 0.38473375514900243,
+        "bias_prediction_minus_observed": 0.1739234247177985,
+        "spearman": 0.5909090909090909
+      },
+      "ridge": {
+        "n": 11,
+        "MAE": 0.24031030251631424,
+        "RMSE": 0.336959291317996,
+        "bias_prediction_minus_observed": 0.13431425815954132,
+        "spearman": 0.4909090909090909
+      }
+    },
+    "CDK1": {
+      "mean": {
+        "n": 9,
+        "MAE": 0.2526485198741353,
+        "RMSE": 0.2946358854039097,
+        "bias_prediction_minus_observed": 0.20902166983679,
+        "spearman": null
+      },
+      "3nn": {
+        "n": 9,
+        "MAE": 0.23248263549384657,
+        "RMSE": 0.2665177267462895,
+        "bias_prediction_minus_observed": 0.17803122439193114,
+        "spearman": 0.41666666666666663
+      },
+      "ridge": {
+        "n": 9,
+        "MAE": 0.26346371447701816,
+        "RMSE": 0.29891032982431026,
+        "bias_prediction_minus_observed": 0.22286804307946284,
+        "spearman": 0.19999999999999998
+      }
+    },
+    "log_selectivity": {
+      "mean": {
+        "n": 9,
+        "MAE": 0.2449660922379249,
+        "RMSE": 0.2711975392544676,
+        "bias_prediction_minus_observed": 0.10804634592411357,
+        "spearman": null
+      },
+      "3nn": {
+        "n": 9,
+        "MAE": 0.25799408536857316,
+        "RMSE": 0.28801231891662654,
+        "bias_prediction_minus_observed": 0.08316425307349656,
+        "spearman": 0.0
+      },
+      "ridge": {
+        "n": 9,
+        "MAE": 0.23558652585456163,
+        "RMSE": 0.2596095669355235,
+        "bias_prediction_minus_observed": 0.09766084115719699,
+        "spearman": 0.19999999999999998
+      }
+    }
+  },
+  "negative_controls": {
+    "bound_wrong_inequality": true,
+    "bound_as_exact_label": true,
+    "micromolar_as_nanomolar_rejected": true
+  },
+  "cluster_scored_compound_counts": {
+    "CDK2": 60,
+    "CDK1": 1,
+    "log_selectivity": 1
+  },
+  "cluster_sizes": [
+    57,
+    1,
+    1,
+    1
+  ],
+  "limitations": [
+    "Training OOF predictions were not exported; selected model agrees with stored CV metrics but independent full CV fit was outside this audit.",
+    "CDK1 and ratio structural cluster scores cover only one compound each: dominant cluster excluded when fewer than three eligible training compounds remain. CDK2 covers all60 but dominant-cluster holdout trains on just3 compounds. These metrics do not establish scaffold extrapolation.",
+    "Bound code hardcodes <=5 and exact numeric eligibility uses presence of pIC50; correct supplied inputs checked but changed schemas require explicit assertions.",
+    "New-design core domain rule is stated in protocol but not exercised by this evaluation script; cannot claim candidate-domain acceptance from it alone."
+  ],
+  "seconds": 0.5441374778747559,
+  "cpu_seconds": 0.9475009999999999,
+  "maxrss_KiB": 133752,
+  "input_hashes": {
+    "model-work/run.py": "581af09f086416b755ae2f064b3b8dfa9481143fb91ba53c42b626a978ca0d0b",
+    "model-work/PROTOCOL.md": "ebb494c07987c20f16af711eb35d34c403042989f1258024018d3492a8e8bbb4",
+    "model-work/results/summary.json": "4951fad724fcec385c12933d71169382eab915bbf4f37400d9200a87da3a0e01",
+    "model-work/results/development_predictions.csv": "f58764e1aecf886ea3228dc269bc5223fa7673252aa5d8978c7848ea47675ce0"
+  },
+  "jobs_stopped": true
+}

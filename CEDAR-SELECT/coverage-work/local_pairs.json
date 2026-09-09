@@ -1,0 +1,104 @@
+[
+  {
+    "before_example": 12,
+    "after_example": 23,
+    "edit": "methoxy to ethoxy",
+    "before_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+    "after_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+    "delta_pIC50_CDK2": 0.1249387366082999,
+    "delta_pIC50_CDK1": -0.03535825526414893,
+    "selectivity_ratio_before": 112.0,
+    "selectivity_ratio_after": 162.0,
+    "observation_ids": [
+      "AID2060539:v1:physical-45",
+      "AID2060539:v1:physical-46",
+      "AID2060539:v1:physical-88",
+      "AID2060539:v1:physical-89"
+    ]
+  },
+  {
+    "before_example": 23,
+    "after_example": 39,
+    "edit": "terminal ethoxy H to F",
+    "before_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+    "after_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+    "delta_pIC50_CDK2": 0.3309932190414244,
+    "delta_pIC50_CDK1": 0.306425027550687,
+    "selectivity_ratio_before": 162.0,
+    "selectivity_ratio_after": 171.42857142857142,
+    "observation_ids": [
+      "AID2060539:v1:physical-88",
+      "AID2060539:v1:physical-89",
+      "AID2060539:v1:physical-152",
+      "AID2060539:v1:physical-153"
+    ]
+  },
+  {
+    "before_example": 39,
+    "after_example": 41,
+    "edit": "terminal fluoroethoxy H to F",
+    "before_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+    "after_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+    "delta_pIC50_CDK2": 0.14612803567823818,
+    "delta_pIC50_CDK1": 0.21585838592716922,
+    "selectivity_ratio_before": 171.42857142857142,
+    "selectivity_ratio_after": 146.0,
+    "observation_ids": [
+      "AID2060539:v1:physical-152",
+      "AID2060539:v1:physical-153",
+      "AID2060539:v1:physical-160",
+      "AID2060539:v1:physical-161"
+    ]
+  },
+  {
+    "before_example": 41,
+    "after_example": 56,
+    "edit": "terminal difluoroethoxy H to F",
+    "before_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+    "after_id": "CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc",
+    "delta_pIC50_CDK2": -0.30102999566398125,
+    "delta_pIC50_CDK1": -0.03976712687148787,
+    "selectivity_ratio_before": 146.0,
+    "selectivity_ratio_after": 80.0,
+    "observation_ids": [
+      "AID2060539:v1:physical-160",
+      "AID2060539:v1:physical-161",
+      "AID2060539:v1:physical-219",
+      "AID2060539:v1:physical-220"
+    ]
+  },
+  {
+    "before_example": 77,
+    "after_example": 12,
+    "edit": "hydroxy O-methylation",
+    "before_id": "CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab",
+    "after_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+    "delta_pIC50_CDK2": 0.7817553746524686,
+    "delta_pIC50_CDK1": 0.414674966315725,
+    "selectivity_ratio_before": 48.099173553719005,
+    "selectivity_ratio_after": 112.0,
+    "observation_ids": [
+      "AID2060539:v1:physical-303",
+      "AID2060539:v1:physical-304",
+      "AID2060539:v1:physical-45",
+      "AID2060539:v1:physical-46"
+    ]
+  },
+  {
+    "before_example": 69,
+    "after_example": 70,
+    "edit": "side-chain stereochemical inversion",
+    "before_id": "CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4",
+    "after_id": "CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814",
+    "delta_pIC50_CDK2": 0.0,
+    "delta_pIC50_CDK1": -0.010723865391772947,
+    "selectivity_ratio_before": 133.33333333333334,
+    "selectivity_ratio_after": 136.66666666666666,
+    "observation_ids": [
+      "AID2060539:v1:physical-271",
+      "AID2060539:v1:physical-272",
+      "AID2060539:v1:physical-275",
+      "AID2060539:v1:physical-276"
+    ]
+  }
+]

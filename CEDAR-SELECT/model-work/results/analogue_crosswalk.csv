@@ -1,0 +1,17 @@
+analogue_compound_id,example,analogue_observation_id,context_compound_id,context_row_id,target,action
+CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6,12,AID2060539:v1:physical-45,HC-531184aadd5ff6a7c11ef62f,HR-02a392cf44e5f57b4d30499e,CDK2,same graph and label; count once
+CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6,12,AID2060539:v1:physical-46,HC-531184aadd5ff6a7c11ef62f,HR-9b2c534ad5aac0ce434f3666,CDK1,same graph and label; count once
+CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14,23,AID2060539:v1:physical-88,HC-4f081b6936afd38a189ea800,HR-b6402a0ac60f883b03c3c126,CDK2,same graph and label; count once
+CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14,23,AID2060539:v1:physical-89,HC-4f081b6936afd38a189ea800,HR-ce79aa2e76376f9bec23f4b1,CDK1,same graph and label; count once
+CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33,39,AID2060539:v1:physical-152,HC-f62b975cee248388caed4d95,HR-8f1480790358da2c598387b2,CDK2,same graph and label; count once
+CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33,39,AID2060539:v1:physical-153,HC-f62b975cee248388caed4d95,HR-2aa715a034198601570553a6,CDK1,same graph and label; count once
+CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38,41,AID2060539:v1:physical-160,HC-5126418e5255ba63322fe094,HR-e4bab2cbbd75faba012ac366,CDK2,same graph and label; count once
+CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38,41,AID2060539:v1:physical-161,HC-5126418e5255ba63322fe094,HR-882bc295ea8818594e29fd4d,CDK1,same graph and label; count once
+CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc,56,AID2060539:v1:physical-219,HC-f09d8bf1beda158f1bd5b8f5,HR-20c9ded2a3615b331a0ec048,CDK2,same graph and label; count once
+CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc,56,AID2060539:v1:physical-220,HC-f09d8bf1beda158f1bd5b8f5,HR-984eee2f1c0d34843affb010,CDK1,same graph and label; count once
+CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4,69,AID2060539:v1:physical-271,HC-a86718b706208a06340fb465,HR-960ac30c9339c276c6928d1e,CDK2,same graph and label; count once
+CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4,69,AID2060539:v1:physical-272,HC-a86718b706208a06340fb465,HR-fe93d4b219f2321a523dba91,CDK1,same graph and label; count once
+CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814,70,AID2060539:v1:physical-275,HC-b7914dc349fa7a633fc06fe6,HR-15fec1dbdd8260bdd1cd633f,CDK2,same graph and label; count once
+CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814,70,AID2060539:v1:physical-276,HC-b7914dc349fa7a633fc06fe6,HR-3f0b77231dd132d2205592ef,CDK1,same graph and label; count once
+CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab,77,AID2060539:v1:physical-303,HC-66a1ca61302e3d64e8ec01b6,HR-1f1e4851c75c02276785c67b,CDK2,same graph and label; count once
+CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab,77,AID2060539:v1:physical-304,HC-66a1ca61302e3d64e8ec01b6,HR-4a8d232a356e8145beaab5b8,CDK1,same graph and label; count once

@@ -1,0 +1,82 @@
+{
+  "earmark": 10000,
+  "parent_tranche": 120000,
+  "paid": 1800,
+  "reserved": 2200,
+  "obligations": [
+    {
+      "row_id": "F2",
+      "obligation_id": "OB-17",
+      "document": "invoice-17-export-copy",
+      "state": "paid",
+      "amount": 1800
+    },
+    {
+      "row_id": "F4",
+      "obligation_id": "OB-23",
+      "document": "purchase-order-23-confirmation",
+      "state": "reserved",
+      "amount": 2200
+    }
+  ],
+  "inventory": [
+    {
+      "row_id": "I1",
+      "vial_id": "V1",
+      "compound_slot": "S1",
+      "usable_mg": 5,
+      "reserved_mg": 0,
+      "available_business_day": 0
+    },
+    {
+      "row_id": "I3",
+      "vial_id": "V2",
+      "compound_slot": "S2",
+      "usable_mg": 6,
+      "reserved_mg": 2,
+      "available_business_day": 0
+    },
+    {
+      "row_id": "I4",
+      "vial_id": "V3",
+      "compound_slot": "S3",
+      "usable_mg": 4,
+      "reserved_mg": 0,
+      "available_business_day": 0
+    }
+  ],
+  "uncommitted_before": 6000,
+  "proposed": [
+    "O1",
+    "O2"
+  ],
+  "proposed_incremental": 3400,
+  "uncommitted_after": 2600,
+  "total_earmark_committed_after": 7400,
+  "inventory_free_after": {
+    "V1": 4,
+    "V2": 4,
+    "V3": 2
+  },
+  "schedule": [
+    {
+      "work": "W2/CDK1",
+      "lane": 1,
+      "start": 0,
+      "finish": 3,
+      "already_authorized": true
+    },
+    {
+      "work": "O2",
+      "lane": 2,
+      "start": 0,
+      "finish": 3
+    },
+    {
+      "work": "O1",
+      "lane": 2,
+      "start": 3,
+      "finish": 5
+    }
+  ]
+}

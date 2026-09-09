@@ -1,0 +1,1517 @@
+                                                                                          Heriot-Watt University
+                                                                                              Research Gateway
+
+
+
+
+Cyclin-Dependent Kinase (CDK) Inhibitors
+Citation for published version:
+Coxon, CR, Anscombe, E, Harnor, SJ, Martin, MP, Carbain, B, Golding, BT, Hardcastle, IR, Harlow, LK,
+Korolchuk, S, Matheson, CJ, Newell, DR, Noble, MEM, Sivaprakasam, M, Tudhope, SJ, Turner, DM, Wang,
+LZ, Wedge, SR, Wong, C, Griffin, RJ, Endicott, JA & Cano, C 2017, 'Cyclin-Dependent Kinase (CDK)
+Inhibitors: Structure-Activity Relationships and Insights into the CDK-2 Selectivity of 6-Substituted 2-
+Arylaminopurines', Journal of Medicinal Chemistry, vol. 60, no. 5, pp. 1746-1767.
+https://doi.org/10.1021/acs.jmedchem.6b01254
+
+Digital Object Identifier (DOI):
+10.1021/acs.jmedchem.6b01254
+
+
+Link:
+Link to publication record in Heriot-Watt Research Portal
+
+
+Document Version:
+Publisher's PDF, also known as Version of record
+
+
+
+Published In:
+Journal of Medicinal Chemistry
+
+
+Publisher Rights Statement:
+© 2016 American Chemical Society
+
+
+
+
+General rights
+Copyright for the publications made accessible via Heriot-Watt Research Portal is retained by the author(s) and /
+or other copyright owners and it is a condition of accessing these publications that users recognise and abide by
+the legal requirements associated with these rights.
+
+
+Take down policy
+Heriot-Watt University has made every reasonable effort to ensure that the content in Heriot-Watt Research
+Portal complies with UK legislation. If you believe that the public display of this file breaches copyright please
+contact open.access@hw.ac.uk providing details, and we will remove access to the work immediately and
+investigate your claim.
+
+
+
+
+Download date: 09. Sep. 2026
+                                                                                                                                                                  This is an open access article published under a Creative Commons Attribution (CC-BY)
+                                                                                                                                                                  License, which permits unrestricted use, distribution and reproduction in any medium,
+                                                                                                                                                                  provided the author and source are cited.
+
+
+
+                                                                                                                                                                                                                                                               Article
+
+                                                                                                                                                                                                                                                     pubs.acs.org/jmc
+
+
+
+
+                                                                                                          Cyclin-Dependent Kinase (CDK) Inhibitors: Structure−Activity
+                                                                                                          Relationships and Insights into the CDK‑2 Selectivity of 6‑Substituted
+                                                                                                          2‑Arylaminopurines
+                                                                                                          Christopher R. Coxon,†,⊥ Elizabeth Anscombe,‡ Suzannah J. Harnor,† Mathew P. Martin,§
+                                                                                                          Benoit Carbain,† Bernard T. Golding,† Ian R. Hardcastle,† Lisa K. Harlow,† Svitlana Korolchuk,§
+                                                                                                          Christopher J. Matheson,† David R. Newell,§ Martin E. M. Noble,‡,∥ Mangaleswaran Sivaprakasam,†
+                                                                                                          Susan J. Tudhope,§ David M. Turner,† Lan Z. Wang,§ Stephen R. Wedge,§ Christopher Wong,†
+                                                                                                          Roger J. Griﬃn,†,# Jane A. Endicott,*,‡,∥ and Céline Cano*,†
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+
+
+                                                                                                          †
+                                                                                                           Newcastle Cancer Centre, Northern Institute for Cancer Research, School of Chemistry, Newcastle University, Bedson Building,
+                                                                                                           Newcastle upon Tyne NE1 7RU, U.K.
+                                                                                                          ‡
+                                                                                                           Department of Biochemistry, University of Oxford, South Parks Road, Oxford, OX1 3QU, U.K.
+                                                                                                          §
+                                                                                                           Newcastle Cancer Centre, Northern Institute for Cancer Research, Newcastle University Medical School, Paul O’Gorman Building,
+                Downloaded via 95.149.237.18 on June 29, 2020 at 10:14:22 (UTC).
+
+
+
+
+                                                                                                           Framlington Place, Newcastle upon Tyne, NE2 4HH, U.K.
+                                                                                                              *
+                                                                                                              S Supporting Information
+
+
+
+
+                                                                                                              ABSTRACT: Purines and related heterocycles substituted at C-2 with 4′-sulfamoylanilino and at C-6 with a variety of groups
+                                                                                                              have been synthesized with the aim of achieving selectivity of binding to CDK2 over CDK1. 6-Substituents that favor competitive
+                                                                                                              inhibition at the ATP binding site of CDK2 were identiﬁed and typically exhibited 10−80-fold greater inhibition of CDK2
+                                                                                                              compared to CDK1. Most impressive was 4-((6-([1,1′-biphenyl]-3-yl)-9H-purin-2-yl)amino) benzenesulfonamide (73) that
+                                                                                                              exhibited high potency toward CDK2 (IC50 0.044 μM) but was ∼2000-fold less active toward CDK1 (IC50 86 μM). This
+                                                                                                              compound is therefore a useful tool for studies of cell cycle regulation. Crystal structures of inhibitor−kinase complexes showed
+                                                                                                              that the inhibitor stabilizes a glycine-rich loop conformation that shapes the ATP ribose binding pocket and that is preferred in
+                                                                                                              CDK2 but has not been observed in CDK1. This aspect of the active site may be exploited for the design of inhibitors that
+                                                                                                              distinguish between CDK1 and CDK2.
+
+
+                                                                                                          ■    INTRODUCTION
+                                                                                                          The cyclin-dependent kinase (CDK) family of serine/threonine
+                                                                                                                                                                                          E overexpression and/or p27Kip1 suppression are a common
+                                                                                                                                                                                          feature of many human tumors.6,7
+                                                                                                                                                                                             Pharmacological inhibition of CDK family members is a
+                                                                                                          kinases plays an integral role in the regulation of the eukaryotic              potential therapeutic approach for the treatment of cancer. In
+                                                                                                          cell cycle as well as having key functions in apoptosis,                        this context, a large number of ATP-competitive inhibitors have
+                                                                                                          transcription, diﬀerentiation, and neuronal function.1,2 Dereg-                 been evaluated.5−9 The clinical development of CDK inhibitors
+                                                                                                          ulation of the cell cycle, a hallmark of human cancer, is                       as antitumor agents was originally hampered by poor kinase
+                                                                                                          frequently associated with aberrant CDK activity through                        selectivity, particularly within the CDK family, and uncertainty
+                                                                                                          mechanisms that may include mutation/overexpression of                          as to which CDK constitutes the most appropriate therapeutic
+                                                                                                          CDKs or mutations to genes encoding proteins that directly                      target.3 However, an appreciation of the roles played by speciﬁc
+                                                                                                          or indirectly modulate CDK activity.3−5 CDK2 activation
+                                                                                                          entails association with partner cyclins A and E, whereas the                   Received: August 23, 2016
+                                                                                                          endogenous proteins p21Cip1 and p27Kip1 are inhibitory. Cyclin                  Published: December 22, 2016
+
+                                                                                                                                        © 2016 American Chemical Society           1746                                                 DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                                                                                                                                         J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                              Article
+
+CDKs in sustaining signaling through dysregulated pathways                  CDK7/CDK9 has obfuscated previous studies to elucidate the
+that drive particular cancers is leading to more stringent patient          pharmacological eﬀects of clinically evaluated compounds
+selection and correspondingly improved eﬃcacy. For example,                 initially identiﬁed as selective CDK2 inhibitors such as seliciclib
+the highly selective CDK4/6 inhibitor palbociclib has been                  (5), dinaciclib (6), and SNS-032 (7).3,28,29
+approved for the treatment of ER-positive, HER2-negative
+breast cancer, while abemaciclib, palbociclib, and ribociclib are
+in phase III clinical trials to treat advanced breast cancer in
+which signaling through the CDK4/6-retinoblastoma axis is
+critical.10 Similarly, agents that target a subset of CDKs are
+being evaluated in a range of other clinically deﬁned
+segments.11
+   The validity of CDK2 as a cancer therapeutic target was
+originally called into question both by CDK2 knockdown
+experiments in which loss of CDK2 failed to induce cell cycle                  Crystal structures of purines 1−3 in complex with T160-
+arrest in a number of tumor cell lines12 and by mouse knockout              phosphorylated CDK2-cyclin A (CDK2-cyclin A) provided
+experiments where the animals were viable.13,14 However,                    valuable details of inhibitor interactions within the ATP-binding
+applying the rationale outlined above, CDK2 inhibitors are also             site.23,24 The purine heterocycle anchored the inhibitor through
+expected to have utility in settings in which the cancer is                 a triplet of hydrogen bonds between N-9, N-3, and the 2-amino
+addicted to enhanced CDK2 activity or where synthetic                       group, and the backbone carbonyl moiety of Glu81 and amide
+lethalities can be identiﬁed. Recent studies employing a                    and carbonyl moieties of Leu83, respectively, located in the
+chemical genetic approach in which CDK2 expression was                      hinge region of the kinase (Figure 2). The greater potency and
+maintained, but kinase activity was inhibited, provides                     selectivity of 3 compared with 2 and the parent 2-amino-6-
+compelling evidence that CDK2 is a valid cancer target. In a                cyclohexylmethoxypurine 1, has been attributed, at least in part,
+panel of human cancer cells transformed with various                        to additional interactions of the 2-sulfanilyl substituent of 3
+oncogenes, highly selective small-molecule CDK2 inhibition                  with the speciﬁcity surface of CDK2.24,30 Notably, two
+resulted in marked growth inhibition.15 CDK2-selective                      hydrogen bond interactions between the sulfonamide group
+inhibitors may also have applications in combination therapies              of 3 and Asp86 facilitate optimal hydrophobic packing of the
+in appropriate clinical settings. For example, a recent study               arylamino ring.
+demonstrated that a combination of phosphatidylinositol-3-                     Extensive structure−activity relationship studies (SARs) at
+kinase and CDK2 inhibitors induced apoptosis in malignant                   the purine 2-position of 3 have further established the
+glioma xenografts via a synthetic−lethal interaction.16 Accu-               importance of these inhibitor−kinase interactions.25 By
+mulating evidence also implicates CDK2 as a prospective                     contrast, although the 6-cyclohexylmethyl group of 3 occupies
+therapeutic target in BRCA-deﬁcient cancers,17 neuroblasto-                 the ribose-binding pocket, the precise nature of the interactions
+ma,18 and ovarian cancer.19 These observations, taken together              made by substituents at the purine 6-position with the CDK2
+with supportive clinical data,20 have led to a resurgence of                active site remains uncertain, notwithstanding that a large
+interest in CDK2 inhibitors as cancer therapeutic agents.21,22              number of derivatives have previously been evaluated
+Ideally, such an inhibitor would discriminate between CDK2                  empirically.31
+and CDK1 to avoid cell toxicity as a result of inhibiting CDK1,                In this paper, we report the results of studies to characterize
+which is an essential member of the CDK family.                             interactions between substituents at the purine 6-position and
+                                                                            the CDK2 ATP-binding site. The eﬀect upon biological activity
+                                                                            of modifying the core purine heterocycle of 3 is also reported.
+                                                                            These studies have resulted in the identiﬁcation of 4-((6-([1,1′-
+                                                                            biphenyl]-3-yl)-9H-purin-2-yl)amino) benzenesulfonamide 73
+                                                                            as a potent and selective CDK2 inhibitor (IC50 = 44 nM),
+                                                                            exhibiting some 2000-fold-selectivity over CDK1 (IC50 = 86
+                                                                            μM).
+
+   Our previous studies employing a structure-lead approach
+resulted in the development of selective ATP-competitive
+                                                                            ■    CHEMISTRY
+                                                                            With a view to establishing the overall contribution of the 6-
+CDK2 inhibitors based on 2-amino-6-alkoxy- (1; NU2058) and                  cyclohexylmethoxy substituent of 1 and 3 to inhibitor binding,
+2-arylamino-6-alkoxy- (2) purine derivatives.23,24 These eﬀorts             the simple 6-unsubstituted purines 8, 12, and 13 were required.
+were rewarded by the identiﬁcation of potent purine-based                   2-Aminopurine (8) was commercially available, while the 2-
+inhibitors, exempliﬁed by 6-cyclohexylmethoxy-2-(4′-                        phenylaminopurine (12) and 2-sulfanilylpurine (13) derivatives
+sulfamoylanilino)purine (3; NU6102, CDK2 IC50 = 5.0                         were synthesized as outlined in Scheme 1. Thus, selective
+nM)25 as well as alkoxypyrimidine inhibitors (e.g., 4, CDK2                 reductive dehalogenation of 6-chloro-2-ﬂuoropurine (10),
+IC50 = 0.8 nM).26 Importantly, 3 exhibits selectivity for CDK2              prepared from 2-amino-6-chloropurine (9) following a
+over other CDK-family members, proving some 50-fold                         literature procedure,32 aﬀorded 2-ﬂuoropurine (11). Treatment
+selective for CDK2 over CDK1 (IC50 = 250 nM), a kinase                      of 11 with aniline or 4-aminobenzenesulfonamide (sulfanila-
+with close structural homology to CDK2. In addition, 3 is only              mide) in 2,2,2-triﬂuoroethanol (TFE) with catalysis by
+weakly active against CDK7 and CDK9 (IC50 = 4.4 and 1.1 μM,                 triﬂuoroacetic acid (TFA) as described previously33 gave the
+respectively). These CDKs play a key role in transcriptional                respective 2-arylaminopurines 12 and 13 in good yield. The
+regulation through phosphorylation of RNA polymerase II.2,27                required 2-arylaminoguanine derivatives 15 and 16 were also
+Modulation of protein synthesis by oﬀ-target inhibition of                  readily accessible from commercially available 2-bromohypox-
+                                                                     1747                                            DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                      J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                             Article
+
+Scheme 1a
+
+
+
+
+a
+ Reagents and conditions: (i) aq HBF4, NaNO2, −15 to 0 °C; (ii) Pd(OH)2, HCO2NH4, MeOH, reﬂux; (iii) ArNH2, TFA, TFE, 90 °C; (iv) POCl3,
+PhNMe2, reﬂux; (v) 3,4-2H-dihydropyran, (rac)-camphorsulfonic acid, EtOAc, 75 °C; (vi) R-CCH, PdCl2(MeCN)2, dicyclohexyl-(2′,4′,6′-
+triisopropyl-[1,1′-biphenyl]-2-yl)phosphine, Cs2CO3, MeCN; (vii) TFA, i-PrOH, H2O, reﬂux; (viii) DABCO, DMSO, 25 °C. (ix) For 18, 19, 22:
+ROH, Na, reﬂux. For 20, 21, 23: ROH, NaH, DMSO, 25 °C. For deﬁnition of R groups, see Table 1.
+
+anthine (14) under similar conditions. The 6-alkoxypurine                 Scheme 2a
+derivatives (30−35) were synthesized by utilizing previously
+optimized methodology.23,25,31 Brieﬂy, introduction of the 6-
+alkoxy substituent was achieved either by direct reaction of the
+appropriate sodium alkoxide with 2-amino-6-chloropurine (9)
+by employing the corresponding alcohol as solvent or, where
+necessary, following conversion into the “DABCO-purine”
+intermediate (17).34 Elaboration of the 6-alkoxy-2-amino-
+purines (18−23) into the corresponding 2-ﬂuoropurines
+(24−29) under Balz−Schiemann conditions enabled subse-
+quent introduction of the 2-(4-aminobenzenesulfonamide)
+group using the TFA-TFE procedure to furnish the target
+purines (30−35) in good overall yields (Scheme 1).
+   The 6-ethynylpurine derivatives (41 and 42) were
+synthesized from the THP-protected 6-chloro-2-ﬂuoropurine
+(36)35 via a Sonogashira alkynylation approach (Scheme 2).
+Coupling of triisopropylacetylene with 36, employing Pd-
+(PPh3)2Cl2/CuI, aﬀorded the protected 6-ethynylpurine (37)
+in excellent yield, and removal of the N9-THP group to give 38
+and introduction of the 2-arylamino substituent proceeded in
+the manner described above to give 39 and 40. Removal of the
+TIPS group to furnish the target 2-arylamino-6-ethynylpurines
+41 and 42 was achieved under standard conditions. The 6-
+propynyl- and 6-phenylethynyl-purine derivatives 48 and 49
+were accessible from the guanine derivative 15 by sequential              a
+                                                                           Reagents and conditions: (i) 3,4-2H-dihydropyran, (rac)-camphor-
+chlorination at the purine 6-position (44), THP protection                sulfonic acid, EtOAc, 75 °C; (ii) (i-Pr)3SiCCH, Pd(PPh3)2Cl2, CuI,
+(45), introduction of the appropriately substituted ethynyl               Et3N, THF, 25 °C; (iii) TFA, i-PrOH, H2O, reﬂux; (iv) PhNH2 or 4-
+group under Sonogashira conditions (46, 47), and ﬁnal N9-                 NH2C6H4SO2NH2, TFA, TFE, 90 °C; (v) (n-Bu)4NF, THF, 25 °C;
+deprotection to furnish the target purines 48 and 49 (Scheme              (vi) Lindlar’s catalyst, quinoline, H2, EtOAc, RT, 2 h; (vii) RB(OH)2
+1). The 6-ethylpurine derivative (52) was readily obtained by             or RBF3K, Pd(OAc)2, dicyclohexyl(2′,6′-dimethoxybiphenyl-2-yl)-
+reduction of the 6-ethynyl group of the THP derivative 43 with            phosphine, K3PO4, PhMe, H2O, 100 °C. For deﬁnition of R groups,
+Lindlar’s catalyst-quinoline to aﬀord 50, with N9-deprotection            see Table 1.
+(51) and ﬁnal introduction of the 2-(4-aminobenzenesulfona-
+mide) group, giving 52 in modest overall yield.
+                                                                   1748                                             DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                     J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                           Article
+
+Scheme 3a
+
+
+
+
+a
+ Reagents and conditions: (i) PMB-Cl, K2CO3, DMF, 80 °C; (ii) NaH, cyclohexylmethanol, DMSO, 25 °C; (iii) TFA, 80 °C; (iv) CH2I2, iso-amyl
+nitrite, CuI, THF, 80 °C; (v) sulfanilamide, Pd2(dba)3, XPhos, K2CO3, MeCN, 80 °C; (vi) LiCl, iso-amyl nitrite, SOCl2, DMA or THF, 0−25 °C;
+(vii) ArNH2, TFA, TFE, 90 °C; (viii) SEM-Cl, NaH, MeCN, 0 °C; (ix) TBAF, THF, 25 °C.
+
+   Eﬀorts to synthesize the 6-cyclopropylpurine (55) employing            amination procedure (81, 96), followed by deprotection as
+Suzuki−Miyaura conditions were unsuccessful, likely due to                necessary to aﬀord the target compounds 83, 90, 91, and 98.
+competing protodeboronation of the cyclopropylboronic acid                The imidazo[1,2-a]pyrimidine derivatives (101, 102) were
+under the reaction conditions employed. This problem was                  prepared from 5,7-dichloroimidazo[1,2-a]pyrimidine (99)43,44
+successfully addressed as reported in the literature by                   by regioselective 5-alkoxylation to give 100, followed by ﬁnal
+converting the cyclopropylboronic acid into the corresponding             introduction of the arylamino group at the 7-position under
+potassium triﬂuoroborate,36 whereby coupling to the THP-                  TFA-TFE conditions. Given the possibility of alkoxide attack at
+protected 6-chloro-2-ﬂuoropurine (36) occurred to furnish 53              the 7-position of 99 to furnish the alternative regioisomer, the
+in acceptable yield. Subsequent transformation into the target            structure of 102 was unambiguously conﬁrmed by X-ray
+6-cyclopropylpurine (55) was achieved readily. The introduc-              crystallography (Supporting Information).
+tion of aryl substituents at the purine 6-position was achieved
+using Suzuki−Miyaura cross-coupling chemistry with 6-chloro-
+2-ﬂuoropurine derivative 36 (Scheme 2). Optimization of the
+                                                                          ■    RESULTS AND DISCUSSION
+                                                                          The chemical structures, CDK inhibitory activity, and in vitro
+reagents and reaction conditions employed for the cross-                  antitumor activity for the purine derivatives and alternative
+coupling step enabled the preparation of a deﬁned series of 2-            heterocycles are summarized in Tables 1−3, with the values for
+ﬂuoro-6-arylpurine derivatives (56−62) in excellent yields, and           compounds 1−3 included for comparative purposes.
+conversion into the requisite 6-aryl-2-(4-sulfonamidophenyl)-                Structure−Activity Relationships. The importance of a
+aminopurines (70−76) proceeded smoothly under the                         substituent at the purine 6-position was reaﬃrmed by the
+previously described conditions.25,33                                     simple 2-amino- and 2-phenylamino-purines (8 and 12), where
+   The synthesis of prospective CDK2 inhibitors encompassing              a dramatic reduction in potency was observed compared with
+alternative heterocyclic systems was undertaken as summarized             the parent 6-cyclohexylmethoxy derivatives 1 and 2, respec-
+in Scheme 3. In each case, the parent chloroheterocycles (77,             tively. A similar eﬀect was also evident for the sulfanilylpurine
+84, 85, 92, 99) were synthesized by adapting literature                   13, which was some 300-fold less active than 3. These results
+procedures37−41 and the cyclohexylmethyl substituent intro-               are consistent with the putative interaction of this inhibitor
+duced by treatment with the corresponding alkoxide, with N9               class with the ATP-binding site of CDK2, which requires that
+protected where necessary, as described previously. Iodination            the 6-substituent occupies a lipophilic pocket close to the ribose
+(81)42 or chlorination (88, 89, 96) of the respective 2-                  binding site, thereby orienting the purine to make the triplet of
+aminoheterocycles under Sandmeyer conditions facilitated                  hydrogen bonds with the hinge region.24 The low-micromolar
+introduction of the 2-arylamino group under the standard                  potency of the 2-sulfanilyl derivative 13 likely reﬂects the
+TFA-TFE conditions (88, 89) or employing a Buchwald                       contribution to binding arising through additional interactions
+                                                                   1749                                           DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                   J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                            Article
+
+Table 1. Chemical Structures and CDK2-Inhibitory Activity of Purine Derivatives
+
+
+
+
+a
+ IC50 values were determined in accordance with previously described methods.20,23 bData shown are the mean of at least two independent
+experiments ± standard deviation. cPercent inhibition values are in brackets. dThe oxo-tautomers predominate.
+
+between the arylsulfonamide group of 13 with the CDK2                        6-ethoxypurine 30 exhibited high CDK2 inhibitory activity
+surface adjacent to the ATP binding site on the C-terminal lobe              (IC50 = 26 nM), with an approximately 3-fold increase in
+(termed the “speciﬁcity surface”) despite the absence of a 6-                potency being observed for the n-propoxy- (31; IC50 = 8 nM)
+substituent. Perhaps not surprisingly, the guanine derivatives 15            and iso-propoxy- (32; IC50 = 10 nM) derivatives. Potency was
+and 16 were only weakly active, attributable to unfavorable                  improved further by increasing the size of the 6-alkoxy group,
+interactions between the 6-oxo functionality and the ribose-                 as demonstrated by the activity of the isomeric butoxy
+binding pocket. These derivatives also exhibited the very poor               analogues 33 and 34 with IC50 values of 3 and 1 nM,
+aqueous solubility characteristic of many guanine derivatives.               respectively. The relationship between the bulk of the 6-alkoxy
+   Replacement of the 6-cyclohexylmethoxy group of 3 by                      group and the CDK2-inhibitory activity generally parallels that
+smaller alkoxy substituents proved informative and was broadly               previously observed for the corresponding 2-amino-6-alkox-
+consistent with our earlier investigations with derivatives of 1.31          ypurines, albeit that the sulfanilylpurines 30−34 are several
+In that study, 2-amino-6-methoxypurine (O6-methylguanine)                    orders of magnitude more potent. For example, 34 (IC50 = 1
+demonstrated negligible activity (CDK2; IC50 > 100 μM), and                  nM) is approximately 50000-fold more potent than the
+the relatively poor chemical stability of this purine militated              corresponding 2-amino-6-sec-butoxypurine (CDK2; IC50 = 49
+against preparing the corresponding 2-sulfanilyl analogue. The               ± 7 μM), 31 again corroborating the crucial binding
+                                                                      1750                                         DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                    J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                  Article
+
+contribution made by the arylsulfonamide function. A                           Table 2. CDK Selectivity and Cellular Activity for Selected
+propargyloxy group at the purine O6-position conferred activity                Compounds
+comparable to the ethoxy derivative (compare 35 and 30), in
+keeping with the trend reported previously for the 2-amino-6-
+alkoxypurine series.31
+   The introduction of an ethyl substituent at the purine 6-
+position (52) reduced CDK2-inhibitory activity some 10-fold
+compared with the 6-ethoxypurine (30), and very modest
+potency was also observed for the 6-ethynyl derivatives 41 and
+42. Although 6-alkoxy and 6-alkyl groups diﬀer with regard to
+both their electronic and steric character, as well as lipophilicity,
+the high potency of the 6-triisopropylsilyethynylpurine (40;
+IC50 = 17 nM) shows that steric bulk, as well as electronic
+factors, is an important feature for binding in the ribose pocket
+of CDK2. The modest improvement in potency observed for
+the prop-1-ynyl (48) and phenylethynyl (49) derivatives
+compared with the parent 6-ethynylpurine 41 also suggests
+that the overall shape of the 6-substituent is an important factor
+for occupancy of the ribose-binding pocket, supported by the
+activity of the 6-cyclopropylpurine 55 (IC50 = 19 nM). These
+data also suggest that the oxygen atom of the 6-alkoxypurines,
+which would act as a weak hydrogen bond acceptor, does not
+make a signiﬁcant contribution to binding aﬃnity.
+   The potency of the 6-phenylpurine (70; IC50 = 24 nM)
+prompted further elaboration, with comparable activity residing                a
+in the 3-methoxyphenyl (71), 4-methoxyphenyl (72), and 6-(3-                     IC50 values were determined in accordance with previously described
+phenylphenyl)purine (73) derivatives. By contrast, the                         methods.20,23 bData shown are the mean of at least two independent
+piperonyl derivative (74) was some 20-fold less potent than                    experiments ± standard deviation. cPercent inhibition values are in
+                                                                               brackets.
+70, and the introduction of still larger groups was detrimental,
+as evident from the very weak CDK2 inhibitory activity of the
+dibenzofuran-1-yl (75) and thianthren-1-yl (76) analogues.                     derivatives 101 and 102 is not surprising given the absence of
+The bulkier bicyclic and tricyclic heteroaromatic rings of these               the requisite donor−acceptor−donor motif and presumably
+purines are presumably poorly accommodated within the                          reﬂects the combined inﬂuence arising from the absence of the
+ribose-binding pocket. It is of interest to note that the CDK2                 N1 and N7 functions found in the corresponding purine
+inhibitory activity of the 6-unsubstituted derivative 13 is                    derivatives 1 and 3. The modest CDK inhibition proﬁle of
+equipotent with 75 and superior to that of 76, implying that the               imidazopyridine 83 indicates that removal of the N1 nitrogen is
+6-substituents of these purines make a negligible binding                      detrimental to CDK inhibitory activity. However, with the
+contribution.                                                                  exception of the imidazopyridine (83) and imidazopyrimidine
+   With a view to assessing selectivity for CDK2, selected purine              (102) derivatives, modiﬁcation of the core purine heterocycle
+derivatives were evaluated against a panel of CDKs (Table 2).                  of 3 was generally tolerated without a marked loss of CDK2
+As expected, removal of the 6-cyclohexylmethyl substituent of                  inhibitory activity. Thus, triazolopyrimidine (90) analogue is
+3, which makes a number of interactions with the conserved                     2.5-fold more potent than 3, while pyrazolopyrimidine (91)
+ATP ribose binding site to furnish 13 compromised potency                      and pyrrolopyrimidine (98) analogues proved only some 4−5-
+against all the CDKs evaluated, although the eﬀect was less                    fold less potent than 3 against CDK2 and retained good
+pronounced against CDK2.                                                       selectivity over all other CDK family members examined.
+   The 6-alkoxypurines 34 and 35 exhibited good selectivity for                Notably, derivatives 91 and 98 were approximately 100-fold
+CDK2 over the closely related CDK1 (80-fold and 50-fold,                       selective for CDK2 over CDK1.
+respectively), with 34 retaining selectivity over CDKs 4, 7, and                  Cellular Studies. The ability of compounds to inhibit
+9 comparable with 3. A similar proﬁle was observed for the 6-                  cellular proliferation was examined in a 5-day growth assay
+phenylpurine 70, which was some 30-fold selective for CDK2                     using ﬁve histologically distinct retinoblastoma protein (Rb)-
+over CDK1. By contrast, the 6-([1,1′-biphenyl]-3-yl)purine                     proﬁcient human tumor lines (A375 melanoma, Calu-6 lung
+derivative 73 exhibited a very interesting CDK selectivity                     carcinoma, MDA-MB-231 breast adenocarcinoma, SJSA1
+proﬁle, proving some 2000-fold selective for CDK2 over CDK1                    osteosarcoma, and SKUT-1B uterine corpus leiomyosarcoma).
+while exhibiting only weak inhibitory activity against CDKs 4, 7,              While compound 73 demonstrated appreciable nanomolar
+and 9. To the best of our knowledge, this level of selectivity for             potency versus CDK2 in isolated kinase assays, the maximal
+CDK2 over CDK1 is unprecedented.                                               concentration tested in cellular assays (30 μM) had no or
+   Modiﬁcation of the core purine heterocycle of 1 and 3                       limited eﬀects on the growth of cells, thereby preventing the
+aﬀorded further interesting results (Table 3). A comparison of                 concentration that induced a 50% growth inhibitory (GI50)
+2-amino-6-cyclohexylmethylpurine 1 with the alternative                        eﬀect to be determined (data not shown). In contrast,
+heterocycles 86, 87, and 93 revealed that although these                       compounds 91 and 98, which were only 2.4- and 1.7-fold
+compounds exhibited comparable potency against CDK2,                           more potent respectively in CDK2 kinase assays, dose-
+activity against other CDK family members was markedly                         dependently inhibited the growth of each tumor cell line with
+attenuated. The very weak activity of the imidazopyrimidine                    GI50 values ranging from 1−22 μM. The cellular activity of
+                                                                        1751                                             DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                          J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                           Article
+
+Table 3. Chemical Structures and CDK Inhibitory Activity of Other Heterocyclic Derivatives
+
+
+
+
+a
+ IC50 values were determined in accordance with previously described methods.20,23 bData shown are the mean of at least two independent
+experiments ± standard deviation. cPercent inhibition values are in brackets. dValue determined at 100 μM.
+
+these compounds compared favorably to that of compound 3                    makes a triplet of hydrogen bonds with the backbone carbonyl
+(Figure 1).                                                                 of Glu81 and the amide NH and carbonyl moieties of Leu83
+   Structure Determination. Compounds within this series                    within the hinge sequence (Figure 2A). The respective anilino
+show greater activity toward CDK2 than CDK1, generally                      rings project out of the CDK2 catalytic site so that the
+varying between 10- and 80-fold (Table 2). However, 73                      sulfonamide NH2 group and one of the oxygens in each make
+exhibits exceptional discrimination being a ca. 2000-fold more              hydrogen bonds with the side chain and backbone nitrogen of
+potent inhibitor of CDK2. To conﬁrm the binding mode and to                 Asp86, respectively.
+identify potential interactions that might explain the selectivity             The structures of 73 and 3 diﬀer in the substitution present
+of 73 for CDK2 over CDK1, 73 and 3 were cocrystallized with                 at the purine C-6 position. The O 6 -cyclohexylmethyl
+CDK2-cyclin A and CDK1-cyclin B-cyclin-dependent kinases                    substituent of 3 occupies the ATP ribose binding pocket and
+regulatory subunit 2 (CKS2), respectively. The poor potency of              is complementary in shape and forms favorable hydrophobic
+73 toward CDK1 appears to preclude determination of a                       interactions with an apolar pocket created by the conformation
+CDK1-cyclin B-CKS2−73 cocomplex structure, as despite                       of the CDK2 glycine-rich loop (residues 9−19).24 This loop
+repeated attempts we were unable to visualize the compound in               adopts an identical backbone structure when bound to 73 so
+the active site. The statistics for the data sets and for the               that the purine-proximal phenyl ring emulates the position of
+crystallographic reﬁnements are presented in Table 4.                       the cyclohexylmethyl substitutent of 3. The distal phenyl ring
+Compound 73 emulates the interactions made by 3 within                      substituted at the meta position can then be comfortably
+the CDK2 active site (Figure 2A).24 Indeed, the purine and                  accommodated as it twists toward the aniline moiety (Figure
+aniline rings of each inhibitor superimpose very well. The                  2A). In contrast, para substitutions of the purine-proximal
+purine rings occupy the CDK2 ATP binding site, and each                     phenyl ring exempliﬁed by 72, 74, 75, and 76 (Table 1) would
+                                                                     1752                                         DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                   J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                 Article
+
+
+
+
+Figure 1. Activity of compounds 3, 91, and 98 against tumor cell growth.45 Rb-proﬁcient human tumor cell lines were incubated for 120 h with
+compounds and cellular protein determined by SRB assay. Dose−response curves and GI50 bar charts represent the mean ± SEM from three or four
+independent experiments.
+
+Table 4. X-ray Data Collection and Reﬁnement Statistics                         exempliﬁed by 74 and 76 lead to considerable drops in potency,
+                                                                                suggesting they may sterically clash with the CDK2 structure in
+                      CDK2-cyclin A−
+                          73a              CDK1-cyclin B-CKS2−3a                this region (Table 1).
+Data Collection
+                                                                                   To probe further the binding mode of the series, CDK1-
+space group           P212121          P1                                       cyclin B-CKS2 was cocrystallized with 3 (Figure 2B). This
+unit cell (Å)         a = 73.5,        a = 65.0, b = 67.8, c = 85.1,            structure shows that the purine backbone emulates the
+                        b = 132.1,       α = 103.9, β = 90.9, γ = 90.4          interactions made by this inhibitor within the CDK2 binding
+                        c = 149.2                                               site and that the O6-cyclohexylmethyl substituent occupies the
+resolution (Å)        66.03−2.97       65.76−2.06
+                                                                                ribose binding pocket. As previously reported,46 inhibitor
+(highest              (3.13−2.97)      (2.10−2.06)
+  resolution shell)                                                             binding within the ATP binding site is accompanied by minor
+total observations    226370 (7244)    169709 (8389)                            remodelling of the CDK1-cyclin B into a conformation
+unique                30773 (1098)     84841 (4161)                             compatible with catalysis.
+Rmergea               0.086            0.092                                       All of the side chains contacted by 73 in the co-complex with
+mean I/σ(I)           6.7 (1.6)        6.2 (1.2)                                CDK2-cyclin A are conserved in CDK1 so that selectivity must
+completeness %        100 (99.7)       97.3 (95.5)                              derive from indirect readout of remote sequence diﬀerences.
+Reﬁnement                                                                       One mechanism by which such diﬀerences can impact inhibitor
+total number of                                                                 binding is where they shape the conformational energy
+  atoms
+                                                                                landscape, permitting conformations in one kinase that are
+        protein       8927             20449
+                                                                                precluded in another. As described above, the glycine-rich loop
+        other         64               100
+                                                                                makes a signiﬁcant contribution to the catalytic cleft, shaping
+        waters        18               291
+                                                                                the binding site that accommodates the purine C-6
+R (highest            0.213            0.198
+  resolution shell)                                                             substituents. We note that the glycine-rich loop in the
+Rfree (highest        0.266            0.254                                    CDK2-cyclin A−73 structure adopts a conformation in which
+  resolution shell)                                                             Tyr15 is folded into the active site, contacting residues of the
+rmsd bonds (Å)        0.0122           0.0217                                   C-helix (Figure 2C). This position for the side chain of Tyr15 is
+rmsd angles (deg)     1.770            2.233                                    seen in a number of other CDK2-cyclin A−inhibitor complexes,
+a
+ The structures have been deposited in the PDB with accession codes             suggesting that it reﬂects a preferred conformation of CDK2.
+5LQE (CDK2-cyclin A−73) and 5LQF (CDK1-cyclin B-CKS2−3).                        However, in available structures of apo CDK1-cyclin B, and
+                                                                                CDK1-cyclin bound to compound 2346 or 3 (this paper), a
+be directed out of the CDK2 active site toward the tip of the                   comparable location for the side chain of Tyr15 has not been
+glycine-rich loop. Smaller substitutions, for example a methoxy                 observed (Figure 2C). We speculate, therefore, that 73 binds
+in 72 can be accommodated but larger ring systems as                            more tightly to CDK2 than to CDK1 because in doing so, it
+                                                                         1753                                           DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                         J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                         Article
+
+                                                                                    greatly reduced inhibitory activity, indicating poorly accom-
+                                                                                    modation of these substituents in the lipophilic binding site.
+                                                                                    Analogues of 6-cyclohexylmethoxy-2-(4′-sulfamoylanilino)-
+                                                                                    purine, in which the purine ring was replaced by a
+                                                                                    triazolopyrimidine, pyrazolopyrimidine or pyrrolopyrimidine
+                                                                                    were only marginally less active against CDK2 than the parent
+                                                                                    purine. However, replacement with an imidazopyridine or
+                                                                                    imidazopyrimidine gave much less potent derivatives. Co-
+                                                                                    crystal structures of inhibitors bound to CDK2 and CDK1
+                                                                                    revealed that the binding mode of the purine-based inhibitor
+                                                                                    series is conserved. We show that inhibitor binding to CDK2
+                                                                                    stabilizes a glycine-rich loop conformation that shapes the ATP
+                                                                                    ribose binding pocket, resulting in eﬀective inhibition of CDK2.
+                                                                                    We propose that this region of the active site might be the basis
+                                                                                    of the design of further inhibitors diﬀerentiating between
+                                                                                    CDK1 and CDK2.
+
+                                                                                    ■   EXPERIMENTAL SECTION
+                                                                                       General Synthetic Procedures. Chemicals and solvents were
+                                                                                    obtained from standard suppliers. Solvents were either dried by
+                                                                                    standard techniques or purchased as anhydrous. Reactions needing
+                                                                                    microwave irradiation were carried out in an Initiator Sixty Biotage
+Figure 2. Structures of CDK2-cyclin A−73 and CDK1-cyclin B-                         apparatus. Petrol refers to petroleum ether (bp 40−60 °C, reagent
+CKS2−3. (A) Surface representation of CDK2 (ice-blue) bound to                      grade, Fisher Scientiﬁc). All reactions that required inert or dry
+cyclin A (coral) in complex with 73 (yellow). The inset shows the                   atmosphere were carried out under a blanket of nitrogen, which was
+interactions of 73 within the ATP site of CDK2-cyclin A. (B) Surface                dried by passage through a column of phosphorus pentoxide.
+representation of CDK1 (dark-cyan) bound to cyclin B (pale-crimson)                 Glassware was dried in an oven prior to use. Column chromatography
+and CKS2 (lemon) in complex with 3 (green). The inset shows the                     was carried out using 40−60 μm mesh silica in glass columns under
+interactions of 3 within the ATP site of CDK1-cyclin B-CKS2. In (A)                 medium pressure or with a Biotage SP4 ﬂash puriﬁcation system using
+and (B), the protein backbone is rendered in ribbon representation                  KP-Si. Thin layer chromatography (TLC) was performed on 20 mm
+and selected CDK2 and CDK1 residues are drawn respectively with                     precoated plates of silica gel (Merck, silica gel 60F254); visualization
+carbon atoms colored ice-blue and dark-cyan. The hydrogen bonds are                 was achieved using ultraviolet light (254 nm). NMR spectra were
+shown as black dotted lines. (C) The structural conformations of the                recorded on a Bruker Spectrospin AC 300E (300 MHz) NMR
+CDK2-cyclin A and CDK1-cyclin B-CKS2 glycine-rich loops to                          Spectrometer or Bruker BioSpin UltraShield Plus 500 MHz using
+illustrate the alternative poses of catalytic residue Tyr15. The left-hand          deuterated solvent as a lock. IR spectra were recorded on a Bio-Rad
+side panel compares CDK2-cyclin A in complex with 73 (ice-blue) to                  FTS 3000MX diamond ATR, and UV analysis was performed using a
+other inhibitor bound CDK2-cyclin A complexes (PDB entries 4EOS                     Hitachi U-2000 spectrophotometer. LC-MS analysis was carried out
+(green), 3TNW (coral), and 3MY5 (lilac)). The right-hand panel                      on a Micromass Platform instrument operating in positive and
+overlays CDK1-cyclin B-CKS2 bound to 3 (ice-blue) with apo CDK1-                    negative ion electrospray mode, employing a 50 mm × 4.6 mm C18
+cyclin B-CKS2 (PDB entry 4YC3, lilac) and CDK1-cyclin B-CKS2 in                     column (Supelco Discovery or Waters Symmetry) and a 15 min
+complex with compound 23 (PDB entry 5HQ0, green). The                               gradient elution of 0.05% formic acid and methanol (10−90%).
+conformations of the loop when CDK1 is bound to 3 or compound                       HRMS were measured using a Finnigan MAT 95 XP or a Finnigan
+23 cannot be distinguished. Gly-rich loop, glycine-rich loop.                       MAT 900 XLT by the EPSRC National Mass Spectrometry Service
+                                                                                    Centre (Swansea). The purity of ﬁnal compounds was assessed by
+                                                                                    reversed-phase HPLC; all tested compounds were >95% purity. HPLC
+stabilizes a glycine-rich loop conformation that is preferred in                    instrument, Agilent 1200 equipped with a photodiode array detector
+CDK2 but not in CDK1.                                                               (190−400 nm). Sample temperature, ambient; injection volume, 5 μL;
+
+■    CONCLUSIONS
+Novel 6-substituted 2-(4′-sulfamoylanilino)purines have been
+                                                                                    ﬂow rate, 1 mL/min. 5−100% MeCN gradient over 9 min and an
+                                                                                    isocratic hold at 100% MeCN for 2.5 min, before returning to initial
+                                                                                    conditions. Mobile phase A = 0.1% ammonia in water or 0.1% formic
+designed as competitive inhibitors acting at the ATP binding                        acid in water, mobile phase B = MeCN. Column: Waters XSELECT
+site of CDK2 with particular attention being given to                               CSH C18, 3.5 μm, 4.6 mm × 150 mm or Waters XTerra RP18, 5 μm,
+                                                                                    4.6 mm × 150 mm. Column maintained at ambient temperature.
+abrogating activity against CDK1. A variety of substituents                            General Procedure A. To a stirred suspension of the appropriate
+were explored, either attached directly to C-6 or via an oxygen                     haloheterocycle (1.0 mol equiv) and 4-aminobenzenesulfonamide (2.0
+link, in the context of their possible interaction with a lipophilic                mol equiv) in TFE (25 mL/g of haloheterocycle) was added TFA (2.5
+pocket close to the ATP ribose binding site. The relationship                       mL/g of haloheterocycle) dropwise. The resulting solution was heated
+between the size of a 6-alkoxy group and CDK2-inhibitory                            under reﬂux for 12−48 h under a nitrogen atmosphere. The solvent
+activity was found to parallel that previously observed for the                     was removed in vacuo, and the residue was redissolved in EtOAc (10−
+corresponding 2-amino-6-alkoxypurines. In general, the new                          20 mL). The solution was washed with saturated aqueous sodium
+compounds were signiﬁcantly less potent (typically 10−80×)                          bicarbonate solution (3 × 10 mL), and the aqueous extracts were
+against CDK1 than CDK2. Most impressive was 4-((6-([1,1′-                           combined and washed with EtOAc (2 × 15 mL). The combined
+                                                                                    organic layers were dried (Na2SO4) and the solvent removed under
+biphenyl]-3-yl)-9H-purin-2-yl)amino) benzenesulfonamide that                        reduced pressure to give a residue that was puriﬁed in the manner
+was ∼2000-fold less active toward CDK1 (IC50 86 μM), while                          indicated.
+retaining high potency against CDK2 (0.044 μM). Compounds                              6-Chloro-2-ﬂuoro-9H-purine (10).47 To a stirred solution of HBF4
+substituted with relatively large conformationally constrained                      (48% aqueous, 120 mL) at 0 °C was added 2-amino-6-chloropurine
+groups, e.g. bicyclic and tricyclic aromatic systems, showed                        (9) (6.0 g, 35.0 mmol). Over 20 min, a solution of NaNO2 (4.9 g, 70.0
+
+                                                                             1754                                               DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                                 J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                       Article
+
+mmol) in water (200 mL) was added dropwise, ensuring the                           CDCl3) δ 113, 120, 123, 127, 138, 139, 150, 152, 156. LRMS (ES+)
+temperature remained close to 0 °C. The pale-yellow solution was                   m/z 307.3 [M + H]+.
+raised to room temperature and stirred for 18 h. The resulting solution               1-(2-Amino-9H-purin-6-yl)-4-aza-1-azoniabicyclo[2.2.2]octane
+was neutralized to pH 7 in an ice bath at 0 °C by addition of Na2CO3               (17).34 1,4-Diazabicyclo[2.2.2]octane (9.90 g, 88.4 mmol) was added
+(6.00 g) in water (200 mL). Solvents were removed in vacuo, and the                to a solution of 2-amino-6-chloropurine 9 (5.00 g, 29.5 mmol) in
+residual solid was redissolved in MeOH (100 mL) and adsorbed onto                  DMSO (100 mL) over 1 h, and the mixture was stirred at room
+silica (250 mL). The crude material was puriﬁed by chromatography                  temperature for 24 h. The resulting white precipitate was ﬁltered and
+(silica; 10% MeOH:DCM) to aﬀord 10 as a white crystalline solid                    washed with diethyl ether. The solid was suspended in DCM (200
+(4.52 g, 75%); mp 171−173 °C (lit.,47 mp 174 °C); UV λmax (EtOH)                   mL) and stirred for 1 h. After ﬁltration and washing with DCM several
+393 nm. IR (cm−1) 2964, 2785, 1735, 1581. 1H NMR (500 MHz,                         times, 9 was obtained as a white solid, which was dried in vacuo (7.95
+DMSO-d6) δ 8.60 (1H, s, H-8), 13.9 (1H, s, NH). LRMS (ES+) m/z                     g, 96%) and used without further puriﬁcation; mp 230 °C (dec) (lit.,34
+172.6 [M + H]+.                                                                    decomposed at 230 °C). 1H NMR (300 MHz, D2O) δ 3.31 (6H, t, J =
+    2-Fluoro-9H-purine (11).48,49 To a stirred suspension of 6-chloro-             7.5 Hz, (N(CH2)3), 4.07 (6H, t, J = 7.5 Hz, (N+(CH2)3), 8.13 (1H, s,
+2-ﬂuoropurine (10) (0.30 g, 1.74 mmol) and palladium hydroxide on                  H-8). 13C NMR (75 MHz, D2O) δ 38.7, 53.4, 116.0, 143.7, 151.3,
+carbon (20% w/w, 0.30 g) in methanol (15 mL) was added                             158.4.
+ammonium formate (0.34 g, 5.35 mmol). The suspension was heated                       General Procedure B. 2-Amino-6-chloropurine (9, 1.0 mol equiv)
+under reﬂux for 1 h before ﬁltering through a pad of Celite, eluting               was added to a solution prepared from metallic sodium (5.0 mol
+with methanol (20 mL). Removal of volatiles under reduced pressure                 equiv) dissolved in the appropriate alcohol (3.4 mL/mmol). The
+aﬀorded 11 as a white solid (240 mg, 100%); mp 219 °C (dec.) (lit.,48              mixture was stirred at reﬂux until LCMS analysis indicated the absence
+decomposed at 216 °C). 1H NMR (300 MHz, DMSO-d6) δ 8.60 (1H,                       of starting materials (3−24 h). After cooling, the reaction mixture was
+s, H-8), 9.01 (1H, s, H-6), 13.9 (1H, s, NH). LRMS (ES+) m/z 139.2                 neutralized with glacial AcOH and the volatile material was removed in
+[M + H]+.                                                                          vacuo. Unless otherwise indicated, puriﬁcation was achieved either by
+    Phenyl-(9H-purin-2-yl)amine (12). Prepared from aniline (0.18                  recrystallization from H2O or by adding H2O to the reaction mixture
+mL, 2 mmol) and 2-ﬂuoro-9H-purine (11, 0.138 g, 1.0 mmol) in                       and extracting the product into EtOAc (3 × 100 mL), followed by
+accordance with general procedure A. The reaction mixture was stirred              drying (MgSO4) and removal of the solvent in vacuo.
+                                                                                      General Procedure C. The appropriate alcohol (4.0 mol equiv) was
+under reﬂux for overnight. After removal of the solvent in vacuo, the
+                                                                                   added dropwise to a stirred suspension of NaH (3.0 mol equiv) in
+residue was dissolved in EtOAc (10−30 mL), washed with saturated
+                                                                                   DMSO (2.5−3.0 mL/mmol), and the resulting mixture was stirred for
+aqueous NaHCO3 (3 × 30 mL), and dried (MgSO4). The crude
+                                                                                   1−2 h. To this was added DABCO-purine (17, 1.0 mol equiv) or the
+material was puriﬁed by chromatography (silica; 0−20%
+                                                                                   appropriate haloheterocycle (1.0 mol equiv), and the mixture was
+MeOH:DCM), followed by recrystallization from DCM to aﬀord 12
+                                                                                   stirred for 24 h with heating as speciﬁed. Water (20−200 mL) was
+as an oﬀ-white solid (65 mg, 31%); Rf 0.20 (5% MeOH:DCM); mp
+                                                                                   added, and the basic emulsion was neutralized with glacial acetic acid.
+200−201 °C; UV λmax (EtOH) 328, 270, 239, 206 nm. IR (cm−1)                        The aqueous phase was extracted with EtOAc (3 × 50−100 mL), and
+3234, 3103, 2804, 1624, 1602, 1539, 1402, 1292, 1217. 1H NMR (300                  the organic layers were washed with saturated aqueous NaCl (100
+MHz, DMSO-d6) δ 6.91 (1H, t, J = 7.5 Hz, H-4′), 7.28 (2H, t, J = 7.5               mL). The combined organic layers were dried (MgSO4) and
+Hz, H-3′ and H-5′), 7.83 (2H, d, J = 9.0 Hz, H-2′ and H-6′), 8.82 (1H,             concentrated in vacuo to yield the crude product, which was puriﬁed
+s, H-6), 8.24 (1H, s, H-8), 9.53 (1H, s, NH), 12.9 (1H, s, NH). LRMS               by chromatography on silica and/or recrystallization from an
+(ES+) m/z 212.0 [M + H]+. HRMS calcd for C11H10N5 [M + H]+                         appropriate solvent.
+212.0931, found 212.0933.                                                             General Procedure D. To a stirred solution of hydroﬂuoroboric
+    4-(9H-Purin-2-ylamino)benzenesulfonamide (13). Prepared fol-                   acid (50%, aq, 20.0 mol equiv) cooled below −20 °C was added the
+lowing general procedure A from 2-ﬂuoro-9H-purine (11, 0.10 g,                     appropriate 2-amino-6-alkoxypurine (1.0 mol equiv). While maintain-
+0.725 mmol). Recrystallization from MeOH:H2O gave 13 as a pale-                    ing the temperature at −15 °C, a solution of NaNO2 (2.0 mol equiv)
+white solid (74 mg, 35%); Rf 0.40 (20% MeOH:DCM); mp >320 °C                       in H2O (1−3 mL/mmol NaNO2) was added dropwise over 10 min.
+(dec); UV λmax (EtOH) 287, 213 nm. IR (cm−1) 3223, 1585, 1481,                     The mixture was stirred at room temperature for 3 h and neutralized at
+1307, 1251, 1148, 1091. 1H NMR (300 MHz, DMSO-d6) δ 7.17 (2H,                      −15 °C by the dropwise addition of 15% (w/v) aqueous Na2CO3
+s, SO2NH2), 7.73 (2H, d, J = 9.0 Hz, H-3′ and H-5′), 7.99 (2H, d, J =              solution, and the precipitated solid was collected by ﬁltration and
+9.0 Hz, H-2′ and H-6′), 8.33 (1H, s, H-6), 8.00 (1H, s, H-8), 10.00                washed with H2O. The residual solid was triturated with EtOAc (3 ×
+(1H, s, NH). LRMS (ES+) m/z 291.0 [M + H]+. HRMS calcd for                         100 mL) and ﬁltered. The combined ﬁltrates were concentrated under
+C11H11N6O2S [M + H]+ 291.0659, found 291.0659.                                     reduced pressure to furnish the product, which was puriﬁed as
+    N2-Phenylguanine 2,2,2-triﬂuoroacetate (15). The title compound                indicated.
+was prepared following general procedure A using 2-bromohypox-                        General Procedure E. The appropriate 9-(tetrahydro-2H-pyran-2-
+anthine (14, 1.00 g, 4.7 mmol) and aniline (0.9 mL, 9.40 mmol) to                  yl)-9H-purine (1.0 mol equiv) was dissolved in 2-propanol (60 mL/g)
+yield 15 as a white solid (1.17 g, 73%). The isolated compound was                 and deionized water (20 mL/g). Triﬂuoroacetic acid (10.0 mol equiv)
+pure by analytical HPLC without the need for further puriﬁcation; mp               was added, and the reaction mixture was stirred at 100 °C for 2 h and
+229−231 °C; UV λmax (EtOH) 273 nm. IR (cm−1) 3332, 3128, 2943,                     cooled to room temperature, and the solution was adjusted to pH 8 by
+2756, 2555, 2387, 1678, 1572. 1H NMR (300 MHz, DMSO-d6) δ 7.07                     addition of conc aqueous ammonia solution. The volume of solvent
+(1H, t, J = 7.5 Hz, H-4′), 7.36 (2H, dd, J = 7.5, 8.0 Hz, H-3′ and H-5′),          was reduced by 50% under reduced pressure; if a precipitate resulted,
+7.62 (2 H, d, J = 8.0 Hz, H-2′ and H-6′), 7.94 (1H, s, H-8), 8.46 (1H,             this was collected and washed with 2-propanol (2 × 10 mL). If
+br s, NH), 9.00 (1H, br s, NH). 13C NMR (75 MHz, CDCl3) δ 113,                     precipitation was not observed following neutralization, the reaction
+120, 123, 129, 138, 139, 150, 152, 155. LRMS (ES+) m/z 228.3 [M +                  mixture was partitioned between EtOAc (20 mL) and saturated
+H]+. HRMS calcd for C11H10N5O [M + H]+ 228.0881, found                             aqueous NaCl solution (20 mL) The organic layer was dried
+228.0880.                                                                          (Na2SO4) and evaporated under reduced pressure, and the product
+    6-Oxo-2-((4-sulfamoylphenyl)amino)-6,9-dihydro-1H-purine                       was puriﬁed by chromatography as speciﬁed.
+2,2,2-triﬂuoroacetate (16). Synthesized in accordance with general                    General Procedure F. Tetrabutylammonium ﬂuoride solution (1.0
+procedure A from 2-bromohypoxanthine (14, 0.10 g, 0.47 mmol) to                    M in THF, 1.5 mol equiv) was added dropwise to a stirred solution of
+yield 16 as an amorphous white solid (60 mg, 42%); mp >300 °C; UV                  the appropriate 6-triisopropylsilylethynylpurine (1.0 mol equiv) in
+λmax (EtOH) 275 nm. IR (cm−1) 3348, 3113, 2990, 2877, 2792, 2333,                  anhydrous THF (10−20 mL), and the mixture was stirred for 5−15
+1672, 1575, 1365, 1153. 1H NMR (300 MHz, DMSO-d6) δ 7.28 (2H,                      min at ambient temperature under N2. Volatiles were evaporated
+s, SO2NH2), 7.79 (4H, m, H-2′, H-3′, H-5′ and H-6′), 8.31 (1H, s, H-               under reduced pressure, and the residue was redissolved in EtOAc
+8), 9.25 (1H, br s, NH), 10.84 (1H, br s, NH). 13C NMR (75 MHz,                    (100 mL/g) and washed with saturated aqueous NaCl (100 mL/g),
+
+                                                                            1755                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                               J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                    Article
+
+and the organic fraction was removed in vacuo. The product was                  (75 MHz, DMSO-d6) δ 19.4, 27.8, 71.9, 160.1, 162.2. LRMS (ES−) m/
+puriﬁed as described.                                                           z 206.81 [M − H]−.
+   General Procedure G. An oxygen-free solution of the required                     2-Amino-6-(1-methylpropoxy)purine (22).31 Treatment of 2-
+boronic acid or potassium triﬂuoroborate salt (1.09 mmol), the                  butanol (20 mL) with Na (0.68 g, 29.5 mmol), followed by addition
+appropriately 2-substituted 6-chloro-9-(tetrahydro-2H-pyran-2-yl)-9H-           of 2-amino-6-chloropurine 9 (1.0 g, 5.9 mmol) was performed
+purine (0.78 mmol), dicyclohexyl(2′,6′-dimethoxybiphenyl-2-yl)-                 according to general procedure B, to give a pale-yellow solid. H2O was
+phosphine (SPhos) (2.5 mol %), and palladium acetate (1.0 mol %)                added, and the product was extracted into EtOAc (3 × 100 mL), dried
+in toluene (4 mL) was degassed by bubbling nitrogen through the                 (MgSO4), and the solvent removed in vacuo to yield 22 (0.90 g, 74%)
+solution in a sealed vial for 5 min. To the pale-yellow solution was            as oﬀ-white crystals, Rf 0.3 (10% MeOH:DCM); mp 77 °C (dec)
+added K3PO4 (1.56 mmol) and water (approximately 50 μL). The                    (lit.31 mp 88−90 °C). IR (cm−1) 3322, 3190, 2971, 2936, 2876, 2772,
+solution was again degassed for 15 min and subsequently heated to               1616, 1575, 1504, 1451, 1393, 1375, 1326, 1273, 1222. 1H NMR (300
+100 °C for 18 h. The black-brown suspension was ﬁltered through                 MHz, DMSO-d6) δ 0.91 (3H, t, J = 7.4 Hz, CH3CH2CHCH3), 1.29
+Celite, eluting with MeOH (3 × 10 mL), and the product was isolated             (3H, d, J = 6.2 Hz, CH3CH2CHCH3), 1.57−1.79 (2H, m,
+by chromatography as indicated.                                                 CH3CH2CHCH3), 5.27−5.38 (1H, m, CH3CH2CHCH3), 6.19 (2H,
+   2-Amino-6-ethoxypurine (18).50,51 Treatment of EtOH (100 mL)                 s, NH2), 7.79 (1H, s, H-8). 13C NMR (75 MHz, DMSO-d6) δ 10.0,
+with Na (3.38 g, 147.5 mmol), followed by addition of 2-amino-6-                19.8, 28.9, 72.7, 137.7, 160.1. LRMS (ES−) m/z 206.08 [M − H]−.
+chloropurine 9 (5.0 g, 29.5 mmol) according to general procedure B,             Anal. Found: C, 51.52; H, 6.43; N, 32.64. C9H13N5O·0.25H2O
+aﬀorded the crude product. Recrystallization from H2O gave 18 as a              requires: C, 51.05; H, 6.43; N, 33.08.
+white powder (4.75 g, 90%); Rf 0.26 (10% MeOH:DCM), mp 247 °C                       2-Amino-6-(prop-2-ynyloxy)purine (23).51 Treatment of propargyl
+(dec) (lit.51 mp 230 °C (dec), lit.50 mp 293 °C (dec)). IR (cm−1)               alcohol (0.83 mL, 14.2 mmol) with NaH (0.25 mg, 10.7 mmol) in
+3321, 2981, 2363, 2143, 1619, 1584, 1508, 1458, 1427, 1396, 1375,               DMSO (10 mL), followed by addition of 17 (1.0 g, 3.6 mmol) was
+1342, 1285, 1223, 1161, 1118 cm−1. 1H NMR (300 MHz, DMSO-d6)                    performed according to general procedure C, aﬀording the product 23
+δ 1.35 (3H, t, J = 7.1 Hz, CH3), 4.44 (2H, q, J = 7.1 Hz, CH2), 6.21            (0.54 g, 80%) as a beige solid, Rf 0.26 (10% MeOH:DCM); mp 181
+(2H, s, NH2), 7.81 (1H, s, H-8). 13C NMR (75 MHz, DMSO-d6) δ                    °C (dec) (lit.51 mp 230 °C (dec)). IR (cm−1) 3319, 3190, 2777, 2126,
+14.9, 61.6, 160.1. LRMS (ES+) m/z 180.3 [M + H]+. Anal. Found: C,               1651, 1621, 1589, 1510, 1460, 1438, 1400, 1339, 1277, 1221, 1184,
+47.11; H, 4.97; N, 38.97. C7H9N5O requires: C, 46.92; H, 5.06; N,               1142. 1H NMR (300 MHz, DMSO-d6) δ 3.58 (1H, t, J = 2.4 Hz,
+39.09.                                                                          OCH2CCH), 5.10 (2H, d, J = 2.4 Hz, OCH2CCH), 6.35 (2H, s,
+   2-Amino-6-n-propoxypurine (19).50,51 Treatment of 1-propanol                 NH2), 7.85 (1H, s, H-8). 13C NMR (75 MHz, DMSO-d6) δ 53.0, 78.0,
+(20 mL) with Na (0.68 g, 29.5 mmol), followed by addition of 2-                 79.6, 113.7, 138.5, 155.7, 159.1, 159.9. LRMS (ES+) m/z 190.00 [M +
+amino-6-chloropurine 9 (1.0 g, 5.9 mmol) according to general                   H]+.
+procedure B, gave the crude product. Recrystallization from H2O                     2-Fluoro-6-ethoxypurine (24). Prepared following general proce-
+aﬀorded 19 (1.06 g, 93%) as a yellow solid, Rf 0.21 (10%                        dure D from 18 (1.0 g, 5.6 mmol) to give 24 as a white solid (0.22 g,
+MeOH:DCM), mp 196−198 °C (lit.51 mp 199−201 °C, lit.50 mp                       22%); Rf 0.39 (10% MeOH/DCM); mp 225−227 °C. IR (cm−1)
+208 °C). IR (cm−1) 3484, 3389, 3318, 3203, 2965, 2935, 2882, 2522,              3117, 2997, 2740, 2669, 2506, 2363, 2339, 1836, 1760, 1605, 1487,
+2361, 2338, 1578, 1507, 1449, 1398, 1362, 1331, 1276, 1225, 1165,               1425, 1373, 1343, 1281, 1219, 1151, 1111, 1038, 1007. 1H NMR (300
+1119. 1H NMR (300 MHz, DMSO-d6) δ 0.97 (3H, t, J = 7.4 Hz, CH3)                 MHz, DMSO-d6) δ 1.41 (3H, t, J = 7.1 Hz, CH3), 4.57 (2H, q, J = 7.1
+1.76 (2H, tq, J = 7.2, 7.2 Hz, CH3CH2CH2O), 4.34 (2H, t, J = 6.8 Hz,            Hz, CH2), 8.39 (1H, s, H-8), 13.55 (1H, br s, NH). 13C NMR (75
+OCH2), 6.20 (2H, s, NH2), 7.82 (1H, s, H-8), 12.37 (1H, br s, NH).              MHz, DMSO-d6) δ 14.6 (CH3), 64.0 (CH2), 144.0 (C8). LRMS (ES+)
+13
+  C NMR (75 MHz, DMSO-d6) δ 10.7, 22.2, 67.3, 138.5, 160.1, 160.3,              m/z 183.1 [M + H]+. Anal. Found: C, 44.80; H, 3.67; N, 29.48.
+162.2. LRMS (ES+) m/z 194.17 [M + H]+. Anal. Found: C, 46.81; H,                C7H7N4OF·0.3H2O requires: C, 44.83; H, 4.08; N, 29.87.
+5.95; N, 33.78. C8H11N5O·0.7H2O requires: C, 46.69; H, 6.07; N,                     2-Fluoro-6-n-propoxypurine (25). Synthesized in accordance with
+34.03.                                                                          general procedure D from 19 (1.0 g, 5.2 mmol) to yield 25 (0.58 g,
+   2-Amino-6-isopropoxypurine (20).31 Treatment of 2-propanol                   57%) as a white solid; Rf 0.18 (70% EtOAc:petrol); mp 197−199 °C.
+(0.85 mL, 14.2 mmol) with NaH (0.26 mg, 10.7 mmol) in DMSO                      IR (cm−1) 3105, 2973, 2944, 2886, 2741, 2680, 2523, 2362, 2338,
+(10 mL), followed by addition of 17 (1.0 g, 3.6 mmol) was performed             1772, 1607, 1422, 1368, 1347, 1269, 1213, 1149, 1038. 1H NMR (300
+according to general procedure C, to aﬀord the crude product.                   MHz, DMSO-d6) δ 1.00 (3H, t, J = 7.4 Hz, CH3) 1.82 (2H, tq, J = 7.1,
+Puriﬁcation by chromatography (silica; 5−10% MeOH:DCM)                          7.1 Hz, CH3CH2CH2O), 4.47 (2H, t, J = 6.7 Hz, CH3CH2CH2O),
+aﬀorded 20 as a yellow oil. Trituration of the oil with diethyl ether           8.39 (1H, s, H-8), 13.55 (1H, br s, NH). 13C NMR (75 MHz, DMSO-
+aﬀorded 20 (0.38 g, 55%) as an oﬀ-white solid; Rf 0.28 (10%                     d6) δ 10.5 (CH3), 22.0 (CH3CH2CH2O), 69.4 (O6CH2), 144.0 (Ar-
+MeOH:DCM), mp 205−207 °C (lit.31 mp 209−210 °C). IR (cm−1)                      C), 156.0 (C8), 158.8 (Ar-C). LRMS (ES+) m/z 154.0 [M − C3H7]+.
+3491, 3331, 3195, 2976, 2773, 1618, 1580, 1504, 1445, 1391, 1372,               HRMS calcd for C8H9FN4O [M+] 196.0760, found 196.0757.
+1321, 1272, 1224, 1180, 1144. 1H NMR (300 MHz, DMSO-d6) δ 1.33                      2-Fluoro-6-isopropoxypurine (26). Synthesized by general prode-
+(6H, d, J = 6.2 Hz, 2 × CH3), 5.47 (1H, septet, J = 6.2 Hz, OCH), 6.17          cure D from 20 (0.30 g, 1.6 mmol) to yield 26 as a white solid (0.16 g,
+(2H, s, NH2), 7.81 (1H, s, H-8), 12.39 (1H, br s, NH). 13C NMR (75              53%); Rf 0.22 (70% EtOAc:petrol); mp 184 °C (dec). IR (cm−1)
+MHz, DMSO-d6) δ 22.3, 68.2, 160.1. LRMS (ES+) m/z 194.15 [M +                   2990, 2536, 1605, 1472, 1424, 1371, 1275, 1034, 1017. 1H NMR (300
+H]+. Anal. Found: C, 49.48; H, 5.64; N, 35.71. C8H11N5O·0.1H2O                  MHz, DMSO-d6) δ 1.40 (6H, d, J = 6.2 Hz, 2 × CH3), 5.49 (1H,
+requires: C, 49.27; H, 5.79; N, 35.91                                           septet, J = 6.2 Hz, OCH), 8.37 (1H, s, H-8), 13.52 (1H, br s, NH). 13C
+   2-Amino-6-(2-methyl-1-propoxy)purine (21).31 2-Methyl-1-prop-                NMR (75 MHz, DMSO-d6) δ 22.0 (CH3), 71.5 (O6CH), 162.2 (C8).
+anol (1.31 mL, 14.2 mmol) was added to NaH (0.25 mg, 10.7 mmol)                 LRMS (ES+) m/z 154.0 [M − C3H7]+. HRMS calcd for C8H9FN4O
+in DMSO (10 mL), followed by addition of 17 (1.0 g, 3.6 mmol)                   [M+] 196.0760, found 196.0760.
+according to general procedure C, to aﬀord the crude product.                       2-Fluoro-6-(2-methyl-1-propoxy)purine (27). From 21 (0.40 g, 1.9
+Trituration of the residual yellow oil with petrol furnished a cream            mmol) in accordance with general procedure D to yield 27 (0.25 g,
+solid. Puriﬁcation by chromatography (silica; 5−10% MeOH:DCM)                   62%) as a white solid; Rf 0.25 (70% EtOAc:petrol); mp 202−204 °C.
+gave 21 (0.42 g, 57%) as pale-yellow crystals; Rf 0.41 (10% MeOH/               IR (cm−1) 3130, 3059, 2968, 2937, 2884, 2804, 2693, 2528, 1760,
+DCM), mp 180−182 °C (lit.31 mp 89−92 °C). IR (cm−1) 3512, 3473,                 1700, 1603, 1476, 1451, 1418, 1364, 1341, 1267, 1211, 1140, 1113,
+3359, 2958, 2875, 1620, 1575, 1507, 1451, 1386, 1363, 1332, 1272,               1040. 1H NMR (300 MHz, DMSO-d6) δ 1.01 (6H, d, J = 6.7 Hz, 2 ×
+1223, 1159, 1121. 1H NMR (300 MHz, DMSO-d6) δ 0.98 (6H, d, J =                  CH3), 2.13 (1H, septet, J = 6.7 Hz, OCH2CH), 4.30 (2H, d, J = 6.7
+6.7 Hz, 2 × CH3), 2.07 (1H, septet, J = 6.7 Hz, OCH2CH), 4.17 (2H,              Hz, OCH2), 8.40 (1H, s, H-8), 13.55 (1H, br s, NH). 13C NMR (75
+d, J = 6.8 Hz, OCH2), 6.21 (2H, s, NH2), 7.82 (1H, s, H-8). 13C NMR             MHz, DMSO-d6) δ 19.2 (CH3), 27.7 (O6CH2CH), 73.7 (O6CH2).
+
+                                                                         1756                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                            J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                      Article
+
+LRMS (ES+) m/z 154.0 [M − C3H7]+. HRMS calcd for C9H11FN4O                        144.3 (CSO2NH2), 154.7 (C8). LRMS (ES+) m/z 349.8 [M + H]+.
+[M+] 210.0917, found 210.0922.                                                    HRMS calcd for C14H16N6O3S [M+] 348.1005, found 348.1007.
+   2-Fluoro-6-(1-methylpropoxy)purine (28). Prepared according to                    2-Sulfanilyl-6-(2-methyl-1-propoxy)purine (33). Prepared follow-
+general procedure D from 22 (0.66 g, 3.2 mmol) as a white solid (0.29             ing general procedure A from 27 (0.12 g, 0.6 mmol). Puriﬁcation by
+g, 43%); Rf 0.21 (70% EtOAc:petrol); mp 187−189 °C. IR (cm−1)                     chromatography (silica, 50−100% EtOAc:petrol followed by 0−10%
+2975, 2940, 1604, 1468, 1421, 1372, 1344, 1277, 1211, 1148, 1038. 1H              MeOH:DCM), aﬀorded 33 (0.11 g, 53%) as a light-brown solid; Rf
+NMR (300 MHz, DMSO-d6) δ 0.93 (3H, t, J = 7.4 Hz,                                 0.21 (70% EtOAc:petrol); mp 133 °C (dec); UV λmax (EtOH) 308
+CH3CH2CHCH3), 1.36 (3H, d, J = 6.2 Hz, CH3CH2CHCH3),                              nm. IR (cm−1) 3285, 3108, 2962, 2360, 2337, 1595, 1576, 1543, 1499,
+1.66−1.83 (2H, m, CH 3 CH 2 CHCH 3 ), 5.29−5.37 (1H, m,                           1438, 1396, 1321, 1249, 1221, 1144, 1096, 1016. 1H NMR (300 MHz,
+CH3CH2CHCH3), 8.37 (1H, s, H-8), 13.55 (1H, s, NH). 13C NMR                       DMSO-d6) δ 1.03 (6H, d, J = 6.7 Hz, 2 × CH3), 2.16 (1H, septet, J =
+( 7 5 M H z , D M S O - d 6 ) δ 9 .8 ( C H 3 C H 2 C H C H 3 ) , 1 9 . 5          6.7 Hz, OCH2CH), 4.33 (2H, d, J = 6.8 Hz, OCH2CH), 7.17 (2H, s,
+(CH3CH2CHCH3), 28.6 (CH3CH2CHCH3), 75.9 (CH3CH2CHCH3),                            NH2), 7.71 (2H, d, J = 8.9 Hz, H-2′ and H-6′), 7.97 (2H, d, J = 8.9 Hz,
+158.8 (C8). LRMS (ES−) m/z 209.1 [M − H]−. Anal. Found: C,                        H-3′ and H-5′), 8.09 (1H, s, H-8), 9.77 (1H, s, NH). 13C NMR (75
+51.71; H, 5.27; N, 26.33. C9H11N4OF requires: C, 51.42; H, 5.27; N,               MHz, DMSO-d6) δ 19.4 (CH3), 27.9 (O6CH2CH), 72.7 (O6CH2),
+26.65.                                                                            117.6 (CHCNH), 126.8 (CHCSO2NH2), 135.7 (Ar-CNH), 144.6
+   2-Fluoro-6-(prop-2-ynyloxy)purine (29). Synthesized from 23                    (CSO2NH2), 155.1 (C8). LRMS (ES+) m/z 363.8 [M + H]+. HRMS
+(0.28 g, 1.5 mmol) in accordance with general procedure D as a                    calcd for C15H18N6O3S [M+] 362.1161, found 362.1145.
+pale-yellow solid (77 mg, 27%); Rf 0.18 (70% EtOAc:petrol); mp 201                   (R/S)-6-(1-Methylpropoxy)-2-sulfanilylpurine (34). Synthesized
+°C (dec). IR (cm−1) 3261, 3123, 2970, 2864, 2803, 2363, 2336, 2140,               from 28 (0.1 g, 0.5 mmol) following general procedure A. Puriﬁcation
+1651, 1607, 1460, 1379, 1341, 1275, 1217, 1142, 1107, 1048. 1H NMR                by chromatography (silica; 50−100% EtOAc:petrol followed by 0−
+(300 MHz, DMSO-d6) δ 3.70 (1H, t, J = 2.4 Hz, OCH2CCH), 5.23                      10% MeOH:DCM), aﬀorded 34 (41 mg, 24%) as a light-brown solid;
+(2H, d, J = 2.2 Hz, OCH2CCH), 8.45 (1H, s, H-8). 13C NMR (75                      Rf 0.10 (70% EtOAc:petrol); mp 162 °C (dec); UV (EtOH) λmax 308
+MHz, DMSO-d6) δ 55.4 (O6CH2CCH), 78.5 (O6CH2CCH), 79.1                            nm. IR (cm−1) 3649, 3317, 3219, 3106, 2972, 2938, 2874, 2363, 2340,
+(O6CH2CCH), 162.2 (C8). LRMS (ES+) m/z 192.0 [M+]. HRMS                           1701, 1596, 1579, 1528, 1498, 1453, 1389, 1306, 1243, 1145, 1094. 1H
+calcd for C8H5FN4O [M+] 192.0447, found 192.0448.                                 NMR (300 MHz, DMSO-d6 ) δ 0.97 (3H, t, J = 7.4 Hz,
+   2-Sulfanilyl-6-ethoxypurine (30). Prepared from 24 (0.20 g, 1.1                CH3CH2CHCH3), 1.39 (3H, d, J = 6.2 Hz, CH3CH2CHCH3),
+mmol) following general procedure A. Puriﬁcation by chromatography                1.68−1.87 (2H, m, CH 3 CH 2 CHCH 3 ), 5.40−5.46 (1H, m,
+(silica; 5−20% MeOH:DCM) aﬀorded 30 (39 mg, 11%) as an oﬀ-                        CH3CH2CHCH3), 7.17 (2H, s, NH2), 7.72 (2H, d, J = 8.8 Hz, H-2′
+white solid; Rf 0.20 (10% MeOH:DCM); mp 265 °C (dec); UV λmax                     and H-6′), 7.96 (2H, d, J = 8.9 Hz, H-3′ and H-5′), 8.13 (1H, s, H-8),
+(EtOH) 257, 241 nm. IR (cm−1) 3473, 3317, 3223, 2984, 2787, 2363,                 9.76 (1H, s, NH). 13C NMR (75 MHz, DMSO-d6) δ 10.0
+2338, 1628, 1578, 1540, 1499, 1442, 1376, 1312, 1254, 1142, 1013. 1H              (CH3CH2CHCH3), 19.7 (CH3CH2CHCH3), 28.8 (CH3CH2CHCH3),
+NMR (300 MHz, DMSO-d6) δ 1.43 (3H, t, J = 7.1 Hz, CH3), 4.59                      74.2 (CH3CH2CHCH3), 117.6 (CHCNH), 126.8 (CHCSO2NH2),
+                                                                                  135.8 (Ar-CNH), 144.6 (CSO2NH2), 155.2 (C8). LRMS (ES+) m/z
+(2H, q, J = 7.1 Hz, CH2), 7.16 (2H, s, NH2), 7.71 (2H, d, J = 8.9 Hz,
+                                                                                  363.8 [M + H]+. HRMS calcd for C15H18N6O3S [M+] 362.1161, found
+H-3′ and H-5′), 7.97 (2H, d, J = 8.9 Hz, H-2′ and H-6′), 8.08 (1H, s,
+                                                                                  362.1166. Anal. Found: C, 48.32; H, 5.15; N, 22.08. C15H18N6O3S·
+H-8), 9.76 (1H, s, NH), 12.69 (1H, s, NH). 13C NMR (75 MHz,
+                                                                                  0.2CF3CO2H requires: C, 48.02; H, 4.76; N, 21.82.
+DMSO-d6) δ 14.9 (CH3), 62.6 (CH2), 117.6 (Ar-C), 126.8 (Ar-C),
+                                                                                     2-Sulfanilyl-6-(prop-2-ynyloxy)purine (35). Synthesized in accord-
+155.1 (C8). LRMS (ES+) m/z 335.0 [M + H]+. HRMS calcd for
+                                                                                  ance with general procedure A from 29 (0.045 g, 0.2 mmol).
+C13H14N6O3S [M+] 334.0848, found 334.0835.
+                                                                                  Puriﬁcation by chromatography (silica; 50−100% EtOAc:petrol
+   2-Sulfanilyl-6-propoxypurine (31). Prepared from 25 (0.25 g, 1.3               followed by 0−10% MeOH:DCM), yielded 35 (27 mg, 34%) as a
+mmol) according to general procedure A. Puriﬁcation by chromatog-                 beige solid; Rf 0.1 (70% EtOAc:petrol); mp 161 °C (dec); UV
+raphy (silica; 50−100% EtOAc:petrol followed by 0−10%                             (EtOH) λmax 307 nm. IR (cm−1) 3370, 3245, 2971, 2795, 2361, 2340,
+MeOH:DCM), aﬀorded 31 (0.25 g, 56%) as a beige solid; Rf 0.10                     1715, 1699, 1619, 1585, 1575, 1540, 1499, 1472, 1454, 1443, 1396,
+(70% EtOAc:petrol); mp 207 °C (dec); UV λmax (EtOH) 310 nm. IR                    1321, 1307, 1271, 1143, 1095. 1H NMR (300 MHz, DMSO-d6) δ 3.68
+(cm−1) 3251, 3115, 2971, 2934, 2878, 2361, 2340, 1700, 1596, 1580,                (1H, t, J = 2.3 Hz, OCH2CCH), 5.24 (2H, d, J = 2.3 Hz, OCH2CCH),
+1528, 1498, 1453, 1389, 1321, 1306, 1243, 1146, 1094. 1H NMR (300                 7.18 (2H, s, NH2), 7.72 (2H, d, J = 8.8 Hz, H-2′ and H-6′), 7.98 (2H,
+MHz, DMSO-d6) δ 1.03 (3H, t, J = 7.4 Hz, CH3) 1.85 (2H, tq, J = 6.9,              d, J = 8.8 Hz, H-3′ and H-5′), 8.13 (1H, s, H-8), 9.87 (1H, s, NH). 13C
+6.9 Hz, CH3CH2CH2O), 4.50 (2H, t, J = 6.8 Hz, CH3CH2CH2O),                        NMR (75 MHz, DMSO-d 6 ) δ 53.6 (O 6 CH 2 CCH), 78.0
+7.17 (2H, s, NH2), 7.72 (2H, d, J = 8.8 Hz, H-2′ and H-6′), 7.97 (2H,             (O6CH2CCH), 79.1 (O6CH2CCH), 115.1 (Ar-C), 117.5 (CHCNH),
+d, J = 8.8 Hz, H-3′ and H-5′), 8.09 (1H, s, H-8), 9.77 (1H, s, NH),               126.5 (CHCSO2NH2), 135.5 (Ar-CNH), 139.9 (C2NH), 143.9
+12.96 (1H, br s, NH). 13C NMR (75 MHz, DMSO-d6) δ 10.7 (CH3),                     (CSO2NH2), 154.3 (C8), 158.6 (Ar-C). LRMS (ES+) m/z 345.8 [M
+22.2 (CH3CH2CH2O), 68.2 (O6CH2), 117.6 (CHCNH), 126.8                             + H]+. HRMS calcd for C14H12N6O3S [M+] 344.0692, found
+(CHCSO2NH2), 135.7 (Ar-CNH), 144.6 (CSO2NH2), 155.1 (C8).                         344.0700.
+LRMS (ES+) m/z 349.8 [M + H]+. HRMS calcd for C14H16N6O3S                            6-Chloro-2-ﬂuoro-9-(tetrahydro-2H-pyran-2-yl)-9H-purine (36).
+[M+] 348.1005, found 348.0994; Anal. Found: C 45.41; H 4.75; N                    3,4-Dihydropyran (60 μL, 0.58 mmol) was added dropwise over 10
+22.40. C14H16N6O3S·0.3CF3CO2H requires: C, 45.83; H, 4.29; N,                     min to a vigorously stirred solution of 10 (0.10 g, 0.58 mmol) and
+21.97.                                                                            (rac)-camphorsulfonic acid (5 mg, 0.02 mmol) in EtOAc (50 mL) at
+   2-Sulfanilyl-6-isopropoxypurine (32). Synthesized in accordance                65 °C. The temperature was maintained at 65 °C for 18 h. The
+with general procedure A from 26 (0.07 g, 0.4 mmol). Puriﬁcation by               resulting bright-yellow solution was neutralized to pH 7 by careful
+chromatography (silica; 50−100% EtOAc:petrol followed by 0−10%                    addition of aqueous NH3 solution until a cloudy suspension persisted.
+MeOH:DCM), aﬀorded 32 (38 mg, 31%) as a beige solid; Rf 0.03                      The crude mixture was washed with brine (2 × 30 mL) and the
+(70% EtOAc:petrol); mp 177 °C (dec); UV λmax (EtOH) 307 nm. IR                    aqueous phase was re-extracted with EtOAc (2 × 30 mL). The
+(cm−1) 3472, 3312, 3210, 3117, 2982, 2793, 2691, 2643, 2362, 2342,                combined organic extracts were dried (Na2SO4) and puriﬁed by
+1715, 1685, 1617, 1597, 1578, 1538, 1500, 1440, 1381, 1306, 1255,                 chromatography (silica; 30% EtOAc:petrol) to aﬀord 36 as a pale-
+1140, 1117, 1096. 1H NMR (300 MHz, DMSO-d6) δ 1.42 (6H, d, J =                    yellow oil which became a white waxy solid on refrigeration (110 mg,
+6.2 Hz, 2 × CH3), 5.59 (1H, septet, J = 6.2 Hz, OCH), 7.16 (2H, s,                75%); mp 92−94 °C; UV λmax (EtOH) 269 nm. IR (cm−1) 3132,
+NH2), 7.72 (2H, d, J = 8.8 Hz, H-2′ and H-6′), 7.96 (2H, d, J = 8.8 Hz,           2955, 2876, 1574. 1H NMR (500 MHz, DMSO-d6) δ 1.57−1.64 (2H,
+2 × H-3′ and H-5′), 8.07 (1H, s, H-8), 9.74 (1H, s, NH), 12.91 (1H,               m, CH2), 1.70−1.80 (1H, m, CH), 1.94−2.02 (2H, m, CH2), 2.23−
+br s, NH). 13C NMR (75 MHz, DMSO-d6) δ 21.9 (CH3), 69.0                           2.32 (1H, m, CH), 3.70−3.77 (1H, m, CH), 4.00−4.06 (1H, m, CH),
+(O6CH), 117.1 (CHCNH), 126.5 (CHCSO2NH2), 135.2 (Ar-CNH),                         5.71 (1H, dd, J = 2.3, 10.9 Hz, NCH), 8.92 (1H, s, H-8). 13C NMR
+
+                                                                           1757                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                              J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                      Article
+
+(125 MHz, DMSO-d6) δ 22.0 (N 9-CHCH2 CH2), 24.3 (N9-                              UV λmax (EtOH) 243 nm. IR (cm−1) 3414, 3111, 3072, 2920, 2110,
+CHOCH2CH2), 29.6 (N9-CHCH2CH2), 67.7 (N9-CHOCH2CH2),                              1704. 1H NMR (500 MHz, DMSO-d6) δ 4.86 (1H, s, CCH), 6.91−
+81.7 (N9-CH), 130.1 (d, JCF = 4.8 Hz, Ar-C), 146.4 (d, JCF = 2.8 Hz,              6.96 (1H, m, H-4′), 7.29 (2H, dd, J = 7.6, 8.0 Hz, H-3′ and H-5′), 7.80
+Ar-C), 150.6 (d, JCF = 18.5 Hz, Ar-C), 153.2 (d, JCF = 17.6 Hz, Ar-C),            (2H, dd, J = 2.0, 8.0 Hz, H-2′ and H-6′), 8.30 (1H, s, H-8), 9.70 (1H,
+156.2 (d, JCF = 213.7 Hz, Ar-C2). LRMS (ES+) m/z 257.2 [M + H]+.                  s, NH), 13.17 (1H, br, NH). 13C NMR (125 MHz, DMSO-d6) δ 87.0
+   2-Fluoro-9-(tetrahydro-2H-pyran-2-yl)-6-((triisopropylsilyl)-                  (CCH), 118.3 (Ar-C), 120.0 (Ar-C), 128.4 (Ar-C), 140.8 (Ar-C),
+ethynyl)-9H-purine (37). An oxygen-free solution of 36 (0.050 g, 1.95             156.2 (Ar-C). HRMS calcd for C13H10N5 [M + H]+ 236.0931, found
+mmol), bis(triphenylphosphine)palladium(II) chloride (41 mg, 3.0                  236.0934.
+mol %) and copper iodide (7 mg, 2.0 mol %) in THF (10 mL) was                         4-(6-Ethynyl-9H-purin-2-ylamino)benzenesulfonamide (42). De-
+degassed by bubbling nitrogen through the solution in a sealed vial for           protection of 40 (0.050 g, 0.11 mmol) in accordance with general
+5 min. Triisopropylsilylacetylene (0.50 mL, 2.2 mmol) and triethyl-               procedure F, followed by puriﬁcation by chromatography (silica; 10%
+amine (0.70 mL, 4.9 mmol) were added to the mixture, which was                    MeOH:DCM), aﬀorded 42 as a beige solid (18 mg, 50%); mp 156−
+again degassed for 15 min. After stirring at room temperature for 18 h,           158 °C. IR (cm−1) 3347, 3255, 2920, 2848, 2118, 1568, 1529, 1477,
+the black-brown suspension was ﬁltered through Celite, eluting with               1128. UV λmax (EtOH) 356, 292, 215 nm. 1H NMR (500 MHz,
+MeOH (3 × 20 mL). Puriﬁcation by chromatography (silica; 10%                      DMSO-d6) δ 4.90 (1H, s, CCH), 7.16 (2H, s, SO2NH2), 7.17 (2H,
+EtOAc:petrol) furnished 37 as a viscous yellow oil (78 mg, 99%); Rf               d, J = 9.0 Hz, H-2′ and H-6′), 7.93 (2H, d, J = 9.0 Hz, H-3′ and H-5′),
+0.30 (10% EtOAc:petrol); UV λmax (EtOH) 303 nm. IR (cm−1) 3433,                   8.36 (1H, s, H-8). LRMS (ES+) m/z 315.1 [M + H]+. HRMS calcd for
+2946, 2866, 2706, 2361, 1703. 1H NMR (500 MHz, DMSO-d6) δ                         C13H10N6O2S [M + H]+ 315.0664, found 315.0687. Note: Insuﬃcient
+1.12−1.25 (21H, m, Si(CH(CH3)2)3), 1.56−1.63 (2H, m, CH2),                        material for 13C NMR analysis.
+1.71−1.80 (1H, m, CH), 1.94−2.03 (2H, m, CH2), 2.20−2.30 (1H, m,                      6-Ethynyl-2-ﬂuoro-9-(tetrahydro-2H-pyran-2-yl)-9H-purine (43).
+CH), 3.70−3.78 (1H, m, CH), 4.01−4.07 (1H, m, CH), 5.70 (1H, dd,                  Deprotection of 37 (68 mg, 0.169 mmol) in accordance with general
+J = 2.2, 10.8 Hz, NCH), 8.89 (1H, s, H-8). 13C NMR (125 MHz,                      procedure F, but using 1.2 mol equiv of TBAF, followed by
+DMSO-d6) δ 10.5 (Si(CH(CH3)2)3), 18.4 (Si(CH(CH3)2)3), 22.0                       puriﬁcation by chromatography (silica; 15−100% EtOAc:petrol),
+(N9-CHCH2CH2), 24.4 (N9-CHOCH2CH2), 29.7 (N9-CHCH2CH2),                           aﬀorded 43 as an oﬀ-white solid (41 mg, 100%); Rf 0.32 (50%
+67.7 (N9-CHOCH2CH2), 81.4 (N9-CH), 100.2 (CC), 102.8 (C                         EtOAc:petrol). 1H NMR (500 MHz, CDCl3) δ 1.58−1.63 (1H, m,
+C), 133.9 (d, JCF = 4.6 Hz, Ar-C), 140.8 (d, JCF = 17.9 Hz, Ar-C),                CH), 1.63−1.78 (2H, m, CH2), 1.90−1.99 (1H, m, CH), 1.99−2.06
+146.6 (d, JCF = 2.8 Hz, Ar-C), 153.8 (d, JCF = 17.8 Hz, Ar-C), 157.4 (d,          (1H, m, CH), 2.07−2.12 (1H, m, CH), 3.68−3.74 (1H, m, CH), 3.71
+JCF = 210.6 Hz, Ar-C2). HRMS calcd for C21H32FN4OSi [M + H]+                      (1H, s, CCH), 4.09−4.14 (1H, m, CH), 5.65 (1H, dd, J = 2.6, 10.8
+403.2324, found 403.2324.                                                         Hz, NCH), 8.26 (1H, s, H-8). LRMS (ES+) m/z 247.0 [M + H]+.
+   2-Fluoro-6-((triisopropylsilyl)ethynyl)-9H-purine (38). The title              Note: Insuﬃcient material for 13C NMR analysis.
+compound was prepared according to general procedure E from 37                        6-Chloro-N-phenyl-9H-purin-2-amine (44). A mixture of N2-
+(0.29 g, 0.72 mmol). Puriﬁcation by chromatography (silica; 30%                   phenylguanine triﬂuoroacetate (15) (2.00 g, 5.87 mmol) and N,N-
+EtOAc:petrol) gave 38 as a pale-yellow oil (22 mg, 96%); Rf 0.25 (30%             diethylaniline (1.9 mL, 11.73 mmol) in POCl3 (30 mL) was heated at
+EtOAc:petrol); UV λmax (EtOH) 302 nm. IR (cm−1) 2945, 2866,                       115 °C for 60 min. The resultant yellow solution was carefully added
+2361, 2000, 1584. 1H NMR (500 MHz, DMSO-d6) δ 1.12−1.21 (21H,                     dropwise to crushed ice−water with stirring, and the aqueous solution
+m, Si(CH(CH3)2)3), 8.68 (1H, s, H-8), 13.89 (1H, br, NH). 13C NMR                 was neutralized by cautious addition of aqueous NaOH solution (1.0
+(125 MHz, CDCl3) δ 11.1 (Si(CH(CH3)2)3), 18.5 (Si(CH(CH3)2)3),                    M). The aqueous mixture was extracted with EtOAc (2 × 20 mL), and
+99.5 (CC), 106.1 (CC), 131.2 (m, Ar-C), 141.6 (m, Ar-C), 145.3                  the combined organic extracts were dried (Na2SO4) and evaporated
+(m, Ar-C), 156.6 (m, Ar-C), 158.6 (d, JCF = 217.4 Hz, Ar-C2). HRMS                under reduced pressure. Puriﬁcation by chromatography (silica; 50%
+calcd for C16H24FN4Si [M + H]+ 319.1749, found 319.1752.                          EtOAc:petrol) gave 44 as a white powder (670 mg, 46%); mp 172−
+   6-(2-(Triisopropylsilyl)ethynyl)-N-phenyl-9H-purin-2-amine (39).               174 °C; UV λmax (EtOH) 329, 272 nm. IR (cm−1) 3399, 3289, 1627,
+Prepared in accordance with general procedure A from 38 (0.455 g,                 1601, 1571, 1540. 1H NMR (500 MHz, DMSO-d6) δ 6.89−6.92 (1H,
+1.43 mmol). Puriﬁed by chromatography (silica; 5% MeOH:DCM) to                    t, J = 7.5 Hz, H-4′), 7.23−7.26 (2H, dd, J = 7.4, 7.5 Hz, H-3′ and H-
+give the title compound as a yellow gum (0.39 g, 1.00 mmol, 70%); Rf              5′), 7.71−7.73 (2H, d, J = 7.4 Hz, H-2′ and H-6′), 8.20 (1H, s, H-8),
+0.39 (5% MeOH:DCM); UV λmax (EtOH) 276 nm. IR (cm−1) 3389,                        9.81 (1H, br s, NH), 13.20 (1H, br s, NH). 13C NMR (125 MHz,
+2361, 2021. 1H NMR (500 MHz, CDCl3) δ 1.09−1.22 (21H, m,                          DMSO-d6) δ 118.6, 121.5, 128.5, 140.3, 142.4, 155.5. LRMS (ES+) m/
+Si(CH(CH3)2)3), 7.00−7.04 (1H, m, H-4′), 7.22 (1H, s, NH), 7.29                   z 246.1 [M + H]+.
+(2H, dd, J = 7.7, 8.1 Hz, H-3′ and H-5′), 7.46 (1H, s, H-8), 7.52 (2H,                6-Chloro-N-phenyl-9-(tetrahydro-2H-pyran-2-yl)-9H-purin-2-
+dd, J = 1.7, 7.7 Hz, H-2′ and H-6′), 10.42 (1H, s, NH). 13C NMR (125              amine (45). To a solution of 44 (0.2 g, 0.82 mmol) and CSA (0.01 g,
+MHz, CDCl3) δ 11.3 (Si(CH(CH3)2)3), 18.7 (Si(CH(CH3)2)3), 100.8                   0.041 mmol) in EtOAc (25 mL) was added DHP (83 μL, 0.90 mmol),
+(CC), 101.8 (CC), 120.7 (Ar-C), 123.7 (Ar-C), 129.4 (Ar-C),                     and the mixture was heated at 75 °C for 17 h. After cooling, the pH
+139.2 (Ar-C), 141.0 (Ar-C), 142.6 (Ar-C), 153.4 (Ar-C), 156.5 (Ar-                was adjusted to 8−9 with concentrated aqueous ammonia, and the
+C). LRMS (ES+) m/z 392.0 [M + H]+.                                                volatiles were removed in vacuo. Puriﬁcation by chromatography
+   4-(6-((Triisopropylsilyl)ethynyl)-9H-purin-2-ylamino)-                         (silica; 1/2 to 2/1 EtOAc:petrol) furnished 45 as a waxy solid (194
+benzenesulfonamide (40). Following general procedure A employing                  mg, 72%); mp 194−196 °C; UV λmax (EtOH) 330, 275 nm. IR (cm−1)
+38 (0.156 g, 0.49 mmol). Puriﬁcation by reversed phase column                     3274, 3106, 2934, 2849, 1579, 1573, 1535. 1H NMR (500 MHz,
+chromatography (C18 silica; 25−95% MeCN/water + 0.1%                              DMSO-d6) δ 1.38−1.39 (2H, m, CH2), 1.49−1.54 (1H, m, CH),
+HCOOH), aﬀorded 40 as a yellow solid (70 mg, 30%); mp 163−                        1.76−1.80 (2H, m, CH2), 2.09−2.17 (1H, m, CH), 3.43−3.48 (1H, m,
+165 °C; UV λmax (EtOH) 361 nm. IR (cm−1) 3327, 2944, 2867, 1569,                  CH), 3.81−3.83 (1H, m, CH), 5.38−5.40 (1H, dd, J = 2.0, 11.0 Hz,
+1531, 1368, 1149. 1H NMR (500 MHz, DMSO-d6) δ 1.15 (21H, m,                       NCH), 6.74−6.77 (1H, t, J = 8.5 Hz, H-4′), 7.07−7.11 (2H, dd, J =
+Si(CH(CH3)2)3), 7.17 (2H, s, SO2NH2), 7.70 (2H, d, J = 9.0 Hz, H-2′               7.5, 8.5 Hz, H-3′ and H-5′), 7.56−7.58 (2H, d, J = 7.5 Hz, H-2′ and H-
+and H-6′), 7.95 (2H, d, J = 9.0 Hz, H-3′ and H-5′), 8.33 (1H, s, H-8).            6′), 8.26 (1H, s, H-8), 9.79 (1H, br s, NH), 13.21 (1H, br s, NH). 13C
+13
+  C NMR (125 MHz, DMSO-d6) δ 10.6, 18.4, 90.6, 98.4, 117.1, 123.4,                NMR (125 MHz, DMSO-d6) δ 24.5, 29.4, 54.9, 67.7, 81.6, 118.7,
+126.5, 135.6, 144.0, 155.5, 165.0, 166.3, 166.5, 291.0, 286.5, 215.5.             121.7, 124.7, 128.6, 140.1, 142.4, 149.3, 152.7, 155.3. LRMS (ES+) m/
+LRMS (ES+) m/z 471.4 [M + H]+. HRMS calcd for C22H30N6O2SSi                       z 329.7 [M + H]+.
+[M + H]+ 471.1987, found 471.1942.                                                    N-Phenyl-6-(prop-1-yn-1-yl)-9-(tetrahydro-2H-pyran-2-yl)-9H-
+   6-Ethynyl-N-phenyl-9H-purin-2-amine (41). Treatment of 39                      purin-2-amine (46). A suspension of 45 (0.1 g, 0.30 mmol),
+(0.330 g, 0.84 mmol) according to general procedure F, followed by                PdCl2(CH3CN)2 (0.8 mg, 0.003 mmol), dicyclohexylphosphino-
+puriﬁcation by chromatography (silica; EtOAc), yielded 41 as a yellow             2′,4′,6′-triisopropylbiphenyl (4.3 mg, 0.009 mmol), and Cs2CO3
+solid (201 mg, 100%); Rf 0.27 (100% EtOAc); mp 140−160 °C (dec);                  (0.26 g, 0.79 mmol) in acetonitrile (1 mL) was degassed for 10 min
+
+                                                                           1758                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                              J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                     Article
+
+under a nitrogen atmosphere at room temperature. While degassing,                DMSO-d6) δ 12.3, 22.7, 24.8, 26.5, 31.8, 68.9, 82.1, 142.1, 157.9,
+an excess of methylacetylene was condensed and added to the reaction             159.6, 167.4, 167.5. LRMS (ES+) m/z 251.0 [M + H]+.
+mixture via a cannula, and the reaction mixture was heated and stirred               6-Ethyl-2-ﬂuoro-9H-purine (51). Prepared in accordance with
+at 40 °C for 2.5 h. After cooling to room temperature, water (5 mL)              general procedure E from 50 (0.18 g, 0.72 mmol). Puriﬁcation by
+was added and the mixture was extracted with EtOAc (3 × 15 mL).                  chromatography (silica; 25% EtOAc:petrol) yielded 51 as a white solid
+The combined organic extracts were washed with brine (10 mL), dried              (0.117 g, 98%); mp 146−148 °C; UV λmax (EtOH) 269 nm. IR (cm−1)
+(MgSO4), and the solvent was evaporated under reduced pressure.                  1676, 1616, 1573. 1H NMR (400 MHz, DMSO-d6) δ 1.30 (3H, t, J =
+Puriﬁcation by chromatography (silica; 30%−80% EtOAc:petrol) gave                7.5 Hz, CH3CH2), 3.00 (2H, q, J = 7.5 Hz, CH3CH2), 8.17 (1 H, s, H-
+46 as a colorless glassy compound (78 mg, 77%); Rf 0.27 (30%                     8). 13C NMR (125 MHz, DMSO-d6) δ 11.7, 25.9, 68.3, 116.0, 118.4,
+EtOAc:petrol). 1H NMR (500 MHz, CDCl3) δ 1.62−1.85 (3H, m,                       146.4, 158.0 (d, JC−F = 206.0 Hz), 158.3 (d, JC−F = 31.5 Hz). LRMS
+CH2 and CH), 2.06−2.15 (3H, m, CH2 and CH), 2.23 (3H, s, C                      (ES+) m/z 167.7 [M + H]+.
+CCH3), 3.74−3.81 (1H, m, CH), 4.15−4.21 (1H, m, CH), 5.60−5.67                       4-(6-Ethyl-9H-purin-2-ylamino)benzenesulfonamide (52). Pre-
+(1H, m, CH), 7.04 (1H, dd, J = 7.4, 7.3 Hz, H-4′), 7.34 (2H, dd, J =             pared by general procedure A from 51 (0.081 g, 0.49 mmol),
+8.5, 7.4 Hz, H-2′ and H-6′), 7.47 (1H, s, NH), 7.34 (2H, dd, J = 8.6,            following puriﬁcation by chromatography (silica; 50% EtOAc:petrol),
+0.9 Hz, H-3′ and H-5′), 8.03 (1H, s, H-8). LRMS (ES+) m/z 334.0 [M               as a white solid (33 mg, 21%); mp 291−293 °C; UV λmax (EtOH) 318,
++ H]+. Note: Insuﬃcient material for 13C NMR analysis.                           287, 212 nm. IR (cm−1) 3377, 3060, 2852, 1388, 1158. 1H NMR (500
+   N-Phenyl-6-(phenylethynyl)-9-(tetrahydro-2H-pyran-2-yl)-9H-                   MHz, DMSO-d6) δ 1.35 (3H, t, J = 6.0 Hz, CH3CH2), 3.00 (2H, q, J =
+purin-2-amine (47). To a degassed suspension of 45 (0.1 g, 0.30                  6.0 Hz, CH3CH2), 7.14 (2H, br s, SO2NH2), 7.69 (2H, d, J = 7.5 Hz,
+mmol), PdCl2(CH3CN)2 (0.8 mg, 0.003 mmol), dicyclohexylphos-                     H-2′ and H-6′), 7.99 (2H, d, J = 7.5 Hz, H-3′ and H-5′), 8.17 (1H, s,
+phino-2′,4′,6′-triisopropylbiphenyl (4.3 mg, 0.009 mmol), and Cs2CO3             H-8), 9.89 (1H, br s, NH). 13C NMR (125 MHz, DMSO-d6) δ 12.3,
+(0.26 g, 0.79 mmol) in anhydrous acetonitrile (1 mL) was added an                26.0, 117.0, 118.9, 125.4, 126.4, 135.2, 141.2, 144.4, 154.0, 155.5.
+excess of phenylacetylene, and the mixture was heated at 80 °C for 2 h.          LRMS (ES+) m/z 318.6 [M + H]+. HRMS calcd for C13H14N6O2S [M
+After cooling, water (5 mL) was added and the suspension was                     + H]+ 319.097076, found 319.09788.
+extracted with EtOAc (3 × 15 mL). The combined organic extract was                   6-Cyclopropyl-2-ﬂuoro-9-(tetrahydro-2H-pyran-2-yl)-9H-purine
+washed with brine (10 mL) and dried (MgSO4), and the solvent was                 (53). The title compound was prepared from 36 (0.04 g, 0.27 mmol)
+removed in vacuo. Puriﬁcation by chromatography (silica; 0−80%                   and potassium cyclopropyltriﬂuoroborate (50 mg, 0.19 mmol)
+EtOAc:petrol) gave 47 as a colorless glassy compound (94 mg, 78%);               following general procedure G. Puriﬁcation by chromatography (silica;
+Rf 0.53 (65% EtOAc:petrol). 1H NMR (500 MHz, CDCl3) δ 1.64−                      50% EtOAc:petrol) aﬀorded 53 as a colorless oil (21 mg, 42%); UV
+1.88 (3H, m, CH2 and CH), 2.07−2.19 (3H, m, CH2 and CH), 3.74−                   λmax (EtOH) 211, 325, 391 nm. IR (cm−1) 2986. 1H NMR (400 MHz,
+3.84 (1H, m, CH), 4.16−4.24 (1H, m, CH), 5.63−5.71 (1H, m, CH),                  DMSO-d6) δ 1.25 (4H, d, J = 6.5 Hz, cyclopropyl 2 × CH2), 1.55 (2H,
+7.03−7.08 (1H, m, H-4′), 7.32−7.46 (5H, m, phenyl), 7.50 (1H, s,                 m, CH2), 1.72 (1H, m, CH), 1.95 (2H, d, J = 10.5 Hz, CH2), 2.27 (1H,
+NH), 7.70 (2H, d, J = 8.3 Hz, H-2′ and H-6′), 7.72−7.75 (2H, m, H-3′             m, CH), 2.67 (1H, m, cyclopropyl CH), 3.70 (1H, m, CH), 3.99 (1H,
+and H-5′), 8.08 (1H, s, H-8). 13C NMR (125 MHz, CDCl3) δ 22.9,                   d, J = 10.5 Hz, CH), 5.63 (1H, d, J = 10.5 Hz, CH), 8.70 (1H, s, H-8).
+25.0, 31.5, 68.8, 82.2, 84.1, 97.6, 118.9, 121.5, 122.5, 128.5, 129.0,           13
+                                                                                    C NMR (500 MHz, DMSO-d6) δ 11.9, 13.2, 22.2, 24.4, 29.7, 67.7,
+129.4, 130.0, 132.9, 139.8, 141.0, 142.3, 152.5, 156.2. LRMS (ES+) m/
+                                                                                 81.3, 130.9, 144.1, 151.8, 157.6, 159.8, 176.9. LRMS (ES+) m/z 262.4
+z 396.4 [M + H]+.
+   N-Phenyl-6-(prop-1-yn-1-yl)-9H-purin-2-amine (48). Prepared in                [M + H]+.
+accordance with general procedure E from 46 (0.061 g, 0.18 mmol).                    6-Cyclopropyl-2-ﬂuoro-9H-purine (54). The title compound was
+Recrystallization from EtOAc-petrol gave 48 as a pale-yellow solid (18           prepared from 53 (0.19 g, 0.72 mmol) employing general procedure E.
+mg, 40%); mp 155−158 °C (dec); UV λmax (EtOH) 272 nm. IR                         Puriﬁcation by chromatography (silica; EtOAc) aﬀorded 54 as a white
+(cm−1) 1529, 1577, 2236, 2919. 1H NMR (500 MHz, MeOD-d4) δ                       solid (0.12 g, 95%); mp 137−139 °C; UV λmax (EtOH) 323, 213 nm.
+2.12 (3H, s, CCCH3), 6.87 (1H, t, J = 7.3 Hz, H-4′), 7.18 (2H, t, J =           IR (cm−1) 3062. 1H NMR (400 MHz, DMSO-d6) δ 1.11 (4H, d, J =
+7.8 Hz, H-2′ and H-6′), 7.63 (2H, d, J = 7.9 Hz, H-3′ and H-5′), 8.04            6.5 Hz, cyclopropyl 2 × CH2), 2.51 (1H, m, cyclopropyl CH), 8.40
+(1H, s, H-8). 13C NMR (125 MHz, MeOD-d4) δ 4.3, 116.9, 119.2,                    (1H, s, H-8). 13C NMR (400 MHz, DMSO-d6) δ 11.6, 13.1, 131.2,
+120.1, 122.9, 129.6, 163.2, 163.5. LRMS (ES+) m/z 250.1 [M + H]+.                144.2, 151.8, 157.6, 159.8. LRMS (ES+) m/z 179.0 [M + H]+.
+HRMS calcd for C14H12N5 [M + H]+ 250.1087, found 250.1085.                           4-(6-Cyclopropyl-9H-purin-2-ylamino)benzenesulfonamide (55).
+   N-Phenyl-6-(phenylethynyl)-9H-purin-2-amine (49). Prepared in                 Synthesized following general procedure A from 54 (0.086 g, 0.49
+accordance with general procedure E from 47 (0.055 g, 0.14 mmol).                mmol). Puriﬁcation by chromatography (silica; EtOAc) aﬀorded 55 as
+Recrystallization from EtOAc−petrol gave 49 as a yellow solid (22 mg,            a pale-yellow solid (24 mg, 15%); mp 291−293 °C; UV λmax (EtOH)
+51%); mp 206−208 °C (dec); UV λmax (EtOH) 281 nm. IR (cm−1)                      315.5, 289, 213 nm. IR (cm−1) 3389, 3062, 2921, 2851, 1727, 1604,
+1532, 1574, 2208, 3226. 1H NMR (500 MHz, MeOD-d4) δ 6.79 (1H,                    1579, 1531, 1379, 1149. 1H NMR (500 MHz, DMSO-d6) δ 1.23 (4H,
+t, J = 7.3 Hz, H-4′), 7.11 (2H, dd, J = 7.8, 8.1 Hz, H-2′ and H-6′),             d, J = 6.5 Hz, cyclopropyl 2 × CH2), 1.35 (1H, m, cyclopropyl CH),
+7.23−7.32 (3H, m, H-3′, H-5′ and Ar-H), 7.54−7.58 (4H, m, 4 ×                    7.18 (2H, br s, SO2NH2), 7.74 (2H, d, J = 8.0 Hz, H-2′ and H-6′), 7.99
+ArH), 8.02 (1H, s, H-8). 13C NMR (125 MHz, MeOD-d4) δ 97.3,                      (2H, d, J = 8.0 Hz, H-3′ and H-5′), 8.22 (1H, s, H-8), 9.75 (1H, br s,
+120.2, 122.8, 122.9, 129.6, 129.8, 131.2, 133.5, 141.8, 158.6. LRMS              NH). 13C NMR (125 MHz, DMSO-d6) δ 10.5, 13.0, 117.1, 126.4,
+(ES+) m/z 312.2 [M + H]+. HRMS calculated for C19H14N5 [M + H]+                  126.6, 141.1, 144.4, 151.8, 155.5, 162.9. LRMS (ES+) m/z 331.1 [M +
+312.1244, found 312.1242.                                                        H]+. HRMS calcd for C14H15N6O2S [M + H]+ 331.0977, found
+   6-Ethyl-2-ﬂuoro-9-(tetrahydro-2H-pyran-2-yl)-9H-purine (50). To               331.0980.
+a solution of 43 (0.05 g, 0.20 mmol) and quinoline (20 μL) in EtOAc                  2-Fluoro-6-phenyl-9-(tetrahydro-2H-pyran-2-yl)-9H-purine (56).
+(5 mL) was added Lindlar’s catalyst (10 mg, 20% w/w), and the                    Synthesized in accordance with general procedure G from 36 (0.20
+mixture was stirred for 2 h under an atmosphere of H2. The                       g, 0.78 mmol) and phenylboronic acid (0.133 g, 1.09 mmol).
+suspension was ﬁltered through Celite, eluting with methanol (30                 Puriﬁcation by chromatography (silica; 20% EtOAc:petrol) gave 56 as
+mL), and volatiles were removed in vacuo. Puriﬁcation by                         a white solid (0.30 g, 95%); mp 138−140 °C; UV λmax (EtOH) 306,
+chromatography (silica; 50% EtOAc:petrol) yielded 50 as a colorless              269, 203 nm. IR (cm−1) 3117, 2956, 2858, 1586. 1H NMR (300 MHz,
+oil (50 mg, 99%); UV λmax (EtOH) 264 nm. IR (cm−1) 2946, 2860,                   DMSO-d6) δ 1.60 (2H, m, CH2), 1.76 (1H, m, CH), 2.02 (2H, m,
+2364, 2338, 1604. 1H NMR (500 MHz, DMSO-d6) δ 1.35 (3H, t, J =                   CH2), 2.29 (1H, s, CH), 3.77 (1H, t, J = 12.0 Hz, CH), 4.04 (1H, d, J
+7.5 Hz, CH3CH2), 1.59 (2H, m, CH2), 1.97 (1H, m, CH), 1.99 (2H, d,               = 12.0 Hz, CH), 5.74 (1H, d, J = 12.0 Hz, CH), 7.64, (3H, m, H-3″,
+J = 10.5 Hz, CH2), 2.50 (1H, m, CH), 3.01 (2H, q, J = 7.5 Hz,                    H-4″ and H-5″), 8.79 (2H, dd, J = 3.0, 7.5 Hz, H-2″ and H-6″), 8.25
+CH3CH2), 3.73 (1H, m, CH), 4.04 (1H, d, J = 10.5 Hz, CH), 5.69                   (1H, s, H-8). 13C NMR (125 MHz, DMSO-d6) δ 22.2, 24.4, 29.7, 67.7,
+(1H, d, J = 10.5 Hz, CH), 8.74 (1H, s, H-8). 13C NMR (500 MHz,                   81.3, 128.9, 129.3, 129.5, 132.0, 134.0, 145.4, 154.3 (d, JC−F = 17.5
+
+                                                                          1759                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                             J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                         Article
+
+Hz), 155.5 (d, JC−F = 144.0 Hz), 157.0, 158.7. LRMS (ES+) m/z 299.3                7.71 (1H, dd, J = 8.0, 8.1 Hz, H-8″), 7.76−7.79 (1H, d, J = 8.0 Hz, H-
+[M + H]+.                                                                          9″), 8.25−8.27 (1H, d, J = 7.1 Hz, H-3″), 8.42−8.44 (1H, d, J = 8.0
+   2-Fluoro-6-(3-methoxyphenyl)-9-(tetrahydro-2H-pyran-2-yl)-9H-                   Hz, H-6″), 8.55−8.58 (1H, d, J = 7.5 Hz, H-1″), 8.93 (1H, s, H-8). 13C
+purine (57). Prepared according to general procedure G from 36 (0.20               NMR (125 MHz, DMSO-d6) δ 22.2, 24.5, 29.7, 67.8, 68.3, 81.4, 111.9,
+g, 0.78 mmol) and 4-methoxyphenylboronic acid (0.16 g, 1.09 mmol).                 119.3, 121.3, 122.9, 123.1, 123.4, 124.3, 125.2, 128.1, 130.1, 145.6,
+Puriﬁcation by chromatography (silica; 30% EtOAc:petrol) gave 57 as                153.1, 154.7 (d, JC−F = 18.0 Hz), 155.7 (d, JC−F = 160.0 Hz), 156.9,
+a white solid (0.29 g, 80%); mp 133−135 °C; UV λmax (EtOH) 306,                    158.5. LRMS (ES+) m/z 389.4 [M + H]+.
+271, 204 nm. IR (cm−1) 3089, 2938, 2857, 1761, 1586, 1516. 1H NMR                      2-Fluoro-6-(1-thianthrenyl)-9-(tetrahydro-2H-pyran-2-yl)-9H-pu-
+(300 MHz, DMSO-d6) δ 1.60 (2H, m, CH2), 1.76 (1H, m, CH), 2.02                     rine (62). Prepared in accordance with general procedure G from 36
+(2H, m, CH2), 2.29 (1H, s, CH), 3.77 (1H, t, J = 12.0 Hz, CH), 3.89                (0.20 g, 0.78 mmol) and 1-thianthreneboronic acid (0.28 g, 1.09
+(3H, s, OCH3), 4.04 (1H, d, J = 12.0 Hz, CH), 5.74 (1H, d, J = 12.0                mmol). Puriﬁcation by chromatography (silica; 30% EtOAc:petrol)
+Hz, CH), 7.18 (1H, m, H-2″), 7.50−7.55 (1H, m, H-5″), 8.45−8.49                    aﬀorded 62 as an orange solid (0.43 g, 90%); mp 164−166 °C; UV
+(2H, m, H-4″, H-6″), 8.78 (1H, s, H-8). 13C NMR (125 MHz,                          λmax (EtOH) 396, 224 nm. IR (cm−1) 3092, 2814, 2589, 1611, 1497.
+DMSO-d6) δ 22.2, 24.4, 29.7, 55.3, 67.7, 81.3, 114.4, 117.9, 122.0,                1
+                                                                                     H NMR (300 MHz, DMSO-d6) δ 1.60 (2H, m, CH2), 1.76 (1H, m,
+129.4, 130.0, 135.3, 145.4, 154.3 (d, JC−F = 17.5 Hz), 155.0 (d, JC−F =            CH), 2.02 (2H, m, CH2), 2.29 (1H, s, CH), 3.77 (1H, t, J = 12.0 Hz,
+160.0 Hz), 156.9, 158.6, 159.4. LRMS (ES+) m/z 334.2 [M + H]+.                     CH), 4.04 (1H, d, J = 12.0 Hz, CH), 5.79 (1H, d, J = 12.0 Hz, CH),
+   2-Fluoro-6-(4-methoxyphenyl)-9-(tetrahydro-2H-pyran-2-yl)-9H-                   7.21−7.30 (1H, dd, J = 7.4, 7.5 Hz, H-3″), 7.31−7.39 (1H, dd, J = 7.5,
+purine (58). Synthesized in accordance with general procedure G from               7.6 Hz, H-7″), 7.37−7.45 (1H, d, J = 7.5 Hz, H-9″), 7.51−7.58 (1H,
+36 (0.20 g, 0.78 mmol) and 4-methoxyphenylboronic acid (0.16 g,                    dd, J = 7.5, 7.6 Hz, H-8″), 7.59−7.65 (1H, d, J = 7.5 Hz, H-6″), 7.79
+1.09 mmol). Puriﬁcation by chromatography (silica; 30% EtOAc:pe-                   (1H, d, J = 7.4 Hz, H-2″), 7.89 (1H, d, J = 7.5 Hz, H-4″), 8.93 (1H, s,
+trol) aﬀorded 58 as a white solid (0.35 g, 98%); mp 131−133 °C; UV                 H-8). 13C NMR (125 MHz, DMSO-d6) δ 22.2, 24.4, 29.5, 67.7, 68.3,
+λmax (EtOH) 306, 271, 204 nm. IR (cm−1) 3089, 2938, 2857, 1761,                    81.5 127.5, 128.2, 128.5, 128.7, 128.9, 130.6, 130.9, 131.4, 134.5, 134.7,
+1586, 1516. 1H NMR (300 MHz, DMSO-d6) δ 1.60 (2H, m, CH2),                         135.1, 135.5, 136.4, 146.2, 153.8 (d, JC−F = 17.5 Hz), 156.2, 155.0 (d,
+1.76 (1H, m, CH), 2.02 (2H, m, CH2), 2.29 (1H, s, CH), 3.77 (1H, t, J              JC−F = 150.0 Hz), 157.2. LRMS (ES+) m/z 437.2 [M + H]+.
+= 12.0 Hz, CH), 3.88 (3H, s, OCH3), 4.04 (1H, d, J = 12.0 Hz, CH),                     2-Fluoro-6-phenyl-9H-purine (63). Prepared from 56 (0.22 g, 0.72
+5.74 (1H, d, J = 12.0 Hz, CH), 7.15−7.18 (2H, d, J = 9.0 Hz, H-3″ and              mmol) following general procedure E. Repeated trituration of the
+H-5″), 8.79−8.81 (2H, d, J = 9.0 Hz, H-2″ and H-6″), 8.85 (1H, s, H-               precipitated solid with water gave 63 (0.14 g, 90%); mp 273−275 °C;
+8). 13C NMR (125 MHz, DMSO-d6) δ 22.2, 24.4, 29.7, 55.5, 67.7,                     UV λmax (EtOH) 349 nm. IR (cm−1) 2820, 1599, 1560. 1H NMR (300
+81.2, 114.3, 126.5, 128.5, 131.5, 144.7, 153.9 (d, JC−F = 17.5 Hz), 155.2          MHz, DMSO-d6) δ 7.62 (3H, m, H-3″, H-4″ and H-5″), 8.68 (1 H, s,
+(d, JC−F = 160.0 Hz), 157.0, 158.7, 162.4. LRMS (ES+) m/z 329.2 [M                 H-8), 8.81 (2H, m, H-2″ and H-6″). 13C NMR (125 MHz, DMSO-d6)
++ H]+.
+                                                                                   δ 128.8, 129.4, 131.7, 134.4, 145.7, 154.4, 156.0, 157.1, 158.7. LRMS
+   6-(3-Biphenyl)-2-ﬂuoro-9-(tetrahydro-2H-pyran-2-yl)-9H-purine
+(59). Prepared following general procedure G from 36 (0.20 g, 0.78                 (ES+) m/z 214.6 [M + H]+.
+mmol) and 3-biphenylboronic acid (0.22 g, 1.09 mmol). Puriﬁcation                      2-Fluoro-6-(3-methoxyphenyl)-9H-purine (64). Deprotection of
+by chromatography (silica; 20% EtOAc:petrol) furnished 59 as a pale-               57 (0.24 g, 0.72 mmol) in accordance with general procedure E
+yellow solid (0.33 g, 80%); mp 221−223 °C; UV λmax (EtOH) 346,                     aﬀorded the title compound 64 (0.17 g, 98%) following repeated
+274 nm. IR (cm−1) 2992, 2844, 2601, 1589. 1H NMR (300 MHz,                         trituration of the precipitated solid with water; mp 237−238 °C; UV
+DMSO-d6) δ 1.60 (2H, m, CH2), 1.76 (1H, m, CH), 2.02 (2H, m,                       λmax (EtOH) 251 nm. IR (cm−1) 2837, 1864, 1587, 1565. 1H NMR
+CH2), 2.29 (1H, s, CH), 3.77 (1H, t, J = 12.0 Hz, CH), 4.04 (1H, d, J              (300 MHz, DMSO-d6) δ 3.89 (3H, s, OCH3), 7.18 (1 H, s, H-2″),
+= 12.0 Hz, CH), 5.79 (1H, d, J = 12.0 Hz, CH), 7.45 (1H, d, J = 7.0                7.50−7.55 (1H, m, H-5″), 8.37 (1H, s, H-8), 8.45−8.49 (2H, m, H-4″,
+Hz, H-6″), 7.56 (1H, dd, J = 7.0, 7.1 Hz, H-5″), 7.78 (5H, m, Ph), 8.40            H-6″). 13C NMR (125 MHz, DMSO-d6) δ 55.3, 114.2, 117.6, 121.8,
+(1H, s, H-2″), 8.84 (1H, d, J = 7.1 Hz, H-4″), 9.18 (1H, s, H-8). 13C              130.0, 135.7, 146.3, 154.3, 157.2, 158.6, 159.4. LRMS (ES+) m/z 245.5
+NMR (125 MHz, DMSO-d6) δ 22.2, 24.4, 29.7, 67.7, 81.3, 126.8,                      [M + H]+.
+127.8, 127.9, 128.4, 129.1, 129.5, 129.6, 130.3, 134.7, 139.6, 140.8,                  2-Fluoro-6-(4-methoxyphenyl)-9H-purine (65). Synthesized in
+145.6, 154.4 (d, JC−F = 17.5 Hz), 155.2 (d, JC−F = 116.0 Hz), 157.0,               accordance with general procedure E from 58 (0.24 g, 0.72 mmol).
+158.5. LRMS (ES+) m/z 375.1 [M + H]+.                                              Trituration of the precipitated solid with water furnished 65 as a pale-
+   2-Fluoro-6-(3-piperonyl)-9-(tetrahydro-2H-pyran-2-yl)-9H-purine                 yellow solid (0.17 g, 95%); mp 212−214 °C; UV λmax (EtOH) 204
+(60). Synthesized in accordance with general procedure G from 36                   nm. IR (cm−1) 2845, 1586. 1H NMR (300 MHz, DMSO-d6) δ 3.88
+(0.20 g, 0.78 mmol) and 3,4-(methylenedioxy)phenylboronic acid                     (3H, s, OCH3), 7.15−7.18 (2H, d, J = 9.0 Hz, H-3″ and H-5″), 8.60
+(0.18 g, 1.09 mmol). Puriﬁcation by chromatography (silica; 30%                    (1H, s, H-8), 8.79−8.81 (2H, d, J = 9.0 Hz, H-2″ and H-6″). 13C
+EtOAc:petrol) yielded 60 as a white solid (0.21 g, 56%); mp 151−153                NMR (500 MHz, DMSO-d6) δ 55.4, 114.1, 114.3, 126.8, 127.5, 131.3,
+°C; UV λmax (EtOH) 351, 284 nm. IR (cm−1) 3011, 2917, 1721, 1616,                  145.3, 157.1, 158.8, 162.2. LRMS (ES+) m/z 245.2 [M + H]+.
+1511. 1H NMR (300 MHz, DMSO-d6) δ 1.60 (2H, m, CH2), 1.76                              6-(Biphenyl-3-yl)-2-ﬂuoro-9H-purine (66). The title compound was
+(1H, m, CH), 2.02 (2H, m, CH2), 2.29 (1H, s, CH), 3.73 (1H, t, J =                 prepared according to general procedure E from 59 (0.27 g, 0.72
+12.0 Hz, CH), 4.04 (1H, d, J = 12.0 Hz, CH), 5.73 (1H, d, J = 12.0 Hz,             mmol). Repeated washing of the precipitated solid with water gave 66
+CH), 6.17 (2H, s, OCH2O), 7.14−7.17 (1H, d, J = 8.0 Hz, H-5″), 8.28                (0.20 g, 97%); mp 245−247 °C; UV λmax (EtOH) 349 nm. IR (cm−1)
+(1H, s, H-2″), 8.48−8.51 (1H, d, J = 8.0 Hz, H-6″), 8.82 (1H, s, H-8).             1607, 1568. 1H NMR (300 MHz, DMSO-d6) δ 7.43−7.45 (1H, d, J =
+13
+  C NMR (125 MHz, DMSO-d6) δ 22.2, 24.4, 29.7, 67.7, 81.2, 101.9,                  7.0 Hz, H-6″), 7.54−7.58 (1H, dd, J = 6.9, 7.0 Hz, H-5″), 7.74−7.81
+108.6, 125.4, 128.0, 128.6, 144.9, 147.8, 150.6, 154.1, 154.8, 156.9,              (5H, m, Ph), 8.40 (1H, s, H-2″), 8.80−8.85 (1H, d, J = 6.9 Hz, H-4″),
+158.7. LRMS (ES+) m/z 343.1 [M + H]+.                                              8.91 (1H, s, H-8). 13C NMR (125 MHz, DMSO-d6) δ 126.8, 127.7,
+   6-(4-Dibenzofuryl)-2-ﬂuoro-9-(tetrahydro-2H-pyran-2-yl)-9H-pu-                  127.9, 128.2, 129.1, 129.5, 130.0, 135.0, 139.7, 140.7, 146.1 (m, JC−F),
+rine (61). Prepared according to general procedure G from 36 (0.20 g,              157.1, 158.7. LRMS (ES+) m/z 291.1 [M + H]+.
+0.78 mmol) and 4-dibenzofuranboronic acid (0.23 g, 1.09 mmol).                         6-(Benzo[d][1,3]dioxol-5-yl)-2-ﬂuoro-9H-purine (67). Deprotec-
+Puriﬁcation by chromatography (silica; 30% EtOAc:petrol) yielded 61                tion of 60 (0.25 g, 0.72 mmol) was achieved following general
+as a cream solid (0.39 g, 92%); mp 168−170 °C; UV λmax (EtOH)                      procedure E. Trituration of the white solid that precipitated yielded 67
+398, 256, 202 nm. IR (cm−1) 3092, 2589, 1579. 1H NMR (300 MHz,                     (0.16 g, 87%); mp 165−167 °C; UV λmax (EtOH) 351, 292 nm. IR
+DMSO-d6) δ 1.60 (2H, m, CH2), 1.76 (1H, m, CH), 2.02 (2H, m,                       (cm−1) 2955, 2859, 1601, 1570, 1504. 1H NMR (300 MHz, DMSO-
+CH2), 2.29 (1H, s, CH), 3.77 (1H, t, J = 12 Hz, CH), 4.04 (1H, d, J =              d6) δ 6.17 (2H, s, OCH2O), 7.18−7.18 (1H, d, J = 8.0 Hz, H-5″), 8.28
+12.0 Hz, CH), 5.79 (1H, d, J = 12.0 Hz, CH), 7.45−7.47 (1H, dd, J =                (1H, s, H-2″), 8.48−8.51 (1H, d, J = 8.0 Hz, H-6″), 8.63 (1H, s, H-8).
+7.0, 7.1 Hz, H-2″), 7.52−7.62 (1H, dd, J = 8.0, 8.1 Hz, H-7″), 7.61−               13
+                                                                                      C NMR (125 MHz, DMSO-d6) δ 101.9, 108.6, 125.1, 128.4, 145.3,
+
+                                                                            1760                                                DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                                 J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                    Article
+
+147.8, 150.3, 153.9 (d, JC−F = 17.5 Hz), 156.0 (d, JC−F = 150.0 Hz),            raphy (silica; EtOAc) aﬀorded 73 as a white solid (46 mg, 21%); mp
+157.0, 158.6. LRMS (ES+) m/z 259.2 [M + H]+.                                    153−155 °C; UV λmax (EtOH) 349, 294 nm. IR (cm−1) 3313, 2922,
+    6-(4-Dibenzofuranyl)-2-ﬂuoro-9H-purine (68). The title com-                 2852, 1706, 1589, 1569, 1524, 1373, 1144. 1H NMR (300 MHz,
+pound was prepared in accordance with general procedure E from                  DMSO-d6) δ 7.18 (1H, br s, SO2NH2), 7.39−7.50 (1H, d, J = 7.0 Hz,
+61 (0.28 g, 0.72 mmol) and puriﬁed by repeated washing with water to            H-6″), 7.50−7.62 (1H, dd, J = 7.0, 7.1 Hz, H-5″), 7.66−7.83 (5H, m,
+aﬀord 68 as an oﬀ-white solid (0.20 g, 94%); mp 266−268 °C; UV                  Ph), 7.83−7.93 (2H, d, J = 8.0 Hz, H-2′ and H-6′), 8.00−8.13 (2H, d,
+λmax (EtOH) 250 nm. IR (cm−1) 3020, 2923, 2832, 1867, 1611, 1568.               J = 8.0 Hz, H-3′ and H-5′), 8.35−8.40 (1H, s, H-2″), 8.78−8.93 (1H,
+1
+  H NMR (300 MHz, DMSO-d6) δ 7.45−7.48 (1H, dd, J = 7.0, 7.1 Hz,                d, J = 7.1 Hz, H-4″), 9.18 (1H, s, H-8), 10.00 (1H, br s, NH). LRMS
+H-2″), 7.55−7.63 (1H, dd, J = 7.9, 8.0 Hz, H-7″), 7.61−7.68 (1H, dd,            (ES+) m/z 367.2 [M + H]+. HRMS calcd for C23H18N6O2S [M + H]+
+J = 7.9, 8.0 Hz, H-8″), 7.76−7.79 (1H, d, J = 8.0 Hz, H-9″), 8.26−8.29          367.0972, found 367.0974. HPLC: >96%, XSELECT column,
+(1H, d, J = 7.1 Hz, H-3″), 8.43−8.45 (1H, d, J = 8.0 Hz, H-6″), 8.55−           retention time 7.48 min, reverse phase, H2O/MeCN/HCOOH
+8.58 (1H, d, J = 7.0 Hz, H-1″), 8.78 (1H, s, H-8). 13C NMR (500                 gradient run, 1 mL min−1.
+MHz, DMSO-d6) δ 112.1, 121.3, 123.0, 123.5, 124.0, 125.0, 128.0,                   4 -( 6-(Benzo[ d][ 1,3 ]di oxo l-5-yl )-9H-pu rin-2 -yl ami no) -
+130.0, 155.7. LRMS (ES+) m/z 305.1 [M + H]+.                                    benzenesulfonamide (74). The title compound was prepared
+    2-Fluoro-6-(thianthren-1-yl)-9H-purine (69). Synthesized follow-            following general procedure A from 67 (0.13 g, 0.49 mmol).
+ing general procedure E from 62 (0.32 g, 0.72 mmol) and puriﬁed by              Puriﬁcation by chromatography (silica; EtOAc) gave 74 as a pale-
+repeated trituration with water to give 69 (0.36 g, 93%); mp 166−168            yellow solid (30 mg, 15%); mp 284−286 °C; UV λmax (EtOH) 352,
+°C; UV λmax (EtOH) 250 nm. IR (cm−1) 3068, 2817, 2572, 1609,                    295 nm. IR (cm−1) 3174, 1573, 1526, 1408, 1350, 1153. 1H NMR
+1511. 1H NMR (300 MHz, DMSO-d6) δ 7.21−7.29 (1H, dd, J = 7.4,                   (300 MHz, DMSO-d6) δ 6.14 (2H, s, OCH2O), 7.15 (2H, s,
+7.5 Hz, H-3″), 7.31−7.38 (1H, dd, J = 7.5, 7.6 Hz, H-7″), 7.39−7.46             SO2NH2), 7.73−7.75 (2H, d, J = 8.0, H-2′ and H-6′), 7.98−8.01 (2H,
+(1H, d, J = 7.5 Hz, H-9″), 7.49−7.55 (1H, dd, J = 7.5, 7.6 Hz, H-8″),           d, J = 8.0 Hz, H-3′ and H-5′), 8.31 (1H, s, H-8), 8.37 (1H, s, H-2″),
+7.58−7.64 (1H, d, J = 7.5 Hz, H-6″), 7.79 (1H, d, J = 7.5 Hz, H-2″),            8.55 (2H, m, H-5″ and H-6″), 9.89 (1H, br s, NH). 13C NMR (125
+7.88−7.91 (1H, d, J = 7.4 Hz, H-4″), 8.31 (1H, s, H-8). 13C NMR                 MHz, DMSO-d6) δ 101.6, 108.4, 108.6, 117.2, 124.7, 126.5, 129.9,
+(125 MHz, DMSO-d6) δ 124.6, 127.5, 128.2, 128.4, 128.7, 128.9,                  133.2, 135.5, 139.8, 142.2, 144.3, 147.6, 149.6, 151.9, 152.4, 154.4,
+130.5, 131.1, 134.7, 134.9, 156.4, 159.9, 160.5. LRMS (ES+) m/z 353.1           155.2. LRMS (ES+) m/z 443.3 [M + H]+. HRMS calcd for
+[M + H]+.                                                                       C18H14N6O4S [M + H]+ 443.1285, found 443.1289.
+    4-(6-Phenyl-9H-purin-2-ylamino)benzenesulfonamide (70). The                    4-(6-(4-Dibenzofuryl)-9H-purin-2-ylamino)benzenesulfonamide
+title compound was synthesized according to general procedure A                 (75). Synthesized in accordance with general procedure A from 68
+from 63 (0.10 g, 0.49 mmol). Puriﬁed by chromatography (silica; 50%             (0.15 g, 0.49 mmol). Puriﬁcation by chromatography (silica; 50%
+EtOAc:petrol) to give 70 as a white solid (80 mg, 45%); mp 153−155              EtOAc:petrol) gave 75 as a white solid (0.10 g, 47%); mp 213-215 °C;
+°C; UV λmax (EtOH) 349, 294 nm. IR (cm−1) 3313, 2922, 2852, 1706,               UV λmax (EtOH) 292, 250 nm. IR (cm−1) 3275, 3199, 3104, 2921,
+1589, 1569, 1524, 1373, 1144. 1H NMR (300 MHz, DMSO-d6) δ 7.17                  2852, 1714, 1593, 1574, 1535, 1500, 1355, 1146. 1H NMR (300 MHz,
+(2 H, br s, SO2NH2), 7.60 (3H, m, H-3″, H-4″ and H-5″), 7.75−7.78               DMSO-d6) δ 7.16 (2H, br s, SO2NH2), 7.44−7.53 (1H, dd, J = 6.9, 7.0
+(2H, d, J = 8.5 Hz, H-2′ and H-6′), 8.03−8.06 (2H, d, J = 8.5 Hz, H-3′          Hz, H-2″), 7.54−7.68 (2H, m, H-7″ and H-8″), 7.68−7.74 (1H, d, J =
+and H-5′) 8.37 (1H, s, H-8), 8.94 (2H, m, H-2″ and H-6″), 9.91 (1H,             8.0 Hz, H-9″), 7.69−7.79 (2H, d, J = 8.0 Hz, H-2′ and H-6′), 8.18−
+br s, NH). 13C NMR (125 MHz, DMSO-d6) δ 117.2, 125.4, 126.5,                    8.26 (2H, d, J = 8.0 Hz, H-3′ and H-5′), 8.23−8.32 (1H, d, J = 6.9 Hz,
+128.5, 129.3, 130.8, 135.4, 135.8, 142.6, 144.3, 153.0, 154.6, 155.3.           H-3″), 8.38 (1H, s, H-8), 8.38−8.44 (1H, d, J = 7.5 Hz, H-6″), 8.49−
+LRMS (ES+) m/z 367.2 [M + H]+. HRMS calcd for C17H14N6O2S [M                    8.58 (1H, d, J = 7.0 Hz, H-1″), 10.07 (1H, br s, NH), 13.22 (1H, br s,
++ H]+ 367.0972, found 367.0974.                                                 NH). 13C NMR (125 MHz, DMSO-d6) δ 111.5, 117.3, 121.0, 121.3,
+    4-(6-(3-Methoxyphenyl)-9H-purin-2-ylamino)-                                 122.9, 123.1, 123.2, 123.4, 124.9, 126.4, 128.0, 130.0, 135.4, 143.0,
+benzenesulfonamide (71). Prepared in accordance with general                    144.4, 152.2, 153.0, 154.4, 155.3, 155.7. LRMS (ES+) m/z 457.3 [M +
+procedure A from 64 (0.12 g, 0.49 mmol) and puriﬁed by                          H]+. HRMS calcd for C23H16N6O3S [M + H]+ 457.1077, found
+chromatography (silica; 50% EtOAc:petrol) to furnish 71 as a white              457.1075.
+solid (64 mg, 33%); mp 288−290 °C; UV λmax (EtOH) 294 nm. IR                       6-(4-Thianthren-1-yl)-9H-purin-2-ylamino)benzenesulfonamide
+(cm−1) 3377, 3097, 3020, 2838, 1729, 1597, 1566, 1531, 1365, 1145.              (76). Synthesized following general procedure A from (69) (0.17 g,
+1
+  H NMR (300 MHz, DMSO-d6) δ 3.89 (3H, s, OCH3), 7.17 (2H, s,                   0.49 mmol), and puriﬁed by chromatography (silica; 50% EtOAc:pe-
+SO2NH2), 7.18 (1H, s, H-2″), 7.50−7.55 (1H, m, H-5″), 7.74−7.77                 trol) to furnish 76 as an orange solid (81 mg, 33%); mp 170−172 °C;
+(2H, d, J = 8.0 Hz, H-2′ and H-6′), 8.03−8.06 (2H, d, J = 8.0 Hz, H-3′          UV λmax (EtOH) 339, 294, 250 nm. IR (cm−1) 3317, 2922, 2851,
+and H-5′), 8.37 (1H, s, H-8), 8.45−8.49 (2H, m, H-4″ and H-6″). 13C             1706, 1588, 1524, 1371, 1146. 1H NMR (300 MHz, DMSO-d6) δ 7.16
+NMR (125 MHz, DMSO-d6) δ 55.2, 114.2, 116.6, 117.2, 121.8, 126.5,               (2H, s, SO2NH2), 7.21−7.28 (1H, dd, J = 7.4, 7.5 Hz, H-3″), 7.30−
+129.6, 135.4, 137.1, 144.3, 146.3, 155.2, 115.6, 159.3. LRMS (ES+) m/           7.36 (1H, dd, J = 7.5, 7.6 Hz, H-7″), 7.38−7.43 (1H, d, J = 7.5 Hz, H-
+z 397.3 [M + H]+. HRMS calcd for C18H16N6O3S [M + H]+ 397.1077,                 9″), 7.48−7.53 (1H, dd, J = 7.5, 7.6 Hz, H-8″), 7.58−7.63 (1H, d, J =
+found 397.1071.                                                                 7.5 Hz, H-6″), 7.73 (2H, d, J = 8.5 Hz, H-2′ and H-6′), 7.77−7.80
+    4-(6-(4-Methoxyphenyl)-9H-purin-2-ylamino)-                                 (1H, d, J = 7.4 Hz, H-2″), 7.88−7.91 (1H, d, J = 7.5 Hz, H-4″), 8.06
+benzenesulfonamide (72). Synthesed following general procedure A                (2H, d, J = 8.5 Hz, H-3′ and H-5′), 8.34 (1H, s, H-8). LRMS (ES+) m/
+from 65 (0.12 g, 0.49 mmol) and isolated by chromatography (silica;             z 505.2 [M + H]+. HRMS calcd for C23H16N6O2S3 [M + H]+
+50% EtOAc:petrol) to yield 72 as a white solid (90 mg, 46%); mp                 505.0570, found 505.0573.
+172−174 °C; UV λmax (EtOH) 301, 203 nm. IR (cm−1) 3322, 2133,                      7-Chloro-3-(4-methoxybenzyl)-3H-imidazo[4,5-b]pyridin-5-
+2005, 1594, 1533, 1514, 1352, 1147. 1H NMR (300 MHz, DMSO-d6)                   amine (78). To a stirred solution of 77 (0.04 g, 0.24 mmol) in
+δ 3.88 (3H, s, OCH3), 7.17 (2H, br s, SO2NH2), 7.18 (2H, d, J = 8.5             anhydrous DMF (1 mL) was added anhydrous K2CO3 (36 mg, 0.26
+Hz, H-3″ and H-5″), 7.74−7.77 (2H, d, J = 8.0 Hz, H-2′ and H-6′),               mmol) and 4-methoxybenzyl chloride (34 μL, 0.25 mmol). The
+8.02−8.05 (2H, d, J = 8.0 Hz, H-3′ and H-5′), 8.32 (1H, s, H-8),                reaction mixture was stirred under N2 at 65 °C for 18 h, and the
+8.84−8.87 (2H, d, J = 8.5 Hz, H-2″ and H-6″). 13C NMR (125 MHz,                 solvent was removed under reduced pressure. The residual solid was
+DMSO-d6) δ 55.4, 114.0, 117.2, 124.8, 126.5, 128.2, 131.0, 135.3,               redissolved in EtOAc (30 mL) and washed with brine (3 × 30 mL),
+142.0, 144.4, 152.8, 154.3, 155.3, 161.5. LRMS (ES+) m/z 397.3 [M +             and the combined organic fractions were dried (Na2SO4) and the
+H]+. HRMS calcd for C18H16N6O3S [M + H]+ 397.1077, found                        solvent was removed under reduced pressure. Puriﬁcation by
+397.1071.                                                                       chromatography (silica; 40% EtOAc:petrol) aﬀorded 78 as a light-
+    4-((6-([1,1′-Biphenyl]-3-yl)-9H-purin-2-yl)amino)-                          yellow solid (29 mg, 42%); Rf 0.21 (40% EtOAc:petrol); mp 105 °C;
+benzenesulfonamide (73). Treatment of 66 (0.14 g, 0.49 mmol) in                 UV λmax (EtOH) 311 nm. IR (cm−1) 3431, 3312, 3198, 3022, 2940,
+accordance with general procedure A with puriﬁcation by chromatog-              2798, 1571, 1513. 1H NMR (500 MHz, DMSO-d6) δ 3.71 (3H, s,
+
+                                                                         1761                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                            J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                     Article
+
+OCH3), 5.22 (2H, s, CH2), 6.24 (2H, br s, NH2), 6.48 (1H, s, H-5),               (EtOH) 257 nm. IR (cm−1) 3329, 2933, 2874, 2158, 1662, 1588,
+6.88 (2H, d, J = 8.7 Hz, H-2″ and H-6″), 7.23 (2H, d, J = 8.8 Hz, H-3″           1501. 1H NMR (500 MHz, CDCl3) δ 1.00−1.97 (11H, m, cyclohexyl),
+and H-5″), 8.07 (1H, s, H-2). 13C NMR (125 MHz, DMSO-d6) δ 45.4                  3.79 (3H, s, OCH3), 4.01 (2H, d, J = 6.1 Hz, OCH2), 4.76 (2H, br s,
+(Ar-CH2-Ar), 55.1 (OCH3), 103.8 (Ar-C), 114.0 (Ar-C), 124.4 (Ar-                 NH2), 5.28 (2H, s, CH2), 6.17 (1H, s, H-5), 6.79 (1H, br s, NH), 6.88
+C), 128.7 (Ar-C), 129.2 (Ar-C), 133.9 (Ar-C), 140.5 (Ar-C), 146.6                (2H, d, J = 8.8 Hz, H-2″ and H-6″), 7.24 (2H, d, J = 8.7 Hz, H-3″ and
+(Ar-C), 157.4 (Ar-C), 158.7 (Ar-C). HRMS calcd for C14H14ClN4O                   H-5″), 7.61 (2H, J = 8.8 Hz, H-2′ and H-6′), 7.81 (2H, J = 8.8 Hz, H-
+[M + H]+ 289.0851, found 289.0855.                                               3′ and H-5′), 8.11 (1H, s, H-2). 13C NMR (125 MHz, CDCl3) δ 25.7
+   7-(Cyclohexylmethoxy)-3-(4-methoxybenzyl)-3H-imidazo[4,5-b]-                  (CH2), 26.4 (CH2), 29.8 (CH2), 37.6 (CH2), 46.9 (CH), 55.4 (CH2),
+pyridin-5-amine (79). Synthesized following general method C from                74.8 (OCH3), 90.7 (OCH2), 114.3 (Ar-C), 117.1 (Ar-C), 128.0 (Ar-
+78 (0.172 g, 0.60 mmol). The product was isolated by chromatog-                  C), 129.1 (Ar-C), 139.7 (Ar-C), 145.5 (Ar-C), 152.1 (Ar-C). HRMS
+raphy (silica; 80% EtOAc:petrol) to furnish 79 as a colorless oil (0.16          calcd for C27H32N5O4S [M + H]+ 522.2170, found 522.2166.
+g, 0.45 mmol, 75%); Rf 0.47 (20% EtOAc:petrol); UV λmax (EtOH)                      4-((7-(Cyclohexylmethoxy)-3H-imidazo[4,5-b]pyridin-5-yl)amino)
+271 nm. IR (cm−1) 3311, 2954, 2899, 2163, 1672, 1598, 1516. 1H                   benzenesulfonamide (83). A solution of 82 (0.022 g, 0.042 mmol) in
+NMR (500 MHz, DMSO-d6) δ 0.90−1.87 (11H, m, cyclohexyl), 3.71                    TFA (1 mL) was heated under reﬂux for 2 h, and the cooled solution
+(3H, s, OCH3), 4.00 (2H, d, J = 6.7 Hz, OCH2), 5.17 (2H, br s, NH2),             was neutralized with saturated aqueous NaHCO3 (25 mL). The
+5.24 (2H, s, CH2), 5.90 (1H, s, H-5), 6.87 (2H, d, J = 8.7 Hz, H-2″              reaction mixture was extracted with EtOAc (3 × 30 mL), and the
+and H-6″), 7.20 (2H, d, J = 8.8 Hz, H-3″ and H-5″), 7.82 (1H, s, H-2).           combined organic fraction was dried (MgSO4) and evaporated under
+13
+  C NMR (125 MHz, DMSO-d6) δ 25.2 (CH2), 26.0 (CH2), 29.1                        reduced pressure. The title compound was puriﬁed by preparative
+(CH2), 37.0 (CH), 45.0 (Ar-CH2), 55.1 (CH3), 73.3 (CH2), 87.5 (Ar-               TLC on silica, using 5% MeOH:DCM as eluent, to aﬀord 83 as a
+C), 113.9 (Ar-C), 118.2 (Ar-C), 128.7 (Ar-C), 129.7 (Ar-C), 137.9                white solid (16.7 mg, 99%); Rf 0.25 (5% MeOH:DCM); mp 165−166
+(Ar-C), 147.4 (Ar-C), 157.8 (Ar-C), 158.5 (Ar-C), 158.6 (Ar-C).                  °C; UV λmax (EtOH) 324, 274 nm. IR (cm−1) 3332, 2925, 2852, 2164,
+HRMS calcd for C21H27N4O2 [M + H]+ 367.2129, found 367.2132.                     1677, 1583, 1500. 1H NMR (500 MHz, MeOD-d4) δ 1.07−2.05 (11H,
+   7-(Cyclohexylmethoxy)-3H-imidazo[4,5-b]pyridin-5-amine (80).                  m, cyclohexyl), 4.03 (2H, d, J = 6.2 Hz, OCH2), 6.33 (1H, s, H-5),
+A solution of 79 (0.035 g, 0.10 mmol) in TFA (1 mL) was heated                   7.77 (2H, d, J = 8.9 Hz, H-2′ and H-6′), 7.92 (2H, d, J = 8.8 Hz, H-3′
+under reﬂux for 2 h, and the cooled solution was neutralized with                and H-5′), 7.96 (1H, s, H-2). 13C NMR (125 MHz, CDCl3) δ 26.9
+saturated aqueous NaHCO3 (25 mL). The reaction mixture was                       (CH2), 27.6 (CH2), 30.8 (CH2), 38.9 (CH), 74.9 (CH2O), 90.9 (Ar-
+extracted with EtOAc (3 × 30 mL), and the combined organic fraction              C), 117.9 (Ar-C), 128.2 (Ar-C). HRMS calcd for C19H24N5O3S [M +
+was dried (MgSO4) and evaporated under reduced pressure.                         H]+ 522.2170, found 522.2166. HPLC: >98%, XSELECT column,
+Puriﬁcation by chromatography (silica; 10% MeOH:DCM) to furnish                  retention time 5.47 min, reverse phase, H2O/MeCN/HCOOH
+80 as a white solid (16.5 mg, 70%); mp 99−102 °C; UV λmax (EtOH)                 gradient run, 1 mL min−1.
+293, 244 nm. IR (cm−1) 3447, 3323, 3187, 2923, 2850, 2795, 2026,                    7-(Cyclohexylmethoxy)-3H-[1,2,3]triazolo[4,5-d]pyrimidin-5-
+1591, 1527. 1H NMR (500 MHz, CDCl3) δ 1.03−2.00 (11H, m,                         amine (86). Prepared in accordance with general procedure C from 84
+cyclohexyl), 4.03 (2H, d, J = 6.1 Hz, OCH2), 4.37 (2H, br s, NH2),               (1.50 g, 8.82 mmol). Precipitation from aqueous AcOH, and repeated
+5.91 (1H, s, H-5), 7.77 (1H, s, H-2), 9.89 (1H, br s, NH). 13C NMR               washing with water gave 86 a pale-orange solid (1.52 g, 70%); mp
+(125 MHz, CDCl3) δ 25.7, 26.4, 29.8, 37.5, 74.4, 88.1, 157.3. HRMS               214−216 °C; UV λmax (EtOH) 285 nm. IR (cm−1) 3494, 3378, 2925,
+calcd for C13H19N4O [M + H]+ 247.1553, found 247.1556.                           2780, 2651, 2362, 2329, 2115, 2085, 2013, 1906, 1628, 1608, 1578,
+   7-(Cyclohexylmethoxy)-5-iodo-3-(4-methoxybenzyl)-3H-imidazo-                  1488. 1H NMR (500 MHz, DMSO-d6) δ 1.03−1.89 (11H, m,
+[4,5-b]pyridine (81). A solution of 79 (0.112 g, 0.31 mmol) in THF (4            cyclohexyl), 4.30 (2H, d, J = 6.5 Hz, OCH2), 6.91 (2H, br s, NH2),
+mL) containing diiodomethane (123 μL, 1.50 mmol), CuI (59 mg,                    15.28 (1H, br s, NH). 13C NMR (125 MHz, DMSO-d6) δ 25.1 (CH2),
+0.31 mmol), and isoamyl nitrite (187 μL, 0.92 mmol) was heated to                25.9 (CH2), 29.1 (CH2), 36.6 (CH), 71.2 (CH2), 162.2 (Ar-C).
+reﬂux for 4 h, and the dark-brown solution was ﬁltered (Celite) and              HRMS calcd for C11H17N6O [M + H]+ 249.1458, found 249.1461.
+extracted with EtOAc (2 × 20 mL). The combined organic fraction                     4-(Cyclohexylmethoxy)-1H-pyrazolo[3,4-d]pyrimidin-6-amine
+was washed sequentially with aqueous sodium thiosulfate solution                 (87). Prepared according to the general procedure C from 85 (0.125 g,
+(10%, 2 × 40 mL) and brine (40 mL) and dried (MgSO4), and the                    0.74 mmol). Puriﬁcation by chromatography (silica; 10%
+solvent was removed in vacuo. Puriﬁcation by chromatography (silica;             MeOH:DCM) gave 87 as an oﬀ white crystalline solid (68 mg,
+30% EtOAc:petrol) aﬀorded 81 as a yellow oil (64 mg, 44%); Rf 0.19               37%); Rf 0.70 (10% MeOH:DCM), mp 193−195 °C; UV λmax
+(30% EtOAc:petrol); UV λmax (EtOH) 262 nm. IR (cm−1) 3333, 2951,                 (EtOH) 275 nm. IR (cm−1) 3498, 3353, 3232, 3121, 2960, 2921,
+2891, 2122, 1672, 1584, 1521. 1H NMR (500 MHz, DMSO-d6) δ                        2851, 2750, 2667, 2158, 2038, 1902, 1794, 1633, 1578, 1497, 1469,
+0.98−1.89 (11H, m, cyclohexyl), 3.71 (3H, s, OCH3), 4.19 (2H, d, J =             1441. 1H NMR (500 MHz, DMSO-d6) δ 0.98−1.82 (11H, m,
+6.5 Hz, OCH2), 5.17 (2H, s, CH2), 6.90 (2H, d, J = 8.7 Hz, H-2″ and              cyclohexyl), 4.21 (2H, d, J = 6.5 Hz, OCH2), 6.55 (2H, br s, NH2),
+H-6″), 7.18 (1H, s, H-5), 7.26 (2H, d, J = 8.8 Hz, H-3″ and H-5″),               7.77 (1H, s, CH), 12.78 (1H, br s, NH). 13C NMR (125 MHz,
+8.31 (1H, s, H-2). 13C NMR (125 MHz, DMSO-d6) δ 25.1 (CH2),                      DMSO-d6) δ 25.2 (CH2), 26.0 (CH2), 29.1 (CH2), 36.7 (CH), 70.5
+25.9 (CH2), 28.9 (CH2), 37.0 (CH), 45.8 (Ar-CH2), 55.1 (CH3), 74.4               (CH2), 95.4 (Ar-C), 131.6 (Ar-C), 158.9 (Ar-C), 162.0 (Ar-C), 163.4
+(CH2), 112.0 (Ar-C), 112.7 (Ar-C), 114.1 (Ar-C), 124.6 (Ar-C), 128.8             (Ar-C). HRMS calcd for C12H18N5O [M + H]+ 248.1506, found
+(Ar-C), 129.0 (Ar-C), 142.6 (Ar-C), 148.5 (Ar-C), 157.0 (Ar-C),                  248.1508.
+158.8 (Ar-C). HRMS calcd for C21H25IN3O2 [M + H]+ 478.0986,                         5-Chloro-7-(cyclohexylmethoxy)-3H-[1,2,3]triazolo[4,5-d]-
+found 478.0980.                                                                  pyrimidine (88). To a solution of LiCl (34 mg, 0.80 mmol) in DMA
+   4-((7-(Cyclohexylmethoxy)-3-(4-methoxybenzyl)-3H-imidazo[4,5-                 (0.5 mL) at 0 °C was added 86 (0.05 g, 0.20 mmol), followed by
+b]pyridin-5-yl) amino)benzenesulfonamide (82). To a solution of 81               isoamyl nitrite (61 μL, 0.30 mmol) and SOCl2 (16 μL, 0.22 mmol).
+(0.048 g, 0.10 mmol) in anhydrous MeCN (2 mL) was added                          The reaction mixture was stirred for 1 h and allowed to warm to
+sulfanilamide (19 mg, 0.11 mmol), anhydrous K2CO3 (28 mg, 0.20                   ambient temperature over 18 h. After addition of saturated aqueous
+mmol), Pd2(dba)3 (2.3 mg, 0.004 mmol), and XPhos (1.9 mg, 0.004                  NaHCO3 (15 mL), the reaction mixture was extracted with EtOAc (3
+mmol). The reaction mixture was degassed under N2 for 30 min and                 × 15 mL), and the combined organic layers were washed with brine (2
+stirred at 80 °C for 2 h. The cooled solution was ﬁltered (Celite)               × 30 mL) and dried (Na2SO4). Evaporation of the solvent under
+extracted with EtOAc (2 × 20 mL), and the combined organic extract               reduced pressure furnished 88 as a brown oil (54 mg, > 99%), which
+was washed sequentially with aqueous HCl (1 M, 20 mL), saturated                 was used directly without further puriﬁcation.
+aqeuous NaHCO3 (20 mL), and brine (30 mL), and dried (Na2SO4),                      6-Chloro-4-(cyclohexylmethoxy)-1H-pyrazolo[3,4-d]pyrimidine
+and the volatiles were evaporated in vacuo. Puriﬁcation by                       (89). To a solution of LiCl (69 mg,1.62 mmol) in DMA (1 mL) at 0
+chromatography (silica; 70% EtOAc:petrol) yielded 82 as a white                  °C was added 87 (0.100 g, 0.40 mmol), followed by isoamyl nitrite
+solid (23 mg, 43%); Rf 0.59 (70% EtOAc:petrol); mp 142 °C; UV λmax               (123 μL, 0.61 mmol) and SOCl2 (32 μL, 0.45 mmol). The reaction
+
+                                                                          1762                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                             J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                   Article
+
+mixture was stirred at room temperature for 18 h, cooled, and EtOAc            gave 94 as a yellow solid (130 mg, 74%); Rf 0.41 (15% EtOAc:petrol);
+(45 mL) was added. The resultant solution was washed sequentially              mp 63−64 °C; UV λmax (EtOH) 317, 234 nm. IR (cm−1) 3423, 3318,
+with aqueous saturated NaHCO3 solution (45 mL) and brine (2 × 45               3212, 3096, 2952, 1631, 1608, 1546, 1493. 1H NMR (500 MHz,
+mL), dried (Na2SO4), and the volatiles were evaporated under reduced           CDCl3) δ −0.04 (9H, s, (CH3)3), 0.91 (2H, t, J = 8.0 Hz,
+pressure. The product was puriﬁed by chromatography (silica; 5%                OCH2CH2Si), 3.81 (2H, t, J = 8.3 Hz, OCH2CH2Si), 4.96 (2H, br
+MeOH:DCM) to give 89 as a yellow solid (65 mg, 60%); Rf 0.32 (5%               s, NH2), 5.44 (2H, s, CH2), 6.43 (1H, d, J = 3.7 Hz, CH), 6.99 (1H, d,
+MeOH:DCM), mp 152−153 °C; UV λmax (EtOH) 252 nm. IR (cm−1)                     J = 3.7 Hz, NCH). 13C NMR (125 MHz, DMSO-d6) δ 0.0 (Si(CH3)3),
+3148, 2922, 2851, 1677, 1579, 1443. 1H NMR (500 MHz, CDCl3) δ                  19.2 (CH2CH2Si), 67.7 (OCH2CH2), 74.3 (NCH2O), 102.2 (C5H),
+0.96−1.95 (11H, m, cyclohexyl), 4.39 (2H, d, J = 6.0 Hz, OCH2), 8.09           112.2 (Ar-C), 127.0 (C6H), 154.2 (Ar-C), 155.6 (Ar-C), 160.2 (Ar-C).
+(1H, s, CH), 11.19 (1H, br s, NH). 13C NMR (125 MHz, DMSO-d6)                  HRMS calcd for C12H20ClN4OSi [M + H]+ 299.1089, found 299.1090.
+δ 25.2 (CH2), 26.0 (CH2), 29.1 (CH2), 36.7 (CH), 70.5 (CH2O), 95.4                4-(Cyclohexylmethoxy)-7-((2-(trimethylsilyl)ethoxy)methyl)-7H-
+(Ar-C), 131.6 (C1-H), 158.9 (Ar-C), 162.0 (Ar-C), 163.4 (Ar-C).                pyrrolo[2,3-d]pyrimidin-2-amine (95). Synthesized following general
+HRMS calcd for C12H16ClN4O [M + H]+ 267.1007, found 267.1012.                  procedure C from 94 (0.30 g, 1.01 mmol), except using THF as
+   4-((7-(Cyclohexylmethoxy)-3H-[1,2,3]triazolo[4,5-d]pyrimidin-5-             solvent. The title compound was isolated by chromatography (silica;
+yl)amino) benzenesulfonamide (90). The title compound was                      15% EtOAc:petrol) to furnish 95 as a yellow solid (296 mg, 78%); Rf
+prepared following general procedure A from 88 (0.054 g, 0.20                  0.17 (15% EtOAc:petrol); mp 88−90 °C; UV λmax (EtOH) 286, 260,
+mmol) and isolated by chromatography (silica; 30% EtOAc:petrol) to             223 nm. IR (cm−1) 3346, 3222, 2926, 2852, 1647, 1602. 1H NMR
+give the title compound 90 as a white solid (28 mg, 35%); Rf 0.18              (500 MHz, CDCl3) δ −0.05 (9H, s, (CH3)3), 0.91 (2H, t, J = 8.3 Hz,
+(70% EtOAc:petrol); mp 217−219 °C; UV λmax (EtOH) 310 nm. IR                   OCH2CH2Si), 1.01−1.91 (11H, m cyclohexyl), 3.51 (2H, t, J = 8.3 Hz,
+(cm−1) 3254, 3121, 2924, 2851, 2363, 2342, 2199, 2140, 1992, 19118,            OCH2CH2Si), 4.21 (2H, d, J = 6.5 Hz, OCH2), 4.68 (2H, br s, NH2),
+1700, 1582, 1534, 1492, 1447. 1H NMR (500 MHz, DMSO-d6) δ                      5.41 (2H, s, CH2), 6.40 (1H, d, J = 3.7 Hz, CH), 6.82 (1H, d, J = 3.7
+1.04−1.92 (11H, m, cyclohexyl), 4.36 (2H, d, J = 6.8 Hz, OCH2), 7.18           Hz, NCH). 13C NMR (125 MHz, DMSO-d6) δ 0.0 (Si(CH3)3), 19.2
+(2H, br s, SO2NH2), 7.72 (2H, d, J = 8.8 Hz, H-2′ and H-6′), 7.99              (CH2CH2Si), 27.2 (CH2), 28.0 (CH2), 31.3 (CH2), 38.8 (CH), 67.4
+(2H, d, J = 9.0 Hz, H-3′ and H-5′), 9.92 (1H, br s, NH) 13.34 (1H, br          (OCH2CH2), 72.6 (CH2), 74.1 (NCH2O), 101.2 (C5H), 123.6 (C6H),
+s, NH). 13C NMR (125 MHz, DMSO-d6) δ 25.1 (CH2), 29.1 (CH2),                   160.6 (Ar-C), 165.4 (Ar-C). HRMS calcd for C19H33N4O2Si [M + H]+
+35.9 (CH), 118.0 (Ar-C), 126.4 (Ar-C). HRMS calcd for                          377.2367, found 377.2367.
+C17H22N7O3S [M + H]+ 404.1499, found 404.1500. HPLC: >99.5%,                      2-Chloro-4-(cyclohexylmethoxy)-7-((2-(trimethylsilyl)ethoxy)-
+XTerra column, retention time 11.64 min, reverse phase, H2O/                   methyl)-7H-pyrrolo[2,3-d]pyrimidine (96). To a solution of LiCl in
+MeCN/HCOOH gradient run, 1 mL min−1.                                           THF (0.5 M, 2.13 mL, 1.1 mmol) was added 95 (0.10 g, 0.27 mmol),
+   4-((4-(Cyclohexylmethoxy)-1H-pyrazolo[3,4-d]pyrimidin-6-yl)-                and the reaction mixture was cooled to 0 °C. Isoamyl nitrite (81 μL,
+amino)benzenesulfonamide (91). The title compound was prepared                 0.40 mmol) and SOCl2 (21.3 μL, 0.29 mmol) were added, and the
+by general procedure A from 89 (0.042 g, 0.18 mmol).                           solution was stirred at room temperature for 5 h. The reaction mixture
+Chromatography (silica; 70% EtOAc:petrol) aﬀorded 91 as a white                was added to a solution of aqueous NH4Cl (2 M, 30 mL), extracted
+solid (20 mg, 28%); Rf 0.21 (70% EtOAc:petrol), mp 268−269 °C;                 with EtOAc (2 × 30 mL), and the combined organic layers were
+UV λmax (EtOH) 304 nm. IR (cm−1) 3367, 3333, 3269, 2922, 2853,                 washed with water (3 × 30 mL), dried (Na2SO4), and evaporated in
+2162, 2012, 1691, 1658, 1624, 1583, 1551, 1524. 1H NMR (500 MHz,               vacuo. Puriﬁcation by chromatography (silica; 15% EtOAc:petrol)
+DMSO-d6) δ 1.04−1.92 (11H, m, cyclohexyl), 4.36 (2H, d, J = 6.8 Hz,            gave 96 as a clear oil (60 mg, 56%); Rf 0.45 (15% EtOAc:petrol); UV
+OCH2), 7.18 (2H, br s, SO2NH2), 7.72 (2H, d, J = 8.8 Hz, H-2′ and              λmax (EtOH) 270 nm. IR (cm−1) 2924, 2852, 1750, 1661, 1588, 1558,
+H-6′), 7.98 (1H, br s, CH), 7.99 (2H, d, J = 9.0 Hz, H-3′ and H-5′),           1506. 1H NMR (500 MHz, DMSO-d6) δ −0.09 (9H, s, (CH3)3), 0.82
+9.92 (1H, br s, NH) 13.34 (1H, br s, NH). 13C NMR (125 MHz,                    (2H, t, J = 8.1 Hz, OCH2CH2Si), 0.95−1.89 (11H, m cyclohexyl), 3.50
+DMSO-d6) δ 25.4 (CH2), 26.5 (CH2), 29.5 (CH2), 37.1 (CH), 71.5                 (2H, t, J = 8.1 Hz, OCH2CH2Si), 4.28 (2H, d, J = 6.0 Hz, OCH2), 5.52
+(CH2) 118.6 (Ar-C), 136.6 (Ar-C), 144.0 (Ar-C). HRMS calcd for                 (2H, s, CH2), 6.61 (1H, d, J = 3.6 Hz, CH), 7.55 (1H, d, J = 3.5 Hz,
+C18H23N6O3S [M + H]+ 403.1547, found 403.1547. HPLC: >98.5%,                   NCH). 13C NMR (125 MHz, DMSO-d6) δ 0.0 (Si(CH3)3), 18.5
+XTerra column, retention time 11.92 min, reverse phase, H2O/                   (CH2CH2Si), 26.6 (CH2), 30.5 (CH2) 31.8 (CH2), 38.8 (CH), 67.1
+MeCN/HCOOH gradient run, 1 mL min−1.                                           (OCH2CH2), 73.3 (CH2), 74.2 (NCH2O), 100.4 (C5H), 126.4 (C6H),
+   4-(Cyclohexylmethoxy)-7H-pyrrolo[2,3-d]pyrimidin-2-amine (93).              129.7 (Ar-C). HRMS calcd for C19H31ClN3O2Si [M + H]+ 396.1869,
+Prepared in accordance with general method C from 92 (0.15 g, 0.89             found 396.1872.
+mmol), with heating under microwave irradiation (170 °C, 5 h). The                4-((4-(Cyclohexylmethoxy)-7-((2-(trimethylsilyl)ethoxy)methyl)-
+product was isolated by chromatography (silica; 10% MeOH:DCM)                  7H-pyrrolo[2,3-d]pyrimidin-2-yl)amino)benzenesulfonamide (97).
+to yield 93 as a white crystalline solid (37 mg, 17%); Rf 0.55 (10%            To a degassed solution of 96 (0.050 g, 0.13 mmol) in MeCN (2
+MeOH:DCM); mp 216.3-217.3 °C; UV λmax (EtOH) 221 nm. IR                        mL) was added sulfanilamide (24 mg, 0.14 mmol), anhydrous K2CO3
+(cm−1) 3494, 3362, 3117, 2922, 2851, 2164, 2045, 1968, 1617, 1585,             (35 mg, 0.25 mmol), Pd2(dba)3 (3 mg, 5.0 × 10−3 mmol), and XPhos
+1499, 1478. 1H NMR (500 MHz, DMSO-d6) δ 0.98−1.83 (11H, m,                     (2.4 mg, 5.0 × 10−3 mmol), and the reaction mixture was stirred under
+cyclohexyl), 4.15 (2H, d, J = 6.5, OCH2), 5.91 (2H, br s, NH2), 6.17           N2 at 80 °C for 2 h. The cooled mixture was ﬁltered (Celite), diluted
+(1H, dd, J = 1.9 and 3.5, CH), 6.79 (1H, dd, J = 2.2 and 3.5, HNCH),           with EtOAc (20 mL), and washed sequentially with aqueous HCl
+10.97 (1H, br s, NH). 13C NMR (125 MHz, DMSO-d6) δ 25.2 (CH2),                 solution (1 M, 20 mL), saturated aqueous NaHCO3 solution (20 mL),
+26.0 (CH2), 29.3 (CH2), 36.8 (CH), 69.9 (CH2O), 96.9 (C1-H), 97.9              and brine (30 mL). After drying (Na2SO4), volatiles were removed
+(Ar-C), 119.1 (C2-H), 155.0 (Ar-C), 159.3 (Ar-C), 162.7 (Ar-C).                under reduced pressure and the product was isolated by chromatog-
+HRMS calcd for C13H19N4O [M + H]+ 247.1553, found 247.1556.                    raphy (silica; 50% EtOAc:petrol) to give 97 as a yellow oil (33 mg,
+   4-Chloro-7-((2-(trimethylsilyl)ethoxy)methyl)-7H-pyrrolo[2,3-d]-            49%); Rf 0.63 (50% EtOAc:petrol); UV λmax (EtOH) 269 nm. IR
+pyrimidin-2-amine (94). NaH (60% in mineral oil, 26 mg, 0.65                   (cm−1) 3644, 3342, 2924, 2853, 1586, 1528, 1488. 1H NMR (500
+mmol) was added dropwise to a solution of 92 (0.10 g, 0.59 mmol) in            MHz,CDCl3) δ −0.08 (9H, s, Si(CH3)3), 0.88−0.95 (2H, t, J = 8.36
+anhydrous MeCN (3 mL) at −30 °C, and the reaction mixture was                  Hz, OCH2CH2Si) 1.04−1.93 (11H, m, cyclohexyl), 3.56 (2H, t, J = 3.4
+stirred for 45 min. 2-(Trimethylsilyl)ethoxymethyl chloride (90%, 122          Hz, OCH2CH2Si) 4.29 (2H, d, J = 6.5 Hz, OCH2), 4.72 (2H, br s,
+μL, 0.62 mmol) was added dropwise, and the reaction mixture was                NH2), 5.52 (2H, s, CH2), 6.49 (1H, d, J = 3.5 Hz, CH), 6.96 (1H, d, J
+stirred for a further 3 h at room temperature. After cooling and               = 3.6 Hz, NCH), 7.20 (1H, br s, NH), 7.87 (4H, ap s, H-2′, H-3′, H-5′
+addition of water (20 mL), the resultant solution was extracted with           and H-6′). 13C NMR (125 MHz, CDCl3) δ 0.0 (SiCH3), 15.6
+EtOAc (20 mL), and the combined organic fractions were washed                  (CH2Si), 27.2 (CH2), 27.9 (CH2), 31.3 (CH2), 38.8 (CH), 67.8
+with brine (3 × 20 mL), dried (Na2SO4), and the solvent was removed            (CH2), 73.2 (CH2), 74.5 (CH2), 101.5 (Ar-C), 101.9 (Ar-C), 118.8
+in vacuo. Puriﬁcation by chromatography (silica; 15% EtOAc:petrol)             (Ar-C), 125.0 (Ar-C), 129.3 (Ar-C), 146.2 (Ar-C). HRMS calcd for
+
+                                                                        1763                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                           J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                     Article
+
+C25H38N5O4SSi [M + H]+ 532.2408, found 532.2406. Note: Not all                   the supplier’s instructions (Upstate). CDK1/B, CDK2/A, and CDK4/
+carbons are visible.                                                             D were assayed at an ATP concentration of 12.5 μM, CDK7/H and
+   4-((4-(Cyclohexylmethoxy)-7H-pyrrolo[2,3-d]pyrimidin-2-yl)-                   CDK9/T at an ATP concentration of 100 μM. Published Km(ATP)
+amino)benzenesulfonamide (98). A solution of 97 (0.040 g, 7.5 ×                  values for CDK1-cyclin B, CDK2-cyclin A, CDK4-cyclin D2, CDK7-
+10−2 mmol) in TFA (1.5 mL) was heated under reﬂux for 10 min, and                cyclin H-MAT, and CDK9-cyclin T are 0.8, 0.58, 3.8, 4.1, and 0.7 μM,
+the cooled solution was neutralized with saturated aqueous NaHCO3                respectively (www.proqinase.com).
+solution. The aqueous solution was extracted with EtOAc (2 × 30                     Growth Inhibition Assays. The ability of selected compounds to
+mL), and the solvent was evaporated under reduced pressure. The                  inhibit cell growth was assessed in a panel of human cancer cell lines
+residual yellow solid was redissolved in MeCN:H2O (1:1, 8 mL), the               using an SRB assay.45 Brieﬂy, cells in 96-well plates were exposed to
+pH of the solution was adjusted to 10 with dilute aqueous ammonia                inhibitor (0.1−30 μM, three replicates per drug concentration) or
+(28%), and the solution was stirred for 1 h at room temperature and              0.5% (v/v) DMSO (for compound 73 treatments) or 0.1% (v/v)
+evaporated in vacuo. Isolation by chromatography (silica; 70%                    DMSO (for all other inhibitors) for 120 h, stained with sulforhod-
+EtOAc:petrol) to give 98 as a white solid (12 mg, 40%); Rf 0.39                  amine B and the absorbance at 570 nm measured (SpectraMax250;
+(70% EtOAc:petrol); mp 251.2−252.0 °C; UV λmax (EtOH) 312 nm.                    Molecular Devices, Wokingham, UK). At least three independent
+IR (cm−1) 3374, 3322, 2058, 2924, 2856, 2012, 1615, 1595, 1579. 1H               experiments were performed. Growth inhibitory GI50 values were
+NMR (500 MHz, DMSO-d6) δ 1.07−1.95 (11H, m, cyclohexyl), 4.31                    calculated using GraphPad Prism software (GraphPad Software, Inc.,
+(2H, d, J = 6.3 Hz, OCH2), 6.34 (1H, dd, J = 2.1 and 2.1 Hz, CH),                San Diego, CA).
+7.05 (1H, dd, J = 2.2 and 2.2 Hz, HNCH), 7.13 (2H, br s, SO2NH2),                   Crystallization and Structure Determination. Crystals of
+7.68 (2H, d, J = 8.9 Hz, H-2′ and H-6′) 7.99 (2H, d, J = 8.8 Hz, H-3′            CDK2-cyclin A bound to 73 and CDK1-cyclin B-CKS2 bound to 3
+and H-5′), 9.57 (1H, br s, NH), 11.54 (1H, br s, NH). 13C NMR (125               were grown as previously described.46 Brieﬂy, the inhibitors were
+MHz, DMSO-d6) δ 25.2 (CH2), 26.0 (CH2), 29.3 (CH2), 36.8 (CH),                   added in 2-fold molar excess (which was also a 10-fold higher
+70.6 (CH2), 98.2 (C5H), 116.9 (Ar-C), 126.4 (C6H), 134.9 (Ar-C),                 concentration than the inhibitor IC50) to a low concentration solution
+144.6 (Ar-C), 146.4 (Ar-C), 153.6 (Ar-C), 154.4 (Ar-C), 162.4 (Ar-               of the appropriate protein complex and then the samples were
+C). HRMS calcd for C19H24N5O3S [M + H]+ 402.1594, found                          concentrated to 10−12 mg mL−1 for crystallization. CDK2-cyclin A−
+402.1596. HPLC: >99.5%, XSELECT column, retention time 8.45                      73 crystals were grown from a well solution containing 0.6−0.8 M
+min, reverse phase, H2O/MeCN/HCOOH gradient run, 1 mL min−1.                     KCl, 0.9−1.2 M (NH4)2SO4, and 100 mM HEPES (pH 7.0). CDK1-
+   7-Chloro-5-cyclohexylmethoxyimidazo[1,2-a]pyrimidine (100).                   cyclin B-CKS2 was cocrystallized with 3 from a screen covering the
+Synthesized in accordance with general procedure C from 99 (1.0 g,               conditions 0.1 M MES/imidazole buﬀer (pH 6.7), 6.5% MPD, 5%
+5.4 mmol). The product was puriﬁed by precipitation with glacial                 PEG4K, 10% PEG1K. Before data collection, crystals were
+acetic acid, and repeated washing with water, to aﬀord 100 as a pale-            cryoprotected by brief immersion in either 8 M sodium formate
+orange powder (1.16 g, 81%); Rf 0.23 (60% EtOAc:petrol). 1H NMR                  (CDK2-cyclin A) or 25% ethylene glycol (CDK1-cyclin B-CKS2).
+(300 MHz, DMSO-d6) δ 1.05−1.95 (11H, m, cyclohexyl), 4.30 (2H,                      Data processing was carried out using XDS, MOSFLM,
+d, J = 6.1 Hz, OCH2), 6.63 (1H, s, H-6), 7.63 (2H, d, J = 1.2 Hz, H-3),          POINTLESS/AIMLESS,52 and other programs of the CCP4 suite,53
+7.81 (2H, d, J = 1.3 Hz, H-2). 13C NMR (75 MHz, DMSO-d6) δ 25.4,                 run through the CCP4i2 GUI.54 The structures of the diﬀerent
+26.2, 29.0, 36.9, 76.3, 88.8, 107.6, 134.2, 148.1, 152.1, 155.6. LRMS            complexes were solved by molecular replacement using Phaser,55 and
+(ES+) m/z 266.0 [M + H]+.                                                        search models drawn from PDB entries 1QMZ (cyclin A-bound
+   5-Cyclohexylmethoxy-7-anilinoimidazo[1,2-a]pyrimidine (101).                  CDK2) and 4Y72 (CDK1-cyclin B-CKS2). Models of 73 and 3 and
+The title compound was synthesized according to general procedure                ligand restraints were generated using ACEDRG within the CCP4i2
+A from 100 (0.075 mg, 0.28 mmol). Puriﬁcation by chromatography                  suite,54 and built into the electron density using Coot.56 Structures
+(silica; EtOAc), followed by crystallization from MeOH, gave 101 (31             were reﬁned using REFMAC,57 interspersed with manual rebuilding in
+mg, 34%); Rf 0.11 (100% EtOAc); mp 252−253 °C; UV λmax (EtOH)                    Coot, including TLS reﬁnement.
+305, 257, 212 nm. IR (cm−1) 3153, 2926, 2847, 2161, 1627, 1595,
+1568, 1531, 1489, 1291, 1259, 1122. 1H NMR (300 MHz, DMSO-d6)
+δ 1.05−1.85 (11H, m, cyclohexyl), 4.35 (2H, d, J = 6.2 Hz, OCH2),
+                                                                                 ■    ASSOCIATED CONTENT
+                                                                                 * Supporting Information
+                                                                                  S
+5.98 (1H, s, H-6), 6.99 (1H, t, J = 7.3 Hz, PhH), 7.26 (1H, d, J = 1.6           The Supporting Information is available free of charge on the
+Hz, H-3), 7.33 (2H, dd, J = 7.6, 8.2 Hz, 2 × PhH), 7.44 (1H, d, J = 1.6          ACS Publications website at DOI: 10.1021/acs.jmed-
+Hz, H-2), 7.83 (2H, d, J = 7.7 Hz, 2 × PhH), 9.45 (1H, s, NH). LRMS
+(ES+) m/z 323.0 [M + H]+. Anal. Found: C, 70.41; H, 6.59; N, 17.40.
+                                                                                 chem.6b01254.
+C19H22N4O requires C, 70.78; H, 6.88; N, 17.38%.                                      Structure of compound 102 and associated crystal data
+   5-Cyclohexylmethoxy-7-(4′-sulfamoylanilino)imidazo[1,2-a]-                         and reﬁnement statistics; 1H NMR spectra for com-
+pyrimidine (102). Prepared in accordance with general procedure A                     pounds 70, 73, 83, 90, 91, and 98 (PDF)
+from 100 (0.25 g, 0.94 mmol), and puriﬁed by chromatography (silica;                  Molecular formula strings (CSV)
+5% MeOH:EtOAc) to give 102 as a colorless solid (28 mg, 7%); Rf
+0.47 (10% MeOH:EtOAc); mp 228−229 °C. IR (cm−1) 3348, 3292,                      Accession Codes
+2926, 2847, 1653, 1617, 1591, 1536, 1429, 1310, 1155. UV λmax                    CDK2-cyclin A in complex with compound 73 (5LQE), and
+(EtOH) 315, 266, 216 nm. 1H NMR (300 MHz, DMSO-d6) δ 1.15−                       CDK1-cyclin B-CKS2 in complex with compound 3 (5LQF)
+1.90 (11H, m, cyclohexyl), 4.16 (2H, d, J = 6.1 Hz, OCH2), 6.03 (1H,             have been deposited with the PDB and the atomic coordinates
+s, H-6), 7.24 (2H, s, SO2NH2), 7.32 (1H, d, J = 1.6 Hz, H-3), 7.51               and experimental data will be released upon article publication.
+
+                                                                                 ■
+(1H, d, J = 1.6 Hz, H-2), 7.78 (2H, d, J = 8.9 Hz, H-2′ and H-6′), 7.99
+(2H, d, J = 8.9 Hz, H-3′ and H-5′), 9.85 (1H, s, NH). 13C NMR (75
+MHz, DMSO-d6) δ 25.45, 26.19, 29.16, 36.85, 75.00, 78.91, 105.83,
+                                                                                      AUTHOR INFORMATION
+118.42, 127.05, 131.95, 137.03, 144.01, 154.73, 155.68. LRMS (ES+)               Corresponding Authors
+m/z 402.0 [M + H]+; Anal. Found: C, 57.06; H, 5.53; N, 17.09.                    *For chemistry, C.C.: phone, (44) 191 208 7060; E-mail,
+C19H23N5O3S requires: C, 56.84; H, 5.77; N, 17.44%.                              celine.cano@ncl.ac.uk.
+   Protein Kinase Assays. Human CDK1/B was purchased from                        *For structural biology, J.A.E.: phone, (44) 191 208 4422; fax,
+New England Biolabs or prepared as described,46 CDK2/A2 was                      (44) 191 208 4301; E-mail, jane.endicott@ncl.ac.uk.
+prepared as described,46 CDK4/D was provided by AstraZeneca, and
+CDK7/H and CDK9/T were purchased from Upstate. IC50 values for                   ORCID
+CDK1/B, CDK2/A, and CDK4/D were determined as described.23                       Suzannah J. Harnor: 0000-0003-1646-593X
+IC50 values for CDK7/H and CDK9/H were determined according to                   Céline Cano: 0000-0002-2032-2272
+                                                                          1764                                              DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                             J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                  Article
+
+Present Addresses                                                            (2) Malumbres, M. Cyclin-Dependent Kinases. Genome Biol. 2014,
+∥                                                                           15, 122−132.
+ For M.E.M.N. and J.A.E.: Newcastle Cancer Centre, Northern
+Institute for Cancer Research, Newcastle University Medical                  (3) Malumbres, M.; Barbacid, M. Cell Cycle, CDKs and Cancer: A
+School, Paul O’Gorman Building, Framlington Place, Newcastle                Changing Paradigm. Nat. Rev. Cancer 2009, 9, 153−166.
+                                                                             (4) Casimiro, M. C.; Velasco-Velazquez, M.; Aguirre-Alvarado, C.;
+upon Tyne NE2 4HH, U.K.
+⊥                                                                           Pestell, R. G. Overview of Cyclins D1 Function in Cancer and the
+ For C.R.C.: School of Pharmacy and Biomolecular Sciences,                  CDK Inhibitor Landscape: Past and Present. Expert Opin. Invest. Drugs
+Liverpool John Moores University, Liverpool L3 5UA, U.K..                   2014, 23, 295−304.
+Author Contributions                                                         (5) Sherr, C. J.; Beach, D.; Shapiro, G. I. Targeting CDK4 and
+C.R.C. and E.A. contributed equally to the work described in                CDK6: From Discovery to Therapy. Cancer Discovery 2016, 6, 353−
+this paper. C.R.C., synthesis and characterization of com-                  367.
+pounds; E.A., protein expression, crytallization, and structure              (6) Bruyere, C.; Meijer, L. Targeting Cyclin-Dependent Kinases in
+determination; S.J.H., synthesis and characterization of                    Anti-Neoplastic Therapy. Curr. Opin. Cell Biol. 2013, 25, 772−779.
+                                                                             (7) Asghar, U.; Witkiewicz, A. K.; Turner, N. C.; Knudsen, E. S. The
+compounds and manuscript preparation; M.P.M., protein
+                                                                            History and Future of Targeting Cyclin-Dependent Kinases in Cancer
+structure determination and interpretation; Benoit Carbain,                 Therapy. Nat. Rev. Drug Discovery 2015, 14, 130−146.
+synthesis and characterization of compounds; I.R.H., exper-                  (8) Bose, P.; Simmons, G. L.; Grant, S. Cyclin-Dependent Kinase
+imental design and interpretation; L.K.H., synthesis and                    Inhibitor Therapy for Hematologic Malignancies. Expert Opin. Invest.
+characterization of compounds; S.K., protein expression and                 Drugs 2013, 22, 723−738.
+crystallization; C.J.M., synthesis and characterization of                   (9) Aleem, E.; Arceci, R. J. Targeting Cell Cycle Regulators in
+compounds; M.E.M.N., protein structure determination, data                  Hematologic Malignancies. Front. Cell Dev. Biol. 2015, 3, 16−37.
+analysis and interpretation, and manuscript preparation;                     (10) O’Leary, B.; Finn, R. S.; Turner, N. C. Treating Cancer with
+D.R.N., project conception, experimental design and inter-                  Selective CDK4/6 Inhibitors. Nat. Rev. Clin. Oncol. 2016, 13, 417−
+pretation; D.M.T., synthesis and characterization of com-                   430.
+pounds; M.S., synthesis and characterization of compounds;                   (11) Sánchez-Martínez, C.; Gelbert, L. M.; Lallena, M. J.; de Dios, A.
+S.J.T., design, conduct, and interpretation of the cellular                 Cyclin Dependent Kinase (CDK) Inhibitors as Anticancer Drugs.
+studies; L.Z.W., design, conduct, and interpretation of CDK2                Bioorg. Med. Chem. Lett. 2015, 25, 3420−3435.
+                                                                             (12) Tetsu, O.; McCormick, F. Proliferation of Cancer Cells Despite
+inhibition experiments; C.W., synthesis and characterization of
+                                                                            CDK2 Inhibition. Cancer Cell 2003, 3, 233−245.
+compounds; S.R.W., experimental design and interpretation                    (13) Ortega, S.; Prieto, I.; Odajima, J.; Martin, A.; Dubus, P.; Sotillo,
+and manuscript preparation; B.T.G., project conception,                     R.; Barbero, J. L.; Malumbres, M.; Barbacid, M. Cyclin-Dependent
+experimental design and interpretation, data analysis, and                  Kinase 2 is Essential for Meiosis but not for Mitotic Cell Division in
+manuscript preparation; R.J.G., project conception, experimen-              Mice. Nat. Genet. 2003, 35, 25−31.
+tal design and interpretation, data analysis, and manuscript                 (14) Berthet, C.; Aleem, E.; Coppola, V.; Tessarollo, L.; Kaldis, P.
+preparation; J.A.E., experimental design and interpretation and             Cdk2 Knockout Mice are Viable. Curr. Biol. 2003, 13, 1775−1785.
+manuscript preparation; C.C., project conception, experimental               (15) Horiuchi, D.; Huskey, N. E.; Kusdra, L.; Wohlbold, L.; Merrick,
+design and interpretation, data analysis, and manuscript                    K. A.; Zhang, C.; Creasman, K. J.; Shokat, K. M.; Fisher, R. P.; Goga,
+preparation.                                                                A. Chemical-Genetic Analysis of Cyclin Dependent Kinase 2 Function
+                                                                            Reveals an Important Role in Cellular Transformation by Multiple
+Notes                                                                       Oncogenic Pathways. Proc. Natl. Acad. Sci. U. S. A. 2012, 109, E1019−
+The authors declare no competing ﬁnancial interest.                         E1027.
+#
+ R.J.G.: Deceased 24 September 2014.                                         (16) Cheng, C. K.; Gustafson, W. C.; Charron, E.; Houseman, B. T.;
+
+■    ACKNOWLEDGMENTS
+We thank Cancer Research UK (grant no. C2115/A21421) and
+                                                                            Zunder, E.; Goga, A.; Gray, N. S.; Pollok, B.; Oakes, S. A.; James, C.
+                                                                            D.; Shokat, K. M.; Weiss, W. A.; Fan, Q. W. Dual Blockade of Lipid
+                                                                            and Cyclin-Dependent Kinases Induces Synthetic Lethality in
+                                                                            Malignant Glioma. Proc. Natl. Acad. Sci. U. S. A. 2012, 109, 12722−
+the Medical Research Council (grant no. G0901526) for                       12727.
+ﬁnancial support. The use of the EPSRC Mass Spectrometry                     (17) Deans, A. J.; Khanna, K. K.; McNees, C. J.; Mercurio, C.;
+Service at the University of Wales (Swansea) is also gratefully             Heierhorst, J.; McArthur, G. A. Cyclin-Dependent Kinase 2 Functions
+acknowledged. We also thank beamline staﬀ at The Diamond                    in Normal DNA Repair and is a Therapeutic Target in BRCA1-
+Light Source who provided excellent facilities for data                     Deficient Cancers. Cancer Res. 2006, 66, 8219−8226.
+collection, E. Lowe and A. Basle for assistance with data                    (18) Molenaar, J. J.; Ebus, M. E.; Geerts, D.; Koster, J.; Lamers, F.;
+collection and management, N. Brown for advice, and I. Taylor               Valentijn, L. J.; Westerhout, E. M.; Versteeg, R.; Caron, H. N.
+for technical support.                                                      Inactivation of CDK2 is Synthetically Lethal to MYCN Over-
+
+
+■
+                                                                            Expressing Cancer Cells. Proc. Natl. Acad. Sci. U. S. A. 2009, 106,
+                                                                            12968−12973.
+    ABBREVIATIONS USED                                                       (19) Yang, L.; Fang, D.; Chen, H.; Lu, Y.; Dong, Z.; Ding, H. F.; Jing,
+CDK, cyclin-dependent kinase; CKS, cyclin-dependent kinase                  Q.; Su, S. B.; Huang, S. Cyclin-Dependent Kinase 2 is an Ideal Target
+subunit; GI50, half-maximum growth inhibition; HEPES, 2-[4-                 for Ovary Tumors with Elevated Cyclin E1 Expression. Oncotarget
+(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid; MES, 2-                 2015, 6, 20801−20812.
+morpholin-4-ylethanesulfonic acid; MPD, 2-methyl-2,4-penta-                  (20) Guha, M. Cyclin-Dependent Kinase Inhibitors Move into Phase
+nediol; SRB, sulforhodamine B; TFE, 2,2,2-triﬂuoroethanol;                  III. Nat. Rev. Drug Discovery 2012, 11, 892−894.
+TLS, translation, libration, and screw-rotation                              (21) Galons, H.; Oumata, N.; Gloulou, O.; Meijer, L. Cyclin-
+
+
+■
+                                                                            Dependent Kinase Inhibitors Closer to Market Launch? Expert Opin.
+                                                                            Ther. Pat. 2013, 23, 945−963.
+    REFERENCES                                                               (22) Santo, L.; Siu, K. T.; Raje, N. Targeting Cyclin-Dependent
+ (1) Lim, S.; Kaldis, P. Cdks, Cyclins and CKIs: Roles Beyond Cell          Kinases and Cell Cycle Progression in Human Cancers. Semin. Oncol.
+Cycle Regulation. Development 2013, 140, 3079−3093.                         2015, 42, 788−800.
+
+                                                                     1765                                                DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                          J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                                                                               Article
+
+  (23) Arris, C. E.; Boyle, F. T.; Calvert, A. H.; Curtin, N. J.; Endicott,              (37) Temple, C.; Smith, B. H.; Montgomery, J. A. Preparation of 2,5-
+J. A.; Garman, E. F.; Gibson, A. E.; Golding, B. T.; Grant, S.; Griffin, R.             Diamino-4,6-dichloropyrimidine. J. Org. Chem. 1975, 40, 3141−3142.
+J.; Jewsbury, P.; Johnson, L. N.; Lawrie, A. M.; Newell, D. R.; Noble,                   (38) Shealy, Y. F.; Clayton, J. D.; O’Dell, C. A.; Montgomery, J. A. v-
+M. E.; Sausville, E. A.; Schultz, R.; Yu, W. Identification of Novel                    Triazolo[4,5-d]pyramidines. II. O-Substituted Derivatives of 8-
+Purine and Pyrimidine Cyclin-Dependent Kinase Inhibitors with                           Azaguanine and 8-Azahypoxanthine. J. Org. Chem. 1962, 27, 4518−
+Distinct Molecular Interactions and Tumor Cell Growth Inhibition                        4523.
+Profiles. J. Med. Chem. 2000, 43, 2797−2804.                                             (39) Seela, F.; Steker, H. Synthesis of 2′-Deoxyribofuranosides of 8-
+  (24) Davies, T.-G.; Bentley, J.; Arris, C.-E.; Boyle, F. T.; Curtin, N.-J.;           Aza-7-deazaguanine and Related Pyrazolo[3,4-d]pyrimidines. Helv.
+Endicott, J.-A.; Gibson, A.-E.; Golding, B.-T.; Griffin, R.-J.; Hardcastle,             Chim. Acta 1986, 69, 1602−1613.
+I.-R.; Jewsbury, P.; Johnson, L.-N.; Mesguiche, V.; Newell, D.-R.;                       (40) Brückl, T.; Thoma, I.; Wagner, A. J.; Knochel, P.; Carell, T.
+Noble, M.-E. M.; Tucker, J.-A.; Wang, L.; Whitfield, H.-J. Structure-                   Efficient Synthesis of Deazaguanosine-Derived tRNA Nucleosides
+Based Design of a Potent Purine-Based Cyclin-Dependent Kinase                           PreQ0, PreQ1, and Archaeosine Using the Turbo-Grignard Method.
+Inhibitor. Nat. Struct. Biol. 2002, 9, 745−749.                                         Eur. J. Org. Chem. 2010, 2010, 6517−6519.
+  (25) Hardcastle, I. R.; Arris, C. E.; Bentley, J.; Boyle, F. T.; Chen, Y.;             (41) Revankar, G. R.; Matthews, T. R.; Robins, R. K. Synthesis and
+Curtin, N. J.; Endicott, J. A.; Gibson, A. E.; Golding, B. T.; Griffin, R.              Antimicrobial Activity of Certain Imidazo[1,2-a]pyrimidines. J. Med.
+J.; Jewsbury, P.; Menyerol, J.; Mesguiche, V.; Newell, D. R.; Noble, M.                 Chem. 1975, 18, 1253−1255.
+E.; Pratt, D. J.; Wang, L. Z.; Whitfield, H. J. N2-Substituted O6-                       (42) Harada, H.; Asano, O.; Hoshino, Y.; Yoshikawa, S.; Matsukura,
+Cyclohexylmethylguanine Derivatives: Potent Inhibitors of Cyclin-                       M.; Kabasawa, Y.; Niijima, J.; Kotake, Y.; Watanabe, N.; Kawata, T.;
+Dependent Kinases 1 and 2. J. Med. Chem. 2004, 47, 3710−3722.                           Inoue, T.; Horizoe, T.; Yasuda, N.; Minami, H.; Nagata, K.; Murakami,
+  (26) Marchetti, F.; Cano, C.; Curtin, N. J.; Golding, B. T.; Griffin, R.              M.; Nagaoka, J.; Kobayashi, S.; Tanaka, I.; Abe, S. 2-Alkynyl-8-aryl-9-
+J.; Haggerty, K.; Newell, D. R.; Parsons, R. J.; Payne, S. L.; Wang, L.                 methyladenines as Novel Adenosine Receptor Antagonists: Their
+Z.; Hardcastle, I. R. Synthesis and Biological Evaluation of 5-                         Synthesis and Structure-Activity Relationships Toward Hepatic
+Substituted O4-Alkylpyrimidines as CDK2 Inhibitors. Org. Biomol.                        Glucose Production Induced Via Agonism of the A(2B) Receptor. J.
+Chem. 2010, 8, 2397−2407.                                                               Med. Chem. 2001, 44, 170−179.
+  (27) Jonkers, I.; Lis, J. T. Getting up to Speed with Transcription                    (43) Rao, R. P.; Robins, R. K.; O’Brien, D. E. The Synthesis of
+Elongation by RNA Polymerase II. Nat. Rev. Mol. Cell Biol. 2015, 16,                    Certain 5,7-Dihydroxyimidazo[1,2-α] pyrimidines. J. Heterocycl. Chem.
+167−177.                                                                                1973, 10, 1021−1023.
+  (28) Fischer, P. M.; Gianella-Borradori, A. Recent Progress in the                     (44) Revankar, R. R.; Robins, R. K. Synthesis and Biological Activity
+Discovery and Development of Cyclin-Dependent Kinase Inhibitors.                        of some Nucleosides Resembling Guanosine: Imidazo[1,2-a]-
+Expert Opin. Invest. Drugs 2005, 14, 457−477.                                           pyrimidine Nucleosides. Ann. N. Y. Acad. Sci. 1975, 255, 166−172.
+  (29) Parry, D.; Guzi, T.; Shanahan, F.; Davis, N.; Prabhavalkar, D.;                   (45) Thomas, H. D.; Wang, L.-Z.; Roche, C.; Bentley, J.; Cheng, Y.;
+Wiswell, D.; Seghezzi, W.; Paruch, K.; Dwyer, M. P.; Doll, R.; Nomeir,                  Hardcastle, I. R.; Golding, B. T.; Griffin, R. J.; Curtin, N. J.; Newell, D.
+A.; Windsor, W.; Fischmann, T.; Wang, Y.; Oft, M.; Chen, T.;
+                                                                                        R. Preclinical In Vitro and In Vivo Evaluation of the Potent and
+Kirschmeier, P.; Lees, E. M. Dinaciclib (SCH 727965), A Novel and
+                                                                                        Specific Cyclin-Dependent Kinase 2 Inhibitor NU6102 and a Water
+Potent Cyclin-Dependent Kinase Inhibitor. Mol. Cancer Ther. 2010, 9,
+                                                                                        Soluble Prodrug NU6301. Eur. J. Cancer 2011, 47, 2052−2059.
+2344−2353.
+                                                                                         (46) Brown, N. R.; Korolchuk, S.; Martin, M. P.; Stanley, W. A.;
+  (30) Pratt, D. J.; Bentley, J.; Jewsbury, P.; Boyle, F. T.; Endicott, J. A.;
+                                                                                        Moukhametzianov, R.; Noble, M. E. M.; Endicott, J. A. CDK1
+Noble, M. E. Dissecting the Determinants of Cyclin-Dependent
+                                                                                        Structures Reveal Conserved and Unique Features of the Essential Cell
+Kinase 2 and Cyclin-Dependent Kinase 4 Inhibitor Selectivity. J. Med.
+Chem. 2006, 49, 5470−5477.                                                              Cycle CDK. Nat. Commun. 2015, 6, 6769−6780.
+  (31) Gibson, A. E.; Arris, C. E.; Bentley, J.; Boyle, F. T.; Curtin, N. J.;            (47) Beach, J. W.; Kim, H. O.; Jeong, L. S.; Nampalli, S.; Islam, Q.;
+Davies, T. G.; Endicott, J. A.; Golding, B. T.; Grant, S.; Griffin, R. J.;              Ahn, S. K.; Babu, J. R.; Chu, C. K. A Highly Stereoselective Synthesis
+Jewsbury, P.; Johnson, L. N.; Mesguiche, V.; Newell, D. R.; Noble, M.                   of Anti-HIV 2′,3′-Dideoxy- and 2′,3′-Didehydro-2′,3′-dideoxynucleo-
+E.; Tucker, J. A.; Whitfield, H. J. Probing the ATP Ribose-Binding                      sides. J. Org. Chem. 1992, 57, 3887−3894.
+Domain of Cyclin-Dependent Kinases 1 and 2 with O(6)-Substituted                         (48) Baumgarten, H. E.; Petersen, J. M. Reactions of Amines. V.
+Guanine Derivatives. J. Med. Chem. 2002, 45, 3381−3393.                                 Synthesis of α-Amino Ketones. J. Am. Chem. Soc. 1960, 82, 459−463.
+  (32) Montgomery, J. A.; Hewson, K. Synthesis of Potential                              (49) Kos, N. J.; Jongejan, H.; Van Der Plas, H. C. Deamination,
+Anticancer Agents XX. 2-Fluoropurines. J. Am. Chem. Soc. 1960, 82,                      Involving Ring Opening, in Reactions of 1-Aminopurinium
+463−468.                                                                                Mesitylenesulfonates with Methanolic Ammonia. Tetrahedron 1987,
+  (33) Carbain, B.; Coxon, C. R.; Lebraud, H.; Elliott, K. J.; Matheson,                43, 4841−4848.
+C. J.; Meschini, E.; Roberts, A. R.; Turner, D. M.; Wong, C.; Cano, C.;                  (50) Balsiger, R. W.; Montgomery, J. A. Synthesis of Potential
+Griffin, R. J.; Hardcastle, I. R.; Golding, B. T. Trifluoroacetic Acid in               Anticancer Agents. XXV. Preparation of 6-Alkoxy-2-aminopurines. J.
+2,2,2-Trifluoroethanol Facilitates SNAr Reactions of Heterocycles with                  Org. Chem. 1960, 25, 1573−1575.
+Arylamines. Chem. - Eur. J. 2014, 20, 2311−2317.                                         (51) Griffin, R. J.; Arris, C. E.; Bleasdale, C.; Boyle, F. T.; Calvert, A.
+  (34) Lembicz, N. K.; Grant, S.; Clegg, W.; Griffin, R. J.; Heath, S. L.;              H.; Curtin, N. J.; Dalby, C.; Kanugula, S.; Lembicz, N. K.; Newell, D.
+Golding, B. T. Facilitation of Displacements at the 6-Position of                       R.; Pegg, A. E.; Golding, B. T. Resistance-Modifying Agents. 8.
+Purines by the Use of 1,4-Diazabicyclo[2.2.2.]octane as Leaving                         Inhibition of O(6)-Alkylguanine-DNA Alkyltransferase by O(6)-
+Group. J. Chem. Soc., Perkin Trans. 1 1997, 185−186.                                    Alkenyl-, O(6)-Cycloalkenyl-, and O(6)-(2-Oxoalkyl)guanines and
+  (35) Kato, N.; Sakata, T.; Breton, G.; Le Roch, K. G.; Nagle, A.;                     Potentiation of Temozolomide Cytotoxicity In Vitro by O(6)-(1-
+Andersen, C.; Bursulaya, B.; Henson, K.; Johnson, J.; Kumar, K. A.;                     Cyclopentenylmethyl)guanine. J. Med. Chem. 2000, 43, 4071−4083.
+Marr, F.; Mason, D.; McNamara, C.; Plouffe, D.; Ramachandran, V.;                        (52) Evans, P. R. An Introduction to Data Reduction: Space-Group
+Spooner, M.; Tuntland, T.; Zhou, Y.; Peters, E. C.; Chatterjee, A.;                     Determination, Scaling and Intensity Statistics. Acta Crystallogr., Sect.
+Schultz, P. G.; Ward, G. E.; Gray, N.; Harper, J.; Winzeler, E. A. Gene                 D: Biol. Crystallogr. 2011, D67, 282−292.
+Expression Signatures and Small-Molecule Compounds Link a Protein                        (53) Winn, M. D.; Ballard, C. C.; Cowtan, K. D.; Dodson, E. J.;
+Kinase to Plasmodium Falciparum Motility. Nat. Chem. Biol. 2008, 4,                     Emsley, P.; Evans, P. R.; Keegan, R. M.; Krissinel, E. B.; Leslie, A. G.;
+347−356.                                                                                McCoy, A. J.; McNicholas, S. J.; Murshudov, G. N.; Pannu, N. S.;
+  (36) Molander, G. A.; Gormisky, P. E. Cross-Coupling of                               Potterton, E. A.; Powell, H. R.; Read, R. J.; Vagin, A. A.; Wilson, K. S.
+Cyclopropyl- and Cyclobutyltrifluoroborates with Aryl and Heteroaryl                    Overview of the CCP4 Suite and Current Developments. Acta
+Chlorides. J. Org. Chem. 2008, 73, 7481−7485.                                           Crystallogr., Sect. D: Biol. Crystallogr. 2011, D67, 235−242.
+
+                                                                                 1766                                                 DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                                                                       J. Med. Chem. 2017, 60, 1746−1767
+Journal of Medicinal Chemistry                                                                             Article
+
+ (54) Potterton, E.; Briggs, P.; Turkenburg, M.; Dodson, E. A
+Graphical User Interface to the CCP4 Program Suite. Acta Crystallogr.,
+Sect. D: Biol. Crystallogr. 2003, D59, 1131−1137.
+ (55) McCoy, A. J.; Grosse-Kunstleve, R. W.; Adams, P. D.; Winn, M.
+D.; Storoni, L. C.; Read, R. J. Phaser Crystallographic Software. J. Appl.
+Crystallogr. 2007, 40, 658−674.
+ (56) Emsley, P.; Lohkamp, B.; Scott, W. G.; Cowtan, K. Features and
+Development of Coot. Acta Crystallogr., Sect. D: Biol. Crystallogr. 2010,
+D66, 486−501.
+ (57) Murshudov, G. N.; Vagin, A. A.; Dodson, E. J. Refinement of
+Macromolecular Structures by the Maximum-Liklihood Method. Acta
+Crystallogr., Sect. D: Biol. Crystallogr. 1997, D53, 240−255.
+
+
+
+
+                                                                             1767   DOI: 10.1021/acs.jmedchem.6b01254
+                                                                                     J. Med. Chem. 2017, 60, 1746−1767
+
