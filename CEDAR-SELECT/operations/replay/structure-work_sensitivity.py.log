@@ -1,0 +1,483 @@
+{
+  "comparisons": [
+    {
+      "first": "5NEV:A",
+      "second": "5LQF:A",
+      "N_lobe_fit_n": 54,
+      "N_lobe_CA_RMSD_A": 1.6638764527757135,
+      "Tyr15_OH_displacement_A": 11.473831339383592,
+      "CDK2_sidechain_contacts": [
+        {
+          "CDK2_residue": 10,
+          "CDK2_name": "ILE",
+          "CDK1_residue": 10,
+          "CDK1_name": "ILE",
+          "atom": "CG2",
+          "distance_A": 3.9723557242522984
+        },
+        {
+          "CDK2_residue": 10,
+          "CDK2_name": "ILE",
+          "CDK1_residue": 10,
+          "CDK1_name": "ILE",
+          "atom": "CD1",
+          "distance_A": 3.823569405673186
+        },
+        {
+          "CDK2_residue": 31,
+          "CDK2_name": "ALA",
+          "CDK1_residue": 31,
+          "CDK1_name": "ALA",
+          "atom": "CB",
+          "distance_A": 3.5428930268920085
+        },
+        {
+          "CDK2_residue": 64,
+          "CDK2_name": "VAL",
+          "CDK1_residue": 64,
+          "CDK1_name": "VAL",
+          "atom": "CG1",
+          "distance_A": 3.390004424775874
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CB",
+          "distance_A": 3.3674145868900642
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CG",
+          "distance_A": 3.491393704525456
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CD1",
+          "distance_A": 3.6537588864072563
+        },
+        {
+          "CDK2_residue": 82,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 82,
+          "CDK1_name": "PHE",
+          "atom": "CD1",
+          "distance_A": 3.6979736343029823
+        },
+        {
+          "CDK2_residue": 82,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 82,
+          "CDK1_name": "PHE",
+          "atom": "CE1",
+          "distance_A": 3.523237289766334
+        },
+        {
+          "CDK2_residue": 85,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 85,
+          "CDK1_name": "MET",
+          "atom": "CG",
+          "distance_A": 3.8176203320917095
+        },
+        {
+          "CDK2_residue": 86,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 86,
+          "CDK1_name": "ASP",
+          "atom": "CB",
+          "distance_A": 3.790585838627057
+        },
+        {
+          "CDK2_residue": 86,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 86,
+          "CDK1_name": "ASP",
+          "atom": "CG",
+          "distance_A": 3.1917246121806913
+        },
+        {
+          "CDK2_residue": 86,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 86,
+          "CDK1_name": "ASP",
+          "atom": "OD1",
+          "distance_A": 3.5171785567411833
+        },
+        {
+          "CDK2_residue": 86,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 86,
+          "CDK1_name": "ASP",
+          "atom": "OD2",
+          "distance_A": 3.102813078482169
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "CB",
+          "distance_A": 3.5232628343624905
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "CD",
+          "distance_A": 3.176267463549001
+        },
+        {
+          "CDK2_residue": 131,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 132,
+          "CDK1_name": "GLN",
+          "atom": "CG",
+          "distance_A": 3.4125821601831046
+        },
+        {
+          "CDK2_residue": 131,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 132,
+          "CDK1_name": "GLN",
+          "atom": "CD",
+          "distance_A": 3.4750402875362454
+        },
+        {
+          "CDK2_residue": 131,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 132,
+          "CDK1_name": "GLN",
+          "atom": "OE1",
+          "distance_A": 2.746365052209918
+        },
+        {
+          "CDK2_residue": 134,
+          "CDK2_name": "LEU",
+          "CDK1_residue": 135,
+          "CDK1_name": "LEU",
+          "atom": "CD1",
+          "distance_A": 3.4892311474019593
+        },
+        {
+          "CDK2_residue": 145,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 146,
+          "CDK1_name": "ASP",
+          "atom": "OD2",
+          "distance_A": 3.452242604452938
+        }
+      ]
+    },
+    {
+      "first": "5NEV:C",
+      "second": "5LQF:D",
+      "N_lobe_fit_n": 54,
+      "N_lobe_CA_RMSD_A": 1.711031926803713,
+      "Tyr15_OH_displacement_A": 10.552318854515654,
+      "CDK2_sidechain_contacts": [
+        {
+          "CDK2_residue": 10,
+          "CDK2_name": "ILE",
+          "CDK1_residue": 10,
+          "CDK1_name": "ILE",
+          "atom": "CG1",
+          "distance_A": 3.7820263087398027
+        },
+        {
+          "CDK2_residue": 10,
+          "CDK2_name": "ILE",
+          "CDK1_residue": 10,
+          "CDK1_name": "ILE",
+          "atom": "CG2",
+          "distance_A": 3.947641067777056
+        },
+        {
+          "CDK2_residue": 10,
+          "CDK2_name": "ILE",
+          "CDK1_residue": 10,
+          "CDK1_name": "ILE",
+          "atom": "CD1",
+          "distance_A": 3.594896382373213
+        },
+        {
+          "CDK2_residue": 31,
+          "CDK2_name": "ALA",
+          "CDK1_residue": 31,
+          "CDK1_name": "ALA",
+          "atom": "CB",
+          "distance_A": 3.7076038083916125
+        },
+        {
+          "CDK2_residue": 33,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 33,
+          "CDK1_name": "LYS",
+          "atom": "NZ",
+          "distance_A": 3.6846592786850714
+        },
+        {
+          "CDK2_residue": 64,
+          "CDK2_name": "VAL",
+          "CDK1_residue": 64,
+          "CDK1_name": "VAL",
+          "atom": "CG1",
+          "distance_A": 3.483228961753734
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CB",
+          "distance_A": 3.360565428614658
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CG",
+          "distance_A": 3.2889358461362552
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CD1",
+          "distance_A": 3.396533821412646
+        },
+        {
+          "CDK2_residue": 80,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 80,
+          "CDK1_name": "PHE",
+          "atom": "CD2",
+          "distance_A": 3.8889989714578226
+        },
+        {
+          "CDK2_residue": 82,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 82,
+          "CDK1_name": "PHE",
+          "atom": "CD1",
+          "distance_A": 3.9828066736913073
+        },
+        {
+          "CDK2_residue": 82,
+          "CDK2_name": "PHE",
+          "CDK1_residue": 82,
+          "CDK1_name": "PHE",
+          "atom": "CE1",
+          "distance_A": 3.822616904687156
+        },
+        {
+          "CDK2_residue": 85,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 85,
+          "CDK1_name": "MET",
+          "atom": "CG",
+          "distance_A": 3.6941923339209066
+        },
+        {
+          "CDK2_residue": 86,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 86,
+          "CDK1_name": "ASP",
+          "atom": "CG",
+          "distance_A": 3.7437931299685885
+        },
+        {
+          "CDK2_residue": 86,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 86,
+          "CDK1_name": "ASP",
+          "atom": "OD2",
+          "distance_A": 3.596385129543277
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "CB",
+          "distance_A": 3.4695609232293347
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "CG",
+          "distance_A": 3.7236895681568316
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "CD",
+          "distance_A": 3.0676385054305215
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "CE",
+          "distance_A": 3.9902717952540527
+        },
+        {
+          "CDK2_residue": 89,
+          "CDK2_name": "LYS",
+          "CDK1_residue": 89,
+          "CDK1_name": "LYS",
+          "atom": "NZ",
+          "distance_A": 3.562850684494087
+        },
+        {
+          "CDK2_residue": 131,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 132,
+          "CDK1_name": "GLN",
+          "atom": "CG",
+          "distance_A": 3.4856852984743227
+        },
+        {
+          "CDK2_residue": 131,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 132,
+          "CDK1_name": "GLN",
+          "atom": "CD",
+          "distance_A": 3.4844995336489895
+        },
+        {
+          "CDK2_residue": 131,
+          "CDK2_name": "GLN",
+          "CDK1_residue": 132,
+          "CDK1_name": "GLN",
+          "atom": "OE1",
+          "distance_A": 2.891696560844519
+        },
+        {
+          "CDK2_residue": 134,
+          "CDK2_name": "LEU",
+          "CDK1_residue": 135,
+          "CDK1_name": "LEU",
+          "atom": "CD1",
+          "distance_A": 3.2884379270407385
+        },
+        {
+          "CDK2_residue": 145,
+          "CDK2_name": "ASP",
+          "CDK1_residue": 146,
+          "CDK1_name": "ASP",
+          "atom": "OD2",
+          "distance_A": 3.5921883302521898
+        }
+      ]
+    }
+  ],
+  "sulfonamide_Asp86": [
+    {
+      "structure": "5NEV",
+      "chain": "A",
+      "ligand_N": "N6",
+      "Asp86_atom": "OD1",
+      "distance_A": 5.176448686116766
+    },
+    {
+      "structure": "5NEV",
+      "chain": "A",
+      "ligand_N": "N6",
+      "Asp86_atom": "OD2",
+      "distance_A": 3.774196735730665
+    },
+    {
+      "structure": "5NEV",
+      "chain": "A",
+      "ligand_N": "N6",
+      "Asp86_atom": "N",
+      "distance_A": 5.183684211060702
+    },
+    {
+      "structure": "5NEV",
+      "chain": "C",
+      "ligand_N": "N6",
+      "Asp86_atom": "OD1",
+      "distance_A": 5.115920347308002
+    },
+    {
+      "structure": "5NEV",
+      "chain": "C",
+      "ligand_N": "N6",
+      "Asp86_atom": "OD2",
+      "distance_A": 3.6641415092760834
+    },
+    {
+      "structure": "5NEV",
+      "chain": "C",
+      "ligand_N": "N6",
+      "Asp86_atom": "N",
+      "distance_A": 5.242938202954524
+    },
+    {
+      "structure": "5LQF",
+      "chain": "A",
+      "ligand_N": "N26",
+      "Asp86_atom": "OD1",
+      "distance_A": 4.575112457634245
+    },
+    {
+      "structure": "5LQF",
+      "chain": "A",
+      "ligand_N": "N26",
+      "Asp86_atom": "OD2",
+      "distance_A": 2.679044045923846
+    },
+    {
+      "structure": "5LQF",
+      "chain": "A",
+      "ligand_N": "N26",
+      "Asp86_atom": "N",
+      "distance_A": 4.520827689704615
+    },
+    {
+      "structure": "5LQF",
+      "chain": "D",
+      "ligand_N": "N26",
+      "Asp86_atom": "OD1",
+      "distance_A": 4.324216576444788
+    },
+    {
+      "structure": "5LQF",
+      "chain": "D",
+      "ligand_N": "N26",
+      "Asp86_atom": "OD2",
+      "distance_A": 2.9789973145338653
+    },
+    {
+      "structure": "5LQF",
+      "chain": "D",
+      "ligand_N": "N26",
+      "Asp86_atom": "N",
+      "distance_A": 4.70519680778605
+    }
+  ],
+  "runtime": {
+    "elapsed_seconds": 1.3617751598358154,
+    "cpu_seconds": 1.4402679999999999,
+    "maxrss_KiB": 112952,
+    "threads": 1,
+    "stop": "normal exit"
+  }
+}

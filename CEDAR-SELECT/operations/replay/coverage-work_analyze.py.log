@@ -1,0 +1,58 @@
+[
+  {
+    "example": 12,
+    "CDK2_nM": 20.0,
+    "CDK1_nM": 2240.0,
+    "ratio": 112.0,
+    "overlap_rows": 2
+  },
+  {
+    "example": 23,
+    "CDK2_nM": 15.0,
+    "CDK1_nM": 2430.0,
+    "ratio": 162.0,
+    "overlap_rows": 2
+  },
+  {
+    "example": 39,
+    "CDK2_nM": 7.0,
+    "CDK1_nM": 1200.0,
+    "ratio": 171.42857142857142,
+    "overlap_rows": 2
+  },
+  {
+    "example": 41,
+    "CDK2_nM": 5.0,
+    "CDK1_nM": 730.0,
+    "ratio": 146.0,
+    "overlap_rows": 2
+  },
+  {
+    "example": 56,
+    "CDK2_nM": 10.0,
+    "CDK1_nM": 800.0,
+    "ratio": 80.0,
+    "overlap_rows": 2
+  },
+  {
+    "example": 69,
+    "CDK2_nM": 6.0,
+    "CDK1_nM": 800.0,
+    "ratio": 133.33333333333334,
+    "overlap_rows": 2
+  },
+  {
+    "example": 70,
+    "CDK2_nM": 6.0,
+    "CDK1_nM": 820.0,
+    "ratio": 136.66666666666666,
+    "overlap_rows": 2
+  },
+  {
+    "example": 77,
+    "CDK2_nM": 121.0,
+    "CDK1_nM": 5820.0,
+    "ratio": 48.099173553719005,
+    "overlap_rows": 2
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "summary": [
+    {
+      "pair": "5NEV:A 5NEV:C",
+      "n": 284,
+      "rmsd": 0.373486274559245,
+      "Tyr15_OH": 1.0779395342863098
+    },
+    {
+      "pair": "5LQF:A 5LQF:D",
+      "n": 274,
+      "rmsd": 0.27563115764717105,
+      "Tyr15_OH": 0.2279305723012152
+    },
+    {
+      "pair": "5NEV:A 5LQF:A",
+      "n": 182,
+      "rmsd": 2.438183398312225,
+      "Tyr15_OH": 11.186761303415084
+    },
+    {
+      "pair": "5NEV:C 5LQF:D",
+      "n": 180,
+      "rmsd": 2.29741080885794,
+      "Tyr15_OH": 10.494130670419887
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "biopython": "1.88",
+    "numpy": "2.5.2",
+    "elapsed_seconds": 1.7034599781036377,
+    "cpu_seconds": 1.815701,
+    "maxrss_KiB": 159232,
+    "threads": 1,
+    "device": "CPU",
+    "stop": "normal exit"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "CDK2": {
+    "selected": "3nn",
+    "development": {
+      "mean": {
+        "n": 11,
+        "MAE": 0.2415508994790258,
+        "RMSE": 0.32755524320938967,
+        "bias_prediction_minus_observed": 0.10293199148940448,
+        "spearman": null
+      },
+      "3nn": {
+        "n": 11,
+        "MAE": 0.2993948424105589,
+        "RMSE": 0.3847337551490025,
+        "bias_prediction_minus_observed": 0.1739234247177985,
+        "spearman": 0.5909090909090909
+      },
+      "ridge": {
+        "n": 11,
+        "MAE": 0.24031030251631424,
+        "RMSE": 0.33695929131799607,
+        "bias_prediction_minus_observed": 0.13431425815954132,
+        "spearman": 0.4909090909090909
+      }
+    },
+    "accepted": false
+  },
+  "CDK1": {
+    "selected": "mean",
+    "development": {
+      "mean": {
+        "n": 9,
+        "MAE": 0.2526485198741353,
+        "RMSE": 0.2946358854039097,
+        "bias_prediction_minus_observed": 0.20902166983679,
+        "spearman": null
+      },
+      "3nn": {
+        "n": 9,
+        "MAE": 0.23248263549384657,
+        "RMSE": 0.2665177267462895,
+        "bias_prediction_minus_observed": 0.17803122439193114,
+        "spearman": 0.41666666666666663
+      },
+      "ridge": {
+        "n": 9,
+        "MAE": 0.26346371447701816,
+        "RMSE": 0.29891032982431026,
+        "bias_prediction_minus_observed": 0.22286804307946284,
+        "spearman": 0.19999999999999998
+      }
+    },
+    "accepted": false
+  },
+  "log_selectivity": {
+    "selected": "mean",
+    "development": {
+      "mean": {
+        "n": 9,
+        "MAE": 0.2449660922379249,
+        "RMSE": 0.2711975392544676,
+        "bias_prediction_minus_observed": 0.10804634592411357,
+        "spearman": null
+      },
+      "3nn": {
+        "n": 9,
+        "MAE": 0.2579940853685731,
+        "RMSE": 0.28801231891662654,
+        "bias_prediction_minus_observed": 0.08316425307349656,
+        "spearman": 0.0
+      },
+      "ridge": {
+        "n": 9,
+        "MAE": 0.23558652585456163,
+        "RMSE": 0.2596095669355235,
+        "bias_prediction_minus_observed": 0.09766084115719699,
+        "spearman": 0.19999999999999998
+      }
+    },
+    "accepted": false
+  }
+}
+groups 56 clusters [57, 1, 1, 1] runtime 0.09068965911865234

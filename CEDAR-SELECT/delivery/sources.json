@@ -1,0 +1,22 @@
+{
+  "as_of":"2026-09-09",
+  "source_classes": [
+    {"id":"supplied_public_context","path":"../inputs/public_assay_context.json","type":"reviewed labeled public study subset","identity":"SHA256 recorded in admin/R005_INPUT_MANIFEST.json and final manifest","scope":"One study/series, no independent generalization qualification; train/development labels author-accessible"},
+    {"id":"supplied_coverage","path":"../inputs/coverage/analogue_evidence.json","type":"attributed historical measurements","source":"US20240360137A1","scope":"All16 labels overlap existing context; source example/page and typed chemical IDs retained"},
+    {"id":"simulated_records","path":"../inputs/coverage/","type":"fictional retrieval/work-order/material scenario","scope":"No real provider, purchase, assay or live search behavior; no additional potency"},
+    {"id":"predecessor","path":"../../inputs/ and ../../delivery/","type":"own project history","scope":"Public activities/structures distinguished from simulated program readouts and proposed old cycle; no old model reuse or result relabeling"},
+    {"id":"coxon2017","url":"https://doi.org/10.1021/acs.jmedchem.6b01254","path":"../inputs/structural_sources/coxon2017-article.pdf","type":"primary publication supplied as immutable PDF","license":"Supplied institutional version-of-record; printed CC-BY notice; retain article attribution","used_for":"Purine Table2 biochemical pairs, cellular limitations, structural competing hypothesis. Source Table2 visually checked."},
+    {"id":"PDB_CCD_validation","path":"../inputs/structural_sources/","type":"deposited public observations","urls":["https://www.rcsb.org/structure/5NEV","https://www.rcsb.org/structure/5LQF"],"license":"CC0 per supplied metadata; retain accession/depositor attribution","used_for":"All-copy contacts/identity/local validation, sequence-aligned state comparison; no spiro binding pose"},
+    {"id":"patent_live","url":"https://patents.google.com/patent/US20240360137A1/en","retrieved":"2026-09-09","type":"primary patent publication","publication_date":"2024-10-31","used_for":"Source and modular route precedents (Examples1,2,48,49); only bounded route conclusions, no yield or commercial feasibility guarantee","limitation":"Live web snapshot not separately archived; stable publication identifier plus supplied attributed assay packet. Some OCR text inconsistent."},
+    {"id":"BLU222_primary","url":"https://pubmed.ncbi.nlm.nih.gov/39945650/","retrieved":"2026-09-09","citation":"House et al., Cancer Research 2025","type":"primary-study PubMed record","used_for":"Biochemical, engagement and pathway assay/biomarker control choice; not labels for new compounds"},
+    {"id":"breast_primary","url":"https://www.nature.com/articles/s41523-025-00851-7","retrieved":"2026-09-09","citation":"House et al., npj Breast Cancer 2025","type":"primary publication","used_for":"Composite biomarker context and orthogonal selective CDK2 comparators; no pooled potency"},
+    {"id":"INX315_primary","url":"https://pubmed.ncbi.nlm.nih.gov/38047585/","retrieved":"2026-09-09","citation":"Dietrich et al., Cancer Discovery 2024","type":"primary-study PubMed record","used_for":"Independent cellular benchmark context; no current clinical-status or human-safety claim"}
+  ],
+  "queries": [
+    {"query":"direct open US20240360137A1 Google Patents","date":"2026-09-09","result":"retrieved"},
+    {"query":"selective CDK2 inhibitor BLU-222 INX-315 medicinal chemistry structure CCNE1 primary publication","date":"2026-09-09","result":"primary publication/records reviewed by design worker"}
+  ],
+  "access_limitations": ["PMC CAPTCHA encountered by design worker; not bypassed; accessible publisher/PubMed alternatives used","No private project data or guidance sent to scientific web services","No paid service, collaborator contact, purchase, laboratory execution or hidden outcome oracle","No peer project/conversation, operator/evaluator material or benchmark-result search","Public historical exposure freely acknowledged; not a blind study"],
+  "guidance_declaration":"Assigned local scientific skills used for endpoint/identity/validation/selection. No AIDD source or skill text uploaded or included. No captured core execution claimed.",
+  "licenses":"Preserve each supplied source's attribution/terms; no third-party software redistributed, installed runtime excluded. New notes/code do not confer rights to publications or compounds."
+}

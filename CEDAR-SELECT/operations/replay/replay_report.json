@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "scripts": [
+    {
+      "script": "model-work/run.py",
+      "exit_code": 0,
+      "wall_seconds": 0.7681581974029541
+    },
+    {
+      "script": "coverage-work/analyze.py",
+      "exit_code": 0,
+      "wall_seconds": 0.27626776695251465
+    },
+    {
+      "script": "design-work/designs.py",
+      "exit_code": 0,
+      "wall_seconds": 0.12380695343017578
+    },
+    {
+      "script": "model-work/score_designs.py",
+      "exit_code": 0,
+      "wall_seconds": 0.09916138648986816
+    },
+    {
+      "script": "coverage-work/model_check.py",
+      "exit_code": 0,
+      "wall_seconds": 0.966151237487793
+    },
+    {
+      "script": "structure-work/analyze.py",
+      "exit_code": 0,
+      "wall_seconds": 1.8671159744262695
+    },
+    {
+      "script": "structure-work/sensitivity.py",
+      "exit_code": 0,
+      "wall_seconds": 1.4734985828399658
+    },
+    {
+      "script": "structure-work/render.py",
+      "exit_code": 0,
+      "wall_seconds": 2.192455530166626
+    },
+    {
+      "script": "model-work/figures.py",
+      "exit_code": 0,
+      "wall_seconds": 0.4926724433898926
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "model-work/results/summary.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "model-work/results/design_diagnostics.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "coverage-work/analogue_reconciled.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "coverage-work/budget_material_schedule.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "coverage-work/local_pairs.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "coverage-work/retrieval_audit.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "design-work/designs.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "structure-work/analysis.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "structure-work/sensitivity.json",
+      "scientific_values_match": true
+    },
+    {
+      "path": "model-work/results/analogue_crosswalk.csv",
+      "bytes_match": true
+    },
+    {
+      "path": "model-work/results/bounds_checks.csv",
+      "bytes_match": true
+    },
+    {
+      "path": "model-work/results/cluster_predictions.csv",
+      "bytes_match": true
+    },
+    {
+      "path": "model-work/results/compounds.csv",
+      "bytes_match": true
+    },
+    {
+      "path": "model-work/results/curation.csv",
+      "bytes_match": true
+    },
+    {
+      "path": "model-work/results/development_predictions.csv",
+      "bytes_match": true
+    },
+    {
+      "path": "model-work/results/training_folds.csv",
+      "bytes_match": true
+    }
+  ],
+  "input_bytes_unchanged": true,
+  "elapsed_seconds": 8.282140016555786,
+  "threads_per_job": 1,
+  "jobs_sequential": true,
+  "all_subprocesses_exited": true,
+  "temporary_copy": "/tmp/cedar2-isolated-x_gfgvs2",
+  "temporary_copy_retained": false,
+  "runtime": "/home/zbos/.local/share/cedar-runtime/20260908/cedar-python",
+  "replay_script_sha256": "991aa36568f06a69cbc2002fbdee2928934362b0aff17093137975f616872c45"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "Proposal only; no laboratory execution, purchase, provider quote or external contact",
+  "budget_usd": 120000,
+  "duration_business_days": 30,
+  "cost_basis": "Planning ceilings except explicitly simulated coverage menu. Obtain all-in quotes before release; do not certify actual availability or spend.",
+  "budget": [
+    {"category":"coverage component","cap_usd":10000,"paid_usd":1800,"reserved_usd":2200,"new_O2_usd":2000,"new_O1_usd":1400,"remaining_uncommitted_usd":2600,"source":"../inputs/coverage/work_orders.json; deduplicated obligation identities"},
+    {"category":"chemistry/material/identity","cap_usd":28000,"planning_subcaps":{"shared_core_and_QC":8000,"D02":8000,"conditional_D01":8000,"C41_material":4000},"release":"Verified route, stock/lead time, stereo/content/purity plan, all-in quote; no overlap with coverage O4 if later selected"},
+    {"category":"matched biochemistry","cap_usd":12000,"scope":"Up to four nominated compounds, CDK2/E1, CDK2/A2 and CDK1/B1; three independently prepared days. Planning 36 curves at $300 plus $1200 controls/interference; obtain real quote. Drop optional D01 or use contingency if adequate QC cannot fit."},
+    {"category":"cellular engagement and function","cap_usd":32000,"scope":"Four compounds maximum; CDK2/CDK1 engagement at matched 2h and 24h in qualified comparable cellular format, three independent days; biomarker-positive, negative/impairment and nontransformed cellular contexts with matched 72h proliferation, 24h EdU/cell cycle and proximal pathway readouts. Technical duplicate wells do not replace biological repeats."},
+    {"category":"exposure and ADME","cap_usd":12000,"scope":"Soluble concentration/aggregation and permeability, human microsomal stability and cellular concentration at engagement timepoints, prioritize C39/C41 then advancing designs. Intracellular total concentration is not automatically free target-site concentration."},
+    {"category":"assay standards and cell authentication","cap_usd":6000,"scope":"One authenticated orthogonal CDK2 reference standard if obtainable, vehicle/detection controls, cell identity/mycoplasma and CCNE1/Rb/p16 verification; no new standard synthesis assumed."},
+    {"category":"unreleased contingency","cap_usd":20000,"scope":"Quote overruns, QC recovery or decisive repeats only; otherwise unspent. No crystallography or mutant programme automatically commissioned."}
+  ],
+  "nominations": [
+    {"id":"SEL-C39","role":"historical diagnostic comparator","binding":"S3; patent Example39; exact graph in ../design-work/designs.json","material":"simulated V3: 4 mg before O2, 2 mg after; no additional stock inferred","broader_material_plan_mg":{"biochemical":0.3,"exposure_ADME":0.5,"cellular":0.8,"reserve":0.4},"condition":"Confirm aliquot requirements and actual content against proposed assay quote before use; if insufficient, reduce scope or source additional material within chemistry cap."},
+    {"id":"SEL-C41","role":"historical diagnostic comparator and D02 parent","binding":"S4; patent Example41; exact graph in ../design-work/designs.json","material":"No qualified stock. Target 5-10 mg; quote and receipt identity gate. This broader proposal is not evidence that O4 already meets its $2600/day8 requirements."},
+    {"id":"SEL-D02","role":"first conditional new synthesis","material":"5-10 mg, >=95% purity, quantitative content, HRMS/NMR/chiral verification; source-matched R,R core","hypothesis":"Added distal carbon can be tested for retention of paired biochemical preference and improved exposure. No supported directional selectivity prediction."},
+    {"id":"SEL-D01","role":"conditional new polarity probe","material":"5-10 mg with same identity standards; hold if it delays decisive comparator work","hypothesis":"Terminal OH versus D02 improves soluble exposure enough to offset increased polarity/permeability liability; no measured supporting pair."}
+  ],
+  "coverage_schedule": [
+    {"item":"W2 pending CDK1","lane":1,"start_day":0,"finish_day":3,"incremental_usd":0,"stock":"2 mg V2 already reserved"},
+    {"item":"O2 S3 CDK1 QC recovery","lane":2,"start_day":0,"finish_day":3,"incremental_usd":2000,"stock":"2 mg V3"},
+    {"item":"O1 S1 independent CDK2 preparation repeat","lane":2,"start_day":3,"finish_day":5,"incremental_usd":1400,"stock":"1 mg V1"}
+  ],
+  "stages": [
+    {"days":"0-5","action":"Resolve numerical W1/W2 results and QC, run proposed coverage recovery/repeat, verify comparator identity and quotes, establish existing cellular engagement assay readiness. Do not build an unqualified new cell assay and call it validated by day30.","gate":"If pending failed, explicitly propose O3 recovery using remaining reserve and document separate obligation; if assay/stock unavailable, hold dependent spend."},
+    {"days":"5-10","action":"Matched comparator biochemical curves and first cellular/exposure bridge; source-matched core and C41 availability confirmed.","gate":"CDK2<=100 nM and ratio>=10 in bracketed comparable curves; interpretable engagement or a diagnosed exposure bottleneck that the design actually tests. No core by day10: preserve optional synthesis funds."},
+    {"days":"10-20","action":"D02 synthesis/QC; D01 only if polarity comparison still useful and route is feasible within cap. Continue comparator cell/exposure work.","gate":"Delivered qualified material and retained stereochemistry; failed identity prevents biological interpretation."},
+    {"days":"20-30","action":"Complete three independent biological days, matched timepoint exposure/engagement and functional comparisons; analyze concentration-response intervals and freeze next decision.","gate":"No selective lead unless biochemical, cellular and normal-cell preferences jointly supported. A missing assay is unresolved, not pass."}
+  ],
+  "curve_QC": [
+    "Predefine 10-12 point log concentration series bracketing each IC50; 0.1 nM to 10 uM initial biochemical range, extend only within demonstrated solubility and assay tolerance; retain unbracketed results as bounds.",
+    "Matched 1mM ATP source-context CDK2/E1 and CDK1/B1 primary assay, plus CDK2/A2 sensitivity; qualify enzyme activity and reference inhibitor performance each day.",
+    "Preserve raw concentrations, plate maps, actual compound content, vehicle fraction, positive/negative controls, fit residuals, Hill slopes and repeat-specific curves. Do not average discordant QC failures into a pass.",
+    "Include compound-only/detection interference and detergent/aggregation checks as appropriate. An orthogonal activity/binding method resolves interference; it does not replace missing matching assay context.",
+    "Cellular ratios compare the same time, cellular context and qualified assay dynamic range. Use 2h and 24h engagement/exposure as separate ratios; functional readout concentration is not the CDK1 engagement denominator.",
+    "Fit/report per-day estimates plus uncertainty across three independently prepared days. If intervals overlap materially, do not rank small changes; select route simplicity or the informative next control. A conservative interval lower ratio below10 leaves advancement unqualified."
+  ],
+  "advancement_preferences": {
+    "biochemical_CDK2_nM_max":100,
+    "matched_biochemical_CDK1_over_CDK2_min":10,
+    "cell_CDK2_engagement_nM_max_exclusive":150,
+    "matched_time_cell_CDK1_over_CDK2_min":10,
+    "nontransformed_over_sensitive_growth_IC50_min":3,
+    "interpretation":"Program decision thresholds, not clinical safety margins. Require working reference and adequate soluble/exposure evidence, plus biomarker-consistent function."
+  },
+  "reversal": [
+    "Authentic C39/C41 fail paired biochemical or cellular window despite adequate exposure and working benchmark: reverse main switch, not blind further substitution.",
+    "D02 loses biochemical preference without exposure advantage: drop; D01 worsens cellular translation without soluble-exposure benefit: drop.",
+    "Credible incumbent cellular window or qualified engagement rescue of purine73: reconsider branch allocation in same assays; do not compare historical ratios as if common assays.",
+    "No normal-cell separation across tested direction: stop advancement."
+  ],
+  "not_funded_now": ["Six-member speculative optimization batch","Automatic O3 duplication of pending work","Unquoted coverage O4","New purine expansion, reciprocal mutants, crystallography or free-energy simulation"]
+}
