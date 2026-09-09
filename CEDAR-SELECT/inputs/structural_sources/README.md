@@ -1,0 +1,1 @@
+Original public structural files, validation reports and source article. SOURCE_METADATA.json retains provenance/terms. These are deposited observations, not prequalified receptors or gold poses. Qualify suitability yourself. No prior worker output or operator interpretation is included.

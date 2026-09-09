@@ -1,0 +1,47 @@
+{
+  "schema": "CEDAR-coverage-workorders-v1",
+  "simulation": true,
+  "as_of": "scenario business day 0",
+  "chemistry_bindings": "entity_bindings.json; slots refer to real chemical graphs, not additional real measurements",
+  "budget": {"currency":"USD","earmarked_within_tranche":10000,"includes_prior_spend_and_open_reservations":true,"parent_tranche":120000,"historical_disclosure_credits_separate":true},
+  "contract": {
+    "obligation_identity":"obligation_id; repeated exports are not new obligations",
+    "material_identity":"vial_id; inventory rows are alternative exports, not additive stock",
+    "stock_amounts":"total usable material at cutoff, including reserved material; consumed material already excluded",
+    "new_action_costs":"incremental all-in totals, no additional handling fee; null means unavailable",
+    "completion_deadline_business_day":8,
+    "parallel_capacity":2,
+    "pending_work":"already authorized; do not recharge or silently cancel; cancellation requires a new authorization",
+    "status_semantics":"valid completion is endpoint-specific; attempted, pending and failed endpoints are not valid results"
+  },
+  "financial_records":[
+    {"row_id":"F1","obligation_id":"OB-17","document":"invoice-17","state":"paid","amount":1800},
+    {"row_id":"F2","obligation_id":"OB-17","document":"invoice-17-export-copy","state":"paid","amount":1800},
+    {"row_id":"F3","obligation_id":"OB-23","document":"purchase-order-23","state":"reserved","amount":2200},
+    {"row_id":"F4","obligation_id":"OB-23","document":"purchase-order-23-confirmation","state":"reserved","amount":2200}
+  ],
+  "work":[
+    {"work_id":"W1","compound_slot":"S1","endpoint":"CDK2/context-A","state":"completed_valid","obligation_id":"OB-17","result_location":"simulated completion attestation only; numerical result not supplied"},
+    {"work_id":"W2","compound_slot":"S2","endpoint":"paired panel","state":"partial","obligation_id":"OB-23","children":[{"endpoint":"CDK2/context-A","state":"completed_valid","result_location":"numerical result not supplied"},{"endpoint":"CDK1/context-B","state":"pending","due_business_day":3,"reserved_material_mg":2,"vial_id":"V2"}]},
+    {"work_id":"W3","compound_slot":"S3","endpoint":"CDK1/context-B","state":"failed","reason":"assay QC failed; no eligible potency estimate","obligation_id":"OB-17"},
+    {"work_id":"W4","compound_slot":"S1","endpoint":"CDK2/context-A","state":"proposed_intentional_repeat","repeat_of":"W1","purpose":"independent preparation on another day to assess reproducibility","authorized":false,"option_id":"O1"}
+  ],
+  "inventory":[
+    {"row_id":"I1","vial_id":"V1","compound_slot":"S1","usable_mg":5,"reserved_mg":0,"available_business_day":0},
+    {"row_id":"I2","vial_id":"V2","compound_slot":"S2","usable_mg":6,"reserved_mg":2,"available_business_day":0},
+    {"row_id":"I3","vial_id":"V2","compound_slot":"S2","usable_mg":6,"reserved_mg":2,"available_business_day":0},
+    {"row_id":"I4","vial_id":"V3","compound_slot":"S3","usable_mg":4,"reserved_mg":0,"available_business_day":0}
+  ],
+  "new_options":[
+    {"option_id":"O1","compound_slot":"S1","work":"intentional independent CDK2 repeat","incremental_usd":1400,"material_mg":1,"vial_id":"V1","duration_business_days":2},
+    {"option_id":"O2","compound_slot":"S3","work":"repeat failed CDK1 assay with QC control","incremental_usd":2000,"material_mg":2,"vial_id":"V3","duration_business_days":3},
+    {"option_id":"O3","compound_slot":"S2","work":"extra CDK1 assay overlapping pending endpoint","incremental_usd":1600,"material_mg":2,"vial_id":"V2","duration_business_days":3},
+    {"option_id":"O4","compound_slot":"S4","work":"procure material and run new panel","incremental_usd":null,"material_mg":2,"vial_id":null,"duration_business_days":null,"material_record":"M2"}
+  ],
+  "materials_and_routes":[
+    {"record_id":"M1","compound_slot":"S4","kind":"route_proposal","statement":"two-step retrosynthetic proposal ending at listed building blocks","experimental_procedure":null,"yield":null},
+    {"record_id":"M2","compound_slot":"S4","kind":"catalog_listing","catalog_id":"fictional-cat:771","listed":true,"quantity_mg":null,"price_usd":null,"lead_business_days":null,"availability_verified":false},
+    {"record_id":"M3","compound_slot":"S3","kind":"procurement_confirmation","scenario_date":"day -1","quantity_mg":4,"received":true,"vial_id":"V3","cost_included_in":"OB-17","identity_document":"simulated matching material certificate; no assay claim"},
+    {"record_id":"M4","compound_slot":"S1","kind":"experimental_synthesis_record","scenario_date":"day -20","procedure_id":"simulated-notebook-42","isolated_yield_percent":41,"identity_checks":["simulated NMR match","simulated LCMS match"],"claim_scope":"one historical simulated preparation; not proof of M1 or S4 synthesis, current stock or potency"}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "archive_terms": "CC0 1.0, retain accession/depositor and primary-paper attribution",
+  "archive_terms_reference": "https://www.rcsb.org/pages/policies",
+  "release_condition": "identical release to both arms only after offline submissions are sealed",
+  "scope": "original public source observations for phase-two worker qualification",
+  "source_lineage": {
+    "date": "2017-05-10",
+    "evidence_url": "https://www.rcsb.org/structure/removed/5lqe",
+    "obsolete": "5LQE",
+    "successor": "5NEV"
+  },
+  "sources": {
+    "4SP.cif": {
+      "bytes": 9990,
+      "sha256": "6d56b5ce4824bfb9a5e724668f3a63c2707e59dbc2887837919e2bef0f0da3cc",
+      "source_bundle_recorded_at": "2026-09-09T16:10:29.511330+00:00",
+      "terms": "CC0 1.0 archive data per source manifest; retain source/depositor attribution",
+      "terms_reference": "https://www.rcsb.org/pages/policies",
+      "url": "https://files.rcsb.org/ligands/download/4SP.cif"
+    },
+    "5LQF.cif": {
+      "bytes": 2006510,
+      "sha256": "0eb585cea1b7df3631dfc20e0c6fde3e60c4e99c908dc51f037d4a55a6e07cb4",
+      "source_bundle_recorded_at": "2026-09-09T16:10:29.511330+00:00",
+      "terms": "CC0 1.0 archive data per source manifest; retain source/depositor attribution",
+      "terms_reference": "https://www.rcsb.org/pages/policies",
+      "url": "https://files.rcsb.org/download/5LQF.cif"
+    },
+    "5NEV.cif": {
+      "bytes": 1706430,
+      "sha256": "04d375ed611821f17de7086a2ca745623d30354f271053b6a296acdd52acd7bd",
+      "source_bundle_recorded_at": "2026-09-09T16:10:29.511330+00:00",
+      "terms": "CC0 1.0 archive data per source manifest; retain source/depositor attribution",
+      "terms_reference": "https://www.rcsb.org/pages/policies",
+      "url": "https://files.rcsb.org/download/5NEV.cif"
+    },
+    "5lqf_full_validation.pdf": {
+      "bytes": 1261957,
+      "sha256": "55e8270aefb49b806588783f71050a259e38d45f9cfa0885eb14aaaa3ab33c5c",
+      "source_bundle_recorded_at": "2026-09-09T16:10:29.511330+00:00",
+      "terms": "CC0 1.0 archive data per source manifest; retain source/depositor attribution",
+      "terms_reference": "https://www.rcsb.org/pages/policies",
+      "url": "https://files.rcsb.org/validation/view/5lqf_full_validation.pdf"
+    },
+    "5nev_full_validation.pdf": {
+      "bytes": 1138882,
+      "sha256": "630b6704e2ff4f20332e436f1ecd3293d42a2527bcfbeaaad23c37aefae63244",
+      "source_bundle_recorded_at": "2026-09-09T16:10:29.511330+00:00",
+      "terms": "CC0 1.0 archive data per source manifest; retain source/depositor attribution",
+      "terms_reference": "https://www.rcsb.org/pages/policies",
+      "url": "https://files.rcsb.org/validation/view/5nev_full_validation.pdf"
+    },
+    "72L.cif": {
+      "bytes": 9601,
+      "sha256": "84a9a8b27c8f62095f0c0dd17992806cd0b9cb9ad8faf13ef4f30b6ff468c8ef",
+      "source_bundle_recorded_at": "2026-09-09T16:10:29.511330+00:00",
+      "terms": "CC0 1.0 archive data per source manifest; retain source/depositor attribution",
+      "terms_reference": "https://www.rcsb.org/pages/policies",
+      "url": "https://files.rcsb.org/ligands/download/72L.cif"
+    },
+    "coxon2017-article.pdf": {
+      "bytes": 4037091,
+      "citation": "Coxon et al., Journal of Medicinal Chemistry 2017,60,1746\u20131767",
+      "doi": "10.1021/acs.jmedchem.6b01254",
+      "publication_year": 2017,
+      "retrieval_timestamp": null,
+      "retrieval_timestamp_note": "Exact acquisition timestamp not stated in saved acquisition record",
+      "sha256": "b730ebc5dec315eb39358b642f5361ca556106df4256ff6d39667c5dad4c7871",
+      "terms": "Printed article carries CC-BY notice according to saved acquisition record; consult original for exact terms/version",
+      "url": "https://pure.hw.ac.uk/ws/files/41355050/acs.jmedchem.6b01254.pdf",
+      "version": "version of record according to institutional cover in saved acquisition record"
+    }
+  }
+}

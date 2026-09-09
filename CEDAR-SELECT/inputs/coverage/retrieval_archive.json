@@ -1,0 +1,25 @@
+{
+  "schema":"CEDAR-coverage-retrieval-v1",
+  "simulation":true,
+  "notice":"Inert fictional service envelopes for response interpretation. No live-service defect, real citation, new measurement or API availability is claimed. Public assay evidence is separately supplied in analogue_evidence.json.",
+  "contract":{
+    "service":"fixture://cedar-evidence",
+    "supported_filters":["target_accession","endpoint","entity_type","entity_id"],
+    "mechanism_lookup_operation":{"parameters":["entity","resource"],"resource":"mechanism","note":"Separate entity-keyed lookup, not the activity-query filter interface; used by R7/R8."},
+    "pagination":"coverage complete only when all advertised pages are accounted for; response counts describe returned records, not all possible scientific evidence",
+    "identifiers":"catalog:compound and catalog:assay numeric identifiers are separate namespaces",
+    "mechanism_index":"mechanism annotations indexed on catalog:parent; catalog:form lookup does not inherit them automatically",
+    "parent_links":[{"child":"catalog:form:771-SALT","parent":"catalog:parent:771","relationship":"salt form; no assay-label equivalence asserted"}]
+  },
+  "responses":[
+    {"id":"R1","intent":{"target_accession":"P24941","endpoint":"IC50"},"executed_query":{"target_accession":"P24941","endpoint":"IC50"},"http_status":200,"page":1,"pages":1,"total":1,"records":[{"entity":"catalog:compound:771","target_accession":"P24941","endpoint":"IC50","evidence":"simulated index entry only; retrieve primary measurement before numerical use"}]},
+    {"id":"R2","intent":{"target_accession":"P24941","endpoint":"IC50"},"executed_query":{"target":"P24941","endpoint":"IC50"},"http_status":200,"page":1,"pages":1,"total":1,"records":[{"entity":"catalog:compound:772","target_accession":"P06493","endpoint":"IC50","evidence":"simulated other-target index entry"}]},
+    {"id":"R3","intent":{"entity_type":"compound","entity_id":"771"},"executed_query":{"entity_type":"assay","entity_id":"771"},"http_status":200,"page":1,"pages":1,"total":1,"records":[{"entity":"catalog:assay:771","target_accession":"P24941"}]},
+    {"id":"R4","intent":{"target_accession":"P24941"},"executed_query":{"target_accession":"P24941"},"http_status":200,"page":1,"pages":2,"total":2,"next":"fixture://cedar-evidence/query-4?page=2","records":[{"entity":"catalog:compound:771","target_accession":"P24941"}],"archive_contains_next_page":false},
+    {"id":"R5","intent":{"entity_type":"compound","entity_id":"999"},"executed_query":{"entity_type":"compound","entity_id":"999"},"http_status":200,"page":1,"pages":1,"total":0,"records":[]},
+    {"id":"R6","intent":{"entity_type":"compound","entity_id":"773"},"executed_query":{"entity_type":"compound","entity_id":"773"},"http_status":503,"error":"temporary service failure","records":null},
+    {"id":"R7","intent":{"entity":"catalog:form:771-SALT","resource":"mechanism"},"executed_query":{"entity":"catalog:form:771-SALT","resource":"mechanism"},"http_status":200,"page":1,"pages":1,"total":0,"records":[]},
+    {"id":"R8","intent":{"entity":"catalog:parent:771","resource":"mechanism"},"executed_query":{"entity":"catalog:parent:771","resource":"mechanism"},"http_status":200,"page":1,"pages":1,"total":1,"records":[{"entity":"catalog:parent:771","annotation":"simulated CDK2 mechanism annotation","assay_value":null}]},
+    {"id":"R9","intent":{"target_accession":"P24941","endpoint":"IC50"},"executed_query":{"target_accession":"P24941","endpoint":"IC50"},"http_status":200,"page":1,"pages":1,"total":1,"records":[{"entity":"catalog:compound:774","target_accession":"P24941","endpoint":"percent_inhibition","concentration_uM":10,"evidence":"simulated index metadata; no conversion to IC50 supplied"}]}
+  ]
+}

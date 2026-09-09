@@ -1,0 +1,36 @@
+{
+  "schema": "CEDAR-coverage-bindings-v1",
+  "scope": "Fictional catalogue/workorder identifiers mapped to supplied real chemistry, not proof of actual transactions, salt forms or new measurements.",
+  "bindings": [
+    {
+      "slot": "S1",
+      "catalog_entity": "catalog:compound:771",
+      "compound_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+      "smiles": "COc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1"
+    },
+    {
+      "slot": "S2",
+      "catalog_entity": "catalog:compound:772",
+      "compound_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+      "smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1"
+    },
+    {
+      "slot": "S3",
+      "catalog_entity": "catalog:compound:773",
+      "compound_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+      "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2"
+    },
+    {
+      "slot": "S4",
+      "catalog_entity": "catalog:compound:774",
+      "compound_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+      "smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCC(F)F)ncc2C12CC2"
+    }
+  ],
+  "fictional_parent_child": {
+    "parent": "catalog:parent:771",
+    "child": "catalog:form:771-SALT",
+    "compound_slot": "S1",
+    "note": "Hypothetical salt relationship for indexing exercise only; no public salt identity or transferable assay value asserted."
+  }
+}
